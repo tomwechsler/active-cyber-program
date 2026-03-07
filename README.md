@@ -37,6 +37,19 @@ Certified organizations may use the **ACP Trust Label** to demonstrate their cyb
 
 ---
 
+# Certification Authority
+
+The **Active Cyber Program (ACP) Certification** may only be issued by:
+
+**Wechsler Information Solution**
+
+The ACP framework is published to promote transparency and improve cybersecurity practices.
+However, the official **ACP Certification** and the **ACP Trust Label** may only be granted following an assessment performed under the authority of Wechsler Information Solution.
+
+Organizations or individuals may use the framework for internal improvement purposes, but they may not issue ACP certifications or represent themselves as an ACP certification authority.
+
+---
+
 # ACP Framework Structure
 
 The ACP framework is structured into three core components:

@@ -4,18 +4,18 @@
 
 ## Organization
 
-Organization Name:
-Address:
-Industry:
-Number of Employees:
+Organization Name:  
+Address:  
+Industry:  
+Number of Employees:  
 
 ## Assessment Information
 
-Assessment Date:
-Assessment Period:
-Assessment Location:
-Lead Assessor:
-Supporting Assessor(s):
+Assessment Date:  
+Assessment Period:  
+Assessment Location:  
+Lead Assessor:  
+Supporting Assessor(s):  
 
 ---
 
