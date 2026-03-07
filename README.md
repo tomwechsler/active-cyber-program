@@ -2,116 +2,158 @@
 
 ![ACP Logo](assets/acp-logo.png)
 
-**Active Cyber Program (ACP)** is an open cybersecurity assessment and certification framework designed to evaluate whether an organization operates an **active and effective cybersecurity program**.
+**Active Cyber Program (ACP)** is a cybersecurity assessment and certification framework designed to evaluate whether an organization operates an **active and effective cybersecurity program**.
 
-ACP focuses on verifying that cybersecurity is **not only implemented but actively managed** across governance, operations, and technical infrastructure.
+The ACP framework focuses on verifying that cybersecurity is **not only implemented but actively managed** across governance, operational processes, and technical infrastructure.
 
-The framework is designed for organizations of **any size** and is particularly suitable for companies seeking a practical and transparent cybersecurity assurance model.
+The framework provides organizations with a structured method to evaluate, improve, and demonstrate their cybersecurity capabilities.
 
 ---
 
-# Purpose
+# Framework Version
 
-Many organizations deploy security technologies but lack a structured and actively managed cybersecurity program.
+Current framework version:
 
-The **Active Cyber Program (ACP)** provides a practical framework to evaluate cybersecurity maturity across an organization.
+**ACP Framework Version 1.0**
 
-ACP helps organizations:
+See the following files for version information:
 
-* demonstrate cybersecurity governance
-* strengthen cyber resilience
-* improve operational security practices
-* provide assurance to customers and partners
+* `VERSION`
+* `CHANGELOG.md`
+
+---
+
+# Purpose of the Framework
+
+Many organizations deploy security technologies but lack a **structured and actively managed cybersecurity program**.
+
+The **Active Cyber Program (ACP)** helps organizations:
+
+* establish structured cybersecurity governance
+* manage cyber risks effectively
+* implement operational security processes
+* strengthen technical protection mechanisms
+* continuously improve cybersecurity maturity
+
+The framework provides a **practical and scalable approach** suitable for organizations of different sizes and industries.
 
 ---
 
 # ACP Certification
 
-Organizations that meet the requirements of the ACP framework may receive the:
+Organizations that successfully meet the ACP requirements may receive the:
 
 **Active Cyber Program (ACP) Certification**
 
-The certification confirms that the organization operates a structured and actively managed cybersecurity program.
+The certification confirms that the organization operates a **structured and actively managed cybersecurity program**.
 
-Certified organizations may use the **ACP Trust Label** to demonstrate their cybersecurity commitment.
+Certified organizations may use the **ACP Trust Label** to demonstrate cybersecurity commitment to customers and partners.
 
 ---
 
 # Certification Authority
 
-The **Active Cyber Program (ACP) Certification** may only be issued by:
+The **ACP Certification** may only be issued by:
 
 **Wechsler Information Solution**
 
 The ACP framework is published to promote transparency and improve cybersecurity practices.
-However, the official **ACP Certification** and the **ACP Trust Label** may only be granted following an assessment performed under the authority of Wechsler Information Solution.
 
-Organizations or individuals may use the framework for internal improvement purposes, but they may not issue ACP certifications or represent themselves as an ACP certification authority.
+Organizations may use the framework for:
+
+* internal cybersecurity assessments
+* cybersecurity improvement initiatives
+* educational purposes
+
+However, organizations or individuals may **not issue ACP certifications** or represent themselves as an official ACP certification authority.
+
+Only assessments performed under the authority of **Wechsler Information Solution** may result in official **Active Cyber Program Certification**.
+
+See:
+
+`docs/governance.md`
 
 ---
 
-# ACP Framework Structure
+# ACP Framework Components
 
-The ACP framework is structured into three core components:
+The ACP framework consists of several core components.
 
-## 1. Control Domains
+## ACP Principles
 
-The ACP framework defines **ten cybersecurity domains** covering governance, operations and technical security controls.
+The ACP principles describe the philosophy behind the framework and emphasize active cybersecurity management.
 
-Examples include:
+`framework/acp-principles.md`
 
-* Business & Security Governance
-* Risk Management
-* Identity & Access Management
-* Network Security
-* Data Protection & Encryption
-* Monitoring & Incident Response
+---
 
-Full specification:
+## Control Domains
+
+The framework defines ten cybersecurity control domains covering governance, operational processes and technical security controls.
 
 `framework/control-domains.md`
 
 ---
 
-## 2. Assessment Methodology
+## Maturity Model
 
-Organizations are evaluated using a structured **ACP assessment checklist**.
-
-The checklist verifies whether cybersecurity controls are implemented and actively managed.
-
-Assessment checklist:
-
-`assessment/assessment-checklist.md`
-
----
-
-## 3. Maturity Model
-
-The ACP framework includes a maturity model to evaluate the **strength and operational effectiveness** of cybersecurity practices.
-
-Maturity Levels:
-
-1. Initial
-2. Managed
-3. Defined
-4. Measured
-5. Optimized
-
-Documentation:
+The ACP maturity model evaluates how effectively cybersecurity practices are implemented.
 
 `framework/maturity-levels.md`
 
 ---
 
-# ACP Trust Label
+# Assessment Methodology
 
-Organizations that successfully achieve ACP Certification may display the **ACP Trust Label**.
+The ACP framework includes a structured assessment methodology to evaluate cybersecurity programs.
 
-The label indicates that the organization operates an **Active Cyber Program** verified through the ACP assessment process.
+Assessment process:
 
-See:
+`docs/assessment-process.md`
+
+Assessment tools:
+
+* `assessment/assessment-checklist.md`
+* `assessment/evidence-requirements.md`
+* `assessment/scoring-model.md`
+
+---
+
+# Certification Program
+
+The ACP certification program defines how organizations are evaluated and certified.
+
+Certification rules:
+
+`docs/certification.md`
+
+Trust label usage:
 
 `docs/trust-label.md`
+
+---
+
+# Governance
+
+The ACP framework is maintained and governed by **Wechsler Information Solution**.
+
+Governance documentation:
+
+`docs/governance.md`
+
+---
+
+# Target Organizations
+
+The ACP framework is designed for organizations of all sizes, including:
+
+* small and medium-sized enterprises (SMEs)
+* technology companies
+* service providers
+* public sector organizations
+* suppliers in security-sensitive industries
+
+The framework is designed to be **practical, scalable, and applicable across industries**.
 
 ---
 
@@ -121,17 +163,25 @@ See:
 active-cyber-program/
 
 README.md
+VERSION
+CHANGELOG.md
 
 docs/
+   overview.md
+   assessment-process.md
    certification.md
    trust-label.md
+   governance.md
 
 framework/
+   acp-principles.md
    control-domains.md
    maturity-levels.md
 
 assessment/
    assessment-checklist.md
+   evidence-requirements.md
+   scoring-model.md
 
 templates/
    assessment-report-template.md
@@ -145,21 +195,7 @@ assets/
 
 ---
 
-# Target Organizations
-
-ACP is designed for:
-
-* small and medium-sized enterprises (SMEs)
-* service providers
-* technology companies
-* public sector organizations
-* suppliers in security-sensitive industries
-
-The framework is scalable and adaptable to different organizational environments.
-
----
-
-# Maintained by
+# Maintained By
 
 **Wechsler Information Solution**
 
@@ -167,8 +203,25 @@ Germany • Switzerland • Austria
 
 ---
 
+# Continuous Development
+
+Cybersecurity evolves continuously.
+
+The ACP framework will therefore evolve based on:
+
+* emerging cyber threats
+* assessment experience
+* improvements in security practices
+* feedback from organizations
+
+New framework versions may be published periodically.
+
+---
+
 # License
 
-This framework is published to promote transparency and improve cybersecurity practices across organizations.
+The ACP framework documentation is published to promote transparency and improve cybersecurity practices.
 
-Organizations may use the framework for internal cybersecurity assessments and improvement initiatives.
+Use of the framework for internal assessments and cybersecurity improvement initiatives is permitted.
+
+ACP Certification and the ACP Trust Label remain governed by the ACP certification program.
