@@ -1,6 +1,14 @@
 # Active Cyber Program (ACP)
 
+![Framework Version](https://img.shields.io/badge/framework-ACP%201.0-blue)
+![Status](https://img.shields.io/badge/status-active-green)
+![Certification](https://img.shields.io/badge/certification-ACP-blue)
+![Region](https://img.shields.io/badge/region-DACH-lightgrey)
+![Maintainer](https://img.shields.io/badge/maintainer-Wechsler%20Information%20Solution-darkblue)
+
 ![ACP Logo](assets/acp-logo.png)
+
+# About the Active Cyber Program (ACP)
 
 **Active Cyber Program (ACP)** is a cybersecurity assessment and certification framework designed to evaluate whether an organization operates an **active and effective cybersecurity program**.
 
@@ -197,9 +205,17 @@ assets/
 
 # Maintained By
 
-**Wechsler Information Solution**
+**Wechsler Information Solution, Tom Wechsler, Switzerland**
 
 Germany • Switzerland • Austria
+
+Framework author: Tom Wechsler  
+
+See: `docs/author.md`
+
+## About the ACP Initiative
+
+The Active Cyber Program (ACP) was created to provide a practical and transparent way to evaluate whether organizations operate an **active cybersecurity program**.
 
 ---
 
