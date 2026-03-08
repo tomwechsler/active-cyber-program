@@ -180,6 +180,7 @@ docs/
    certification.md
    trust-label.md
    governance.md
+   author.md
 
 framework/
    acp-principles.md

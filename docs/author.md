@@ -13,6 +13,8 @@ Tom is a **Microsoft Most Valuable Professional (MVP)** in the areas of **Azure*
 These include:
 
 * ISC2 **CISSP** and **SSCP**
+* Comptia **SecurityX (formerly CASP+)**
+* Cloud Security Alliance **Certificate of Cloud Security Knowledge (CCSK)**
 * **Microsoft Cybersecurity Architect**
 * **Microsoft Certified: Azure Solutions Architect Expert**
 * **Microsoft Certified: Windows Server Hybrid Administrator Associate**
