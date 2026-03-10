@@ -78,8 +78,9 @@ However, organizations or individuals may **not issue ACP certifications** or re
 Only assessments performed under the authority of **Wechsler Information Solution** may result in official **Active Cyber Program Certification**.
 
 See:
-
 `docs/governance.md`
+
+[Governance](./docs/governance.md)
 
 ---
 
