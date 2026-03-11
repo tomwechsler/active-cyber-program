@@ -18,6 +18,14 @@ The framework provides organizations with a structured method to evaluate, impro
 
 ---
 
+# ACP Framework Overview
+
+<p align="center">
+  <img src="assets/acp-framework-diagram.png" alt="ACP Framework Diagram" width="500">
+</p>
+
+---
+
 # Framework Version
 
 Current framework version:
