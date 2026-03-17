@@ -24,16 +24,16 @@ The purpose of this agreement is the execution of an **Active Cyber Program (ACP
 
 The assessment will evaluate relevant aspects of the Client’s cybersecurity program, including but not limited to:
 
-• Governance and security strategy
-• Risk management
-• Security policies and processes
-• Identity and access management
-• Infrastructure security
-• Endpoint security
-• Network security
-• Data protection and encryption
-• Monitoring and incident response
-• Continuous improvement
+• Governance and security strategy  
+• Risk management  
+• Security policies and processes  
+• Identity and access management  
+• Infrastructure security  
+• Endpoint security  
+• Network security  
+• Data protection and encryption  
+• Monitoring and incident response  
+• Continuous improvement  
 
 The exact scope of the assessment will be defined prior to the start of the engagement.
 
@@ -43,10 +43,10 @@ The exact scope of the assessment will be defined prior to the start of the enga
 
 The ACP Assessment may include:
 
-• interviews with relevant personnel
-• review of documentation and policies
-• technical validation of security measures
-• evaluation of monitoring and incident response processes
+• interviews with relevant personnel  
+• review of documentation and policies  
+• technical validation of security measures  
+• evaluation of monitoring and incident response processes  
 
 The assessment is conducted based on the **ACP Framework and methodology**.
 
