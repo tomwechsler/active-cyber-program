@@ -92,6 +92,25 @@ See:
 
 ---
 
+# Self Assessment
+
+Organizations can apply the **Active Cyber Program (ACP)** independently to evaluate their cybersecurity posture. Getting started with ACP is simple.
+
+The self-assessment guide explains step by step how to:
+
+• define the assessment scope  
+• evaluate cybersecurity controls  
+• collect evidence  
+• calculate scores  
+• identify improvement areas  
+
+See:
+`docs/self-assessment-guide.md`
+
+[Self Assessment Guide](./docs/self-assessment-guide.md)
+
+---
+
 # ACP Framework Components
 
 The ACP framework consists of several core components.
