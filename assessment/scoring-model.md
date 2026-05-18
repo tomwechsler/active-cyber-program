@@ -66,7 +66,7 @@ Example:
 | Data Protection                | 2.2   |
 | Monitoring & Incident Response | 2.1   |
 | Continuous Improvement         | 2.0   |
-| AI Security                    | 2.0   |
+| AI Security (if applicable)    | 2.0   |
 
 Overall ACP Score:
 
