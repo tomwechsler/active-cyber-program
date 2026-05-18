@@ -85,7 +85,7 @@ Assessors collect evidence through documentation review, interviews and technica
 
 7.1 Network firewalls are implemented  
 7.2 Network segmentation is used where appropriate  
-7.3 Secure remote access (VPN) is implemented  
+7.3 Secure remote access (VPN) is implemented (ZTNA would be even better)  
 7.4 Network traffic monitoring is performed  
 7.5 Wireless networks are securely configured  
 7.6 Network access is restricted to authorized devices  
