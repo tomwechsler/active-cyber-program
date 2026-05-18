@@ -26,8 +26,10 @@ These include:
 
 As a **Microsoft Certified Trainer (MCT)**, Tom is passionate about sharing knowledge and helping organizations and IT professionals advance in areas such as:
 
+* cybersecurity
 * cloud architecture
 * network security
 * hybrid infrastructures
+* ai security
 
 His goal is to develop **practical, future-proof solutions** and to strengthen awareness of **cybersecurity and modern cloud technologies**.
