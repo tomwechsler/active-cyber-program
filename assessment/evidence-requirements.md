@@ -204,7 +204,7 @@ Possible evidence:
 
 ---
 
-## AI Security
+## AI Security (if applicable)
 
 Possible evidence:
 
