@@ -125,7 +125,7 @@ Assessors collect evidence through documentation review, interviews and technica
 
 ---
 
-# Domain 11 - AI Security
+# Domain 11 - AI Security (if applicable)
 11.1 AI systems are identified and inventoried  
 11.2 AI security risks are assessed  
 11.3 AI security controls are implemented  
