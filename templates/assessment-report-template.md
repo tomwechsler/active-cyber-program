@@ -59,6 +59,7 @@ The evaluation follows the ACP control domains and scoring model.
 | Data Protection & Encryption   |       |
 | Monitoring & Incident Response |       |
 | Continuous Improvement         |       |
+| AI Security                    |       |
 
 ---
 

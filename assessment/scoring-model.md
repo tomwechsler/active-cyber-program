@@ -66,6 +66,7 @@ Example:
 | Data Protection                | 2.2   |
 | Monitoring & Incident Response | 2.1   |
 | Continuous Improvement         | 2.0   |
+| AI Security                    | 2.0   |
 
 Overall ACP Score:
 
@@ -83,6 +84,7 @@ Typical critical domains include:
 * Identity & Access Management
 * Data Protection & Encryption
 * Monitoring & Incident Response
+* AI Security (if applicable)
 
 If a critical domain receives a very low score, certification may not be granted even if the overall score is sufficient.
 

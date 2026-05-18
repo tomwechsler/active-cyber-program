@@ -22,6 +22,7 @@ The ACP framework consists of the following ten control domains:
 8. Data Protection & Encryption
 9. Monitoring & Incident Response
 10. Continuous Improvement
+11. AI Security (if applicable)  
 
 ---
 
@@ -41,6 +42,9 @@ Organizations must demonstrate that cybersecurity is not only a technical functi
 * Cybersecurity is represented in management discussions
 * Security reporting to leadership is established
 * Security initiatives are planned and tracked
+* AI security is included in governance discussions (if applicable)  
+* AI security strategy is documented (if applicable)  
+* AI security responsibilities are defined (if applicable)  
 
 ## Evidence Examples
 
@@ -48,6 +52,7 @@ Organizations must demonstrate that cybersecurity is not only a technical functi
 * Organizational structure
 * Management reporting
 * Security roadmap
+* AI security governance documentation (if applicable)  
 
 ---
 
@@ -279,6 +284,31 @@ An active cybersecurity program evolves over time and adapts to new threats and 
 * Vulnerability scan reports
 * Security improvement plans
 * Training records
+
+---
+
+# 11. AI Security (if applicable)
+
+## Objective
+
+AI systems are developed and deployed with security in mind.
+
+AI security helps protect against adversarial attacks and ensures responsible AI usage.
+
+## Typical Controls
+
+* AI security is integrated into the AI development lifecycle
+* AI systems are tested for vulnerabilities
+* AI models are monitored for unexpected behavior
+* AI-related risks are assessed and mitigated
+
+## Evidence Examples
+
+* AI system inventory
+* AI risk assessment reports
+* AI security control documentation
+* AI security monitoring reports
+* AI technical guardrails configuration
 
 ---
 

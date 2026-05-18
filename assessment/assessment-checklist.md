@@ -125,6 +125,16 @@ Assessors collect evidence through documentation review, interviews and technica
 
 ---
 
+# Domain 11 - AI Security
+11.1 AI systems are identified and inventoried  
+11.2 AI security risks are assessed  
+11.3 AI security controls are implemented  
+11.4 AI systems are monitored for security events  
+11.5 AI security incidents are investigated  
+11.6 AI security is included in continuous improvement efforts
+
+---
+
 # Assessment Result
 
 Each domain receives a domain score based on the average score of its controls.

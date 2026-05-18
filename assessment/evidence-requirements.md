@@ -204,6 +204,18 @@ Possible evidence:
 
 ---
 
+## AI Security
+
+Possible evidence:
+
+* AI system inventory
+* AI risk assessment reports
+* AI security control documentation
+* AI security monitoring reports
+* AI technical guardrails configuration
+
+---
+
 # Evidence Validation
 
 Assessors may validate evidence using multiple methods:

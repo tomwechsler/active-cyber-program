@@ -6,6 +6,11 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
+## [1.1] - 2024-06-15
+
+### Added
+- AI Security domain added to the ACP framework
+
 ## [1.0] - 2026-03-07
 
 ### Added

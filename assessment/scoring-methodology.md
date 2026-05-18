@@ -62,6 +62,7 @@ The following domains are defined as critical:
 • Identity & Access Management  
 • Data Protection & Encryption  
 • Monitoring & Incident Response  
+• AI Security (if applicable)  
 
 Organizations must meet minimum requirements in these domains to qualify for certification.
 

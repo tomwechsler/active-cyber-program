@@ -47,6 +47,7 @@ The evaluation was performed using:
 | Data Protection & Encryption   | 2.3   |
 | Monitoring & Incident Response | 1.9   |
 | Continuous Improvement         | 2.1   |
+| AI Security                    | 2.0   |
 
 ---
 

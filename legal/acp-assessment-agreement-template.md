@@ -34,6 +34,7 @@ The assessment will evaluate relevant aspects of the Client’s cybersecurity pr
 • Data protection and encryption  
 • Monitoring and incident response  
 • Continuous improvement  
+• AI security (if applicable)  
 
 The exact scope of the assessment will be defined prior to the start of the engagement.
 
