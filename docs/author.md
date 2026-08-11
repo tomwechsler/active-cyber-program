@@ -14,14 +14,18 @@ These include:
 
 * ISC2 **CISSP**, **CCSP** and **SSCP**
 * Comptia **SecurityX (formerly CASP+)**
+* **Certified NIST CSF 2.0 Lead Implementer**
 * Cloud Security Alliance **Certificate of Cloud Security Knowledge (CCSK)**
 * **Microsoft Cybersecurity Architect**
 * **Microsoft Certified: Azure Solutions Architect Expert**
+* **Microsoft 365 Certified: Administrator Expert**
 * **Microsoft Certified: Windows Server Hybrid Administrator Associate**
+* **Microsoft Certified: Information Security Administrator Associate**
 * **EC-Council Certified Ethical Hacker (CEH)**
 * **Cisco CCNA** (Routing & Switching, Security, and CyberOps)
 * Linux certifications including **LPIC-1, LPIC-2, LPIC-3**
 * **SUSE Certified Linux Administrator**
+* **Linux Foundation Certified IT Associate (LFCA)**
 * **Red Hat Certified System Administrator (RHCSA)**
 
 As a **Microsoft Certified Trainer (MCT)**, Tom is passionate about sharing knowledge and helping organizations and IT professionals advance in areas such as:
