@@ -15,6 +15,7 @@ These include:
 * ISC2 **CISSP**, **CCSP** and **SSCP**
 * Comptia **SecurityX (formerly CASP+)**
 * **Certified NIST CSF 2.0 Lead Implementer**
+* **Certified NIST CSF 2.0 Lead Auditor**
 * Cloud Security Alliance **Certificate of Cloud Security Knowledge (CCSK)**
 * **Microsoft Cybersecurity Architect**
 * **Microsoft Certified: Azure Solutions Architect Expert**
