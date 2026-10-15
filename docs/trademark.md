@@ -87,4 +87,4 @@ Questions regarding ACP certification, authorized assessments, or use of the ACP
 
 **Wechsler Information Solution**
 
-E-mail: [training@videtrainer.ch](mailto:training@videtrainer.ch)
+E-mail: [training@videotrainer.ch](mailto:training@videotrainer.ch)

@@ -278,7 +278,7 @@ Germany • Switzerland • Austria
 
 Framework author: Tom Wechsler  
 
-Contact: [training@videtrainer.ch](mailto:training@videtrainer.ch)
+Contact: [training@videotrainer.ch](mailto:training@videotrainer.ch)
 
 See: `docs/author.md`
 

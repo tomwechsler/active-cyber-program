@@ -5,7 +5,7 @@
 This agreement is entered into between:
 
 **Wechsler Information Solution**
-E-mail: training@videtrainer.ch
+E-mail: training@videotrainer.ch
 (hereinafter referred to as "Assessment Authority")
 
 and
