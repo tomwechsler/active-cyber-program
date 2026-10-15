@@ -6,7 +6,7 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
-## [Unreleased]
+## [1.2] - 2026-10-15
 
 ### Changed
 - `assessment/scoring-model.md` is now the single authoritative source for scoring and certification rules

@@ -22,7 +22,7 @@ The following entry illustrates the registry format only. **It is not a valid AC
 
 | Certificate ID   | Organization     | Country | Certification Date | Valid Until |
 | ---------------- | ---------------- | ------- | ------------------ | ----------- |
-| ACP-EXAMPLE-001  | ExampleTech GmbH | Germany | 2026-06-20         | 2028-06-20  |
+| ACP-EXAMPLE-001  | ExampleTech GmbH | Germany | 2026-10-26         | 2028-10-26  |
 
 ---
 

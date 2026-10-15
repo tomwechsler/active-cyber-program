@@ -18,7 +18,7 @@ has successfully demonstrated that it operates an
 
 ## Active Cyber Program (ACP)
 
-in accordance with the **Active Cyber Program Framework Version 1.1**.
+in accordance with the **Active Cyber Program Framework Version 1.2**.
 
 The organization has been evaluated across governance, operational cybersecurity processes, and technical security controls.
 
@@ -32,9 +32,9 @@ Organization: ExampleTech GmbH
 Industry: Software Services
 Headquarters: Munich, Germany
 
-Assessment Date: 15 June 2026
-Certification Date: 20 June 2026
-Certification Valid Until: 20 June 2028
+Assessment Date: 20 October 2026
+Certification Date: 26 October 2026
+Certification Valid Until: 26 October 2028
 
 Overall ACP Score: 2.15
 ACP Maturity Level: Level 3 – Defined
@@ -67,7 +67,7 @@ Certification Authority Representative
 
 Wechsler Information Solution
 
-Date: 20 June 2026
+Date: 26 October 2026
 
 ---
 
