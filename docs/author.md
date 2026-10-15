@@ -16,6 +16,8 @@ These include:
 * Comptia **SecurityX (formerly CASP+)**
 * **Certified NIST CSF 2.0 Lead Implementer**
 * **Certified NIST CSF 2.0 Lead Auditor**
+* **Certified NIST AI Risk Management Framework (RMF) Architect**
+* **Certified ISO 31000 Internal Controls Risk Analyst (CICRA)**
 * Cloud Security Alliance **Certificate of Cloud Security Knowledge (CCSK)**
 * **Microsoft Cybersecurity Architect**
 * **Microsoft Certified: Azure Solutions Architect Expert**
