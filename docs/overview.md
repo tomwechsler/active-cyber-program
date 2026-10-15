@@ -46,7 +46,7 @@ See:
 
 ## Control Domains
 
-The framework defines **ten cybersecurity control domains** covering governance, operational processes, and technical protection mechanisms.
+The framework defines **eleven cybersecurity control domains** covering governance, operational processes, and technical protection mechanisms.
 
 These domains provide a structured way to evaluate cybersecurity capabilities across an organization.
 

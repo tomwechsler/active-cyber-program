@@ -45,7 +45,7 @@ See:
 
 ## Control Domains
 
-Cybersecurity is evaluated across ten control domains covering governance, operational processes, and technical safeguards.
+Cybersecurity is evaluated across eleven control domains covering governance, operational processes, and technical safeguards.
 
 The domains provide a structured framework to assess the organization's cybersecurity capabilities.
 

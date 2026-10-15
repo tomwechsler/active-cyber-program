@@ -10,9 +10,19 @@ Only certifications issued by **Wechsler Information Solution** are considered v
 
 # Certified Organizations
 
-| Certificate ID | Organization     | Country | Certification Date | Valid Until |
-| -------------- | ---------------- | ------- | ------------------ | ----------- |
-| ACP-2026-001   | ExampleTech GmbH | Germany | 2026-02-20         | 2028-02-20  |
+| Certificate ID | Organization | Country | Certification Date | Valid Until |
+| -------------- | ------------ | ------- | ------------------ | ----------- |
+| –              | No certifications have been published yet | – | – | – |
+
+---
+
+# Example Entry
+
+The following entry illustrates the registry format only. **It is not a valid ACP certification** and refers to the fictional organization used in `examples/`.
+
+| Certificate ID   | Organization     | Country | Certification Date | Valid Until |
+| ---------------- | ---------------- | ------- | ------------------ | ----------- |
+| ACP-EXAMPLE-001  | ExampleTech GmbH | Germany | 2026-06-20         | 2028-06-20  |
 
 ---
 

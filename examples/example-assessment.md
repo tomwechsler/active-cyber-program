@@ -15,14 +15,15 @@ Industry: Software Services
 Employees: 85
 Headquarters: Munich, Germany
 
-Assessment Date: 15 February 2026
+Assessment Date: 15 June 2026
 Assessment Scope: Corporate IT infrastructure and operational processes
+Framework Version: ACP 1.1
 
 ---
 
 # Assessment Overview
 
-The assessment evaluated the organization's cybersecurity program across the **ten ACP control domains**.
+The assessment evaluated the organization's cybersecurity program across the **eleven ACP control domains**.
 
 The evaluation was performed using:
 
@@ -53,7 +54,7 @@ The evaluation was performed using:
 
 # Overall Result
 
-Overall ACP Score: **2.15**
+Overall ACP Score: **2.14**
 
 ACP Maturity Level: **Level 3 – Defined**
 

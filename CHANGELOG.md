@@ -6,7 +6,16 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
-## [1.1] - 2024-06-15
+## [Unreleased]
+
+### Fixed
+- Framework version in README aligned with `VERSION` (1.1)
+- Domain count corrected from ten to eleven across all documents
+- Example assessment and certification aligned with framework version 1.1 (dates, overall score)
+- Certification registry no longer lists the fictional example organization as certified
+- Repository structure in README updated
+
+## [1.1] - 2026-05-18
 
 ### Added
 - AI Security domain added to the ACP framework

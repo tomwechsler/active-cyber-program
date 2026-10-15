@@ -1,6 +1,6 @@
 # Active Cyber Program (ACP)
 
-![Framework Version](https://img.shields.io/badge/framework-ACP%201.0-blue)
+![Framework Version](https://img.shields.io/badge/framework-ACP%201.1-blue)
 ![Status](https://img.shields.io/badge/status-active-green)
 ![Certification](https://img.shields.io/badge/certification-ACP-blue)
 ![Region](https://img.shields.io/badge/region-DACH-lightgrey)
@@ -30,7 +30,7 @@ The framework provides organizations with a structured method to evaluate, impro
 
 Current framework version:
 
-**ACP Framework Version 1.0**
+**ACP Framework Version 1.1**
 
 See the following files for version information:
 
@@ -127,7 +127,7 @@ The ACP principles describe the philosophy behind the framework and emphasize ac
 
 ## Control Domains
 
-The framework defines ten cybersecurity control domains covering governance, operational processes and technical security controls.
+The framework defines eleven cybersecurity control domains covering governance, operational processes and technical security controls.
 
 `framework/control-domains.md`
 
@@ -215,12 +215,18 @@ active-cyber-program/
 README.md
 VERSION
 CHANGELOG.md
+SECURITY.md
+LICENSE
 
 docs/
    overview.md
+   methodology.md
    assessment-process.md
+   self-assessment-guide.md
    certification.md
+   certification-process.md
    trust-label.md
+   trademark.md
    governance.md
    author.md
 
@@ -233,15 +239,33 @@ assessment/
    assessment-checklist.md
    evidence-requirements.md
    scoring-model.md
+   scoring-methodology.md
 
 templates/
    assessment-report-template.md
    certification-template.md
    improvement-plan-template.md
+   acp_assessment_questions_template.pdf
+
+examples/
+   example-assessment.md
+   example-certification.md
+
+certifications/
+   registry.md
+
+legal/
+   acp-assessment-agreement-template.md
 
 assets/
    acp-logo.png
+   acp-framework-diagram.png
+   acp-security-layers.png
    acp-trust-label.png
+
+images/
+   repoimage.jpg
+   repoimage.png
 ```
 
 ---

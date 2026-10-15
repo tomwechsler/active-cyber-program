@@ -1,6 +1,6 @@
 # ACP Control Domains
 
-The **Active Cyber Program (ACP)** framework defines ten control domains that together represent an active and effective cybersecurity program.
+The **Active Cyber Program (ACP)** framework defines eleven control domains that together represent an active and effective cybersecurity program.
 
 These domains cover cybersecurity from **business governance to operational and technical protection mechanisms**. The goal is to evaluate whether cybersecurity is actively managed and integrated into the organization's operations.
 
@@ -10,7 +10,7 @@ Each domain contains a set of controls that are evaluated during an ACP assessme
 
 # Domain Overview
 
-The ACP framework consists of the following ten control domains:
+The ACP framework consists of the following eleven control domains (the AI Security domain applies only where AI systems are used):
 
 1. Business & Security Governance
 2. Risk Management
