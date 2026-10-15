@@ -36,7 +36,7 @@ Assessment Date: 15 June 2026
 Certification Date: 20 June 2026
 Certification Valid Until: 20 June 2028
 
-Overall ACP Score: 2.14
+Overall ACP Score: 2.15
 ACP Maturity Level: Level 3 – Defined
 
 ---
@@ -47,7 +47,7 @@ This certification has been issued by:
 
 **Wechsler Information Solution**
 
-Germany • Switzerland • Austria
+Hofackerstrasse 8, 4625 Oberbuchsiten, Switzerland
 
 The certification confirms that the organization operates an **Active Cyber Program** according to the ACP framework.
 

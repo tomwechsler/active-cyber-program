@@ -21,7 +21,7 @@ The framework provides organizations with a structured method to evaluate, impro
 # ACP Framework Overview
 
 <p align="center">
-  <img src="assets/acp-framework-diagram.png" alt="ACP Framework Diagram" width="500">
+  <img src="assets/acp-framework-diagram.svg" alt="ACP Framework Diagram: eleven control domains in six groups" width="560">
 </p>
 
 ---
@@ -160,6 +160,7 @@ Assessment tools:
 * `assessment/assessment-checklist.md` [Assessment Checklist](./assessment/assessment-checklist.md)
 * `assessment/evidence-requirements.md` [Evidence Requirements](./assessment/evidence-requirements.md)
 * `assessment/scoring-model.md` [Scoring Model](./assessment/scoring-model.md)
+* `assessment/assessment-questionnaire.md` [Assessment Questionnaire](./assessment/assessment-questionnaire.md) (PDF: [templates/acp-assessment-questionnaire.pdf](./templates/acp-assessment-questionnaire.pdf))
 
 ---
 
@@ -239,13 +240,13 @@ assessment/
    assessment-checklist.md
    evidence-requirements.md
    scoring-model.md
-   scoring-methodology.md
+   assessment-questionnaire.md
 
 templates/
    assessment-report-template.md
    certification-template.md
    improvement-plan-template.md
-   acp_assessment_questions_template.pdf
+   acp-assessment-questionnaire.pdf
 
 examples/
    example-assessment.md
@@ -260,6 +261,7 @@ legal/
 assets/
    acp-logo.png
    acp-framework-diagram.png
+   acp-framework-diagram.svg
    acp-security-layers.png
    acp-trust-label.png
 
@@ -274,7 +276,9 @@ images/
 
 **Wechsler Information Solution, Tom Wechsler, Switzerland**
 
-Germany • Switzerland • Austria
+Hofackerstrasse 8, 4625 Oberbuchsiten, Switzerland
+
+Serving organizations in Germany • Switzerland • Austria
 
 Framework author: Tom Wechsler  
 

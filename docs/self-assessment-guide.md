@@ -64,7 +64,7 @@ Examples:
 
 # 4. Perform Assessment
 
-Use the ACP assessment questions to evaluate each domain.
+Use the ACP assessment questionnaire (`assessment/assessment-questionnaire.md`) to evaluate each domain. The guiding questions help determine one score per control.
 
 For each control:
 
@@ -85,7 +85,7 @@ Examples:
 • screenshots  
 • logs and reports  
 
-Without evidence, controls should not be rated highly.
+Without evidence, a control is scored 0 – Not Implemented.
 
 ---
 
@@ -103,6 +103,8 @@ Calculate:
 • control scores  
 • domain scores  
 • overall ACP score  
+
+Mark the AI Security domain as not applicable if no AI systems are used within the scope. Applicability, rounding and calculation rules are defined in `assessment/scoring-model.md`.
 
 ---
 
@@ -137,9 +139,10 @@ Organizations may use the self-assessment to prepare for an official ACP assessm
 
 Before requesting certification:
 
-• ensure minimum requirements are met  
+• ensure the overall ACP score is at least 2.00  
+• ensure every applicable critical domain scores at least 2.00  
+• ensure no knock-out control (4.3, 4.4, 5.3, 8.4, 8.5, 9.4) is scored 0  
 • collect complete evidence  
-• review critical domains  
 
 ---
 

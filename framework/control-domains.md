@@ -4,7 +4,7 @@ The **Active Cyber Program (ACP)** framework defines eleven control domains that
 
 These domains cover cybersecurity from **business governance to operational and technical protection mechanisms**. The goal is to evaluate whether cybersecurity is actively managed and integrated into the organization's operations.
 
-Each domain contains a set of controls that are evaluated during an ACP assessment.
+Each domain contains six controls that are evaluated during an ACP assessment. The controls listed below correspond to the authoritative ACP assessment checklist (`assessment/assessment-checklist.md`). Controls marked **[KO]** are knock-out controls (see `assessment/scoring-model.md`).
 
 ---
 
@@ -12,17 +12,17 @@ Each domain contains a set of controls that are evaluated during an ACP assessme
 
 The ACP framework consists of the following eleven control domains (the AI Security domain applies only where AI systems are used):
 
-1. Business & Security Governance
+1. Business & Security Governance (critical)
 2. Risk Management
 3. Security Policies & Processes
-4. Identity & Access Management
+4. Identity & Access Management (critical)
 5. Infrastructure Security
 6. Endpoint Security
 7. Network Security
-8. Data Protection & Encryption
-9. Monitoring & Incident Response
+8. Data Protection & Encryption (critical)
+9. Monitoring & Incident Response (critical)
 10. Continuous Improvement
-11. AI Security (if applicable)  
+11. AI Security (if applicable; critical when applicable)
 
 ---
 
@@ -34,17 +34,14 @@ Cybersecurity is integrated into business leadership and strategic decision-maki
 
 Organizations must demonstrate that cybersecurity is not only a technical function but part of overall business governance.
 
-## Typical Controls
+## Controls
 
-* A documented cybersecurity strategy exists
-* Cybersecurity objectives are aligned with business objectives
-* Security responsibilities are clearly defined
-* Cybersecurity is represented in management discussions
-* Security reporting to leadership is established
-* Security initiatives are planned and tracked
-* AI security is included in governance discussions (if applicable)  
-* AI security strategy is documented (if applicable)  
-* AI security responsibilities are defined (if applicable)  
+* 1.1 A cybersecurity strategy is documented
+* 1.2 Cybersecurity objectives are defined and aligned with business goals
+* 1.3 Security responsibilities are assigned within the organization
+* 1.4 Security topics are discussed at management level
+* 1.5 Security initiatives are planned and tracked
+* 1.6 Security reporting to leadership exists
 
 ## Evidence Examples
 
@@ -52,7 +49,6 @@ Organizations must demonstrate that cybersecurity is not only a technical functi
 * Organizational structure
 * Management reporting
 * Security roadmap
-* AI security governance documentation (if applicable)  
 
 ---
 
@@ -64,19 +60,21 @@ Cybersecurity risks are systematically identified, evaluated, and managed.
 
 Organizations must demonstrate that cyber risks are actively monitored and mitigated.
 
-## Typical Controls
+## Controls
 
-* A formal risk assessment process exists
-* Risks are documented in a risk register
-* Risks are evaluated based on impact and likelihood
-* Risk mitigation measures are defined
-* Risk reviews are performed regularly
+* 2.1 Cybersecurity risks are formally identified
+* 2.2 A risk register exists
+* 2.3 Risks are evaluated based on impact and likelihood
+* 2.4 Risk mitigation measures are defined
+* 2.5 Risk reviews are conducted periodically
+* 2.6 Third-party risks are considered
 
 ## Evidence Examples
 
 * Risk register
 * Risk assessment reports
 * Risk treatment plans
+* Third-party risk evaluations
 
 ---
 
@@ -88,14 +86,14 @@ Security policies and operational procedures are documented, communicated, and m
 
 These policies provide guidance for secure operations across the organization.
 
-## Typical Controls
+## Controls
 
-* Information security policy exists
-* Acceptable use policies are defined
-* Backup policies are documented
-* Incident response procedures exist
-* Patch management processes are defined
-* Security procedures are communicated to staff
+* 3.1 An information security policy exists
+* 3.2 Acceptable use policies are defined
+* 3.3 Backup policies are documented
+* 3.4 Patch management procedures exist
+* 3.5 Incident response procedures are defined
+* 3.6 Security procedures are communicated to employees
 
 ## Evidence Examples
 
@@ -113,14 +111,14 @@ Access to systems and data is controlled, authenticated, and regularly reviewed.
 
 Organizations must ensure that only authorized individuals can access sensitive resources.
 
-## Typical Controls
+## Controls
 
-* User identity management is established
-* Role-based access control is implemented
-* Multi-factor authentication is used where appropriate
-* Privileged access is controlled and monitored
-* Access rights are reviewed periodically
-* User accounts are disabled when no longer required
+* 4.1 User account management is controlled
+* 4.2 Role-based access control is implemented
+* 4.3 Multi-factor authentication is used for remote access, cloud services and administrative accounts **[KO]**
+* 4.4 Privileged accounts are restricted and monitored **[KO]**
+* 4.5 Access rights are reviewed periodically
+* 4.6 User accounts are removed when employees leave
 
 ## Evidence Examples
 
@@ -139,14 +137,14 @@ Servers, cloud systems, and infrastructure components are securely configured an
 
 Infrastructure security provides the foundation for protecting organizational systems.
 
-## Typical Controls
+## Controls
 
-* System inventory is maintained
-* Secure system configurations are defined
-* Systems are regularly patched and updated
-* Administrative access is restricted
-* Cloud environments follow secure configuration practices
-* Infrastructure changes are documented
+* 5.1 An inventory of systems and servers exists
+* 5.2 Secure configuration standards are defined
+* 5.3 Systems are regularly patched and updated **[KO]**
+* 5.4 Administrative access to systems is restricted
+* 5.5 Infrastructure changes are documented
+* 5.6 Cloud infrastructure follows secure configuration practices
 
 ## Evidence Examples
 
@@ -165,14 +163,14 @@ Endpoints such as laptops, desktops, and mobile devices are protected against th
 
 Endpoint security helps prevent malware infections and unauthorized access.
 
-## Typical Controls
+## Controls
 
-* Endpoint protection software is deployed
-* Endpoint detection and response (EDR) may be implemented
-* Devices are centrally managed
-* Disk encryption is enabled
-* Operating systems and applications are updated regularly
-* Device access is controlled
+* 6.1 Endpoint protection software is deployed
+* 6.2 Devices are centrally managed
+* 6.3 Disk encryption is enabled on endpoints
+* 6.4 Endpoint updates are automatically deployed
+* 6.5 Mobile devices are managed securely
+* 6.6 Lost or stolen devices can be remotely controlled or wiped
 
 ## Evidence Examples
 
@@ -191,20 +189,20 @@ The organization’s network infrastructure is protected and monitored to preven
 
 Network security controls limit exposure and improve visibility into network activity.
 
-## Typical Controls
+## Controls
 
-* Network firewalls are deployed
-* Network segmentation is implemented where appropriate
-* Secure remote access (VPN) is used
-* Network traffic is monitored
-* Intrusion detection or prevention may be used
-* Wireless networks are secured
+* 7.1 Network firewalls are implemented
+* 7.2 Network segmentation is used where appropriate
+* 7.3 Secure remote access (e.g., VPN or Zero Trust Network Access) is implemented
+* 7.4 Network traffic monitoring is performed
+* 7.5 Wireless networks are securely configured
+* 7.6 Network access is restricted to authorized devices
 
 ## Evidence Examples
 
 * Network architecture diagrams
 * Firewall configurations
-* VPN configurations
+* Remote access configurations
 * Network monitoring reports
 
 ---
@@ -217,20 +215,20 @@ Organizational data is protected against unauthorized access, loss, or exposure.
 
 Data protection includes encryption, backup, and secure data handling.
 
-## Typical Controls
+## Controls
 
-* Sensitive data is identified and classified
-* Encryption is used for sensitive data
-* Secure data transfer mechanisms are used
-* Backup procedures are implemented
-* Backup data is protected against unauthorized access
-* Encrypted archives may be used for secure file exchange
+* 8.1 Sensitive data is identified and classified
+* 8.2 Encryption is used to protect sensitive data
+* 8.3 Secure file transfer mechanisms are used
+* 8.4 Backup procedures are implemented and tested **[KO]**
+* 8.5 Backup data is protected from unauthorized access and tampering **[KO]**
+* 8.6 Files exchanged or archived outside protected systems are encrypted using current algorithms (e.g., AES-256)
 
 ## Evidence Examples
 
 * Data classification policies
 * Encryption settings
-* Backup reports
+* Backup and restore test reports
 * Secure transfer procedures
 
 ---
@@ -243,14 +241,14 @@ Security events are monitored and incidents are detected, reported, and managed 
 
 Organizations must be able to identify suspicious activities and respond appropriately.
 
-## Typical Controls
+## Controls
 
-* Security logs are collected
-* Log monitoring processes exist
-* Incident response procedures are defined
-* Security incidents are documented
-* Escalation processes are established
-* Lessons learned from incidents are reviewed
+* 9.1 Security logs are collected
+* 9.2 Log monitoring is performed
+* 9.3 Security alerts are reviewed regularly
+* 9.4 Incident response procedures are documented and operational **[KO]**
+* 9.5 Security incidents are recorded and investigated
+* 9.6 Incident escalation paths are defined
 
 ## Evidence Examples
 
@@ -269,14 +267,14 @@ Cybersecurity capabilities are regularly reviewed and improved.
 
 An active cybersecurity program evolves over time and adapts to new threats and technologies.
 
-## Typical Controls
+## Controls
 
-* Security reviews are conducted periodically
-* Security assessments or audits are performed
-* Vulnerability assessments may be conducted
-* Improvement actions are tracked
-* Security awareness training is provided
-* Security metrics are evaluated
+* 10.1 Security reviews are conducted periodically
+* 10.2 Security audits or assessments are performed
+* 10.3 Vulnerability assessments are conducted regularly
+* 10.4 Improvement actions are tracked
+* 10.5 Security awareness training is provided to employees
+* 10.6 Security metrics or KPIs are evaluated
 
 ## Evidence Examples
 
@@ -291,20 +289,25 @@ An active cybersecurity program evolves over time and adapts to new threats and 
 
 ## Objective
 
-AI systems are developed and deployed with security in mind.
+AI systems are developed, deployed, and used with security in mind.
 
 AI security helps protect against adversarial attacks and ensures responsible AI usage.
 
-## Typical Controls
+This domain applies if the organization develops, operates, or uses AI systems within the assessment scope. When applicable, it is a critical domain.
 
-* AI security is integrated into the AI development lifecycle
-* AI systems are tested for vulnerabilities
-* AI models are monitored for unexpected behavior
-* AI-related risks are assessed and mitigated
+## Controls
+
+* 11.1 AI systems are identified and inventoried, with defined owners
+* 11.2 AI security risks are assessed
+* 11.3 AI usage policies and security controls are defined and implemented
+* 11.4 AI systems are monitored for security events and unexpected behavior
+* 11.5 AI security incidents are investigated
+* 11.6 AI security is included in management reporting and continuous improvement
 
 ## Evidence Examples
 
 * AI system inventory
+* AI governance and usage policies
 * AI risk assessment reports
 * AI security control documentation
 * AI security monitoring reports
@@ -316,6 +319,6 @@ AI security helps protect against adversarial attacks and ensures responsible AI
 
 The ACP framework evaluates whether cybersecurity is **actively managed**, not only whether controls exist.
 
-During an ACP assessment, each control domain is evaluated based on documented evidence, technical validation, and operational practices.
+During an ACP assessment, each control is evaluated based on documented evidence, technical validation, and operational practices.
 
 The combined evaluation determines whether the organization operates an **Active Cyber Program** and qualifies for **ACP Certification**.

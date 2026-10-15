@@ -87,4 +87,6 @@ Questions regarding ACP certification, authorized assessments, or use of the ACP
 
 **Wechsler Information Solution**
 
+Hofackerstrasse 8, 4625 Oberbuchsiten, Switzerland
+
 E-mail: [training@videotrainer.ch](mailto:training@videotrainer.ch)

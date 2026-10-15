@@ -11,6 +11,7 @@ Number of Employees:
 
 ## Assessment Information
 
+ACP Framework Version:  
 Assessment Date:  
 Assessment Period:  
 Assessment Location:  
@@ -30,6 +31,15 @@ The evaluation includes:
 * technical security controls
 * evidence of active security management
 
+Scope description (organizational units, locations, systems, cloud environments):  
+
+Scope exclusions:  
+
+AI Security domain applicable: ☐ Yes ☐ No  
+Justification (if not applicable):  
+
+Controls marked not applicable (ID and justification):  
+
 ---
 
 # Assessment Methodology
@@ -41,25 +51,42 @@ The ACP assessment was performed using the following methods:
 * technical verification
 * evidence-based validation
 
-The evaluation follows the ACP control domains and scoring model.
+The evaluation follows the ACP assessment checklist, the ACP assessment questionnaire and the ACP scoring model (`assessment/scoring-model.md`).
+
+Control scores and the corresponding evidence references are documented in the completed ACP assessment questionnaire, which is attached to this report.
 
 ---
 
 # Domain Evaluation
 
-| Domain                         | Score |
-| ------------------------------ | ----- |
-| Business & Security Governance |       |
-| Risk Management                |       |
-| Security Policies & Processes  |       |
-| Identity & Access Management   |       |
-| Infrastructure Security        |       |
-| Endpoint Security              |       |
-| Network Security               |       |
-| Data Protection & Encryption   |       |
-| Monitoring & Incident Response |       |
-| Continuous Improvement         |       |
-| AI Security                    |       |
+Scores are rounded to two decimal places.
+
+| Domain                                     | Critical | Score |
+| ------------------------------------------ | -------- | ----- |
+| 1. Business & Security Governance          | Yes      |       |
+| 2. Risk Management                         |          |       |
+| 3. Security Policies & Processes           |          |       |
+| 4. Identity & Access Management            | Yes      |       |
+| 5. Infrastructure Security                 |          |       |
+| 6. Endpoint Security                       |          |       |
+| 7. Network Security                        |          |       |
+| 8. Data Protection & Encryption            | Yes      |       |
+| 9. Monitoring & Incident Response          | Yes      |       |
+| 10. Continuous Improvement                 |          |       |
+| 11. AI Security (if applicable)            | Yes      |       |
+
+---
+
+# Knock-out Controls
+
+| Control | Description                                       | Score |
+| ------- | ------------------------------------------------- | ----- |
+| 4.3     | Multi-factor authentication                       |       |
+| 4.4     | Privileged accounts restricted and monitored      |       |
+| 5.3     | Systems regularly patched and updated             |       |
+| 8.4     | Backup procedures implemented and tested          |       |
+| 8.5     | Backup data protected                             |       |
+| 9.4     | Incident response procedures operational          |       |
 
 ---
 
@@ -69,10 +96,18 @@ Overall ACP Score:
 
 ACP Maturity Level:
 
+Certification requirements:
+
+☐ Overall ACP score ≥ 2.00  
+☐ Every applicable critical domain ≥ 2.00  
+☐ No knock-out control scored 0  
+☐ All control scores supported by evidence  
+
 Certification Decision:
 
-☐ ACP Certification Granted
-☐ Improvement Required Before Certification
+☐ ACP Certification Granted  
+☐ ACP Certification Pending (follow-up review of affected controls required)  
+☐ ACP Certification Not Granted  
 
 ---
 
@@ -84,7 +119,7 @@ Summary of strengths observed during the assessment.
 
 # Identified Improvement Areas
 
-List of recommended improvements identified during the assessment.
+List of recommended improvements identified during the assessment, with the affected control IDs.
 
 ---
 

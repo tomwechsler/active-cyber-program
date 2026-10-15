@@ -42,29 +42,33 @@ Assessment activities may include:
 
 # Certification Scoring Model
 
-Each control in the ACP checklist is evaluated using the following scoring model.
+Each control in the ACP checklist is evaluated using the following scoring scale.
 
-| Score | Description                   |
-| ----- | ----------------------------- |
-| 0     | Control not implemented       |
-| 1     | Control partially implemented |
-| 2     | Control implemented           |
-| 3     | Control actively managed      |
+| Score | Description           |
+| ----- | --------------------- |
+| 0     | Not Implemented       |
+| 1     | Partially Implemented |
+| 2     | Implemented           |
+| 3     | Actively Managed      |
 
-Each domain receives an average score based on its controls.
+Each domain receives an average score based on its applicable controls.
+
+The complete scoring rules are defined in `assessment/scoring-model.md`.
 
 ---
 
 # Minimum Certification Requirements
 
-An organization may receive **ACP Certification** if the following conditions are met:
+An organization receives **ACP Certification** if all of the following requirements are met:
 
-* Overall average score ≥ **2.0**
-* No critical domain score below **1.5**
-* Evidence supporting the implementation of controls is provided
-* Cybersecurity governance is established
+* Overall ACP score ≥ **2.00**
+* Every applicable critical domain score ≥ **2.00** (Governance, Identity & Access Management, Data Protection & Encryption, Monitoring & Incident Response, and AI Security if applicable)
+* No knock-out control scored **0** (controls 4.3, 4.4, 5.3, 8.4, 8.5, 9.4)
+* All control scores are supported by documented evidence
 
-The assessor may define certain domains as **critical domains**, depending on the organization’s risk profile.
+The assessor may designate additional critical domains based on the organization’s risk profile. Requirements cannot be lowered.
+
+The authoritative definition of these requirements is `assessment/scoring-model.md`.
 
 ---
 
@@ -126,4 +130,4 @@ The certification program is maintained and developed by:
 
 **Wechsler Information Solution**
 
-Germany • Switzerland • Austria
+Hofackerstrasse 8, 4625 Oberbuchsiten, Switzerland

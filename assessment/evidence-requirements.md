@@ -175,10 +175,10 @@ Possible evidence:
 Possible evidence:
 
 * encryption policies
-* backup procedures
+* backup procedures and restore test records
 * data classification guidelines
 * secure file transfer processes
-* encrypted archive usage (e.g. encrypted ZIP)
+* encrypted file exchange and archives (e.g., AES-256)
 
 ---
 

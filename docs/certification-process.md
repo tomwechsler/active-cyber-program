@@ -88,13 +88,14 @@ Only verified evidence is considered for scoring.
 
 # 6. Scoring
 
-Each control and domain is evaluated using the ACP scoring methodology.
+Each control and domain is evaluated using the ACP scoring model (`assessment/scoring-model.md`).
 
 This includes:
 
 • scoring of individual controls  
 • calculation of domain scores  
 • calculation of the overall ACP score  
+• check of critical domains and knock-out controls  
 
 ---
 
@@ -131,7 +132,7 @@ Certified organizations may be listed in the ACP registry.
 The registry may include:
 
 • organization name  
-• certification level  
+• certificate ID  
 • validity period  
 
 ---

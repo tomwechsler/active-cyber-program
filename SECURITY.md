@@ -18,6 +18,8 @@ Please report security concerns directly to:
 Responsible contact:
 Tom Wechsler
 
+Hofackerstrasse 8, 4625 Oberbuchsiten, Switzerland
+
 E-mail: [training@videotrainer.ch](mailto:training@videotrainer.ch)
 
 Please do not report security issues through public GitHub issues.

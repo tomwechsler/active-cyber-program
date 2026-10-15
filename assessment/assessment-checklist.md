@@ -2,20 +2,30 @@
 
 This checklist supports the evaluation of whether an organization operates an **Active Cyber Program (ACP)**.
 
-Each control is evaluated during the assessment using the following scoring model:
+It is the **authoritative list of ACP controls**. Control IDs used in other ACP documents, the assessment questionnaire, and assessment reports refer to this checklist.
 
-| Score | Description                            |
-| ----- | -------------------------------------- |
-| 0     | Control not implemented                |
-| 1     | Control partially implemented          |
-| 2     | Control implemented                    |
-| 3     | Control actively managed and monitored |
+Each control is evaluated using the ACP scoring scale:
 
-Assessors collect evidence through documentation review, interviews and technical verification.
+| Score | Meaning               |
+| ----- | --------------------- |
+| 0     | Not Implemented       |
+| 1     | Partially Implemented |
+| 2     | Implemented           |
+| 3     | Actively Managed      |
+
+Scoring rules, applicability, rounding, and certification requirements are defined in the ACP scoring model:
+
+`assessment/scoring-model.md`
+
+Assessors collect evidence through documentation review, interviews and technical verification. Guiding questions for each control are provided in the ACP assessment questionnaire:
+
+`assessment/assessment-questionnaire.md`
+
+Controls marked **[KO]** are knock-out controls. A score of 0 in a knock-out control prevents certification regardless of the overall score.
 
 ---
 
-# Domain 1 – Business & Security Governance
+# Domain 1 – Business & Security Governance (critical)
 
 1.1 A cybersecurity strategy is documented  
 1.2 Cybersecurity objectives are defined and aligned with business goals  
@@ -48,12 +58,12 @@ Assessors collect evidence through documentation review, interviews and technica
 
 ---
 
-# Domain 4 – Identity & Access Management
+# Domain 4 – Identity & Access Management (critical)
 
 4.1 User account management is controlled  
 4.2 Role-based access control is implemented  
-4.3 Multi-factor authentication is used where appropriate  
-4.4 Privileged accounts are restricted and monitored  
+4.3 Multi-factor authentication is used for remote access, cloud services and administrative accounts **[KO]**  
+4.4 Privileged accounts are restricted and monitored **[KO]**  
 4.5 Access rights are reviewed periodically  
 4.6 User accounts are removed when employees leave  
 
@@ -63,7 +73,7 @@ Assessors collect evidence through documentation review, interviews and technica
 
 5.1 An inventory of systems and servers exists  
 5.2 Secure configuration standards are defined  
-5.3 Systems are regularly patched and updated  
+5.3 Systems are regularly patched and updated **[KO]**  
 5.4 Administrative access to systems is restricted  
 5.5 Infrastructure changes are documented  
 5.6 Cloud infrastructure follows secure configuration practices  
@@ -85,30 +95,30 @@ Assessors collect evidence through documentation review, interviews and technica
 
 7.1 Network firewalls are implemented  
 7.2 Network segmentation is used where appropriate  
-7.3 Secure remote access (VPN) is implemented (ZTNA would be even better)  
+7.3 Secure remote access (e.g., VPN or Zero Trust Network Access) is implemented  
 7.4 Network traffic monitoring is performed  
 7.5 Wireless networks are securely configured  
 7.6 Network access is restricted to authorized devices  
 
 ---
 
-# Domain 8 – Data Protection & Encryption
+# Domain 8 – Data Protection & Encryption (critical)
 
 8.1 Sensitive data is identified and classified  
 8.2 Encryption is used to protect sensitive data  
 8.3 Secure file transfer mechanisms are used  
-8.4 Backup procedures are implemented and tested  
-8.5 Backup data is protected from unauthorized access  
-8.6 Secure encrypted archives (e.g., encrypted ZIP) are used when appropriate  
+8.4 Backup procedures are implemented and tested **[KO]**  
+8.5 Backup data is protected from unauthorized access and tampering **[KO]**  
+8.6 Files exchanged or archived outside protected systems are encrypted using current algorithms (e.g., AES-256)  
 
 ---
 
-# Domain 9 – Monitoring & Incident Response
+# Domain 9 – Monitoring & Incident Response (critical)
 
 9.1 Security logs are collected  
 9.2 Log monitoring is performed  
 9.3 Security alerts are reviewed regularly  
-9.4 Incident response procedures are documented  
+9.4 Incident response procedures are documented and operational **[KO]**  
 9.5 Security incidents are recorded and investigated  
 9.6 Incident escalation paths are defined  
 
@@ -118,27 +128,28 @@ Assessors collect evidence through documentation review, interviews and technica
 
 10.1 Security reviews are conducted periodically  
 10.2 Security audits or assessments are performed  
-10.3 Vulnerability assessments may be conducted  
+10.3 Vulnerability assessments are conducted regularly  
 10.4 Improvement actions are tracked  
 10.5 Security awareness training is provided to employees  
 10.6 Security metrics or KPIs are evaluated  
 
 ---
 
-# Domain 11 - AI Security (if applicable)
-11.1 AI systems are identified and inventoried  
+# Domain 11 – AI Security (if applicable; critical when applicable)
+
+11.1 AI systems are identified and inventoried, with defined owners  
 11.2 AI security risks are assessed  
-11.3 AI security controls are implemented  
-11.4 AI systems are monitored for security events  
+11.3 AI usage policies and security controls are defined and implemented  
+11.4 AI systems are monitored for security events and unexpected behavior  
 11.5 AI security incidents are investigated  
-11.6 AI security is included in continuous improvement efforts
+11.6 AI security is included in management reporting and continuous improvement  
 
 ---
 
 # Assessment Result
 
-Each domain receives a domain score based on the average score of its controls.
+Each domain receives a domain score based on the average score of its applicable controls.
 
-The overall ACP score is calculated across all domains.
+The overall ACP score is the average of all applicable domain scores.
 
-Organizations may qualify for **Active Cyber Program (ACP) Certification** if they demonstrate that cybersecurity is actively managed across governance, operational and technical domains.
+Certification decisions follow the requirements defined in `assessment/scoring-model.md`.

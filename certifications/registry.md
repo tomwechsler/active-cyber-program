@@ -40,7 +40,7 @@ ACP certifications are issued by:
 
 **Wechsler Information Solution**
 
-Germany • Switzerland • Austria
+Hofackerstrasse 8, 4625 Oberbuchsiten, Switzerland
 
 ---
 

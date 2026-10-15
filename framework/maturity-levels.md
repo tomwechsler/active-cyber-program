@@ -90,7 +90,7 @@ Security performance is measured using defined metrics and reporting mechanisms.
 * Security incidents are analyzed
 * Leadership receives regular security reporting
 
-Organizations at this level operate an **active cybersecurity program**.
+Organizations at this level actively measure and steer their cybersecurity program.
 
 ---
 
@@ -114,9 +114,17 @@ Organizations at this level demonstrate a highly mature and resilient cybersecur
 
 # Maturity Evaluation
 
-During an ACP assessment, each control domain is evaluated and assigned a maturity level.
+During an ACP assessment, each control is scored and domain scores and the overall ACP score are calculated.
 
-The overall maturity of the organization is determined by combining the maturity levels across all domains.
+The overall maturity level is derived from the overall ACP score. The same mapping may be applied to individual domain scores. The mapping is defined in `assessment/scoring-model.md`:
+
+| Score Range   | Maturity Level      |
+| ------------- | ------------------- |
+| 0.00 – 0.99   | Level 1 – Initial   |
+| 1.00 – 1.99   | Level 2 – Managed   |
+| 2.00 – 2.49   | Level 3 – Defined   |
+| 2.50 – 2.79   | Level 4 – Measured  |
+| 2.80 – 3.00   | Level 5 – Optimized |
 
 The maturity model helps organizations:
 
@@ -129,6 +137,8 @@ The maturity model helps organizations:
 
 # Target Maturity for ACP Certification
 
-Organizations seeking **Active Cyber Program (ACP) Certification** are expected to demonstrate cybersecurity maturity at least at **Level 3 – Defined** across the majority of domains.
+Organizations seeking **Active Cyber Program (ACP) Certification** must meet the certification requirements defined in `assessment/scoring-model.md`: an overall ACP score of at least 2.00, every applicable critical domain at 2.00 or higher, and no knock-out control scored 0.
+
+Organizations meeting these requirements reach at least **Level 3 – Defined**.
 
 Higher maturity levels indicate stronger and more actively managed cybersecurity programs.

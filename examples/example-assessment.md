@@ -46,7 +46,7 @@ The evaluation was performed using:
 | Endpoint Security              | 2.0   |
 | Network Security               | 2.2   |
 | Data Protection & Encryption   | 2.3   |
-| Monitoring & Incident Response | 1.9   |
+| Monitoring & Incident Response | 2.0   |
 | Continuous Improvement         | 2.1   |
 | AI Security                    | 2.0   |
 
@@ -54,9 +54,16 @@ The evaluation was performed using:
 
 # Overall Result
 
-Overall ACP Score: **2.14**
+Overall ACP Score: **2.15**
 
 ACP Maturity Level: **Level 3 – Defined**
+
+Certification requirements:
+
+☑ Overall ACP score ≥ 2.00  
+☑ Every applicable critical domain ≥ 2.00 (lowest: Monitoring & Incident Response, 2.00)  
+☑ No knock-out control scored 0  
+☑ All control scores supported by evidence  
 
 Certification Decision:
 ☑ ACP Certification Granted
