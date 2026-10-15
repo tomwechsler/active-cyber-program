@@ -14,6 +14,7 @@ The purpose of this changelog is to provide transparency regarding updates to th
 - Example assessment and certification aligned with framework version 1.1 (dates, overall score)
 - Certification registry no longer lists the fictional example organization as certified
 - Repository structure in README updated
+- Contact e-mail added to README, SECURITY.md, trademark, registry and agreement template
 
 ## [1.1] - 2026-05-18
 

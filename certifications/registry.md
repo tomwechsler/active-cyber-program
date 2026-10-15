@@ -47,3 +47,5 @@ Germany • Switzerland • Austria
 # Verification
 
 Organizations, customers, and partners may consult this registry to verify whether an organization holds a valid **Active Cyber Program Certification**.
+
+To confirm a specific certificate ID, contact [training@videtrainer.ch](mailto:training@videtrainer.ch).

@@ -18,6 +18,10 @@ Please report security concerns directly to:
 Responsible contact:
 Tom Wechsler
 
+E-mail: [training@videtrainer.ch](mailto:training@videtrainer.ch)
+
+Please do not report security issues through public GitHub issues.
+
 ---
 
 ## Responsible Disclosure

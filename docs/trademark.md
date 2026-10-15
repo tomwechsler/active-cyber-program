@@ -86,3 +86,5 @@ Unauthorized use of ACP certification marks or misrepresentation of certificatio
 Questions regarding ACP certification, authorized assessments, or use of the ACP Trust Label may be directed to:
 
 **Wechsler Information Solution**
+
+E-mail: [training@videtrainer.ch](mailto:training@videtrainer.ch)
