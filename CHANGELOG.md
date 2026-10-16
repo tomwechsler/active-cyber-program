@@ -6,7 +6,7 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
-## [Unreleased]
+## [1.3] - 2026-10-16
 
 ### Changed
 - License changed from GPLv3 to CC BY-ND 4.0, with an additional permission to fill in and share templates, questionnaire and checklist; ACP name, logo, certification and Trust Label are excluded from the license
