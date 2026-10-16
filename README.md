@@ -146,6 +146,16 @@ The ACP maturity model evaluates how effectively cybersecurity practices are imp
 
 ---
 
+## Control Mapping
+
+All ACP controls are mapped to NIS2, ISO/IEC 27001:2022, the NIST Cybersecurity Framework 2.0 and, for AI security, the NIST AI Risk Management Framework. The mapping also lists topics that ACP does not cover.
+
+`framework/control-mapping.md`
+
+[Control Mapping](./framework/control-mapping.md)
+
+---
+
 # Assessment Methodology
 
 The ACP framework includes a structured assessment methodology to evaluate cybersecurity programs.
@@ -236,6 +246,7 @@ framework/
    acp-principles.md
    control-domains.md
    maturity-levels.md
+   control-mapping.md
 
 assessment/
    assessment-checklist.md

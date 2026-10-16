@@ -74,6 +74,16 @@ See:
 
 ---
 
+## Control Mapping
+
+All ACP controls are mapped to NIS2, ISO/IEC 27001:2022, NIST CSF 2.0 and the NIST AI RMF.
+
+See:
+
+`framework/control-mapping.md`
+
+---
+
 # Assessment Methodology
 
 The ACP framework includes a structured assessment methodology to evaluate cybersecurity programs.

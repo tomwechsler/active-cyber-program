@@ -6,6 +6,8 @@ These domains cover cybersecurity from **business governance to operational and 
 
 Each domain contains six controls that are evaluated during an ACP assessment. The controls listed below correspond to the authoritative ACP assessment checklist (`assessment/assessment-checklist.md`). Controls marked **[KO]** are knock-out controls (see `assessment/scoring-model.md`).
 
+The mapping of all controls to NIS2, ISO/IEC 27001:2022, NIST CSF 2.0 and the NIST AI RMF is provided in `framework/control-mapping.md`.
+
 ---
 
 # Domain Overview
