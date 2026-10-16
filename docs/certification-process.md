@@ -19,6 +19,7 @@ The ACP certification process consists of the following phases:
 7. Certification Decision
 8. Certification Issuance
 9. Certification Registry
+10. Obligations During the Validity Period
 
 ---
 
@@ -106,12 +107,14 @@ Based on the results, a certification decision is made.
 Possible outcomes:
 
 • ACP Certification Granted  
-• ACP Certification Pending (improvements required)  
+• ACP Certification Pending (gaps must be remediated within 3 months)  
 • ACP Certification Not Granted  
 
 The final decision is made by:
 
 **Wechsler Information Solution**
+
+The decision and its rationale are documented. Decisions may be appealed within 30 days (see `docs/certification.md`).
 
 ---
 
@@ -127,13 +130,24 @@ If certification is granted:
 
 # 9. Certification Registry
 
-Certified organizations may be listed in the ACP registry.
+Certified organizations are listed in the ACP Certification Registry. Consent to the listing is part of the assessment agreement.
 
-The registry may include:
+The registry includes:
 
-• organization name  
 • certificate ID  
+• organization name and country  
+• certified scope  
+• framework version  
 • validity period  
+• status (Valid, Suspended, Withdrawn, Expired)  
+
+---
+
+# 10. Obligations During the Validity Period
+
+Certified organizations submit an annual confirmation and notify significant changes and security incidents within 30 days. Certifications may be suspended or withdrawn if the requirements are no longer met.
+
+See `docs/certification.md`.
 
 ---
 

@@ -6,6 +6,34 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
+## [Unreleased]
+
+### Changed
+- License changed from GPLv3 to CC BY-ND 4.0, with an additional permission to fill in and share templates, questionnaire and checklist; ACP name, logo, certification and Trust Label are excluded from the license
+- Trust label shows certificate ID and valid-until date instead of a star rating (`assets/acp-trust-label.svg`)
+- Trust label variant "ACP Verified" removed; only "ACP Certified" and "ACP Partner" remain
+- Certification registry extended with scope, framework version and status (Valid, Suspended, Withdrawn, Expired); listing is part of certification
+- Assessment and certification agreement template extended (client obligations, impartiality, registry consent, data protection, record retention, liability cap, termination, Swiss law and jurisdiction)
+- Certificate template and report template extended (certificate ID, certified scope, impartiality declaration)
+- `.gitignore` reduced to entries relevant for a documentation repository
+
+### Added
+- Impartiality rules: 24-month cooling-off period after consulting, conflict of interest declaration, fees independent of results
+- Assessor qualification criteria and authorized partner rules
+- "Certification Pending" limited to 3 months
+- Obligations during the validity period: annual confirmation, notification of significant changes and incidents within 30 days
+- Suspension and withdrawal rules
+- Complaints and appeals process (appeals within 30 days)
+- `tools/build-questionnaire-pdf.py` to rebuild the questionnaire PDF from Markdown
+
+### Removed
+- Unused images (`images/repoimage.*`, `assets/acp-security-layers.png`) and images replaced by SVG (`assets/acp-framework-diagram.png`, `assets/acp-trust-label.png`)
+
+### Fixed
+- Spelling in `docs/author.md`
+
+---
+
 ## [1.2] - 2026-10-15
 
 ### Changed

@@ -95,6 +95,17 @@ Cybersecurity environments change continuously; therefore periodic reassessment 
 
 ---
 
+# Certification Pending
+
+If the certification requirements are not met, the certification decision may be **ACP Certification Pending**.
+
+* The organization has **3 months** from the date of the assessment report to remediate the gaps.
+* Remediation is verified in a follow-up review limited to the affected controls.
+* If the follow-up review demonstrates that all requirements are met, the certification is granted. The 24-month validity starts on the certification date.
+* If the gaps are not remediated within 3 months, the decision becomes **ACP Certification Not Granted**. A new full assessment is then required.
+
+---
+
 # Reassessment
 
 Organizations may renew their ACP Certification by completing a reassessment before the expiration date.
@@ -104,6 +115,60 @@ Reassessment verifies that:
 * security controls remain active
 * improvements have been implemented
 * new risks are addressed
+
+---
+
+# Obligations During the Validity Period
+
+Certified organizations must:
+
+* submit a written **annual confirmation** 12 months after the certification date, stating that the cybersecurity program continues to operate and that no significant changes remain unreported
+* notify Wechsler Information Solution within **30 days** of significant changes affecting the certified scope (for example mergers, relocation or outsourcing of core IT operations)
+* notify Wechsler Information Solution within **30 days** of significant security incidents affecting the certified scope
+
+Wechsler Information Solution may request evidence or perform a focused review of affected controls based on such notifications.
+
+---
+
+# Suspension and Withdrawal
+
+## Suspension
+
+A certification may be **suspended** if:
+
+* a knock-out control is no longer met
+* the annual confirmation or a required notification is not submitted
+* the certification or the ACP Trust Label is misused
+* there are substantiated indications that certification requirements are no longer met
+
+During suspension the ACP Trust Label must not be used and the registry shows the status **Suspended**.
+
+A suspension lasts at most **3 months**. It is lifted when the organization provides evidence that the cause has been resolved.
+
+## Withdrawal
+
+A certification is **withdrawn** if:
+
+* the cause of a suspension is not resolved within 3 months
+* false or misleading information was provided during the assessment
+* the certification or the ACP Trust Label is seriously misused
+* the organization requests withdrawal
+
+After withdrawal the registry shows the status **Withdrawn**. The organization must remove the ACP Trust Label and all references to the certification from its materials within **30 days**.
+
+---
+
+# Complaints and Appeals
+
+## Appeals
+
+Organizations may appeal a certification decision, a suspension or a withdrawal in writing within **30 days** of the decision.
+
+Appeals are sent to [training@videotrainer.ch](mailto:training@videotrainer.ch). Receipt is confirmed within 10 business days. Where possible, the appeal is reviewed by a person not involved in the original assessment. The appeal decision is communicated in writing within 60 days.
+
+## Complaints
+
+Complaints about certified organizations, the use of the ACP Trust Label, or the conduct of assessors may be submitted to the same address. Complaints are handled confidentially and may lead to a focused review, suspension or withdrawal.
 
 ---
 

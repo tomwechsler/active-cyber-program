@@ -18,10 +18,13 @@ The assessment confirms that cybersecurity is actively managed within the organi
 
 # Certification Details
 
-Organization:
-Assessment Date:
-Certification Date:
-Certification Valid Until:
+Certificate ID:  
+Organization:  
+Certified Scope:  
+ACP Framework Version:  
+Assessment Date:  
+Certification Date:  
+Certification Valid Until:  
 
 ACP Maturity Level:
 
@@ -44,6 +47,8 @@ Hofackerstrasse 8, 4625 Oberbuchsiten, Switzerland
 ACP Certification confirms that the organization operates a structured and active cybersecurity program.
 
 Certification does not guarantee the absence of security incidents but confirms the presence of cybersecurity governance, operational security processes and technical safeguards.
+
+The certification remains valid only while the obligations defined in the ACP certification program are met. Its current status can be verified in the ACP Certification Registry using the certificate ID.
 
 ---
 

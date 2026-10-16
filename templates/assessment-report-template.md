@@ -18,6 +18,10 @@ Assessment Location:
 Lead Assessor:  
 Supporting Assessor(s):  
 
+## Impartiality Declaration
+
+☐ The assessors and their organizations have not provided consulting on the design, implementation or operation of the organization's cybersecurity program within the previous 24 months, and no other conflict of interest exists (see `docs/governance.md`).
+
 ---
 
 # Assessment Scope

@@ -42,19 +42,71 @@ Only assessments performed under the authority of **Wechsler Information Solutio
 
 # Authorized Assessors
 
-ACP assessments are conducted by qualified assessors following the ACP methodology.
+ACP assessments are conducted by authorized assessors following the ACP methodology.
 
 Assessors may include:
 
-* internal assessors from Wechsler Information Solution
-* authorized partners
-* qualified cybersecurity professionals working under ACP assessment guidelines
+* assessors from Wechsler Information Solution
+* assessors of authorized ACP partners
+
+## Assessor Qualification
+
+An assessor must:
+
+* have at least five years of professional experience in information security, including at least two years of experience in security assessments or audits
+* hold a recognized information security or audit certification (for example CISSP, ISO/IEC 27001 Lead Auditor, NIST CSF 2.0 Lead Auditor) or demonstrate equivalent qualification
+* have completed the ACP assessor briefing provided by Wechsler Information Solution
+* have signed a confidentiality and impartiality declaration
+* hold a written authorization from Wechsler Information Solution
+
+Assessor authorizations are valid for 24 months and may be renewed.
+
+## Authorized Partners
+
+Organizations may become authorized ACP partners based on a written partner agreement with Wechsler Information Solution.
+
+Partners perform assessments with their own authorized assessors. Wechsler Information Solution reviews partner assessment reports and makes all certification decisions.
+
+Authorized partners may use the **ACP Partner** label for the duration of the partner agreement.
+
+## Assessor Obligations
 
 Authorized assessors must follow:
 
 * the ACP assessment process
 * the ACP scoring model
 * the ACP evidence requirements
+* the impartiality rules defined in this document
+
+---
+
+# Impartiality
+
+Wechsler Information Solution provides consulting, training and ACP certification. The following rules ensure that certification decisions remain impartial.
+
+## Cooling-off Period
+
+An assessor must not assess an organization if the assessor or the assessor's organization has provided **consulting** on the design, implementation or operation of that organization's cybersecurity program within the **previous 24 months**.
+
+Consulting includes support in remediating findings of an ACP assessment.
+
+General training, such as public courses or training not tailored to the design of the organization's cybersecurity program, is not considered consulting.
+
+## Conflict of Interest Declaration
+
+Before each assessment, the assessor declares in writing that no conflict of interest exists. The declaration is documented in the assessment report.
+
+If a conflict of interest becomes known during the assessment, the assessment is stopped and may be continued by a different assessor.
+
+## Independence of Fees
+
+Assessment fees do not depend on the assessment result or the certification decision.
+
+## Certification Decisions
+
+Certification decisions are based solely on the documented control scores, the evidence, and the requirements defined in `assessment/scoring-model.md`. The rationale for each decision is documented.
+
+Organizations may appeal certification decisions (see `docs/certification.md`).
 
 ---
 

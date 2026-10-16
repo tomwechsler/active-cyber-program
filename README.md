@@ -2,6 +2,7 @@
 
 ![Framework Version](https://img.shields.io/badge/framework-ACP%201.2-blue)
 ![Status](https://img.shields.io/badge/status-active-green)
+![License](https://img.shields.io/badge/license-CC%20BY--ND%204.0-lightgrey)
 ![Certification](https://img.shields.io/badge/certification-ACP-blue)
 ![Region](https://img.shields.io/badge/region-DACH-lightgrey)
 ![Maintainer](https://img.shields.io/badge/maintainer-Wechsler%20Information%20Solution-darkblue)
@@ -260,14 +261,11 @@ legal/
 
 assets/
    acp-logo.png
-   acp-framework-diagram.png
    acp-framework-diagram.svg
-   acp-security-layers.png
-   acp-trust-label.png
+   acp-trust-label.svg
 
-images/
-   repoimage.jpg
-   repoimage.png
+tools/
+   build-questionnaire-pdf.py
 ```
 
 ---
@@ -311,8 +309,12 @@ New framework versions may be published periodically.
 
 # License
 
-The ACP framework documentation is published to promote transparency and improve cybersecurity practices.
+The ACP framework documentation is licensed under the [Creative Commons Attribution-NoDerivatives 4.0 International License (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/).
 
-Use of the framework for internal assessments and cybersecurity improvement initiatives is permitted.
+* You may share the unmodified framework for any purpose with attribution.
+* Organizations and assessors may fill in, extend and share the templates, the assessment questionnaire and the checklist for their own assessments (additional permission, see `LICENSE`).
+* Modified versions of the framework itself must not be distributed.
 
-ACP Certification and the ACP Trust Label remain governed by the ACP certification program.
+The names "Active Cyber Program" and "ACP", the ACP logo, the ACP Certification and the ACP Trust Label are not covered by this license. Their use is governed by the [trademark and certification usage policy](./docs/trademark.md).
+
+See [LICENSE](./LICENSE).

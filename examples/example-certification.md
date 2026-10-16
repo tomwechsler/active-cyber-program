@@ -28,7 +28,9 @@ The assessment confirms that cybersecurity is **actively managed and integrated 
 
 # Certification Details
 
+Certificate ID: ACP-EXAMPLE-001
 Organization: ExampleTech GmbH
+Certified Scope: Corporate IT infrastructure and operational processes
 Industry: Software Services
 Headquarters: Munich, Germany
 

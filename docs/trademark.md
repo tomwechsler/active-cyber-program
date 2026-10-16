@@ -19,6 +19,10 @@ Organizations and individuals may:
 
 However, the framework must not be misrepresented as an official certification without authorization.
 
+The framework documentation is licensed under CC BY-ND 4.0 (see `LICENSE`). This license covers the documentation only. It does not grant any rights to the ACP name, logo, certification or trust label.
+
+Organizations may describe their use of the framework factually, for example "Our security program is aligned with the Active Cyber Program (ACP) framework." Statements such as "ACP certified" or "ACP compliant" require a valid ACP Certification.
+
 ---
 
 # ACP Certification
@@ -44,11 +48,14 @@ The trust label may be used in:
 * security documentation
 * supplier security responses
 
+The trust label must always show the organization's **certificate ID** and **valid-until date** and should link to the ACP Certification Registry where technically possible. These fields are the only permitted changes to the label.
+
 The trust label must not be:
 
-* modified
+* modified beyond the certificate ID and valid-until date
 * altered in design
-* used after certification expiration
+* used during suspension, after withdrawal, or after certification expiration
+* applied to organizational units outside the certified scope
 * used in a misleading manner
 
 ---
@@ -78,6 +85,8 @@ The **Active Cyber Program (ACP)** name, certification program, and trust label 
 **Wechsler Information Solution**
 
 Unauthorized use of ACP certification marks or misrepresentation of certification status is not permitted.
+
+Misuse of the ACP Certification or the ACP Trust Label may lead to suspension or withdrawal of the certification (see `docs/certification.md`).
 
 ---
 

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" width="480" height="260" role="img" aria-labelledby="title desc">
+  <title id="title">ACP Certified Trust Label</title>
+  <desc id="desc">ACP Certified trust label template with fields for certificate ID and valid-until date, verifiable in the ACP Certification Registry.</desc>
+  <style>
+    text { font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+    .w { fill: #ffffff; }
+    .d { fill: #1f3a5f; }
+    .m { fill: #4a5568; }
+  </style>
+
+  <rect x="2" y="2" width="476" height="256" rx="16" fill="#ffffff" stroke="#1f3a5f" stroke-width="3"/>
+  <path d="M2 18 a16 16 0 0 1 16 -16 h444 a16 16 0 0 1 16 16 v86 h-476 z" fill="#1f3a5f"/>
+
+  <g transform="translate(28 22)">
+    <path d="M32 0 L62 10 V36 C62 54 49 66 32 72 C15 66 2 54 2 36 V10 Z" fill="#ffffff"/>
+    <path d="M32 6 L56 14 V36 C56 50 46 60 32 65 C18 60 8 50 8 36 V14 Z" fill="#2f6db3"/>
+    <path d="M19 37 L29 47 L46 26" fill="none" stroke="#f2b632" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="110" y="58" class="w" style="font-size:32px;font-weight:800;letter-spacing:1px">ACP CERTIFIED</text>
+  <text x="111" y="84" class="w" style="font-size:15px;letter-spacing:2px" fill-opacity="0.9">ACTIVE CYBER PROGRAM</text>
+
+  <text x="28" y="142" class="m" style="font-size:13px">Certificate ID</text>
+  <text x="28" y="166" class="d" style="font-size:20px;font-weight:700">ACP-YYYY-NNN</text>
+
+  <text x="270" y="142" class="m" style="font-size:13px">Valid until</text>
+  <text x="270" y="166" class="d" style="font-size:20px;font-weight:700">YYYY-MM-DD</text>
+
+  <line x1="28" y1="190" x2="452" y2="190" stroke="#d5dce8" stroke-width="1.5"/>
+  <text x="28" y="214" class="m" style="font-size:12.5px">Verify in the ACP Certification Registry:</text>
+  <text x="28" y="234" class="d" style="font-size:12.5px;font-weight:600">github.com/tomwechsler/active-cyber-program</text>
+</svg>

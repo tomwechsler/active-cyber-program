@@ -13,7 +13,7 @@ Tom is a **Microsoft Most Valuable Professional (MVP)** in the areas of **Azure*
 These include:
 
 * ISC2 **CISSP**, **CCSP** and **SSCP**
-* Comptia **SecurityX (formerly CASP+)**
+* CompTIA **SecurityX (formerly CASP+)**
 * **Certified NIST CSF 2.0 Lead Implementer**
 * **Certified NIST CSF 2.0 Lead Auditor**
 * **Certified NIST AI Risk Management Framework (RMF) Architect**
@@ -37,6 +37,6 @@ As a **Microsoft Certified Trainer (MCT)**, Tom is passionate about sharing know
 * cloud architecture
 * network security
 * hybrid infrastructures
-* ai security
+* AI security
 
 His goal is to develop **practical, future-proof solutions** and to strengthen awareness of **cybersecurity and modern cloud technologies**.

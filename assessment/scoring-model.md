@@ -175,8 +175,8 @@ To receive **ACP Certification**, all of the following requirements must be met:
 | Outcome                     | Condition                                                                                                                                     |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | ACP Certification Granted   | All certification requirements are met.                                                                                                       |
-| ACP Certification Pending   | One or more requirements are not met. The organization may remediate the gaps and provide evidence for a follow-up review of the affected controls. |
-| ACP Certification Not Granted | Requirements are not met and no follow-up review is agreed, or the follow-up review does not demonstrate that the requirements are met. |
+| ACP Certification Pending   | One or more requirements are not met. The organization may remediate the gaps within **3 months** of the assessment report and provide evidence for a follow-up review of the affected controls (see `docs/certification.md`). |
+| ACP Certification Not Granted | Requirements are not met and no follow-up review is agreed, or the gaps are not remediated within 3 months. |
 
 Final certification decisions are made by **Wechsler Information Solution**.
 
