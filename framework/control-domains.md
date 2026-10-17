@@ -96,13 +96,14 @@ These policies provide guidance for secure operations across the organization.
 * 3.3 Backup policies are documented
 * 3.4 Patch management procedures exist
 * 3.5 Incident response procedures are defined
-* 3.6 Security procedures are communicated to employees
+* 3.6 Security responsibilities are agreed with employees, and security procedures are communicated to them
 
 ## Evidence Examples
 
 * Policy documents
 * Process documentation
 * Internal security guidelines
+* Employment contract templates with security and confidentiality clauses
 
 ---
 

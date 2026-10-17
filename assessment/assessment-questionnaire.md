@@ -4,7 +4,7 @@ This questionnaire supports assessors and organizations in performing an **Activ
 
 Each row corresponds to one control of the ACP assessment checklist (`assessment/assessment-checklist.md`). The guiding questions help determine **one score per control**. Questions are not scored individually.
 
-Framework version: **ACP 1.4**
+Framework version: **ACP 1.5**
 
 ---
 
@@ -75,7 +75,7 @@ Domain score:
 | 3.3 | Backup policies are documented | • Is a backup policy in place?<br>• Does it define scope, frequency, retention and restore responsibilities? | | |
 | 3.4 | Patch management procedures exist | • Is a patch management process defined?<br>• Does it define timelines based on severity? | | |
 | 3.5 | Incident response procedures are defined | • Is an incident response procedure documented?<br>• Does it define roles, reporting channels and notification obligations? | | |
-| 3.6 | Security procedures are communicated to employees | • Are employees informed about security policies and procedures?<br>• Do employees confirm that they have read them? | | |
+| 3.6 | Security responsibilities are agreed with employees, and security procedures are communicated to them | • Are security responsibilities and confidentiality obligations included in employment contracts or separate agreements?<br>• Are background checks performed for roles with access to sensitive information, where legally permitted?<br>• Are employees informed about security policies and procedures, and do they confirm that they have read them? | | |
 
 Domain score:
 

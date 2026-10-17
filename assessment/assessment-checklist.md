@@ -54,7 +54,7 @@ Controls marked **[KO]** are knock-out controls. A score of 0 in a knock-out con
 3.3 Backup policies are documented  
 3.4 Patch management procedures exist  
 3.5 Incident response procedures are defined  
-3.6 Security procedures are communicated to employees  
+3.6 Security responsibilities are agreed with employees, and security procedures are communicated to them  
 
 ---
 

@@ -124,6 +124,7 @@ Possible evidence:
 * acceptable use policy
 * incident response procedures
 * backup and recovery policies
+* employment contract templates with security and confidentiality clauses
 
 ---
 

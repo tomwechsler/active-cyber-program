@@ -73,7 +73,7 @@ For third-party AI services, see also NIST AI RMF GOVERN 6 and MANAGE 3.
 | 3.3 | Backup policies are documented | Art. 21(2)(c) | A.8.13 | PR.DS-11 |
 | 3.4 | Patch management procedures exist | Art. 21(2)(e) | A.8.8 | PR.PS-02 |
 | 3.5 | Incident response procedures are defined | Art. 21(2)(b) | A.5.24 | ID.IM-04 |
-| 3.6 | Security procedures are communicated to employees | Art. 21(2)(g) | Cl. 7.3, 7.4; A.6.3 | PR.AT-01 |
+| 3.6 | Security responsibilities are agreed with employees, and security procedures are communicated to them | Art. 21(2)(g), Art. 21(2)(i) | Cl. 7.3, 7.4; A.6.1, A.6.2, A.6.3, A.6.6 | PR.AT-01, GV.RR-04 |
 
 ---
 
@@ -201,7 +201,7 @@ The following table shows how the NIS2 cybersecurity risk-management and governa
 | Art. 21(2)(f) | Assessing the effectiveness of risk-management measures | 10.1, 10.2, 10.6 | Covered |
 | Art. 21(2)(g) | Basic cyber hygiene and cybersecurity training | Domain 6, 3.6, 10.5 | Covered |
 | Art. 21(2)(h) | Cryptography and encryption | 8.2, 8.3, 8.6 | Covered |
-| Art. 21(2)(i) | Human resources security, access control, asset management | Domain 4, 5.1, 8.1 | Partial – no human resources security (e.g., screening, terms of employment) |
+| Art. 21(2)(i) | Human resources security, access control, asset management | 3.6, Domain 4, 5.1, 8.1 | Covered |
 | Art. 21(2)(j) | Multi-factor authentication, secured communications, secured emergency communication | 4.3, 8.8 | Partial – emergency communication is addressed by 8.8; no requirement for secured voice, video and text communication |
 | Art. 23 | Reporting of significant incidents (early warning within 24 hours, incident notification within 72 hours, final report within one month) | 9.6 | Covered – reporting obligations, deadlines and responsibilities must be defined |
 
@@ -214,7 +214,7 @@ Organizations that must comply with NIS2 or seek ISO/IEC 27001 certification sho
 | Topic | NIS2 | ISO/IEC 27001:2022 | NIST CSF 2.0 |
 | ----- | ---- | ------------------ | ------------ |
 | Detailed secure development requirements (e.g., application security requirements, secure coding, security testing, outsourced development) | Art. 21(2)(e) | A.8.26 – A.8.31 | PR.PS-06 |
-| Human resources security | Art. 21(2)(i) | A.6.1, A.6.2, A.6.4, A.6.6 | GV.RR-04 |
+| Disciplinary process for security violations | – | A.6.4 | – |
 | Physical and environmental security | – | A.7.1 – A.7.14 | DE.CM-02 |
 | Legal, regulatory and contractual requirements, privacy | – | A.5.31 – A.5.34 | GV.OC-03 |
 | Threat intelligence | – | A.5.7 | ID.RA-02 |
