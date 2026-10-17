@@ -112,6 +112,7 @@ Possible evidence:
 * risk assessment reports
 * risk mitigation plans
 * third-party risk evaluations
+* list of critical suppliers and supplier security requirements in contracts
 
 ---
 
@@ -144,6 +145,7 @@ Possible evidence:
 * asset inventory
 * patch management reports
 * system configuration standards
+* change records and secure development guidelines (where software is developed or commissioned)
 * cloud security configuration
 
 ---
@@ -174,7 +176,7 @@ Possible evidence:
 
 Possible evidence:
 
-* encryption policies
+* cryptography policy (approved algorithms, key lengths, key management)
 * backup procedures and restore test records
 * data classification guidelines
 * secure file transfer processes
@@ -202,7 +204,8 @@ Possible evidence:
 
 * security audit reports
 * vulnerability assessment results
-* security training records
+* vulnerability disclosure process or security contact
+* security training records, including training of management
 * improvement plans
 
 ---

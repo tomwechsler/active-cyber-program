@@ -6,6 +6,19 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
+## [Unreleased]
+
+### Changed
+- Control 2.6 sharpened to supply chain security: critical suppliers identified, risks assessed, security requirements agreed (NIS2 Art. 21(2)(d), 21(3))
+- Control 5.5 extended to system and software changes, including secure development practices where software is developed or commissioned (NIS2 Art. 21(2)(e))
+- Control 8.2 requires a defined cryptography policy (NIS2 Art. 21(2)(h))
+- Control 10.3 extended to handling of reported vulnerabilities (vulnerability disclosure, NIS2 Art. 21(2)(e))
+- Control 10.5 extended to management training (NIS2 Art. 20(2))
+- Guiding questions, evidence examples and control mapping updated accordingly
+- NIS2 coverage: 11 of 13 requirements covered; Art. 21(2)(i) and 21(2)(j) remain partially covered
+
+---
+
 ## [1.4] - 2026-10-17
 
 ### Added

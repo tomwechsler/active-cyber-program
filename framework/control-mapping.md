@@ -58,7 +58,7 @@ The mapping helps organizations to:
 | 2.3 | Risks are evaluated based on impact and likelihood | Art. 21(2)(a) | Cl. 6.1.2 | ID.RA-04, ID.RA-05 |
 | 2.4 | Risk mitigation measures are defined | Art. 21(1), Art. 21(2)(a) | Cl. 6.1.3, 8.3 | ID.RA-06 |
 | 2.5 | Risk reviews are conducted periodically | Art. 21(2)(a), Art. 21(2)(f) | Cl. 8.2 | GV.OV-02, ID.RA-05 |
-| 2.6 | Third-party risks are considered | Art. 21(2)(d) | A.5.19, A.5.20, A.5.21, A.5.22 | GV.SC-05, GV.SC-07 |
+| 2.6 | Supply chain risks are assessed and security requirements are agreed with critical suppliers | Art. 21(2)(d), Art. 21(3) | A.5.19, A.5.20, A.5.21, A.5.22 | GV.SC-04, GV.SC-05, GV.SC-07 |
 
 For third-party AI services, see also NIST AI RMF GOVERN 6 and MANAGE 3.
 
@@ -98,7 +98,7 @@ For third-party AI services, see also NIST AI RMF GOVERN 6 and MANAGE 3.
 | 5.2 | Secure configuration standards are defined | Art. 21(2)(e) | A.8.9 | PR.PS-01 |
 | 5.3 | Systems are regularly patched and updated **[KO]** | Art. 21(2)(e) | A.8.8 | ID.RA-01, PR.PS-02 |
 | 5.4 | Administrative access to systems is restricted | Art. 21(2)(i) | A.8.2, A.8.18 | PR.AA-05, PR.IR-01 |
-| 5.5 | Infrastructure changes are documented | Art. 21(2)(e) | A.8.32 | ID.RA-07, PR.PS-01 |
+| 5.5 | System and software changes are documented and approved, following secure development practices where software is developed or commissioned | Art. 21(2)(e) | A.8.25, A.8.32 | ID.RA-07, PR.PS-01, PR.PS-06 |
 | 5.6 | Cloud infrastructure follows secure configuration practices | Art. 21(2)(d), Art. 21(2)(e) | A.5.23 | PR.PS-01 |
 
 ---
@@ -134,7 +134,7 @@ For third-party AI services, see also NIST AI RMF GOVERN 6 and MANAGE 3.
 | ACP  | Control | NIS2 | ISO/IEC 27001:2022 | NIST CSF 2.0 |
 | ---- | ------- | ---- | ------------------ | ------------ |
 | 8.1 | Sensitive data is identified and classified | Art. 21(2)(i) | A.5.12, A.5.13 | ID.AM-05, ID.AM-07 |
-| 8.2 | Encryption is used to protect sensitive data | Art. 21(2)(h) | A.8.24 | PR.DS-01, PR.DS-02 |
+| 8.2 | Encryption is used to protect sensitive data based on a defined cryptography policy | Art. 21(2)(h) | A.8.24 | PR.DS-01, PR.DS-02 |
 | 8.3 | Secure file transfer mechanisms are used | Art. 21(2)(h) | A.5.14 | PR.DS-02 |
 | 8.4 | Backup procedures are implemented and tested **[KO]** | Art. 21(2)(c) | A.8.13 | PR.DS-11, RC.RP-03 |
 | 8.5 | Backup data is protected from unauthorized access and tampering **[KO]** | Art. 21(2)(c) | A.8.13 | PR.DS-11 |
@@ -163,9 +163,9 @@ For third-party AI services, see also NIST AI RMF GOVERN 6 and MANAGE 3.
 | ---- | ------- | ---- | ------------------ | ------------ |
 | 10.1 | Security reviews are conducted periodically | Art. 21(2)(f) | Cl. 9.1, 9.3 | ID.IM-01 |
 | 10.2 | Security audits or assessments are performed | Art. 21(2)(f) | Cl. 9.2; A.5.35, A.5.36 | ID.IM-01 |
-| 10.3 | Vulnerability assessments are conducted regularly | Art. 21(2)(e), Art. 21(2)(f) | A.8.8 | ID.RA-01, ID.IM-02 |
+| 10.3 | Vulnerabilities are identified through regular assessments, and reported vulnerabilities are handled | Art. 21(2)(e), Art. 21(2)(f) | A.8.8 | ID.RA-01, ID.RA-08, ID.IM-02 |
 | 10.4 | Improvement actions are tracked | Art. 21(2)(f) | Cl. 10.1, 10.2 | ID.IM-01, ID.IM-03 |
-| 10.5 | Security awareness training is provided to employees | Art. 20(2), Art. 21(2)(g) | Cl. 7.2, 7.3; A.6.3 | PR.AT-01, PR.AT-02 |
+| 10.5 | Security awareness training is provided to employees and management | Art. 20(2), Art. 21(2)(g) | Cl. 7.2, 7.3; A.6.3 | PR.AT-01, PR.AT-02 |
 | 10.6 | Security metrics or KPIs are evaluated | Art. 21(2)(f) | Cl. 9.1 | GV.OV-03 |
 
 ---
@@ -192,15 +192,15 @@ The following table shows how the NIS2 cybersecurity risk-management and governa
 | NIS2 requirement | Topic | ACP controls | Coverage |
 | ---------------- | ----- | ------------ | -------- |
 | Art. 20(1) | Management bodies approve and oversee cybersecurity risk-management measures | 1.1, 1.4, 1.6 | Covered |
-| Art. 20(2) | Training for members of management bodies | 10.5 | Partial – ACP does not require management-specific training |
+| Art. 20(2) | Training for members of management bodies | 10.5 | Covered |
 | Art. 21(2)(a) | Policies on risk analysis and information system security | Domain 2, 3.1 | Covered |
 | Art. 21(2)(b) | Incident handling | 3.5, Domain 9 | Covered |
 | Art. 21(2)(c) | Business continuity, backup management, disaster recovery, crisis management | 3.3, 8.4, 8.5, 8.7, 8.8 | Covered |
-| Art. 21(2)(d) | Supply chain security | 2.6, 5.6 | Partial – no detailed supplier security requirements |
-| Art. 21(2)(e) | Security in acquisition, development and maintenance, including vulnerability handling and disclosure | 3.4, 5.2, 5.3, 5.5, 10.3 | Partial – no secure development or vulnerability disclosure |
+| Art. 21(2)(d), Art. 21(3) | Supply chain security | 2.6, 5.6 | Covered |
+| Art. 21(2)(e) | Security in acquisition, development and maintenance, including vulnerability handling and disclosure | 3.4, 5.2, 5.3, 5.5, 10.3 | Covered – secure development is assessed within 5.5 where software is developed or commissioned |
 | Art. 21(2)(f) | Assessing the effectiveness of risk-management measures | 10.1, 10.2, 10.6 | Covered |
 | Art. 21(2)(g) | Basic cyber hygiene and cybersecurity training | Domain 6, 3.6, 10.5 | Covered |
-| Art. 21(2)(h) | Cryptography and encryption | 8.2, 8.3, 8.6 | Partial – no explicit cryptography policy |
+| Art. 21(2)(h) | Cryptography and encryption | 8.2, 8.3, 8.6 | Covered |
 | Art. 21(2)(i) | Human resources security, access control, asset management | Domain 4, 5.1, 8.1 | Partial – no human resources security (e.g., screening, terms of employment) |
 | Art. 21(2)(j) | Multi-factor authentication, secured communications, secured emergency communication | 4.3, 8.8 | Partial – emergency communication is addressed by 8.8; no requirement for secured voice, video and text communication |
 | Art. 23 | Reporting of significant incidents (early warning within 24 hours, incident notification within 72 hours, final report within one month) | 9.6 | Covered – reporting obligations, deadlines and responsibilities must be defined |
@@ -213,7 +213,7 @@ Organizations that must comply with NIS2 or seek ISO/IEC 27001 certification sho
 
 | Topic | NIS2 | ISO/IEC 27001:2022 | NIST CSF 2.0 |
 | ----- | ---- | ------------------ | ------------ |
-| Secure development and vulnerability disclosure | Art. 21(2)(e) | A.8.25 – A.8.31 | ID.RA-08, PR.PS-06 |
+| Detailed secure development requirements (e.g., application security requirements, secure coding, security testing, outsourced development) | Art. 21(2)(e) | A.8.26 – A.8.31 | PR.PS-06 |
 | Human resources security | Art. 21(2)(i) | A.6.1, A.6.2, A.6.4, A.6.6 | GV.RR-04 |
 | Physical and environmental security | – | A.7.1 – A.7.14 | DE.CM-02 |
 | Legal, regulatory and contractual requirements, privacy | – | A.5.31 – A.5.34 | GV.OC-03 |
@@ -249,6 +249,7 @@ NIS2 does not apply directly in Switzerland. Operators of critical infrastructur
 | Art. 21(2)(h) | Policies and procedures regarding the use of cryptography and, where appropriate, encryption |
 | Art. 21(2)(i) | Human resources security, access control policies and asset management |
 | Art. 21(2)(j) | Multi-factor or continuous authentication, secured voice, video and text communications and secured emergency communication systems |
+| Art. 21(3) | Supply chain measures take into account the vulnerabilities of each direct supplier and service provider and their cybersecurity practices, including secure development procedures |
 | Art. 23 | Reporting obligations |
 
 ## ISO/IEC 27001:2022 – Clauses
@@ -355,6 +356,7 @@ NIS2 does not apply directly in Switzerland. Operators of critical infrastructur
 | GV.OV-01 | Cybersecurity risk management strategy outcomes are reviewed to inform and adjust strategy and direction |
 | GV.OV-02 | The cybersecurity risk management strategy is reviewed and adjusted |
 | GV.OV-03 | Organizational cybersecurity risk management performance is evaluated and reviewed for adjustments needed |
+| GV.SC-04 | Suppliers are known and prioritized by criticality |
 | GV.SC-05 | Requirements to address cybersecurity risks in supply chains are integrated into contracts and agreements |
 | GV.SC-07 | The risks posed by suppliers and other third parties are understood, recorded, prioritized, assessed, responded to, and monitored |
 | ID.AM-01 | Inventories of hardware managed by the organization are maintained |

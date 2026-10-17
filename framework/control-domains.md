@@ -69,7 +69,7 @@ Organizations must demonstrate that cyber risks are actively monitored and mitig
 * 2.3 Risks are evaluated based on impact and likelihood
 * 2.4 Risk mitigation measures are defined
 * 2.5 Risk reviews are conducted periodically
-* 2.6 Third-party risks are considered
+* 2.6 Supply chain risks are assessed and security requirements are agreed with critical suppliers
 
 ## Evidence Examples
 
@@ -77,6 +77,7 @@ Organizations must demonstrate that cyber risks are actively monitored and mitig
 * Risk assessment reports
 * Risk treatment plans
 * Third-party risk evaluations
+* Critical supplier list and supplier contracts
 
 ---
 
@@ -145,7 +146,7 @@ Infrastructure security provides the foundation for protecting organizational sy
 * 5.2 Secure configuration standards are defined
 * 5.3 Systems are regularly patched and updated **[KO]**
 * 5.4 Administrative access to systems is restricted
-* 5.5 Infrastructure changes are documented
+* 5.5 System and software changes are documented and approved, following secure development practices where software is developed or commissioned
 * 5.6 Cloud infrastructure follows secure configuration practices
 
 ## Evidence Examples
@@ -153,6 +154,7 @@ Infrastructure security provides the foundation for protecting organizational sy
 * Asset inventory
 * Patch management reports
 * System configuration documentation
+* Change records and secure development guidelines
 * Cloud security settings
 
 ---
@@ -220,7 +222,7 @@ This domain includes encryption, backup, secure data handling, business continui
 ## Controls
 
 * 8.1 Sensitive data is identified and classified
-* 8.2 Encryption is used to protect sensitive data
+* 8.2 Encryption is used to protect sensitive data based on a defined cryptography policy
 * 8.3 Secure file transfer mechanisms are used
 * 8.4 Backup procedures are implemented and tested **[KO]**
 * 8.5 Backup data is protected from unauthorized access and tampering **[KO]**
@@ -231,7 +233,7 @@ This domain includes encryption, backup, secure data handling, business continui
 ## Evidence Examples
 
 * Data classification policies
-* Encryption settings
+* Cryptography policy and encryption settings
 * Backup and restore test reports
 * Secure transfer procedures
 * Business impact analysis with recovery objectives (RTO/RPO)
@@ -278,17 +280,17 @@ An active cybersecurity program evolves over time and adapts to new threats and 
 
 * 10.1 Security reviews are conducted periodically
 * 10.2 Security audits or assessments are performed
-* 10.3 Vulnerability assessments are conducted regularly
+* 10.3 Vulnerabilities are identified through regular assessments, and reported vulnerabilities are handled
 * 10.4 Improvement actions are tracked
-* 10.5 Security awareness training is provided to employees
+* 10.5 Security awareness training is provided to employees and management
 * 10.6 Security metrics or KPIs are evaluated
 
 ## Evidence Examples
 
 * Audit reports
-* Vulnerability scan reports
+* Vulnerability scan reports and vulnerability disclosure process
 * Security improvement plans
-* Training records
+* Training records, including management training
 
 ---
 

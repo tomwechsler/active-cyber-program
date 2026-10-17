@@ -60,7 +60,7 @@ Domain score:
 | 2.3 | Risks are evaluated based on impact and likelihood | • Is a documented risk assessment methodology in place?<br>• Are risks rated by likelihood and impact? | | |
 | 2.4 | Risk mitigation measures are defined | • Are mitigation measures defined for relevant risks?<br>• Are measures tracked to completion?<br>• Is the acceptance of residual risks formally approved? | | |
 | 2.5 | Risk reviews are conducted periodically | • Are risks reviewed at defined intervals?<br>• When was the last review performed? | | |
-| 2.6 | Third-party risks are considered | • Are risks from suppliers and service providers assessed?<br>• Are security requirements included in contracts with critical suppliers? | | |
+| 2.6 | Supply chain risks are assessed and security requirements are agreed with critical suppliers | • Are critical suppliers and service providers identified?<br>• Are their security risks and practices assessed before and during the relationship, including secure development practices of software suppliers?<br>• Are security requirements included in contracts with critical suppliers? | | |
 
 Domain score:
 
@@ -104,7 +104,7 @@ Domain score:
 | 5.2 | Secure configuration standards are defined | • Are secure configuration standards (hardening baselines) defined?<br>• Are they based on recognized benchmarks (e.g., CIS Benchmarks)?<br>• Is compliance with the standards checked? | | |
 | 5.3 | Systems are regularly patched and updated **[KO]** | • Are security updates applied within defined timeframes?<br>• Are critical vulnerabilities patched with priority?<br>• Are unsupported systems identified and handled? | | |
 | 5.4 | Administrative access to systems is restricted | • Is administrative access restricted to authorized personnel and dedicated access paths?<br>• Are administrative interfaces protected from direct internet access? | | |
-| 5.5 | Infrastructure changes are documented | • Are infrastructure changes documented and approved?<br>• Is a change management process in place? | | |
+| 5.5 | System and software changes are documented and approved, following secure development practices where software is developed or commissioned | • Are changes to systems and software documented and approved?<br>• Is a change management process in place?<br>• If software is developed in-house or commissioned: are secure development practices defined (e.g., secure coding, security testing, separation of development and production)? | | |
 | 5.6 | Cloud infrastructure follows secure configuration practices | • Are cloud environments configured according to security best practices?<br>• Is the cloud security posture monitored (e.g., secure score, posture management)? | | |
 
 Domain score:
@@ -146,7 +146,7 @@ Domain score:
 | ID  | Control | Guiding questions | Score | Evidence / Notes |
 | --- | ------- | ----------------- | ----- | ---------------- |
 | 8.1 | Sensitive data is identified and classified | • Is sensitive data identified?<br>• Is a data classification scheme in place and applied? | | |
-| 8.2 | Encryption is used to protect sensitive data | • Is sensitive data encrypted at rest and in transit?<br>• Are encryption keys managed securely? | | |
+| 8.2 | Encryption is used to protect sensitive data based on a defined cryptography policy | • Is a cryptography policy defined (e.g., approved algorithms, key lengths, key management)?<br>• Is sensitive data encrypted at rest and in transit according to this policy?<br>• Are encryption keys managed securely? | | |
 | 8.3 | Secure file transfer mechanisms are used | • Are secure file transfer methods used (e.g., SFTP, secure sharing platforms)?<br>• Are insecure transfer methods prohibited? | | |
 | 8.4 | Backup procedures are implemented and tested **[KO]** | • Are backups performed according to the backup policy?<br>• Are restores tested regularly and documented? | | |
 | 8.5 | Backup data is protected from unauthorized access and tampering **[KO]** | • Are backups protected against unauthorized access and ransomware (e.g., offline or immutable copies, separate credentials)?<br>• Is at least one backup copy stored at a separate location? | | |
@@ -179,9 +179,9 @@ Domain score:
 | ---- | ------- | ----------------- | ----- | ---------------- |
 | 10.1 | Security reviews are conducted periodically | • Are security reviews conducted at defined intervals?<br>• Are the results documented? | | |
 | 10.2 | Security audits or assessments are performed | • Are internal or external security audits performed?<br>• Are findings tracked? | | |
-| 10.3 | Vulnerability assessments are conducted regularly | • Are vulnerability scans or penetration tests conducted regularly?<br>• Are findings remediated? | | |
+| 10.3 | Vulnerabilities are identified through regular assessments, and reported vulnerabilities are handled | • Are vulnerability scans or penetration tests conducted regularly?<br>• Are findings remediated?<br>• Is there a process for receiving and handling vulnerability reports from external parties (e.g., security contact, vulnerability disclosure policy)? | | |
 | 10.4 | Improvement actions are tracked | • Are improvement actions tracked with owners and deadlines?<br>• Is progress reported? | | |
-| 10.5 | Security awareness training is provided to employees | • Do all employees receive security awareness training?<br>• Are phishing simulations conducted?<br>• Is participation tracked? | | |
+| 10.5 | Security awareness training is provided to employees and management | • Do all employees receive security awareness training?<br>• Do members of management receive cybersecurity training (e.g., as required by NIS2 Art. 20(2))?<br>• Are phishing simulations conducted, and is participation tracked? | | |
 | 10.6 | Security metrics or KPIs are evaluated | • Are security metrics or KPIs defined?<br>• Are they evaluated and reported? | | |
 
 Domain score:
