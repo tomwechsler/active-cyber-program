@@ -17,7 +17,7 @@ Headquarters: Munich, Germany
 
 Assessment Date: 20 October 2026
 Assessment Scope: Corporate IT infrastructure and operational processes
-Framework Version: ACP 1.5
+Framework Version: ACP 1.5.1
 
 ---
 
@@ -36,32 +36,34 @@ The evaluation was performed using:
 
 # Domain Evaluation
 
-| Domain                         | Score |
-| ------------------------------ | ----- |
-| Business & Security Governance | 2.2   |
-| Risk Management                | 2.0   |
-| Security Policies & Processes  | 2.3   |
-| Identity & Access Management   | 2.4   |
-| Infrastructure Security        | 2.1   |
-| Endpoint Security              | 2.0   |
-| Network Security               | 2.2   |
-| Data Protection, Backup & Recovery | 2.3   |
-| Monitoring & Incident Response | 2.0   |
-| Continuous Improvement         | 2.1   |
-| AI Security                    | 2.0   |
+Domain scores are the average of the control scores, rounded to two decimal places.
+
+| Domain                             | Controls | Score |
+| ---------------------------------- | -------- | ----- |
+| Business & Security Governance     | 6        | 2.17  |
+| Risk Management                    | 6        | 2.00  |
+| Security Policies & Processes      | 6        | 2.33  |
+| Identity & Access Management       | 6        | 2.33  |
+| Infrastructure Security            | 6        | 2.17  |
+| Endpoint Security                  | 6        | 2.00  |
+| Network Security                   | 6        | 2.17  |
+| Data Protection, Backup & Recovery | 8        | 2.25  |
+| Monitoring & Incident Response     | 6        | 2.00  |
+| Continuous Improvement             | 6        | 2.17  |
+| AI Security                        | 6        | 2.00  |
 
 ---
 
 # Overall Result
 
-Overall ACP Score: **2.15**
+Overall ACP Score: **2.14**
 
 ACP Maturity Level: **Level 3 – Defined**
 
 Certification requirements:
 
 ☑ Overall ACP score ≥ 2.00  
-☑ Every applicable critical domain ≥ 2.00 (lowest: Monitoring & Incident Response, 2.00)  
+☑ Every applicable critical domain ≥ 2.00 (lowest: Monitoring & Incident Response and AI Security, 2.00)  
 ☑ No knock-out control scored 0  
 ☑ All control scores supported by evidence  
 

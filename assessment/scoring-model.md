@@ -88,6 +88,8 @@ Domain score:
 
 (2 + 2 + 3 + 1 + 2 + 3) / 6 = **2.17**
 
+Because control scores are whole numbers, only certain domain scores are possible. With six applicable controls these are multiples of 1/6 (for example 2.00, 2.17, 2.33, 2.50); with eight controls (Domain 8) multiples of 1/8 (for example 2.00, 2.13, 2.25, 2.38).
+
 ---
 
 # Overall ACP Score
@@ -98,23 +100,23 @@ Example:
 
 | Domain                         | Score |
 | ------------------------------ | ----- |
-| Governance                     | 2.20  |
-| Risk Management                | 2.10  |
+| Governance                     | 2.17  |
+| Risk Management                | 2.00  |
 | Security Policies              | 2.00  |
-| Identity & Access Management   | 2.20  |
-| Infrastructure Security        | 2.10  |
+| Identity & Access Management   | 2.17  |
+| Infrastructure Security        | 2.17  |
 | Endpoint Security              | 2.00  |
-| Network Security               | 2.30  |
-| Data Protection                | 2.20  |
-| Monitoring & Incident Response | 2.10  |
+| Network Security               | 2.33  |
+| Data Protection                | 2.25  |
+| Monitoring & Incident Response | 2.17  |
 | Continuous Improvement         | 2.00  |
 | AI Security (if applicable)    | 2.00  |
 
 Overall ACP Score:
 
-23.20 / 11 = **2.11**
+23.26 / 11 = **2.11**
 
-If the AI Security domain were not applicable, the overall score would be 21.20 / 10 = **2.12**.
+If the AI Security domain were not applicable, the overall score would be 21.26 / 10 = **2.13**.
 
 ---
 

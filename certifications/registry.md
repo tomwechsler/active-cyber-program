@@ -22,7 +22,7 @@ The following entry illustrates the registry format only. **It is not a valid AC
 
 | Certificate ID   | Organization     | Country | Scope                                    | Framework | Certification Date | Valid Until | Status |
 | ---------------- | ---------------- | ------- | ---------------------------------------- | --------- | ------------------ | ----------- | ------ |
-| ACP-EXAMPLE-001  | ExampleTech GmbH | Germany | Corporate IT infrastructure and processes | ACP 1.5   | 2026-10-26         | 2028-10-26  | Example |
+| ACP-EXAMPLE-001  | ExampleTech GmbH | Germany | Corporate IT infrastructure and processes | ACP 1.5.1 | 2026-10-26         | 2028-10-26  | Example |
 
 ---
 

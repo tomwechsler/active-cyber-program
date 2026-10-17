@@ -6,6 +6,15 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
+## [1.5.1] - 2026-10-17
+
+### Fixed
+- Example domain scores replaced with values that are reachable with whole-number control scores and two decimal places (`examples/example-assessment.md`, `assessment/scoring-model.md`); example overall score corrected to 2.14
+- Scoring model explains which domain scores are possible (multiples of 1/6, or 1/8 for Domain 8)
+- NIS2 Art. 21(2)(e) classified as partially covered, consistent with the list of topics not covered; NIS2 coverage in version 1.5 is 11 of 13 requirements (not 12 as stated in the 1.5 entry)
+
+---
+
 ## [1.5] - 2026-10-17
 
 ### Changed

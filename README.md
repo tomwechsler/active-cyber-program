@@ -1,6 +1,6 @@
 # Active Cyber Program (ACP)
 
-![Framework Version](https://img.shields.io/badge/framework-ACP%201.5-blue)
+![Framework Version](https://img.shields.io/badge/framework-ACP%201.5.1-blue)
 ![Status](https://img.shields.io/badge/status-active-green)
 ![License](https://img.shields.io/badge/license-CC%20BY--ND%204.0-lightgrey)
 ![Certification](https://img.shields.io/badge/certification-ACP-blue)
@@ -31,7 +31,7 @@ The framework provides organizations with a structured method to evaluate, impro
 
 Current framework version:
 
-**ACP Framework Version 1.5**
+**ACP Framework Version 1.5.1**
 
 See the following files for version information:
 

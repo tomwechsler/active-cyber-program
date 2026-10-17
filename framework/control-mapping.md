@@ -197,7 +197,7 @@ The following table shows how the NIS2 cybersecurity risk-management and governa
 | Art. 21(2)(b) | Incident handling | 3.5, Domain 9 | Covered |
 | Art. 21(2)(c) | Business continuity, backup management, disaster recovery, crisis management | 3.3, 8.4, 8.5, 8.7, 8.8 | Covered |
 | Art. 21(2)(d), Art. 21(3) | Supply chain security | 2.6, 5.6 | Covered |
-| Art. 21(2)(e) | Security in acquisition, development and maintenance, including vulnerability handling and disclosure | 3.4, 5.2, 5.3, 5.5, 10.3 | Covered – secure development is assessed within 5.5 where software is developed or commissioned |
+| Art. 21(2)(e) | Security in acquisition, development and maintenance, including vulnerability handling and disclosure | 3.4, 5.2, 5.3, 5.5, 10.3 | Partial – secure development is assessed only at a basic level within 5.5; detailed secure development requirements are not covered |
 | Art. 21(2)(f) | Assessing the effectiveness of risk-management measures | 10.1, 10.2, 10.6 | Covered |
 | Art. 21(2)(g) | Basic cyber hygiene and cybersecurity training | Domain 6, 3.6, 10.5 | Covered |
 | Art. 21(2)(h) | Cryptography and encryption | 8.2, 8.3, 8.6 | Covered |
