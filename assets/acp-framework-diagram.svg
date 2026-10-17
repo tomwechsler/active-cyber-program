@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-labelledby="title desc">
   <title id="title">ACP Framework Domains</title>
-  <desc id="desc">The eleven ACP control domains in six groups: Governance (1 Business and Security Governance, 2 Risk Management), Security Management (3 Security Policies and Processes, 4 Identity and Access Management), Infrastructure Protection (5 Infrastructure Security, 6 Endpoint Security, 7 Network Security), Data and Monitoring (8 Data Protection and Encryption, 9 Monitoring and Incident Response), Program Development (10 Continuous Improvement) and AI Security (11 AI Security, if applicable). Domains 1, 4, 8, 9 and 11 are critical.</desc>
+  <desc id="desc">The eleven ACP control domains in six groups: Governance (1 Business and Security Governance, 2 Risk Management), Security Management (3 Security Policies and Processes, 4 Identity and Access Management), Infrastructure Protection (5 Infrastructure Security, 6 Endpoint Security, 7 Network Security), Data and Monitoring (8 Data Protection, Backup and Recovery, 9 Monitoring and Incident Response), Program Development (10 Continuous Improvement) and AI Security (11 AI Security, if applicable). Domains 1, 4, 8, 9 and 11 are critical.</desc>
   <style>
     text { font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif; fill: #ffffff; }
     .h { font-size: 20px; font-weight: 700; }
@@ -32,7 +32,7 @@
 
   <rect x="44" y="470" width="712" height="96" rx="10" fill="#1d4b85"/>
   <text x="68" y="500" class="h">Data &amp; Monitoring</text>
-  <text x="88" y="526" class="i">8  Data Protection &amp; Encryption <tspan class="c">(critical)</tspan></text>
+  <text x="88" y="526" class="i">8  Data Protection, Backup &amp; Recovery <tspan class="c">(critical)</tspan></text>
   <text x="88" y="550" class="i">9  Monitoring &amp; Incident Response <tspan class="c">(critical)</tspan></text>
 
   <rect x="44" y="580" width="712" height="72" rx="10" fill="#7349ad"/>

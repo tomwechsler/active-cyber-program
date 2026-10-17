@@ -129,7 +129,7 @@ For third-party AI services, see also NIST AI RMF GOVERN 6 and MANAGE 3.
 
 ---
 
-# Domain 8 – Data Protection & Encryption
+# Domain 8 – Data Protection, Backup & Recovery
 
 | ACP  | Control | NIS2 | ISO/IEC 27001:2022 | NIST CSF 2.0 |
 | ---- | ------- | ---- | ------------------ | ------------ |
@@ -139,6 +139,8 @@ For third-party AI services, see also NIST AI RMF GOVERN 6 and MANAGE 3.
 | 8.4 | Backup procedures are implemented and tested **[KO]** | Art. 21(2)(c) | A.8.13 | PR.DS-11, RC.RP-03 |
 | 8.5 | Backup data is protected from unauthorized access and tampering **[KO]** | Art. 21(2)(c) | A.8.13 | PR.DS-11 |
 | 8.6 | Files exchanged or archived outside protected systems are encrypted using current algorithms (e.g., AES-256) | Art. 21(2)(h) | A.5.14, A.8.24 | PR.DS-01, PR.DS-02 |
+| 8.7 | Business continuity and disaster recovery plans are documented and tested | Art. 21(2)(c) | A.5.29, A.5.30, A.8.14 | ID.IM-04, PR.IR-03, RC.RP-01 |
+| 8.8 | Crisis management and emergency communication are defined | Art. 21(2)(c), Art. 21(2)(j) | A.5.24, A.5.29 | RS.CO-03, RC.CO-03 |
 
 ---
 
@@ -151,7 +153,7 @@ For third-party AI services, see also NIST AI RMF GOVERN 6 and MANAGE 3.
 | 9.3 | Security alerts are reviewed regularly | Art. 21(2)(b) | A.5.25, A.8.16 | DE.AE-02, DE.AE-06 |
 | 9.4 | Incident response procedures are documented and operational **[KO]** | Art. 21(2)(b) | A.5.24, A.5.26 | ID.IM-04, RS.MA-01 |
 | 9.5 | Security incidents are recorded and investigated | Art. 21(2)(b) | A.5.25, A.5.27, A.5.28 | RS.MA-02, RS.AN-03 |
-| 9.6 | Incident escalation paths are defined | Art. 21(2)(b), Art. 23 | A.5.5, A.5.24, A.6.8 | RS.MA-04, RS.CO-02 |
+| 9.6 | Incident escalation and reporting paths, including regulatory reporting obligations, are defined | Art. 21(2)(b), Art. 23 | A.5.5, A.5.24, A.6.8 | RS.MA-04, RS.CO-02 |
 
 ---
 
@@ -193,15 +195,15 @@ The following table shows how the NIS2 cybersecurity risk-management and governa
 | Art. 20(2) | Training for members of management bodies | 10.5 | Partial – ACP does not require management-specific training |
 | Art. 21(2)(a) | Policies on risk analysis and information system security | Domain 2, 3.1 | Covered |
 | Art. 21(2)(b) | Incident handling | 3.5, Domain 9 | Covered |
-| Art. 21(2)(c) | Business continuity, backup management, disaster recovery, crisis management | 3.3, 8.4, 8.5 | Partial – backups only; no business continuity, disaster recovery or crisis management |
+| Art. 21(2)(c) | Business continuity, backup management, disaster recovery, crisis management | 3.3, 8.4, 8.5, 8.7, 8.8 | Covered |
 | Art. 21(2)(d) | Supply chain security | 2.6, 5.6 | Partial – no detailed supplier security requirements |
 | Art. 21(2)(e) | Security in acquisition, development and maintenance, including vulnerability handling and disclosure | 3.4, 5.2, 5.3, 5.5, 10.3 | Partial – no secure development or vulnerability disclosure |
 | Art. 21(2)(f) | Assessing the effectiveness of risk-management measures | 10.1, 10.2, 10.6 | Covered |
 | Art. 21(2)(g) | Basic cyber hygiene and cybersecurity training | Domain 6, 3.6, 10.5 | Covered |
 | Art. 21(2)(h) | Cryptography and encryption | 8.2, 8.3, 8.6 | Partial – no explicit cryptography policy |
 | Art. 21(2)(i) | Human resources security, access control, asset management | Domain 4, 5.1, 8.1 | Partial – no human resources security (e.g., screening, terms of employment) |
-| Art. 21(2)(j) | Multi-factor authentication, secured communications, secured emergency communication | 4.3 | Partial – no secured voice, video, text or emergency communication |
-| Art. 23 | Reporting of significant incidents (early warning within 24 hours, incident notification within 72 hours, final report within one month) | 9.6 | Partial – reporting obligations must be known, but reporting timelines are not verified |
+| Art. 21(2)(j) | Multi-factor authentication, secured communications, secured emergency communication | 4.3, 8.8 | Partial – emergency communication is addressed by 8.8; no requirement for secured voice, video and text communication |
+| Art. 23 | Reporting of significant incidents (early warning within 24 hours, incident notification within 72 hours, final report within one month) | 9.6 | Covered – reporting obligations, deadlines and responsibilities must be defined |
 
 ---
 
@@ -211,14 +213,12 @@ Organizations that must comply with NIS2 or seek ISO/IEC 27001 certification sho
 
 | Topic | NIS2 | ISO/IEC 27001:2022 | NIST CSF 2.0 |
 | ----- | ---- | ------------------ | ------------ |
-| Business continuity, disaster recovery and crisis management | Art. 21(2)(c) | A.5.29, A.5.30, A.8.14 | PR.IR-03, RC.RP |
 | Secure development and vulnerability disclosure | Art. 21(2)(e) | A.8.25 – A.8.31 | ID.RA-08, PR.PS-06 |
 | Human resources security | Art. 21(2)(i) | A.6.1, A.6.2, A.6.4, A.6.6 | GV.RR-04 |
 | Physical and environmental security | – | A.7.1 – A.7.14 | DE.CM-02 |
 | Legal, regulatory and contractual requirements, privacy | – | A.5.31 – A.5.34 | GV.OC-03 |
 | Threat intelligence | – | A.5.7 | ID.RA-02 |
 | Management system scope and documented information | – | Cl. 4.3, 7.5 | – |
-| Incident reporting timelines to authorities | Art. 23 | – | RS.CO-02 |
 
 The NIST AI RMF additionally addresses trustworthiness characteristics beyond security, such as fairness, privacy, transparency and explainability (MEASURE 2), and impacts on individuals and society (MAP 5). ACP Domain 11 focuses on the security of AI systems and does not cover these aspects.
 
@@ -399,8 +399,10 @@ NIS2 does not apply directly in Switzerland. Operators of critical infrastructur
 | RS.MA-04 | Incidents are escalated or elevated as needed |
 | RS.AN-03 | Analysis is performed to establish what has taken place during an incident and the root cause of the incident |
 | RS.CO-02 | Internal and external stakeholders are notified of incidents |
-| RC.RP | Incident Recovery Plan Execution (category) |
+| RS.CO-03 | Information is shared with designated internal and external stakeholders |
+| RC.RP-01 | The recovery portion of the incident response plan is executed once initiated from the incident response process |
 | RC.RP-03 | The integrity of backups and other restoration assets is verified before using them for restoration |
+| RC.CO-03 | Recovery activities and progress in restoring operational capabilities are communicated to designated internal and external stakeholders |
 
 ## NIST AI RMF 1.0
 

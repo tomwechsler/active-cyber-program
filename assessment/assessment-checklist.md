@@ -102,7 +102,7 @@ Controls marked **[KO]** are knock-out controls. A score of 0 in a knock-out con
 
 ---
 
-# Domain 8 – Data Protection & Encryption (critical)
+# Domain 8 – Data Protection, Backup & Recovery (critical)
 
 8.1 Sensitive data is identified and classified  
 8.2 Encryption is used to protect sensitive data  
@@ -110,6 +110,8 @@ Controls marked **[KO]** are knock-out controls. A score of 0 in a knock-out con
 8.4 Backup procedures are implemented and tested **[KO]**  
 8.5 Backup data is protected from unauthorized access and tampering **[KO]**  
 8.6 Files exchanged or archived outside protected systems are encrypted using current algorithms (e.g., AES-256)  
+8.7 Business continuity and disaster recovery plans are documented and tested  
+8.8 Crisis management and emergency communication are defined  
 
 ---
 
@@ -120,7 +122,7 @@ Controls marked **[KO]** are knock-out controls. A score of 0 in a knock-out con
 9.3 Security alerts are reviewed regularly  
 9.4 Incident response procedures are documented and operational **[KO]**  
 9.5 Security incidents are recorded and investigated  
-9.6 Incident escalation paths are defined  
+9.6 Incident escalation and reporting paths, including regulatory reporting obligations, are defined  
 
 ---
 

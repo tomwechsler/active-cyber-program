@@ -62,7 +62,7 @@ The complete scoring rules are defined in `assessment/scoring-model.md`.
 An organization receives **ACP Certification** if all of the following requirements are met:
 
 * Overall ACP score ≥ **2.00**
-* Every applicable critical domain score ≥ **2.00** (Governance, Identity & Access Management, Data Protection & Encryption, Monitoring & Incident Response, and AI Security if applicable)
+* Every applicable critical domain score ≥ **2.00** (Governance, Identity & Access Management, Data Protection, Backup & Recovery, Monitoring & Incident Response, and AI Security if applicable)
 * No knock-out control scored **0** (controls 4.3, 4.4, 5.3, 8.4, 8.5, 9.4)
 * All control scores are supported by documented evidence
 

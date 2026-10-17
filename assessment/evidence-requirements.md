@@ -170,7 +170,7 @@ Possible evidence:
 
 ---
 
-## Data Protection & Encryption
+## Data Protection, Backup & Recovery
 
 Possible evidence:
 
@@ -179,6 +179,9 @@ Possible evidence:
 * data classification guidelines
 * secure file transfer processes
 * encrypted file exchange and archives (e.g., AES-256)
+* business impact analysis with recovery objectives (RTO/RPO)
+* business continuity and disaster recovery plans and test reports
+* crisis management plan and emergency contact lists
 
 ---
 

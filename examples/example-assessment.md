@@ -45,7 +45,7 @@ The evaluation was performed using:
 | Infrastructure Security        | 2.1   |
 | Endpoint Security              | 2.0   |
 | Network Security               | 2.2   |
-| Data Protection & Encryption   | 2.3   |
+| Data Protection, Backup & Recovery | 2.3   |
 | Monitoring & Incident Response | 2.0   |
 | Continuous Improvement         | 2.1   |
 | AI Security                    | 2.0   |

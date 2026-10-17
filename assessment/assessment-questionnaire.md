@@ -141,7 +141,7 @@ Domain score:
 
 ---
 
-# Domain 8 – Data Protection & Encryption (critical)
+# Domain 8 – Data Protection, Backup & Recovery (critical)
 
 | ID  | Control | Guiding questions | Score | Evidence / Notes |
 | --- | ------- | ----------------- | ----- | ---------------- |
@@ -151,6 +151,8 @@ Domain score:
 | 8.4 | Backup procedures are implemented and tested **[KO]** | • Are backups performed according to the backup policy?<br>• Are restores tested regularly and documented? | | |
 | 8.5 | Backup data is protected from unauthorized access and tampering **[KO]** | • Are backups protected against unauthorized access and ransomware (e.g., offline or immutable copies, separate credentials)?<br>• Is at least one backup copy stored at a separate location? | | |
 | 8.6 | Files exchanged or archived outside protected systems are encrypted using current algorithms (e.g., AES-256) | • Are files exchanged or archived outside protected systems encrypted?<br>• Are current algorithms used (e.g., AES-256)? | | |
+| 8.7 | Business continuity and disaster recovery plans are documented and tested | • Are critical business processes and IT systems identified, with recovery time and recovery point objectives (RTO/RPO)?<br>• Are business continuity and disaster recovery plans documented for these processes and systems?<br>• Are the plans tested regularly (e.g., recovery tests, tabletop exercises), and are the results documented? | | |
+| 8.8 | Crisis management and emergency communication are defined | • Is a crisis management team with roles and decision authority defined?<br>• Are emergency communication channels defined that work when primary IT systems are unavailable?<br>• Are contact lists for internal and external parties (e.g., authorities, insurers, key suppliers) current? | | |
 
 Domain score:
 
@@ -165,7 +167,7 @@ Domain score:
 | 9.3 | Security alerts are reviewed regularly | • Are security alerts reviewed regularly?<br>• Are responsibilities and response times defined? | | |
 | 9.4 | Incident response procedures are documented and operational **[KO]** | • Is an incident response procedure documented and known to responsible staff?<br>• Has it been tested (e.g., tabletop exercise)? | | |
 | 9.5 | Security incidents are recorded and investigated | • Are security incidents recorded and investigated?<br>• Are root causes analyzed and lessons learned documented? | | |
-| 9.6 | Incident escalation paths are defined | • Are escalation paths defined, including management and external parties?<br>• Are regulatory reporting obligations known? | | |
+| 9.6 | Incident escalation and reporting paths, including regulatory reporting obligations, are defined | • Are escalation paths defined, including management and external parties?<br>• Are applicable regulatory reporting obligations and deadlines known (e.g., NIS2: early warning within 24 hours, incident notification within 72 hours, final report within one month)?<br>• Is it defined who reports to authorities and how? | | |
 
 Domain score:
 
@@ -212,7 +214,7 @@ Domain score:
 | 5. Infrastructure Security            |          |       |
 | 6. Endpoint Security                  |          |       |
 | 7. Network Security                   |          |       |
-| 8. Data Protection & Encryption       | Yes      |       |
+| 8. Data Protection, Backup & Recovery       | Yes      |       |
 | 9. Monitoring & Incident Response     | Yes      |       |
 | 10. Continuous Improvement            |          |       |
 | 11. AI Security (if applicable)       | Yes      |       |

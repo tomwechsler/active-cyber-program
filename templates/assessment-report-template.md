@@ -74,7 +74,7 @@ Scores are rounded to two decimal places.
 | 5. Infrastructure Security                 |          |       |
 | 6. Endpoint Security                       |          |       |
 | 7. Network Security                        |          |       |
-| 8. Data Protection & Encryption            | Yes      |       |
+| 8. Data Protection, Backup & Recovery            | Yes      |       |
 | 9. Monitoring & Incident Response          | Yes      |       |
 | 10. Continuous Improvement                 |          |       |
 | 11. AI Security (if applicable)            | Yes      |       |

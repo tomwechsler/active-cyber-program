@@ -38,7 +38,7 @@ The assessment covers the following control domains:
 • Infrastructure security  
 • Endpoint security  
 • Network security  
-• Data protection and encryption  
+• Data protection, backup and recovery  
 • Monitoring and incident response  
 • Continuous improvement  
 • AI security (if applicable)  

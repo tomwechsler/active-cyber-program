@@ -134,7 +134,7 @@ The following domains are **critical domains** because they represent fundamenta
 
 * Business & Security Governance (Domain 1)
 * Identity & Access Management (Domain 4)
-* Data Protection & Encryption (Domain 8)
+* Data Protection, Backup & Recovery (Domain 8)
 * Monitoring & Incident Response (Domain 9)
 * AI Security (Domain 11), if applicable
 

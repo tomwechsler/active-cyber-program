@@ -10,6 +10,13 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ### Added
 - Control mapping to NIS2 (Directive (EU) 2022/2555), ISO/IEC 27001:2022, NIST CSF 2.0 and NIST AI RMF 1.0, including a NIS2 coverage overview and a list of topics not covered by ACP (`framework/control-mapping.md`)
+- Control 8.7: Business continuity and disaster recovery plans are documented and tested (NIS2 Art. 21(2)(c))
+- Control 8.8: Crisis management and emergency communication are defined (NIS2 Art. 21(2)(c), (j))
+
+### Changed
+- Domain 8 renamed from "Data Protection & Encryption" to "Data Protection, Backup & Recovery"; it now contains eight controls and remains a critical domain
+- Control 9.6 extended to regulatory reporting obligations; guiding questions include the NIS2 reporting deadlines (24 hours, 72 hours, one month)
+- NIS2 coverage: Art. 21(2)(c) and Art. 23 are now covered
 
 ---
 

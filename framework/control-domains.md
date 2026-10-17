@@ -4,7 +4,7 @@ The **Active Cyber Program (ACP)** framework defines eleven control domains that
 
 These domains cover cybersecurity from **business governance to operational and technical protection mechanisms**. The goal is to evaluate whether cybersecurity is actively managed and integrated into the organization's operations.
 
-Each domain contains six controls that are evaluated during an ACP assessment. The controls listed below correspond to the authoritative ACP assessment checklist (`assessment/assessment-checklist.md`). Controls marked **[KO]** are knock-out controls (see `assessment/scoring-model.md`).
+Each domain contains six controls that are evaluated during an ACP assessment, except Domain 8, which contains eight. The controls listed below correspond to the authoritative ACP assessment checklist (`assessment/assessment-checklist.md`). Controls marked **[KO]** are knock-out controls (see `assessment/scoring-model.md`).
 
 The mapping of all controls to NIS2, ISO/IEC 27001:2022, NIST CSF 2.0 and the NIST AI RMF is provided in `framework/control-mapping.md`.
 
@@ -21,7 +21,7 @@ The ACP framework consists of the following eleven control domains (the AI Secur
 5. Infrastructure Security
 6. Endpoint Security
 7. Network Security
-8. Data Protection & Encryption (critical)
+8. Data Protection, Backup & Recovery (critical)
 9. Monitoring & Incident Response (critical)
 10. Continuous Improvement
 11. AI Security (if applicable; critical when applicable)
@@ -209,13 +209,13 @@ Network security controls limit exposure and improve visibility into network act
 
 ---
 
-# 8. Data Protection & Encryption
+# 8. Data Protection, Backup & Recovery
 
 ## Objective
 
-Organizational data is protected against unauthorized access, loss, or exposure.
+Organizational data is protected against unauthorized access, loss, or exposure, and critical business processes can be continued or restored after disruptions.
 
-Data protection includes encryption, backup, and secure data handling.
+This domain includes encryption, backup, secure data handling, business continuity, disaster recovery and crisis management.
 
 ## Controls
 
@@ -225,6 +225,8 @@ Data protection includes encryption, backup, and secure data handling.
 * 8.4 Backup procedures are implemented and tested **[KO]**
 * 8.5 Backup data is protected from unauthorized access and tampering **[KO]**
 * 8.6 Files exchanged or archived outside protected systems are encrypted using current algorithms (e.g., AES-256)
+* 8.7 Business continuity and disaster recovery plans are documented and tested
+* 8.8 Crisis management and emergency communication are defined
 
 ## Evidence Examples
 
@@ -232,6 +234,9 @@ Data protection includes encryption, backup, and secure data handling.
 * Encryption settings
 * Backup and restore test reports
 * Secure transfer procedures
+* Business impact analysis with recovery objectives (RTO/RPO)
+* Business continuity and disaster recovery plans and test reports
+* Crisis management plan and emergency contact lists
 
 ---
 
@@ -250,7 +255,7 @@ Organizations must be able to identify suspicious activities and respond appropr
 * 9.3 Security alerts are reviewed regularly
 * 9.4 Incident response procedures are documented and operational **[KO]**
 * 9.5 Security incidents are recorded and investigated
-* 9.6 Incident escalation paths are defined
+* 9.6 Incident escalation and reporting paths, including regulatory reporting obligations, are defined
 
 ## Evidence Examples
 
