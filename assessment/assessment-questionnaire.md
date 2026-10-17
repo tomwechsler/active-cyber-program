@@ -4,7 +4,7 @@ This questionnaire supports assessors and organizations in performing an **Activ
 
 Each row corresponds to one control of the ACP assessment checklist (`assessment/assessment-checklist.md`). The guiding questions help determine **one score per control**. Questions are not scored individually.
 
-Framework version: **ACP 1.3**
+Framework version: **ACP 1.4**
 
 ---
 
