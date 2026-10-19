@@ -6,6 +6,16 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
+## [Unreleased]
+
+### Added
+- German translation of the README (`README.de.md`) with language switch in both READMEs
+- German assessment questionnaire (`assessment/assessment-questionnaire.de.md`, PDF `templates/acp-assessment-questionnaire-de.pdf`); the English version remains authoritative
+- `tools/check-translations.py` detects outdated translations (source hash), version mismatches, missing or extra control IDs and [KO] markers, and non-Swiss orthography
+- `tools/build-questionnaire-pdf.py` builds the English and German PDFs
+
+---
+
 ## [1.5.1] - 2026-10-17
 
 ### Fixed
