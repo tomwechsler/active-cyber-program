@@ -9,6 +9,8 @@
 ![Region](https://img.shields.io/badge/region-DACH-lightgrey)
 ![Maintainer](https://img.shields.io/badge/maintainer-Wechsler%20Information%20Solution-darkblue)
 
+[![Start the ACP self-assessment](https://img.shields.io/badge/self--assessment-start%20web%20app-2f6db3?style=for-the-badge)](https://acp.videotrainer.ch/)
+
 ![ACP Logo](assets/acp-logo.png)
 
 # About the Active Cyber Program (ACP)
@@ -98,6 +100,18 @@ See:
 # Self Assessment
 
 Organizations can apply the **Active Cyber Program (ACP)** independently to evaluate their cybersecurity posture. Getting started with ACP is simple.
+
+## ACP Self-Assessment Web App
+
+The easiest way to start is the free web app at **[acp.videotrainer.ch](https://acp.videotrainer.ch/)** (in German):
+
+* no registration, no cookies, no data storage: all entries remain in your browser
+* all ACP controls with guiding questions and scoring guidance
+* immediate result: overall score, maturity level, domain scores, knock-out controls and improvement areas
+
+The result is a self-assessment without review of evidence and not an ACP Certification. The source code is public: [github.com/tomwechsler/acp-app](https://github.com/tomwechsler/acp-app).
+
+## Self-Assessment Guide
 
 The self-assessment guide explains step by step how to:
 

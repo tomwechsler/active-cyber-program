@@ -6,6 +6,14 @@ The goal is to help organizations perform a **structured self-assessment** and p
 
 ---
 
+# Recommended Start: ACP Self-Assessment Web App
+
+The easiest way to perform a self-assessment is the free web app at [acp.videotrainer.ch](https://acp.videotrainer.ch/) (in German). It guides you through all ACP controls with guiding questions and scoring guidance and shows the result immediately. No registration is required and no data is stored; all entries remain in your browser.
+
+The web app reflects your own judgement and does not review evidence. If you are preparing for an ACP Certification, follow the steps below and collect evidence for each control as well.
+
+---
+
 # Overview
 
 The ACP self-assessment consists of the following steps:

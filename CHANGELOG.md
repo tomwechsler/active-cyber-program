@@ -11,6 +11,7 @@ The purpose of this changelog is to provide transparency regarding updates to th
 ### Added
 - NIST CSF 2.0 coverage overview in `framework/control-mapping.md`: ACP controls and referenced subcategories for all 22 categories (60 of 106 subcategories in 21 of 22 categories), with examples of what ACP does not address
 - Note on the Swiss ICT minimum standard (IKT-Minimalstandard), which is based on NIST CSF 1.1
+- Link and badge to the ACP self-assessment web app (acp.videotrainer.ch) in both READMEs and in the self-assessment guide, including a reference to the public source code
 
 ### Changed
 - Control 6.2 additionally mapped to NIST CSF PR.PS-05 (unauthorized software is prevented)

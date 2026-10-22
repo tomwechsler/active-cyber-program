@@ -1,4 +1,4 @@
-<!-- translation-of: README.md | source-sha256: 1f0a0b5a97891105 -->
+<!-- translation-of: README.md | source-sha256: 42852f6b3737217b -->
 # Active Cyber Program (ACP)
 
 [English](README.md) | **Deutsch**
@@ -9,6 +9,8 @@
 ![Certification](https://img.shields.io/badge/certification-ACP-blue)
 ![Region](https://img.shields.io/badge/region-DACH-lightgrey)
 ![Maintainer](https://img.shields.io/badge/maintainer-Wechsler%20Information%20Solution-darkblue)
+
+[![ACP-Selbstbewertung starten](https://img.shields.io/badge/Selbstbewertung-Web--App%20starten-2f6db3?style=for-the-badge)](https://acp.videotrainer.ch/)
 
 ![ACP Logo](assets/acp-logo.png)
 
@@ -101,6 +103,18 @@ Siehe:
 # Selbstbewertung
 
 Organisationen können das **Active Cyber Program (ACP)** eigenständig anwenden, um ihre Cybersecurity-Lage zu beurteilen. Der Einstieg ist einfach.
+
+## Web-App zur ACP-Selbstbewertung
+
+Am einfachsten starten Sie mit der kostenlosen Web-App unter **[acp.videotrainer.ch](https://acp.videotrainer.ch/)**:
+
+* keine Anmeldung, keine Cookies, keine Datenspeicherung: Alle Eingaben bleiben in Ihrem Browser
+* alle ACP-Controls mit Leitfragen und Bewertungshilfe
+* sofortiges Ergebnis: Gesamtscore, Reifegrad, Scores pro Domäne, Knock-out-Controls und Handlungsfelder
+
+Das Ergebnis ist eine Selbsteinschätzung ohne Prüfung von Nachweisen und keine ACP-Zertifizierung. Der Quellcode ist öffentlich: [github.com/tomwechsler/acp-app](https://github.com/tomwechsler/acp-app).
+
+## Leitfaden zur Selbstbewertung
 
 Der Leitfaden zur Selbstbewertung erklärt Schritt für Schritt, wie Sie:
 
