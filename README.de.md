@@ -1,4 +1,4 @@
-<!-- translation-of: README.md | source-sha256: 18f3f0bcc1c52b20 -->
+<!-- translation-of: README.md | source-sha256: 1f0a0b5a97891105 -->
 # Active Cyber Program (ACP)
 
 [English](README.md) | **Deutsch**
@@ -158,7 +158,7 @@ Das ACP-Reifegradmodell beurteilt, wie wirksam Cybersecurity-Praktiken umgesetzt
 
 ## Control-Mapping
 
-Alle ACP-Controls sind NIS2, ISO/IEC 27001:2022, dem NIST Cybersecurity Framework 2.0 und für die KI-Sicherheit dem NIST AI Risk Management Framework zugeordnet. Das Mapping führt auch die Themen auf, die ACP nicht abdeckt.
+Alle ACP-Controls sind NIS2, ISO/IEC 27001:2022, dem NIST Cybersecurity Framework 2.0 und für die KI-Sicherheit dem NIST AI Risk Management Framework zugeordnet. Das Mapping führt auch die Themen auf, die ACP nicht abdeckt, gibt einen Überblick über die vom ACP abgedeckten Kategorien des NIST CSF 2.0 und enthält einen Hinweis zum IKT-Minimalstandard des Bundes.
 
 `framework/control-mapping.md`
 

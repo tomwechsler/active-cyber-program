@@ -110,7 +110,7 @@ For third-party AI services, see also NIST AI RMF GOVERN 6 and MANAGE 3.
 | ACP  | Control | NIS2 | ISO/IEC 27001:2022 | NIST CSF 2.0 |
 | ---- | ------- | ---- | ------------------ | ------------ |
 | 6.1 | Endpoint protection software is deployed | Art. 21(2)(g) | A.8.7 | DE.CM-09 |
-| 6.2 | Devices are centrally managed | Art. 21(2)(g) | A.8.1 | PR.PS-01 |
+| 6.2 | Devices are centrally managed | Art. 21(2)(g) | A.8.1 | PR.PS-01, PR.PS-05 |
 | 6.3 | Disk encryption is enabled on endpoints | Art. 21(2)(h) | A.8.1, A.8.24 | PR.DS-01 |
 | 6.4 | Endpoint updates are automatically deployed | Art. 21(2)(e), Art. 21(2)(g) | A.8.8 | PR.PS-02 |
 | 6.5 | Mobile devices are managed securely | Art. 21(2)(g) | A.6.7, A.8.1 | PR.PS-01 |
@@ -210,6 +210,41 @@ The following table shows how the NIS2 cybersecurity risk-management and governa
 
 ---
 
+# NIST CSF 2.0 Coverage Overview
+
+This overview summarizes the mapping above at the level of the 22 NIST CSF 2.0 categories. It shows which ACP controls relate to each category and how many of the category's subcategories are referenced in the mapping.
+
+The number of referenced subcategories shows the breadth of the mapping, not the degree of fulfilment. ACP is a practical framework for small and medium-sized organizations and deliberately does not cover every subcategory.
+
+| Function | Category | ACP controls | Subcategories referenced | Not addressed by ACP (examples) |
+| -------- | -------- | ------------ | ------------------------ | ------------------------------- |
+| Govern | GV.OC Organizational Context | 1.1, 1.2 | 1 of 5 | Stakeholder needs, legal requirements (GV.OC-03) and dependencies are not assessed separately; notification obligations are covered in 9.6 |
+| Govern | GV.RM Risk Management Strategy | 1.1, 1.2, 2.2 | 2 of 7 | Risk appetite and risk tolerance (GV.RM-02) are not required |
+| Govern | GV.RR Roles, Responsibilities, and Authorities | 1.3, 1.4, 1.5, 3.6, 11.1 | 4 of 4 | – |
+| Govern | GV.PO Policy | 3.1, 3.2, 11.3 | 2 of 2 | – |
+| Govern | GV.OV Oversight | 1.4, 1.6, 2.5, 10.6, 11.6 | 3 of 3 | – |
+| Govern | GV.SC Cybersecurity Supply Chain Risk Management | 2.6 | 3 of 10 | No complete supply chain risk management program (GV.SC-01); supplier security is assessed at a basic level in 2.6 |
+| Identify | ID.AM Asset Management | 5.1, 5.7, 8.1, 11.1 | 4 of 7 | Network data flows (ID.AM-03) and asset life cycle management (ID.AM-08) are not required |
+| Identify | ID.RA Risk Assessment | 1.5, 2.1, 2.3, 2.4, 2.5, 5.3, 5.5, 5.7, 10.3, 11.2 | 7 of 10 | Threat intelligence (ID.RA-02) is not required |
+| Identify | ID.IM Improvement | 3.5, 8.7, 9.4, 10.1, 10.2, 10.3, 10.4, 11.6 | 4 of 4 | – |
+| Protect | PR.AA Identity Management, Authentication, and Access Control | 3.7, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 5.4, 7.3, 7.6, 11.3 | 3 of 6 | Identity proofing (PR.AA-02) and physical access (PR.AA-06) are not covered |
+| Protect | PR.AT Awareness and Training | 3.6, 3.7, 10.5 | 2 of 2 | – |
+| Protect | PR.DS Data Security | 3.3, 6.3, 6.6, 7.7, 8.2, 8.3, 8.4, 8.5, 8.6 | 3 of 4 | Protection of data in use (PR.DS-10) is not covered |
+| Protect | PR.PS Platform Security | 3.4, 5.2, 5.3, 5.5, 5.6, 6.2, 6.4, 6.5, 9.1 | 5 of 6 | Hardware life cycle (PR.PS-03) is not explicitly required |
+| Protect | PR.IR Technology Infrastructure Resilience | 5.4, 5.7, 7.1, 7.2, 7.3, 7.5, 7.6, 8.7 | 2 of 4 | Capacity management (PR.IR-04) is not covered |
+| Detect | DE.CM Continuous Monitoring | 4.4, 6.1, 7.4, 7.7, 9.2, 11.4 | 3 of 5 | Monitoring of the physical environment (DE.CM-02) and of external service providers (DE.CM-06) is not explicitly required |
+| Detect | DE.AE Adverse Event Analysis | 9.2, 9.3 | 3 of 6 | Integration of threat intelligence into the analysis (DE.AE-07) is not required |
+| Respond | RS.MA Incident Management | 9.4, 9.5, 9.6 | 3 of 5 | – |
+| Respond | RS.AN Incident Analysis | 9.5, 11.5 | 1 of 4 | Detailed investigation and forensic requirements are not assessed separately |
+| Respond | RS.CO Incident Response Reporting and Communication | 8.8, 9.6 | 2 of 2 | – |
+| Respond | RS.MI Incident Mitigation | – | 0 of 2 | Containment and eradication (RS.MI-01, RS.MI-02) are part of the incident response procedure (9.4) but not assessed separately |
+| Recover | RC.RP Incident Recovery Plan Execution | 8.4, 8.7 | 2 of 6 | Recovery after incidents is assessed through continuity and recovery plans (8.7), not in detail |
+| Recover | RC.CO Incident Recovery Communication | 8.8 | 1 of 2 | Public updates on recovery (RC.CO-04) are not required |
+
+In total, the mapping references **60 of 106** NIST CSF 2.0 subcategories in **21 of 22** categories.
+
+---
+
 # Topics Not Covered by ACP
 
 Organizations that must comply with NIS2 or seek ISO/IEC 27001 certification should address the following topics in addition to the ACP controls:
@@ -231,9 +266,13 @@ The NIST AI RMF additionally addresses trustworthiness characteristics beyond se
 
 NIS2 does not apply directly in Switzerland. Operators of critical infrastructure in Switzerland are subject to the reporting obligation for cyberattacks under the Swiss Information Security Act (ISG), which requires reports to the Federal Office for Cybersecurity (BACS) within 24 hours. Swiss organizations that provide services in the EU may fall under national NIS2 laws of EU member states.
 
+The ICT minimum standard of the Swiss Confederation (IKT-Minimalstandard), published by the Federal Office for National Economic Supply (FONES), is based on the NIST Cybersecurity Framework. Its 2023 edition follows the structure of NIST CSF 1.1 with the functions Identify, Protect, Detect, Respond and Recover. NIST CSF 2.0 keeps these functions and adds Govern. The NIST CSF 2.0 mapping and coverage overview in this document can therefore serve as orientation for organizations that apply the ICT minimum standard. Individual subcategory IDs differ between CSF 1.1 and CSF 2.0, so a detailed comparison should be based on the current edition of the ICT minimum standard.
+
 ---
 
 # Reference Index
+
+NIS2 and ISO/IEC 27001 titles are given in short form. NIST CSF 2.0 titles are quoted verbatim from NIST CSWP 29. NIST AI RMF titles are abbreviated; see NIST AI 100-1 for the full wording.
 
 ## NIS2 – Directive (EU) 2022/2555
 
@@ -348,25 +387,29 @@ NIS2 does not apply directly in Switzerland. Operators of critical infrastructur
 | Reference | Title |
 | --------- | ----- |
 | GV.OC-01 | The organizational mission is understood and informs cybersecurity risk management |
-| GV.OC-03 | Legal, regulatory, and contractual requirements regarding cybersecurity are understood and managed |
+| GV.OC-03 | Legal, regulatory, and contractual requirements regarding cybersecurity — including privacy and civil liberties obligations — are understood and managed |
 | GV.RM-01 | Risk management objectives are established and agreed to by organizational stakeholders |
+| GV.RM-02 | Risk appetite and risk tolerance statements are established, communicated, and maintained |
 | GV.RM-06 | A standardized method for calculating, documenting, categorizing, and prioritizing cybersecurity risks is established and communicated |
-| GV.RR-01 | Organizational leadership is responsible and accountable for cybersecurity risk |
+| GV.RR-01 | Organizational leadership is responsible and accountable for cybersecurity risk and fosters a culture that is risk-aware, ethical, and continually improving |
 | GV.RR-02 | Roles, responsibilities, and authorities related to cybersecurity risk management are established, communicated, understood, and enforced |
 | GV.RR-03 | Adequate resources are allocated commensurate with the cybersecurity risk strategy, roles, responsibilities, and policies |
 | GV.RR-04 | Cybersecurity is included in human resources practices |
-| GV.PO-01 | Policy for managing cybersecurity risks is established, communicated and enforced |
-| GV.PO-02 | Policy for managing cybersecurity risks is reviewed, updated, communicated, and enforced |
+| GV.PO-01 | Policy for managing cybersecurity risks is established based on organizational context, cybersecurity strategy, and priorities and is communicated and enforced |
+| GV.PO-02 | Policy for managing cybersecurity risks is reviewed, updated, communicated, and enforced to reflect changes in requirements, threats, technology, and organizational mission |
 | GV.OV-01 | Cybersecurity risk management strategy outcomes are reviewed to inform and adjust strategy and direction |
-| GV.OV-02 | The cybersecurity risk management strategy is reviewed and adjusted |
+| GV.OV-02 | The cybersecurity risk management strategy is reviewed and adjusted to ensure coverage of organizational requirements and risks |
 | GV.OV-03 | Organizational cybersecurity risk management performance is evaluated and reviewed for adjustments needed |
+| GV.SC-01 | A cybersecurity supply chain risk management program, strategy, objectives, policies, and processes are established and agreed to by organizational stakeholders |
 | GV.SC-04 | Suppliers are known and prioritized by criticality |
-| GV.SC-05 | Requirements to address cybersecurity risks in supply chains are integrated into contracts and agreements |
-| GV.SC-07 | The risks posed by suppliers and other third parties are understood, recorded, prioritized, assessed, responded to, and monitored |
+| GV.SC-05 | Requirements to address cybersecurity risks in supply chains are established, prioritized, and integrated into contracts and other types of agreements with suppliers and other relevant third parties |
+| GV.SC-07 | The risks posed by a supplier, their products and services, and other third parties are understood, recorded, prioritized, assessed, responded to, and monitored over the course of the relationship |
 | ID.AM-01 | Inventories of hardware managed by the organization are maintained |
 | ID.AM-02 | Inventories of software, services, and systems managed by the organization are maintained |
+| ID.AM-03 | Representations of the organization’s authorized network communication and internal and external network data flows are maintained |
 | ID.AM-05 | Assets are prioritized based on classification, criticality, resources, and impact on the mission |
 | ID.AM-07 | Inventories of data and corresponding metadata for designated data types are maintained |
+| ID.AM-08 | Systems, hardware, software, services, and data are managed throughout their life cycles |
 | ID.RA-01 | Vulnerabilities in assets are identified, validated, and recorded |
 | ID.RA-02 | Cyber threat intelligence is received from information sharing forums and sources |
 | ID.RA-03 | Internal and external threats to the organization are identified and recorded |
@@ -376,39 +419,50 @@ NIS2 does not apply directly in Switzerland. Operators of critical infrastructur
 | ID.RA-07 | Changes and exceptions are managed, assessed for risk impact, recorded, and tracked |
 | ID.RA-08 | Processes for receiving, analyzing, and responding to vulnerability disclosures are established |
 | ID.IM-01 | Improvements are identified from evaluations |
-| ID.IM-02 | Improvements are identified from security tests and exercises |
+| ID.IM-02 | Improvements are identified from security tests and exercises, including those done in coordination with suppliers and relevant third parties |
 | ID.IM-03 | Improvements are identified from execution of operational processes, procedures, and activities |
 | ID.IM-04 | Incident response plans and other cybersecurity plans that affect operations are established, communicated, maintained, and improved |
 | PR.AA-01 | Identities and credentials for authorized users, services, and hardware are managed by the organization |
+| PR.AA-02 | Identities are proofed and bound to credentials based on the context of interactions |
 | PR.AA-03 | Users, services, and hardware are authenticated |
-| PR.AA-05 | Access permissions, entitlements, and authorizations are defined in a policy, managed, enforced, and reviewed |
-| PR.AT-01 | Personnel are provided with awareness and training |
-| PR.AT-02 | Individuals in specialized roles are provided with awareness and training |
+| PR.AA-05 | Access permissions, entitlements, and authorizations are defined in a policy, managed, enforced, and reviewed, and incorporate the principles of least privilege and separation of duties |
+| PR.AA-06 | Physical access to assets is managed, monitored, and enforced commensurate with risk |
+| PR.AT-01 | Personnel are provided with awareness and training so that they possess the knowledge and skills to perform general tasks with cybersecurity risks in mind |
+| PR.AT-02 | Individuals in specialized roles are provided with awareness and training so that they possess the knowledge and skills to perform relevant tasks with cybersecurity risks in mind |
 | PR.DS-01 | The confidentiality, integrity, and availability of data-at-rest are protected |
 | PR.DS-02 | The confidentiality, integrity, and availability of data-in-transit are protected |
+| PR.DS-10 | The confidentiality, integrity, and availability of data-in-use are protected |
 | PR.DS-11 | Backups of data are created, protected, maintained, and tested |
 | PR.PS-01 | Configuration management practices are established and applied |
 | PR.PS-02 | Software is maintained, replaced, and removed commensurate with risk |
+| PR.PS-03 | Hardware is maintained, replaced, and removed commensurate with risk |
 | PR.PS-04 | Log records are generated and made available for continuous monitoring |
-| PR.PS-06 | Secure software development practices are integrated and monitored throughout the software development life cycle |
+| PR.PS-05 | Installation and execution of unauthorized software are prevented |
+| PR.PS-06 | Secure software development practices are integrated, and their performance is monitored throughout the software development life cycle |
 | PR.IR-01 | Networks and environments are protected from unauthorized logical access and usage |
 | PR.IR-03 | Mechanisms are implemented to achieve resilience requirements in normal and adverse situations |
+| PR.IR-04 | Adequate resource capacity to ensure availability is maintained |
 | DE.CM-01 | Networks and network services are monitored to find potentially adverse events |
 | DE.CM-02 | The physical environment is monitored to find potentially adverse events |
 | DE.CM-03 | Personnel activity and technology usage are monitored to find potentially adverse events |
+| DE.CM-06 | External service provider activities and services are monitored to find potentially adverse events |
 | DE.CM-09 | Computing hardware and software, runtime environments, and their data are monitored to find potentially adverse events |
 | DE.AE-02 | Potentially adverse events are analyzed to better understand associated activities |
 | DE.AE-03 | Information is correlated from multiple sources |
 | DE.AE-06 | Information on adverse events is provided to authorized staff and tools |
+| DE.AE-07 | Cyber threat intelligence and other contextual information are integrated into the analysis |
 | RS.MA-01 | The incident response plan is executed in coordination with relevant third parties once an incident is declared |
 | RS.MA-02 | Incident reports are triaged and validated |
 | RS.MA-04 | Incidents are escalated or elevated as needed |
 | RS.AN-03 | Analysis is performed to establish what has taken place during an incident and the root cause of the incident |
 | RS.CO-02 | Internal and external stakeholders are notified of incidents |
 | RS.CO-03 | Information is shared with designated internal and external stakeholders |
+| RS.MI-01 | Incidents are contained |
+| RS.MI-02 | Incidents are eradicated |
 | RC.RP-01 | The recovery portion of the incident response plan is executed once initiated from the incident response process |
 | RC.RP-03 | The integrity of backups and other restoration assets is verified before using them for restoration |
 | RC.CO-03 | Recovery activities and progress in restoring operational capabilities are communicated to designated internal and external stakeholders |
+| RC.CO-04 | Public updates on incident recovery are shared using approved methods and messaging |
 
 ## NIST AI RMF 1.0
 
