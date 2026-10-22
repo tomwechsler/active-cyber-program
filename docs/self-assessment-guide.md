@@ -64,7 +64,9 @@ Examples:
 
 # 4. Perform Assessment
 
-Use the ACP assessment questionnaire (`assessment/assessment-questionnaire.md`) to evaluate each domain. The guiding questions help determine one score per control.
+Start with the organization profile in the ACP assessment questionnaire (`assessment/assessment-questionnaire.md`, German version `assessment/assessment-questionnaire.de.md`). Then evaluate each domain. The guiding questions and the scoring guidance help determine one score per control.
+
+Be honest with yourself: the scoring guidance shows what typically distinguishes score 2 from score 3. If a control has several parts, the weakest essential part determines the score. If your IT is operated by a service provider, involve the provider in the assessment.
 
 For each control:
 
@@ -86,6 +88,8 @@ Examples:
 • logs and reports  
 
 Without evidence, a control is scored 0 – Not Implemented.
+
+Small organizations do not need extensive documentation. Short, clear rules are sufficient if they are applied in practice and can be shown.
 
 ---
 

@@ -6,13 +6,25 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
-## [Unreleased]
+## [1.6] - 2026-10-22
 
 ### Added
+- Control 3.7: payment approvals and changes to bank details are protected against fraud (four-eyes principle, verification through a known contact)
+- Control 5.7: internet-facing systems are known, limited to what is needed and patched with priority
+- Control 7.7: email is protected against phishing, sender spoofing and malware (filtering, SPF, DKIM, DMARC)
+- Scoring guidance for every control in both questionnaires: typical evidence to be shown and typical characteristics of scores 2 and 3
+- Organization profile at the start of the questionnaire (size, IT operations, cloud services, AI use, regulation, incidents, cyber insurance, certifications)
+- Additional guiding questions on cyber insurance (2.4), outsourced IT operations (2.6, 4.4), rules for AI tools (3.2), phishing-resistant MFA and legacy authentication (4.3), cloud and SaaS sharing (5.6), local administrator rights and unapproved software (6.2), backup of cloud and SaaS data (8.4), cloud audit logs (9.1) and data protection notification obligations (9.6)
 - German translation of the README (`README.de.md`) with language switch in both READMEs
 - German assessment questionnaire (`assessment/assessment-questionnaire.de.md`, PDF `templates/acp-assessment-questionnaire-de.pdf`); the English version remains authoritative
 - `tools/check-translations.py` detects outdated translations (source hash), version mismatches, missing or extra control IDs and [KO] markers, and non-Swiss orthography
 - `tools/build-questionnaire-pdf.py` builds the English and German PDFs
+
+### Changed
+- Scoring model: the weakest essential aspect determines the score of controls with several parts; proportionality for small organizations; outsourced IT is assessed including the IT service provider
+- AI Security domain (Domain 11) applies as soon as AI services such as AI assistants or chat tools are used
+- Domains 3, 5 and 7 now contain seven controls (71 controls in total); example scores in the scoring model and the example assessment adjusted to reachable values
+- Control mapping extended to the new controls
 
 ---
 

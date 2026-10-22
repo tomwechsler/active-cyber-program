@@ -55,6 +55,7 @@ Controls marked **[KO]** are knock-out controls. A score of 0 in a knock-out con
 3.4 Patch management procedures exist  
 3.5 Incident response procedures are defined  
 3.6 Security responsibilities are agreed with employees, and security procedures are communicated to them  
+3.7 Payment approvals and changes to bank details are protected against fraud (four-eyes principle, verification through a known contact)  
 
 ---
 
@@ -77,6 +78,7 @@ Controls marked **[KO]** are knock-out controls. A score of 0 in a knock-out con
 5.4 Administrative access to systems is restricted  
 5.5 System and software changes are documented and approved, following secure development practices where software is developed or commissioned  
 5.6 Cloud infrastructure follows secure configuration practices  
+5.7 Internet-facing systems are known, limited to what is needed and patched with priority  
 
 ---
 
@@ -99,6 +101,7 @@ Controls marked **[KO]** are knock-out controls. A score of 0 in a knock-out con
 7.4 Network traffic monitoring is performed  
 7.5 Wireless networks are securely configured  
 7.6 Network access is restricted to authorized devices  
+7.7 Email is protected against phishing, sender spoofing and malware  
 
 ---
 

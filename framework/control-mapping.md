@@ -74,6 +74,7 @@ For third-party AI services, see also NIST AI RMF GOVERN 6 and MANAGE 3.
 | 3.4 | Patch management procedures exist | Art. 21(2)(e) | A.8.8 | PR.PS-02 |
 | 3.5 | Incident response procedures are defined | Art. 21(2)(b) | A.5.24 | ID.IM-04 |
 | 3.6 | Security responsibilities are agreed with employees, and security procedures are communicated to them | Art. 21(2)(g), Art. 21(2)(i) | Cl. 7.3, 7.4; A.6.1, A.6.2, A.6.3, A.6.6 | PR.AT-01, GV.RR-04 |
+| 3.7 | Payment approvals and changes to bank details are protected against fraud (four-eyes principle, verification through a known contact) | Art. 21(2)(g) | A.5.3, A.6.3 | PR.AA-05, PR.AT-01 |
 
 ---
 
@@ -100,6 +101,7 @@ For third-party AI services, see also NIST AI RMF GOVERN 6 and MANAGE 3.
 | 5.4 | Administrative access to systems is restricted | Art. 21(2)(i) | A.8.2, A.8.18 | PR.AA-05, PR.IR-01 |
 | 5.5 | System and software changes are documented and approved, following secure development practices where software is developed or commissioned | Art. 21(2)(e) | A.8.25, A.8.32 | ID.RA-07, PR.PS-01, PR.PS-06 |
 | 5.6 | Cloud infrastructure follows secure configuration practices | Art. 21(2)(d), Art. 21(2)(e) | A.5.23 | PR.PS-01 |
+| 5.7 | Internet-facing systems are known, limited to what is needed and patched with priority | Art. 21(2)(e) | A.5.9, A.8.8, A.8.20 | ID.AM-02, ID.RA-01, PR.IR-01 |
 
 ---
 
@@ -126,6 +128,7 @@ For third-party AI services, see also NIST AI RMF GOVERN 6 and MANAGE 3.
 | 7.4 | Network traffic monitoring is performed | Art. 21(2)(b) | A.8.16 | DE.CM-01 |
 | 7.5 | Wireless networks are securely configured | Art. 21(2)(a) | A.8.20, A.8.21 | PR.IR-01 |
 | 7.6 | Network access is restricted to authorized devices | Art. 21(2)(i) | A.8.20 | PR.AA-03, PR.IR-01 |
+| 7.7 | Email is protected against phishing, sender spoofing and malware | Art. 21(2)(g) | A.5.14, A.8.7 | PR.DS-02, DE.CM-09 |
 
 ---
 
@@ -197,9 +200,9 @@ The following table shows how the NIS2 cybersecurity risk-management and governa
 | Art. 21(2)(b) | Incident handling | 3.5, Domain 9 | Covered |
 | Art. 21(2)(c) | Business continuity, backup management, disaster recovery, crisis management | 3.3, 8.4, 8.5, 8.7, 8.8 | Covered |
 | Art. 21(2)(d), Art. 21(3) | Supply chain security | 2.6, 5.6 | Covered |
-| Art. 21(2)(e) | Security in acquisition, development and maintenance, including vulnerability handling and disclosure | 3.4, 5.2, 5.3, 5.5, 10.3 | Partial – secure development is assessed only at a basic level within 5.5; detailed secure development requirements are not covered |
+| Art. 21(2)(e) | Security in acquisition, development and maintenance, including vulnerability handling and disclosure | 3.4, 5.2, 5.3, 5.5, 5.7, 10.3 | Partial – secure development is assessed only at a basic level within 5.5; detailed secure development requirements are not covered |
 | Art. 21(2)(f) | Assessing the effectiveness of risk-management measures | 10.1, 10.2, 10.6 | Covered |
-| Art. 21(2)(g) | Basic cyber hygiene and cybersecurity training | Domain 6, 3.6, 10.5 | Covered |
+| Art. 21(2)(g) | Basic cyber hygiene and cybersecurity training | Domain 6, 3.6, 3.7, 7.7, 10.5 | Covered |
 | Art. 21(2)(h) | Cryptography and encryption | 8.2, 8.3, 8.6 | Covered |
 | Art. 21(2)(i) | Human resources security, access control, asset management | 3.6, Domain 4, 5.1, 8.1 | Covered |
 | Art. 21(2)(j) | Multi-factor authentication, secured communications, secured emergency communication | 4.3, 8.8 | Partial – emergency communication is addressed by 8.8; no requirement for secured voice, video and text communication |
@@ -282,6 +285,7 @@ NIS2 does not apply directly in Switzerland. Operators of critical infrastructur
 | --------- | ----- |
 | A.5.1 | Policies for information security |
 | A.5.2 | Information security roles and responsibilities |
+| A.5.3 | Segregation of duties |
 | A.5.5 | Contact with authorities |
 | A.5.7 | Threat intelligence |
 | A.5.9 | Inventory of information and other associated assets |

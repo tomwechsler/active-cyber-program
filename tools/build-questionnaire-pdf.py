@@ -56,11 +56,12 @@ table { border-collapse: collapse; width: 100%; margin: 6px 0 8px; page-break-in
 tr { page-break-inside: avoid; }
 th { background: #1f3a5f; color: #fff; text-align: left; padding: 4px 5px; }
 td { border: 1px solid #b8c4d4; padding: 4px 5px; vertical-align: top; }
-td:nth-child(1) { width: 4%; font-weight: 600; }
-td:nth-child(2) { width: 24%; }
-td:nth-child(3) { width: 40%; }
-td:nth-child(4) { width: 6%; }
-.q td:nth-child(5) { width: 26%; }
+.q td:nth-child(1) { width: 4%; font-weight: 600; }
+.q td:nth-child(2) { width: 17%; }
+.q td:nth-child(3) { width: 30%; }
+.q td:nth-child(4) { width: 27%; font-size: 8pt; color: #33475b; }
+.q td:nth-child(5) { width: 5%; }
+.q td:nth-child(6) { width: 17%; }
 code { font-family: Menlo, monospace; font-size: 8pt; }
 p { margin: 4px 0; }
 p.note { border-left: 3px solid #2f6db3; background: #eef3fa; padding: 4px 8px; }
@@ -96,10 +97,14 @@ def convert(md, lang="en"):
         elif line.startswith("|"):
             head = cells(line)
             i += 2
-            cls = ' class="q"' if len(head) == 5 else ""
+            cls = ' class="q"' if len(head) == 6 else ""
             rows = [f"<table{cls}><tr>" + "".join(f"<th>{inline(c)}</th>" for c in head) + "</tr>"]
             while i < len(lines) and lines[i].startswith("|"):
-                rows.append("<tr>" + "".join(f"<td>{inline(c)}</td>" for c in cells(lines[i])) + "</tr>")
+                row = [inline(c) for c in cells(lines[i])]
+                if cls and len(row) > 3:
+                    # Scoring guidance: highlight the labels "Show:", "2:" and "3:".
+                    row[3] = re.sub(r"(^|<br>)([^:<]{1,20}):", r"\1<strong>\2:</strong>", row[3])
+                rows.append("<tr>" + "".join(f"<td>{c}</td>" for c in row) + "</tr>")
                 i += 1
             out.append("".join(rows) + "</table>")
             continue

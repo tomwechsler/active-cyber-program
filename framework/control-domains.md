@@ -4,7 +4,7 @@ The **Active Cyber Program (ACP)** framework defines eleven control domains that
 
 These domains cover cybersecurity from **business governance to operational and technical protection mechanisms**. The goal is to evaluate whether cybersecurity is actively managed and integrated into the organization's operations.
 
-Each domain contains six controls that are evaluated during an ACP assessment, except Domain 8, which contains eight. The controls listed below correspond to the authoritative ACP assessment checklist (`assessment/assessment-checklist.md`). Controls marked **[KO]** are knock-out controls (see `assessment/scoring-model.md`).
+Most domains contain six controls that are evaluated during an ACP assessment; Domains 3, 5 and 7 contain seven and Domain 8 contains eight. The controls listed below correspond to the authoritative ACP assessment checklist (`assessment/assessment-checklist.md`). Controls marked **[KO]** are knock-out controls (see `assessment/scoring-model.md`).
 
 The mapping of all controls to NIS2, ISO/IEC 27001:2022, NIST CSF 2.0 and the NIST AI RMF is provided in `framework/control-mapping.md`.
 
@@ -97,6 +97,7 @@ These policies provide guidance for secure operations across the organization.
 * 3.4 Patch management procedures exist
 * 3.5 Incident response procedures are defined
 * 3.6 Security responsibilities are agreed with employees, and security procedures are communicated to them
+* 3.7 Payment approvals and changes to bank details are protected against fraud (four-eyes principle, verification through a known contact)
 
 ## Evidence Examples
 
@@ -104,6 +105,7 @@ These policies provide guidance for secure operations across the organization.
 * Process documentation
 * Internal security guidelines
 * Employment contract templates with security and confidentiality clauses
+* Payment approval rules and procedure for changes to bank details
 
 ---
 
@@ -149,6 +151,7 @@ Infrastructure security provides the foundation for protecting organizational sy
 * 5.4 Administrative access to systems is restricted
 * 5.5 System and software changes are documented and approved, following secure development practices where software is developed or commissioned
 * 5.6 Cloud infrastructure follows secure configuration practices
+* 5.7 Internet-facing systems are known, limited to what is needed and patched with priority
 
 ## Evidence Examples
 
@@ -156,6 +159,7 @@ Infrastructure security provides the foundation for protecting organizational sy
 * Patch management reports
 * System configuration documentation
 * Change records and secure development guidelines
+* List of internet-facing systems and external scan results
 * Cloud security settings
 
 ---
@@ -202,6 +206,7 @@ Network security controls limit exposure and improve visibility into network act
 * 7.4 Network traffic monitoring is performed
 * 7.5 Wireless networks are securely configured
 * 7.6 Network access is restricted to authorized devices
+* 7.7 Email is protected against phishing, sender spoofing and malware
 
 ## Evidence Examples
 
@@ -209,6 +214,7 @@ Network security controls limit exposure and improve visibility into network act
 * Firewall configurations
 * Remote access configurations
 * Network monitoring reports
+* Email filter settings and SPF, DKIM and DMARC records
 
 ---
 
@@ -303,7 +309,7 @@ AI systems are developed, deployed, and used with security in mind.
 
 AI security helps protect against adversarial attacks and ensures responsible AI usage.
 
-This domain applies if the organization develops, operates, or uses AI systems within the assessment scope. When applicable, it is a critical domain.
+This domain applies as soon as the organization develops, operates or uses AI systems within the assessment scope, including AI services such as AI assistants or chat tools used by employees. When applicable, it is a critical domain.
 
 ## Controls
 

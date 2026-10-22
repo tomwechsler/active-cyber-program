@@ -21,7 +21,13 @@ Each control in the ACP assessment checklist (`assessment/assessment-checklist.m
 | 2     | Implemented           | The control is implemented across the scope, documented, and evidence shows that it is operating.        |
 | 3     | Actively Managed      | In addition to score 2, the control is monitored, reviewed at defined intervals and improved over time. |
 
-The guiding questions in the ACP assessment questionnaire (`assessment/assessment-questionnaire.md`) support the assessor in determining the control score. Questions are not scored individually.
+The guiding questions and the scoring guidance in the ACP assessment questionnaire (`assessment/assessment-questionnaire.md`) support the assessor in determining the control score. Questions are not scored individually. The scoring guidance names typical evidence and typical characteristics of scores 2 and 3; it supports, but does not replace, the assessor's judgement.
+
+If a control covers several aspects, the **weakest essential aspect** determines the score.
+
+**Proportionality:** Small organizations do not need extensive documentation. Short, clear rules are sufficient for score 2 if they are applied in practice and can be shown.
+
+**Outsourced IT:** If IT operations are outsourced, controls are assessed including the work of the IT service provider. The organization remains responsible.
 
 The goal of the ACP framework is to identify organizations that **actively operate their cybersecurity program**, not only implement isolated controls.
 
@@ -48,7 +54,7 @@ A score of **3 – Actively Managed** additionally requires evidence of the mana
 
 ## Domain Applicability
 
-The **AI Security** domain (Domain 11) applies if the organization develops, operates, or uses AI systems within the assessment scope.
+The **AI Security** domain (Domain 11) applies as soon as the organization develops, operates or uses AI systems within the assessment scope. This includes AI services such as AI assistants or chat tools used by employees.
 
 Applicability is determined and documented during scope definition. A domain that is not applicable is excluded from the overall ACP score.
 
@@ -88,7 +94,7 @@ Domain score:
 
 (2 + 2 + 3 + 1 + 2 + 3) / 6 = **2.17**
 
-Because control scores are whole numbers, only certain domain scores are possible. With six applicable controls these are multiples of 1/6 (for example 2.00, 2.17, 2.33, 2.50); with eight controls (Domain 8) multiples of 1/8 (for example 2.00, 2.13, 2.25, 2.38).
+Because control scores are whole numbers, only certain domain scores are possible. With six applicable controls these are multiples of 1/6 (for example 2.00, 2.17, 2.33, 2.50); with seven controls (Domains 3, 5 and 7) multiples of 1/7 (for example 2.00, 2.14, 2.29, 2.43); with eight controls (Domain 8) multiples of 1/8 (for example 2.00, 2.13, 2.25, 2.38).
 
 ---
 
@@ -104,9 +110,9 @@ Example:
 | Risk Management                | 2.00  |
 | Security Policies              | 2.00  |
 | Identity & Access Management   | 2.17  |
-| Infrastructure Security        | 2.17  |
+| Infrastructure Security        | 2.14  |
 | Endpoint Security              | 2.00  |
-| Network Security               | 2.33  |
+| Network Security               | 2.29  |
 | Data Protection                | 2.25  |
 | Monitoring & Incident Response | 2.17  |
 | Continuous Improvement         | 2.00  |
@@ -114,9 +120,9 @@ Example:
 
 Overall ACP Score:
 
-23.26 / 11 = **2.11**
+23.19 / 11 = **2.11**
 
-If the AI Security domain were not applicable, the overall score would be 21.26 / 10 = **2.13**.
+If the AI Security domain were not applicable, the overall score would be 21.19 / 10 = **2.12**.
 
 ---
 

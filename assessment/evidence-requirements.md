@@ -125,6 +125,7 @@ Possible evidence:
 * incident response procedures
 * backup and recovery policies
 * employment contract templates with security and confidentiality clauses
+* payment approval rules and procedure for changes to bank details
 
 ---
 
@@ -148,6 +149,7 @@ Possible evidence:
 * system configuration standards
 * change records and secure development guidelines (where software is developed or commissioned)
 * cloud security configuration
+* list of internet-facing systems and external scan results
 
 ---
 
@@ -170,6 +172,7 @@ Possible evidence:
 * network architecture diagrams
 * VPN configuration
 * wireless network security settings
+* email filter settings and SPF, DKIM and DMARC records
 
 ---
 
