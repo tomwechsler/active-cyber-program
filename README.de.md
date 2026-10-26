@@ -1,9 +1,9 @@
-<!-- translation-of: README.md | source-sha256: 42852f6b3737217b -->
+<!-- translation-of: README.md | source-sha256: 8c3b71ed49f5e722 -->
 # Active Cyber Program (ACP)
 
 [English](README.md) | **Deutsch**
 
-![Framework Version](https://img.shields.io/badge/framework-ACP%201.6-blue)
+![Framework Version](https://img.shields.io/badge/framework-ACP%201.7-blue)
 ![Status](https://img.shields.io/badge/status-active-green)
 ![License](https://img.shields.io/badge/license-CC%20BY--ND%204.0-lightgrey)
 ![Certification](https://img.shields.io/badge/certification-ACP-blue)
@@ -38,7 +38,7 @@ Das Framework bietet Organisationen eine strukturierte Methode, um ihre Cybersec
 
 Aktuelle Framework-Version:
 
-**ACP Framework Version 1.6**
+**ACP Framework Version 1.7**
 
 Informationen zur Version finden Sie in:
 
@@ -172,7 +172,7 @@ Das ACP-Reifegradmodell beurteilt, wie wirksam Cybersecurity-Praktiken umgesetzt
 
 ## Control-Mapping
 
-Alle ACP-Controls sind NIS2, ISO/IEC 27001:2022, dem NIST Cybersecurity Framework 2.0 und für die KI-Sicherheit dem NIST AI Risk Management Framework zugeordnet. Das Mapping führt auch die Themen auf, die ACP nicht abdeckt, gibt einen Überblick über die vom ACP abgedeckten Kategorien des NIST CSF 2.0 und enthält einen Hinweis zum IKT-Minimalstandard des Bundes.
+Alle ACP-Controls sind NIS2, ISO/IEC 27001:2022, dem NIST Cybersecurity Framework 2.0 und für die KI-Sicherheit dem NIST AI Risk Management Framework zugeordnet. Das Mapping führt auch die Themen auf, die ACP nicht abdeckt, gibt einen Überblick über die vom ACP abgedeckten Kategorien des NIST CSF 2.0, ordnet ACP in DORA ein (auch aus Sicht von IT-Dienstleistern für Finanzunternehmen) und enthält Hinweise zum IKT-Minimalstandard des Bundes und zum FINMA-Rundschreiben 2023/1.
 
 `framework/control-mapping.md`
 

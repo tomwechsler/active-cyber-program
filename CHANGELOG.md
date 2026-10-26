@@ -6,9 +6,13 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
-## [Unreleased]
+## [1.7] - 2026-10-26
 
 ### Added
+- DORA overview in `framework/control-mapping.md` from two perspectives: financial entities (Art. 5–45, with coverage) and ICT third-party service providers (key contractual provisions under Art. 30)
+- Guiding questions for organizations with customers in the financial sector (e.g., under DORA) in controls 2.6, 8.7, 9.6 and 10.3; they apply only if such customers exist
+- Organization profile: customers in regulated sectors
+- Note on FINMA Circular 2023/1 for Switzerland
 - NIST CSF 2.0 coverage overview in `framework/control-mapping.md`: ACP controls and referenced subcategories for all 22 categories (60 of 106 subcategories in 21 of 22 categories), with examples of what ACP does not address
 - Note on the Swiss ICT minimum standard (IKT-Minimalstandard), which is based on NIST CSF 1.1
 - Link and badge to the ACP self-assessment web app (acp.videotrainer.ch) in both READMEs and in the self-assessment guide, including a reference to the public source code

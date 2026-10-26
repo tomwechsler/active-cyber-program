@@ -8,6 +8,7 @@ This document maps the controls of the **Active Cyber Program (ACP)** to the fol
 | **ISO/IEC 27001**  | ISO/IEC 27001:2022, clauses 4–10 and Annex A                            |
 | **NIST CSF 2.0**   | NIST Cybersecurity Framework 2.0 (NIST CSWP 29, February 2024)          |
 | **NIST AI RMF**    | NIST AI Risk Management Framework 1.0 (NIST AI 100-1, January 2023)     |
+| **DORA**           | Regulation (EU) 2022/2554 (Digital Operational Resilience Act), see the DORA overview below |
 
 The mapping helps organizations to:
 
@@ -245,6 +246,53 @@ In total, the mapping references **60 of 106** NIST CSF 2.0 subcategories in **2
 
 ---
 
+# DORA Overview
+
+The Digital Operational Resilience Act (DORA, Regulation (EU) 2022/2554) applies from 17 January 2025 to financial entities in the EU, such as credit institutions, payment institutions, investment firms and insurance undertakings. Certain smaller financial entities apply a simplified ICT risk management framework (Art. 16).
+
+ACP is designed for small and medium-sized organizations. An ACP Certification **does not** establish DORA compliance. This overview shows where ACP touches DORA from two perspectives.
+
+## Perspective of Financial Entities
+
+| DORA | Topic | ACP controls | Coverage |
+| ---- | ----- | ------------ | -------- |
+| Art. 5 | Governance and organisation: responsibility of the management body, training of its members (Art. 5(4)) | 1.1, 1.3, 1.4, 1.6, 10.5 | Partial – ICT risk tolerance, internal audit plans and the budget for digital operational resilience are not assessed separately |
+| Art. 6 | ICT risk management framework | Domain 2, 3.1 | Partial – ACP does not require a formal ICT risk management framework with internal audit |
+| Art. 8 | Identification of ICT assets, risks and dependencies | 2.1, 2.3, 5.1, 5.7, 8.1 | Partial – assessed at a basic level |
+| Art. 9 | Protection and prevention | Domains 4, 5, 6 and 7, 8.2, 8.3 | Partial – assessed at a basic level |
+| Art. 10 | Detection | 7.4, 9.1, 9.2, 9.3 | Partial – assessed at a basic level |
+| Art. 11 | Response and recovery, ICT business continuity | 8.7, 8.8, 9.4 | Partial – assessed at a basic level |
+| Art. 12 | Backup policies and procedures, restoration and recovery | 3.3, 8.4, 8.5 | Partial – detailed DORA requirements are not assessed |
+| Art. 13 | Learning and evolving, security awareness and training (Art. 13(6)) | 9.5, 10.1, 10.5 | Partial – assessed at a basic level |
+| Art. 14 | Communication | 8.8 | Partial – crisis communication only |
+| Art. 17–19 | ICT-related incident management, classification and reporting of major incidents to authorities | 3.5, 9.4, 9.5, 9.6 | Partial – DORA classification criteria and reporting templates are not assessed |
+| Art. 24–25 | Digital operational resilience testing | 8.4, 8.7, 10.3 | Partial – no structured testing programme required |
+| Art. 26–27 | Advanced testing based on threat-led penetration testing (TLPT) | – | Not covered |
+| Art. 28 | ICT third-party risk: policy, register of information (Art. 28(3)), exit strategies (Art. 28(8)) | 2.6 | Partial – register of information and exit strategies are not required |
+| Art. 29 | ICT concentration risk | – | Not covered |
+| Art. 30 | Key contractual provisions | 2.6 | Partial – contract contents are not assessed in detail |
+| Art. 45 | Information sharing on cyber threats | – | Not covered |
+
+## Perspective of ICT Third-Party Service Providers
+
+Many small and medium-sized organizations are affected by DORA indirectly, as ICT service providers to financial entities. Their customers must include certain provisions in the contract (Art. 30). The ACP questionnaire contains guiding questions on these obligations; they apply only if the organization has customers in the financial sector.
+
+| DORA | What the provider must typically be able to do | ACP |
+| ---- | ---------------------------------------------- | --- |
+| Art. 30(2)(a) | Describe all services and the conditions for subcontracting | 2.6 |
+| Art. 30(2)(b) | Name the locations of service provision and data processing and notify changes in advance | 2.6 |
+| Art. 30(2)(d) | Return data in an easily accessible format, also at the end of the contract | 2.6 |
+| Art. 30(2)(f) | Assist the customer in ICT incidents related to the service | 9.6 |
+| Art. 30(2)(i) | Participate in the customer's security awareness programmes and training where agreed | – |
+| Art. 30(3)(c) | Implement and test business contingency plans (for critical or important functions) | 8.7 |
+| Art. 30(3)(d) | Participate in the customer's threat-led penetration testing | 10.3 |
+| Art. 30(3)(e) | Grant access, inspection and audit rights | 2.6 |
+| Art. 30(3)(f) | Support exit strategies with an adequate transition period | 2.6 |
+
+Points (c) to (f) of Art. 30(3) apply to services supporting critical or important functions of the financial entity.
+
+---
+
 # Topics Not Covered by ACP
 
 Organizations that must comply with NIS2 or seek ISO/IEC 27001 certification should address the following topics in addition to the ACP controls:
@@ -267,6 +315,8 @@ The NIST AI RMF additionally addresses trustworthiness characteristics beyond se
 NIS2 does not apply directly in Switzerland. Operators of critical infrastructure in Switzerland are subject to the reporting obligation for cyberattacks under the Swiss Information Security Act (ISG), which requires reports to the Federal Office for Cybersecurity (BACS) within 24 hours. Swiss organizations that provide services in the EU may fall under national NIS2 laws of EU member states.
 
 The ICT minimum standard of the Swiss Confederation (IKT-Minimalstandard), published by the Federal Office for National Economic Supply (FONES), is based on the NIST Cybersecurity Framework. Its 2023 edition follows the structure of NIST CSF 1.1 with the functions Identify, Protect, Detect, Respond and Recover. NIST CSF 2.0 keeps these functions and adds Govern. The NIST CSF 2.0 mapping and coverage overview in this document can therefore serve as orientation for organizations that apply the ICT minimum standard. Individual subcategory IDs differ between CSF 1.1 and CSF 2.0, so a detailed comparison should be based on the current edition of the ICT minimum standard.
+
+DORA does not apply in Switzerland. For banks, FINMA Circular 2023/1 "Operational risks and resilience – banks", in force since 1 January 2024, contains comparable requirements on ICT risks and operational resilience. Swiss ICT service providers with customers in the EU financial sector may be affected by DORA through their contracts.
 
 ---
 
