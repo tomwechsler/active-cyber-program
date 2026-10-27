@@ -15,6 +15,7 @@ The purpose of this changelog is to provide transparency regarding updates to th
 - `docs/assessment-process.md` now describes the complete assessment and certification process in ten phases, including preparation with the self-assessment and responsibilities; `docs/certification-process.md` refers to it
 - `docs/overview.md` now contains the framework overview and the methodology; `docs/methodology.md` refers to it
 - Self-assessment guide and both READMEs refer to the improvement plan template
+- Control mapping notes explain why DORA is not shown in the domain tables and state that an ACP Certification does not constitute DORA compliance
 
 ---
 

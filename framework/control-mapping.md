@@ -21,8 +21,9 @@ The mapping helps organizations to:
 # Important Notes
 
 * The mapping shows **thematic relationships**. A referenced requirement may be covered only partially by the ACP control.
-* An ACP Certification **does not** constitute NIS2 compliance, an ISO/IEC 27001 certification, or conformity with the NIST CSF or the NIST AI RMF.
+* An ACP Certification **does not** constitute NIS2 compliance, DORA compliance, an ISO/IEC 27001 certification, or conformity with the NIST CSF or the NIST AI RMF.
 * NIS2 is implemented through national law in the EU member states. National requirements and implementing acts, such as Commission Implementing Regulation (EU) 2024/2690 for certain digital service providers, may contain additional or more detailed requirements.
+* DORA is not shown in the domain tables because its articles are broader than individual controls. The [DORA overview](#dora-overview) lists the ACP controls for each DORA article.
 * Control IDs refer to the ACP assessment checklist (`assessment/assessment-checklist.md`). Titles of the referenced requirements are listed in the reference index at the end of this document.
 
 ## Notation
