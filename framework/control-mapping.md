@@ -83,7 +83,7 @@ For third-party AI services, see also NIST AI RMF GOVERN 6 and MANAGE 3.
 
 | ACP  | Control | NIS2 | ISO/IEC 27001:2022 | NIST CSF 2.0 |
 | ---- | ------- | ---- | ------------------ | ------------ |
-| 4.1 | User account management is controlled | Art. 21(2)(i) | A.5.16, A.5.18 | PR.AA-01 |
+| 4.1 | User account management is controlled | Art. 21(2)(i) | A.5.16, A.5.17, A.5.18 | PR.AA-01 |
 | 4.2 | Role-based access control is implemented | Art. 21(2)(i) | A.5.15, A.5.18, A.8.3 | PR.AA-05 |
 | 4.3 | Multi-factor authentication is used for remote access, cloud services and administrative accounts **[KO]** | Art. 21(2)(j) | A.5.17, A.8.5 | PR.AA-03 |
 | 4.4 | Privileged accounts are restricted and monitored **[KO]** | Art. 21(2)(i) | A.8.2, A.8.18 | PR.AA-05, DE.CM-03 |
@@ -115,7 +115,7 @@ For third-party AI services, see also NIST AI RMF GOVERN 6 and MANAGE 3.
 | 6.3 | Disk encryption is enabled on endpoints | Art. 21(2)(h) | A.8.1, A.8.24 | PR.DS-01 |
 | 6.4 | Endpoint updates are automatically deployed | Art. 21(2)(e), Art. 21(2)(g) | A.8.8 | PR.PS-02 |
 | 6.5 | Mobile devices are managed securely | Art. 21(2)(g) | A.6.7, A.8.1 | PR.PS-01 |
-| 6.6 | Lost or stolen devices can be remotely controlled or wiped | Art. 21(2)(g) | A.7.9, A.8.1 | PR.DS-01 |
+| 6.6 | Lost or stolen devices can be remotely controlled or wiped | Art. 21(2)(g) | A.7.9, A.7.14, A.8.1, A.8.10 | PR.DS-01, PR.PS-03 |
 
 ---
 
@@ -231,7 +231,7 @@ The number of referenced subcategories shows the breadth of the mapping, not the
 | Protect | PR.AA Identity Management, Authentication, and Access Control | 3.7, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 5.4, 7.3, 7.6, 11.3 | 3 of 6 | Identity proofing (PR.AA-02) and physical access (PR.AA-06) are not covered |
 | Protect | PR.AT Awareness and Training | 3.6, 3.7, 10.5 | 2 of 2 | – |
 | Protect | PR.DS Data Security | 3.3, 6.3, 6.6, 7.7, 8.2, 8.3, 8.4, 8.5, 8.6 | 3 of 4 | Protection of data in use (PR.DS-10) is not covered |
-| Protect | PR.PS Platform Security | 3.4, 5.2, 5.3, 5.5, 5.6, 6.2, 6.4, 6.5, 9.1 | 5 of 6 | Hardware life cycle (PR.PS-03) is not explicitly required |
+| Protect | PR.PS Platform Security | 3.4, 5.2, 5.3, 5.5, 5.6, 6.2, 6.4, 6.5, 6.6, 9.1 | 6 of 6 | Hardware life cycle (PR.PS-03) is addressed through secure disposal (6.6), not in full |
 | Protect | PR.IR Technology Infrastructure Resilience | 5.4, 5.7, 7.1, 7.2, 7.3, 7.5, 7.6, 8.7 | 2 of 4 | Capacity management (PR.IR-04) is not covered |
 | Detect | DE.CM Continuous Monitoring | 4.4, 6.1, 7.4, 7.7, 9.2, 11.4 | 3 of 5 | Monitoring of the physical environment (DE.CM-02) and of external service providers (DE.CM-06) is not explicitly required |
 | Detect | DE.AE Adverse Event Analysis | 9.2, 9.3 | 3 of 6 | Integration of threat intelligence into the analysis (DE.AE-07) is not required |
@@ -242,7 +242,7 @@ The number of referenced subcategories shows the breadth of the mapping, not the
 | Recover | RC.RP Incident Recovery Plan Execution | 8.4, 8.7 | 2 of 6 | Recovery after incidents is assessed through continuity and recovery plans (8.7), not in detail |
 | Recover | RC.CO Incident Recovery Communication | 8.8 | 1 of 2 | Public updates on recovery (RC.CO-04) are not required |
 
-In total, the mapping references **60 of 106** NIST CSF 2.0 subcategories in **21 of 22** categories.
+In total, the mapping references **61 of 106** NIST CSF 2.0 subcategories in **21 of 22** categories.
 
 ---
 
@@ -301,7 +301,7 @@ Organizations that must comply with NIS2 or seek ISO/IEC 27001 certification sho
 | ----- | ---- | ------------------ | ------------ |
 | Detailed secure development requirements (e.g., application security requirements, secure coding, security testing, outsourced development) | Art. 21(2)(e) | A.8.26 – A.8.31 | PR.PS-06 |
 | Disciplinary process for security violations | – | A.6.4 | – |
-| Physical and environmental security | – | A.7.1 – A.7.14 | DE.CM-02 |
+| Physical and environmental security (except secure disposal, see 6.6) | – | A.7.1 – A.7.13 | DE.CM-02 |
 | Legal, regulatory and contractual requirements, privacy | – | A.5.31 – A.5.34 | GV.OC-03 |
 | Threat intelligence | – | A.5.7 | ID.RA-02 |
 | Management system scope and documented information | – | Cl. 4.3, 7.5 | – |
@@ -412,6 +412,7 @@ NIS2 and ISO/IEC 27001 titles are given in short form. NIST CSF 2.0 titles are q
 | A.6.8 | Information security event reporting |
 | A.7.1 – A.7.14 | Physical controls |
 | A.7.9 | Security of assets off-premises |
+| A.7.14 | Secure disposal or re-use of equipment |
 | A.8.1 | User endpoint devices |
 | A.8.2 | Privileged access rights |
 | A.8.3 | Information access restriction |
@@ -419,6 +420,7 @@ NIS2 and ISO/IEC 27001 titles are given in short form. NIST CSF 2.0 titles are q
 | A.8.7 | Protection against malware |
 | A.8.8 | Management of technical vulnerabilities |
 | A.8.9 | Configuration management |
+| A.8.10 | Information deletion |
 | A.8.13 | Information backup |
 | A.8.14 | Redundancy of information processing facilities |
 | A.8.15 | Logging |

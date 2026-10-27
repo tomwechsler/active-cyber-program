@@ -44,6 +44,8 @@ Only assessments performed under the authority of **Wechsler Information Solutio
 
 ACP assessments are conducted by authorized assessors following the ACP methodology.
 
+**Current situation:** All ACP assessments are currently performed by Tom Wechsler (Wechsler Information Solution). There are no authorized partners yet.
+
 Assessors may include:
 
 * assessors from Wechsler Information Solution
@@ -91,6 +93,8 @@ An assessor must not assess an organization if the assessor or the assessor's or
 Consulting includes support in remediating findings of an ACP assessment.
 
 General training, such as public courses or training not tailored to the design of the organization's cybersecurity program, is not considered consulting.
+
+As assessments are currently performed by one person, Wechsler Information Solution cannot assess an organization that it has advised on its cybersecurity program within the previous 24 months.
 
 ## Conflict of Interest Declaration
 

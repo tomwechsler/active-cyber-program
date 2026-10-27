@@ -6,6 +6,19 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
+## [1.8] - 2026-10-27
+
+### Added
+- Glossary with 31 terms for readers without an IT background (`docs/glossary.md`, German translation `docs/glossary.de.md`), also shown in the self-assessment web app
+- Guiding questions on passwords and default passwords (4.1), network devices, printers, cameras and IoT/OT devices in the inventory (5.1) and secure disposal of devices and storage media (6.6)
+- Feedback section with e-mail contact in both READMEs
+
+### Changed
+- Governance states that assessments are currently performed by Tom Wechsler and that there are no authorized partners yet, including the consequence of the cooling-off period
+- Control mapping: 4.1 additionally mapped to ISO/IEC 27001 A.5.17; 6.6 additionally mapped to A.7.14, A.8.10 and NIST CSF PR.PS-03 (61 of 106 CSF subcategories referenced)
+
+---
+
 ## [1.7] - 2026-10-26
 
 ### Added
