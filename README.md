@@ -186,11 +186,17 @@ All ACP controls are mapped to NIS2, ISO/IEC 27001:2022, the NIST Cybersecurity 
 
 The ACP framework includes a structured assessment methodology to evaluate cybersecurity programs.
 
-Assessment process:
+Overview and methodology:
+
+`docs/overview.md`
+
+[Framework Overview and Methodology](./docs/overview.md)
+
+Assessment and certification process, from the first contact to the certificate:
 
 `docs/assessment-process.md`
 
-[Assessment Process](./docs/assessment-process.md)
+[Assessment and Certification Process](./docs/assessment-process.md)
 
 Assessment tools:
 
@@ -199,6 +205,7 @@ Assessment tools:
 * `assessment/scoring-model.md` [Scoring Model](./assessment/scoring-model.md)
 * `assessment/assessment-questionnaire.md` [Assessment Questionnaire](./assessment/assessment-questionnaire.md) (PDF: [templates/acp-assessment-questionnaire.pdf](./templates/acp-assessment-questionnaire.pdf))
 * German questionnaire: [assessment/assessment-questionnaire.de.md](./assessment/assessment-questionnaire.de.md) (PDF: [templates/acp-assessment-questionnaire-de.pdf](./templates/acp-assessment-questionnaire-de.pdf))
+* `templates/improvement-plan-template.md` [Improvement Plan](./templates/improvement-plan-template.md): plan the next steps after an assessment or self-assessment, knock-out controls and critical domains first (German: [Massnahmenplan](./templates/improvement-plan-template.de.md))
 
 ---
 
@@ -260,11 +267,9 @@ LICENSE
 
 docs/
    overview.md
-   methodology.md
    assessment-process.md
    self-assessment-guide.md
    certification.md
-   certification-process.md
    trust-label.md
    trademark.md
    governance.md
@@ -289,6 +294,7 @@ templates/
    assessment-report-template.md
    certification-template.md
    improvement-plan-template.md
+   improvement-plan-template.de.md
    acp-assessment-questionnaire.pdf
    acp-assessment-questionnaire-de.pdf
 

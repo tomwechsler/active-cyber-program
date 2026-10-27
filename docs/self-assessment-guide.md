@@ -143,6 +143,8 @@ Examples:
 • introduce monitoring  
 • strengthen governance  
 
+Plan the actions with the improvement plan template (`templates/improvement-plan-template.md`, German: `templates/improvement-plan-template.de.md`). It sorts the actions by priority: knock-out controls first, then critical domains, quick wins and further improvements.
+
 ---
 
 # Optional: Prepare for ACP Certification

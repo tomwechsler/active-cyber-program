@@ -1,4 +1,4 @@
-<!-- translation-of: README.md | source-sha256: 6d9775fac9d5baf2 -->
+<!-- translation-of: README.md | source-sha256: 89073ff68638a5fe -->
 # Active Cyber Program (ACP)
 
 [English](README.md) | **Deutsch**
@@ -194,11 +194,17 @@ Alle ACP-Controls sind NIS2, ISO/IEC 27001:2022, dem NIST Cybersecurity Framewor
 
 Das ACP-Framework enthält eine strukturierte Methodik zur Beurteilung von Cybersecurity-Programmen.
 
-Assessment-Prozess:
+Übersicht und Methodik:
+
+`docs/overview.md`
+
+[Framework-Übersicht und Methodik](./docs/overview.md) (Englisch)
+
+Assessment- und Zertifizierungsprozess, vom ersten Kontakt bis zum Zertifikat:
 
 `docs/assessment-process.md`
 
-[Assessment-Prozess](./docs/assessment-process.md) (Englisch)
+[Assessment- und Zertifizierungsprozess](./docs/assessment-process.md) (Englisch)
 
 Assessment-Werkzeuge:
 
@@ -207,6 +213,7 @@ Assessment-Werkzeuge:
 * `assessment/scoring-model.md` [Scoring-Modell](./assessment/scoring-model.md) (Englisch)
 * `assessment/assessment-questionnaire.de.md` [ACP-Fragenkatalog](./assessment/assessment-questionnaire.de.md) (PDF: [templates/acp-assessment-questionnaire-de.pdf](./templates/acp-assessment-questionnaire-de.pdf))
 * Englische Fassung des Fragenkatalogs: [assessment/assessment-questionnaire.md](./assessment/assessment-questionnaire.md) (PDF: [templates/acp-assessment-questionnaire.pdf](./templates/acp-assessment-questionnaire.pdf))
+* `templates/improvement-plan-template.de.md` [Massnahmenplan](./templates/improvement-plan-template.de.md): nächste Schritte nach einem Assessment oder einer Selbstbewertung planen, zuerst Knock-out-Controls und kritische Domänen (Englisch: [Improvement Plan](./templates/improvement-plan-template.md))
 
 ---
 
@@ -268,11 +275,9 @@ LICENSE
 
 docs/
    overview.md
-   methodology.md
    assessment-process.md
    self-assessment-guide.md
    certification.md
-   certification-process.md
    trust-label.md
    trademark.md
    governance.md
@@ -297,6 +302,7 @@ templates/
    assessment-report-template.md
    certification-template.md
    improvement-plan-template.md
+   improvement-plan-template.de.md
    acp-assessment-questionnaire.pdf
    acp-assessment-questionnaire-de.pdf
 

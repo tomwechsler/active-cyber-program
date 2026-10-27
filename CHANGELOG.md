@@ -6,6 +6,18 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
+## [Unreleased]
+
+### Added
+- Practical improvement plan template with four priority groups (knock-out controls, critical domains, quick wins, further improvements), responsible person, due date, effort, status and evidence; German translation `templates/improvement-plan-template.de.md`
+
+### Changed
+- `docs/assessment-process.md` now describes the complete assessment and certification process in ten phases, including preparation with the self-assessment and responsibilities; `docs/certification-process.md` refers to it
+- `docs/overview.md` now contains the framework overview and the methodology; `docs/methodology.md` refers to it
+- Self-assessment guide and both READMEs refer to the improvement plan template
+
+---
+
 ## [1.8] - 2026-10-27
 
 ### Added
