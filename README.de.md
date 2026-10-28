@@ -1,9 +1,9 @@
-<!-- translation-of: README.md | source-sha256: ca785b4a8dc5b140 -->
+<!-- translation-of: README.md | source-sha256: bc85ee748c133623 -->
 # Active Cyber Program (ACP)
 
 [English](README.md) | **Deutsch**
 
-![Framework Version](https://img.shields.io/badge/framework-ACP%201.8-blue)
+![Framework Version](https://img.shields.io/badge/framework-ACP%201.9-blue)
 ![Status](https://img.shields.io/badge/status-active-green)
 ![License](https://img.shields.io/badge/license-CC%20BY--ND%204.0-lightgrey)
 ![Certification](https://img.shields.io/badge/certification-ACP-blue)
@@ -38,7 +38,7 @@ Das Framework bietet Organisationen eine strukturierte Methode, um ihre Cybersec
 
 Aktuelle Framework-Version:
 
-**ACP Framework Version 1.8**
+**ACP Framework Version 1.9**
 
 Informationen zur Version finden Sie in:
 
@@ -125,9 +125,9 @@ Der Leitfaden zur Selbstbewertung erklärt Schritt für Schritt, wie Sie:
 • Verbesserungsbereiche identifizieren  
 
 Siehe:
-`docs/self-assessment-guide.md`
+`docs/self-assessment-guide.de.md`
 
-[Leitfaden zur Selbstbewertung](./docs/self-assessment-guide.md) (Englisch)
+[Leitfaden zur Selbstbewertung](./docs/self-assessment-guide.de.md) · [Self-Assessment Guide (Englisch)](./docs/self-assessment-guide.md)
 
 Für die Durchführung steht der Fragenkatalog auf Deutsch zur Verfügung:
 
@@ -277,6 +277,7 @@ docs/
    overview.md
    assessment-process.md
    self-assessment-guide.md
+   self-assessment-guide.de.md
    certification.md
    trust-label.md
    trademark.md

@@ -1,4 +1,4 @@
-<!-- translation-of: assessment/assessment-questionnaire.md | source-sha256: 427e92ec0b96934e -->
+<!-- translation-of: assessment/assessment-questionnaire.md | source-sha256: 67112f50ba25dc5c -->
 # ACP-Fragenkatalog
 
 > Übersetzung der englischen Fassung (`assessment/assessment-questionnaire.md`). Bei Abweichungen gilt die englische Fassung.
@@ -7,7 +7,7 @@ Dieser Fragenkatalog unterstützt Assessoren und Organisationen bei der Durchfü
 
 Jede Zeile entspricht einem Control der ACP-Checkliste (`assessment/assessment-checklist.md`, Englisch). Die Control-IDs sind in beiden Sprachen identisch. Die Leitfragen helfen, **pro Control eine Bewertung** festzulegen. Die Fragen werden nicht einzeln bewertet.
 
-Framework-Version: **ACP 1.8**
+Framework-Version: **ACP 1.9**
 
 ---
 

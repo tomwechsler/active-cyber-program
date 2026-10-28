@@ -18,7 +18,7 @@ has successfully demonstrated that it operates an
 
 ## Active Cyber Program (ACP)
 
-in accordance with the **Active Cyber Program Framework Version 1.8**.
+in accordance with the **Active Cyber Program Framework Version 1.9**.
 
 The organization has been evaluated across governance, operational cybersecurity processes, and technical security controls.
 

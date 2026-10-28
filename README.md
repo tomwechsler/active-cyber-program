@@ -2,7 +2,7 @@
 
 **English** | [Deutsch](README.de.md)
 
-![Framework Version](https://img.shields.io/badge/framework-ACP%201.8-blue)
+![Framework Version](https://img.shields.io/badge/framework-ACP%201.9-blue)
 ![Status](https://img.shields.io/badge/status-active-green)
 ![License](https://img.shields.io/badge/license-CC%20BY--ND%204.0-lightgrey)
 ![Certification](https://img.shields.io/badge/certification-ACP-blue)
@@ -35,7 +35,7 @@ The framework provides organizations with a structured method to evaluate, impro
 
 Current framework version:
 
-**ACP Framework Version 1.8**
+**ACP Framework Version 1.9**
 
 See the following files for version information:
 
@@ -124,7 +124,7 @@ The self-assessment guide explains step by step how to:
 See:
 `docs/self-assessment-guide.md`
 
-[Self Assessment Guide](./docs/self-assessment-guide.md)
+[Self Assessment Guide](./docs/self-assessment-guide.md) · [Leitfaden zur Selbstbewertung (Deutsch)](./docs/self-assessment-guide.de.md)
 
 ---
 
@@ -269,6 +269,7 @@ docs/
    overview.md
    assessment-process.md
    self-assessment-guide.md
+   self-assessment-guide.de.md
    certification.md
    trust-label.md
    trademark.md

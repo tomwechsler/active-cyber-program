@@ -6,16 +6,18 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
-## [Unreleased]
+## [1.9] - 2026-10-28
 
 ### Added
 - Frequently asked questions on ACP, the self-assessment, assessments, certification and costs (`docs/faq.md`, German translation `docs/faq.de.md`), linked in both READMEs
+- German translation of the self-assessment guide (`docs/self-assessment-guide.de.md`), linked in both READMEs
 - Practical improvement plan template with four priority groups (knock-out controls, critical domains, quick wins, further improvements), responsible person, due date, effort, status and evidence; German translation `templates/improvement-plan-template.de.md`
 
 ### Changed
 - `docs/assessment-process.md` now describes the complete assessment and certification process in ten phases, including preparation with the self-assessment and responsibilities; `docs/certification-process.md` refers to it
 - `docs/overview.md` now contains the framework overview and the methodology; `docs/methodology.md` refers to it
 - Self-assessment guide and both READMEs refer to the improvement plan template
+- Self-assessment guide clarifies that AI services such as AI assistants or chat tools make the AI Security domain applicable, consistent with the scoring model
 - Control mapping notes explain why DORA is not shown in the domain tables and state that an ACP Certification does not constitute DORA compliance
 
 ---

@@ -116,7 +116,7 @@ Calculate:
 • domain scores  
 • overall ACP score  
 
-Mark the AI Security domain as not applicable if no AI systems are used within the scope. Applicability, rounding and calculation rules are defined in `assessment/scoring-model.md`.
+Mark the AI Security domain as not applicable only if no AI systems are used within the scope. This includes AI services such as AI assistants or chat tools used by employees. Applicability, rounding and calculation rules are defined in `assessment/scoring-model.md`.
 
 ---
 

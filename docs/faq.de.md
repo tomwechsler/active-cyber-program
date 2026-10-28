@@ -73,7 +73,7 @@ Tipp: Bewerten Sie jedes Control so, wie Sie es belegen könnten, nicht so, wie 
 
 Planen Sie die nächsten Schritte mit dem [Massnahmenplan](../templates/improvement-plan-template.de.md): zuerst Knock-out-Controls, dann kritische Domänen, dann schnelle Erfolge. Wiederholen Sie die Selbstbewertung nach einigen Monaten, um Ihre Fortschritte zu sehen.
 
-Siehe auch den [Leitfaden zur Selbstbewertung](./self-assessment-guide.md) (Englisch).
+Siehe auch den [Leitfaden zur Selbstbewertung](./self-assessment-guide.de.md).
 
 ---
 
