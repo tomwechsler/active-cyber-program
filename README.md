@@ -275,6 +275,8 @@ docs/
    governance.md
    glossary.md
    glossary.de.md
+   faq.md
+   faq.de.md
    author.md
 
 framework/
@@ -343,6 +345,8 @@ The Active Cyber Program (ACP) was created to provide a practical and transparen
 ---
 
 # Feedback and Questions
+
+Answers to common questions about ACP, the self-assessment, assessments, certification and costs: [Frequently Asked Questions](./docs/faq.md) · [Häufige Fragen (Deutsch)](./docs/faq.de.md)
 
 Questions, suggestions and experience from practice help to improve the ACP framework. Please send them by e-mail to [training@videotrainer.ch](mailto:training@videotrainer.ch).
 

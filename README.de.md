@@ -1,4 +1,4 @@
-<!-- translation-of: README.md | source-sha256: 89073ff68638a5fe -->
+<!-- translation-of: README.md | source-sha256: ca785b4a8dc5b140 -->
 # Active Cyber Program (ACP)
 
 [English](README.md) | **Deutsch**
@@ -283,6 +283,8 @@ docs/
    governance.md
    glossary.md
    glossary.de.md
+   faq.md
+   faq.de.md
    author.md
 
 framework/
@@ -351,6 +353,8 @@ Das Active Cyber Program (ACP) wurde geschaffen, um praxisnah und transparent zu
 ---
 
 # Feedback und Fragen
+
+Antworten auf häufige Fragen zu ACP, zur Selbstbewertung, zu Assessments, zur Zertifizierung und zu den Kosten: [Häufige Fragen](./docs/faq.de.md) · [Frequently Asked Questions (Englisch)](./docs/faq.md)
 
 Fragen, Anregungen und Erfahrungen aus der Praxis helfen, das ACP-Framework weiterzuentwickeln. Bitte senden Sie diese per E-Mail an [training@videotrainer.ch](mailto:training@videotrainer.ch).
 

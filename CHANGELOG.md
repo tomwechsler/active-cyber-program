@@ -9,6 +9,7 @@ The purpose of this changelog is to provide transparency regarding updates to th
 ## [Unreleased]
 
 ### Added
+- Frequently asked questions on ACP, the self-assessment, assessments, certification and costs (`docs/faq.md`, German translation `docs/faq.de.md`), linked in both READMEs
 - Practical improvement plan template with four priority groups (knock-out controls, critical domains, quick wins, further improvements), responsible person, due date, effort, status and evidence; German translation `templates/improvement-plan-template.de.md`
 
 ### Changed
