@@ -194,14 +194,6 @@ ISO/IEC 27001 does not contain AI-specific requirements; the ISO/IEC 27001 colum
 | 11.8 | AI services and AI providers are assessed before use | Art. 21(2)(d), Art. 21(3) | A.5.19, A.5.20, A.5.23 | GV.SC-05, GV.SC-07 | GOVERN 6, MANAGE 3 | A.10 |
 | 11.9 | AI-generated results are reviewed by people before they are used for important decisions, published or put into production | – | – | – | GOVERN 3.2, MAP 3.5 | A.9 |
 
----- | ------- | ---- | ------------------ | ------------ | --------------- |
-| 11.1 | AI systems are identified and inventoried, with defined owners | Art. 21(2)(i) | A.5.9 | ID.AM-02, GV.RR-02 | GOVERN 1.6, GOVERN 2.1 |
-| 11.2 | AI security risks are assessed | Art. 21(2)(a) | Cl. 6.1.2, 8.2 | ID.RA-04, ID.RA-05 | MAP 1, MAP 4, MEASURE 2.7 |
-| 11.3 | AI usage policies and security controls are defined and implemented | Art. 21(2)(a), Art. 21(2)(i) | A.5.1, A.5.10, A.8.3 | GV.PO-01, PR.AA-05 | GOVERN 1, MANAGE 1 |
-| 11.4 | AI systems are monitored for security events and unexpected behavior | Art. 21(2)(b) | A.8.16 | DE.CM-09 | MEASURE 2.4, MANAGE 4.1 |
-| 11.5 | AI security incidents are investigated | Art. 21(2)(b) | A.5.24, A.5.25, A.5.26, A.5.27 | RS.AN-03 | MANAGE 4.3 |
-| 11.6 | AI security is included in management reporting and continuous improvement | Art. 20(1), Art. 21(2)(f) | Cl. 9.3, 10.1 | GV.OV-01, ID.IM-01 | GOVERN 1.5, GOVERN 2.3, MEASURE 3 |
-
 ---
 
 # NIS2 Coverage Overview
