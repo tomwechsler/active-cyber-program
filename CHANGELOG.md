@@ -6,6 +6,14 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
+## [Unreleased]
+
+### Fixed
+- Control mapping: leftover rows of the former Domain 11 table removed
+- Control mapping: physical and environmental security listed as not covered without A.7.9, which is addressed by control 6.6 together with A.7.14
+
+---
+
 ## [2.0] - 2026-10-30
 
 ### Added

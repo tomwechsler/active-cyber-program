@@ -369,7 +369,7 @@ Organizations that must comply with NIS2 or seek ISO/IEC 27001 certification sho
 | ----- | ---- | ------------------ | ------------ |
 | Detailed secure development requirements (e.g., application security requirements, secure coding, security testing, outsourced development) | Art. 21(2)(e) | A.8.26 – A.8.31 | PR.PS-06 |
 | Disciplinary process for security violations | – | A.6.4 | – |
-| Physical and environmental security (except secure disposal, see 6.6) | – | A.7.1 – A.7.13 | DE.CM-02 |
+| Physical and environmental security (except security of devices off-premises and secure disposal, see 6.6) | – | A.7.1 – A.7.8, A.7.10 – A.7.13 | DE.CM-02 |
 | Legal, regulatory and contractual requirements, privacy | – | A.5.31 – A.5.34 | GV.OC-03 |
 | Threat intelligence | – | A.5.7 | ID.RA-02 |
 | Management system scope and documented information | – | Cl. 4.3, 7.5 | – |
