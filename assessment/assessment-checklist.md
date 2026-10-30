@@ -148,6 +148,9 @@ Controls marked **[KO]** are knock-out controls. A score of 0 in a knock-out con
 11.4 AI systems are monitored for security events and unexpected behavior  
 11.5 AI security incidents are investigated  
 11.6 AI security is included in management reporting and continuous improvement  
+11.7 AI agents and AI integrations have only the access rights they need, and critical actions require human approval  
+11.8 AI services and AI providers are assessed before use  
+11.9 AI-generated results are reviewed by people before they are used for important decisions, published or put into production  
 
 ---
 

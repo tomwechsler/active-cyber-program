@@ -6,6 +6,23 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
+## [2.0] - 2026-10-30
+
+### Added
+- Control 11.7: AI agents and AI integrations have only the access rights they need, and critical actions require human approval
+- Control 11.8: AI services and AI providers are assessed before use (data use for training, storage location, contract, certifications)
+- Control 11.9: AI-generated results are reviewed by people before they are used for important decisions, published or put into production
+- Guiding questions on AI functions in existing software and AI agents (11.1), manipulation through processed content and testing of own AI applications (11.2), access rights before AI assistants are introduced and AI literacy (11.3), logging and usage limits (11.4), AI-specific incidents (11.5), deepfakes in payment fraud (3.7) and AI-supported attacks in awareness training (10.5)
+- Control mapping: ISO/IEC 42001 column for Domain 11; AI security overview with the coverage of the OWASP Top 10 for LLM Applications 2025 and the OWASP Top 10 for Agentic Applications 2026, references to ISO/IEC 27090, ISO/IEC 23894, MITRE ATLAS and BSI AIC4
+- Glossary terms "AI agent" and "Deepfake"
+
+### Changed
+- Domain 11 now contains nine controls (74 controls in total); the scoring model lists the possible domain scores for nine controls
+- Control 11.7 is not applicable if no AI agents or AI integrations with access to company data or systems are used
+- Topics not covered by ACP: attacks on AI models and training data (ISO/IEC 27090, clauses 6.2 to 6.8)
+
+---
+
 ## [1.9] - 2026-10-28
 
 ### Added

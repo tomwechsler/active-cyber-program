@@ -4,6 +4,7 @@ Short explanations of terms used in the ACP framework, the assessment questionna
 
 | Term | Explanation |
 | ---- | ----------- |
+| AI agent | An AI system that carries out actions on its own, for example sending emails, changing files or using other systems, instead of only answering questions. |
 | Assessment | A structured review of how well an organization implements the ACP controls. In an official ACP assessment, each score must be supported by evidence. |
 | Backup (offline, immutable) | A copy of data that can be restored after loss or an attack. An offline copy is disconnected from the network; an immutable copy cannot be changed or deleted for a defined period. Both protect backups against ransomware. |
 | Business continuity and disaster recovery | Plans that keep critical business processes running during a disruption (business continuity) and restore IT systems afterwards (disaster recovery). |
@@ -11,6 +12,7 @@ Short explanations of terms used in the ACP framework, the assessment questionna
 | Control | A concrete security measure evaluated by ACP, for example "Multi-factor authentication is used". Each control receives a score from 0 to 3. |
 | Critical domain | An ACP domain that must reach a score of at least 2.00 for certification. |
 | Data loss prevention (DLP) | Technical measures that detect or prevent sensitive data from leaving the organization, for example by email, upload or AI tools. |
+| Deepfake | Realistic but fake audio, images or videos created with AI, for example the imitated voice of a manager on the phone. |
 | DORA | Digital Operational Resilience Act: EU regulation on the digital operational resilience of financial entities, applicable since 17 January 2025. |
 | EDR (endpoint detection and response) | Protection software for computers that detects suspicious behavior, raises alerts and can isolate a device. It goes beyond classic antivirus software. |
 | Guardrails (AI) | Technical and organizational limits for AI systems, for example which data may be processed or which actions an AI tool may perform. |

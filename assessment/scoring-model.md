@@ -94,7 +94,7 @@ Domain score:
 
 (2 + 2 + 3 + 1 + 2 + 3) / 6 = **2.17**
 
-Because control scores are whole numbers, only certain domain scores are possible. With six applicable controls these are multiples of 1/6 (for example 2.00, 2.17, 2.33, 2.50); with seven controls (Domains 3, 5 and 7) multiples of 1/7 (for example 2.00, 2.14, 2.29, 2.43); with eight controls (Domain 8) multiples of 1/8 (for example 2.00, 2.13, 2.25, 2.38).
+Because control scores are whole numbers, only certain domain scores are possible. With six applicable controls these are multiples of 1/6 (for example 2.00, 2.17, 2.33, 2.50); with seven controls (Domains 3, 5 and 7) multiples of 1/7 (for example 2.00, 2.14, 2.29, 2.43); with eight controls (Domain 8) multiples of 1/8 (for example 2.00, 2.13, 2.25, 2.38); with nine controls (Domain 11) multiples of 1/9 (for example 2.00, 2.11, 2.22, 2.33).
 
 ---
 

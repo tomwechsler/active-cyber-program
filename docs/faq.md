@@ -10,7 +10,7 @@ Short answers to common questions about the **Active Cyber Program (ACP)**. The 
 
 ## What is ACP?
 
-ACP is a framework for assessing whether an organization operates an **active** cybersecurity program: not only whether security measures exist, but whether they are applied, checked and improved. It consists of 71 controls in 11 domains, a scoring model and an optional certification.
+ACP is a framework for assessing whether an organization operates an **active** cybersecurity program: not only whether security measures exist, but whether they are applied, checked and improved. It consists of 74 controls in 11 domains, a scoring model and an optional certification.
 
 See the [framework overview](./overview.md).
 

@@ -2,7 +2,7 @@
 
 **English** | [Deutsch](README.de.md)
 
-![Framework Version](https://img.shields.io/badge/framework-ACP%201.9-blue)
+![Framework Version](https://img.shields.io/badge/framework-ACP%202.0-blue)
 ![Status](https://img.shields.io/badge/status-active-green)
 ![License](https://img.shields.io/badge/license-CC%20BY--ND%204.0-lightgrey)
 ![Certification](https://img.shields.io/badge/certification-ACP-blue)
@@ -35,7 +35,7 @@ The framework provides organizations with a structured method to evaluate, impro
 
 Current framework version:
 
-**ACP Framework Version 1.9**
+**ACP Framework Version 2.0**
 
 See the following files for version information:
 
@@ -174,7 +174,7 @@ Short explanations of terms such as MFA, EDR, DMARC or RTO/RPO, written for read
 
 ## Control Mapping
 
-All ACP controls are mapped to NIS2, ISO/IEC 27001:2022, the NIST Cybersecurity Framework 2.0 and, for AI security, the NIST AI Risk Management Framework. The mapping also lists topics that ACP does not cover, provides an overview of the NIST CSF 2.0 categories addressed by ACP, relates ACP to DORA (including the perspective of ICT service providers to financial entities) and includes notes on the Swiss ICT minimum standard and FINMA Circular 2023/1.
+All ACP controls are mapped to NIS2, ISO/IEC 27001:2022, the NIST Cybersecurity Framework 2.0 and, for AI security, the NIST AI Risk Management Framework and ISO/IEC 42001. For AI security, the mapping also shows the coverage of the OWASP Top 10 for LLM Applications and for Agentic Applications and refers to ISO/IEC 27090. The mapping also lists topics that ACP does not cover, provides an overview of the NIST CSF 2.0 categories addressed by ACP, relates ACP to DORA (including the perspective of ICT service providers to financial entities) and includes notes on the Swiss ICT minimum standard and FINMA Circular 2023/1.
 
 `framework/control-mapping.md`
 

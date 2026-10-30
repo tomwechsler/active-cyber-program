@@ -1,4 +1,4 @@
-<!-- translation-of: docs/glossary.md | source-sha256: 73ae293653792035 -->
+<!-- translation-of: docs/glossary.md | source-sha256: 81fa15cbfb344641 -->
 # ACP-Glossar
 
 > Übersetzung der englischen Fassung (`docs/glossary.md`). Bei Abweichungen gilt die englische Fassung.
@@ -13,11 +13,13 @@ Kurze Erklärungen der Begriffe, die im ACP-Framework, im Fragenkatalog und in d
 | CEO-Fraud | Betrug, bei dem sich Kriminelle als Vorgesetzte oder Lieferanten ausgeben, meist per E-Mail oder Telefon, um eine dringende Zahlung oder eine Änderung der Bankverbindung auszulösen. |
 | Control | Konkrete Sicherheitsmassnahme, die ACP bewertet, zum Beispiel «Multi-Faktor-Authentifizierung wird eingesetzt». Jedes Control erhält eine Bewertung von 0 bis 3. |
 | Data Loss Prevention (DLP) | Technische Massnahmen, die erkennen oder verhindern, dass sensible Daten die Organisation verlassen, etwa per E-Mail, Upload oder über KI-Tools. |
+| Deepfake | Täuschend echte, aber gefälschte Tonaufnahmen, Bilder oder Videos, die mit KI erstellt wurden, zum Beispiel die nachgeahmte Stimme einer vorgesetzten Person am Telefon. |
 | DORA | Digital Operational Resilience Act: EU-Verordnung zur digitalen operationalen Resilienz von Finanzunternehmen, anwendbar seit dem 17. Januar 2025. |
 | EDR (Endpoint Detection and Response) | Schutzsoftware für Computer, die verdächtiges Verhalten erkennt, Alarm auslöst und ein Gerät isolieren kann. Sie geht über klassischen Virenschutz hinaus. |
 | Guardrails (KI) | Technische und organisatorische Grenzen für KI-Systeme, etwa welche Daten verarbeitet werden dürfen oder welche Aktionen ein KI-Tool ausführen darf. |
 | Härtung | Sichere Konfiguration von Systemen: nicht benötigte Funktionen abschalten, Standardeinstellungen ändern und empfohlene Sicherheitseinstellungen anwenden (z. B. CIS Benchmarks). |
 | IDS / IPS | Intrusion Detection oder Intrusion Prevention System: erkennt (IDS) oder blockiert (IPS) verdächtigen Netzwerkverkehr. |
+| KI-Agent | KI-System, das selbständig Aktionen ausführt, etwa E-Mails senden, Dateien ändern oder andere Systeme bedienen, statt nur Fragen zu beantworten. |
 | Knock-out-Control (KO) | Control, das so grundlegend ist, dass eine Bewertung von 0 eine ACP-Zertifizierung unabhängig vom Gesamtscore ausschliesst. |
 | Kritische Domäne | ACP-Domäne, die für eine Zertifizierung mindestens einen Score von 2.00 erreichen muss. |
 | MDM / UEM | Mobile Device Management / Unified Endpoint Management: zentrale Verwaltung von Laptops, Smartphones und Tablets, etwa für Updates, Verschlüsselung und Fernlöschung. |

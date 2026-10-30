@@ -17,7 +17,7 @@ Headquarters: Munich, Germany
 
 Assessment Date: 20 October 2026
 Assessment Scope: Corporate IT infrastructure and operational processes
-Framework Version: ACP 1.9
+Framework Version: ACP 2.0
 
 ---
 
@@ -50,7 +50,7 @@ Domain scores are the average of the control scores, rounded to two decimal plac
 | Data Protection, Backup & Recovery | 8        | 2.25  |
 | Monitoring & Incident Response     | 6        | 2.00  |
 | Continuous Improvement             | 6        | 2.17  |
-| AI Security                        | 6        | 2.00  |
+| AI Security                        | 9        | 2.00  |
 
 ---
 

@@ -1,4 +1,4 @@
-<!-- translation-of: docs/faq.md | source-sha256: 79c6cc5213cd1b02 -->
+<!-- translation-of: docs/faq.md | source-sha256: 74ffb252cd529a2a -->
 # ACP – Häufige Fragen
 
 > Übersetzung der englischen Fassung (`docs/faq.md`). Bei Abweichungen gilt die englische Fassung.
@@ -13,7 +13,7 @@ Kurze Antworten auf häufige Fragen zum **Active Cyber Program (ACP)**. Die verb
 
 ## Was ist ACP?
 
-ACP ist ein Framework, mit dem sich beurteilen lässt, ob eine Organisation ein **aktives** Cybersecurity-Programm betreibt: nicht nur, ob Sicherheitsmassnahmen vorhanden sind, sondern ob sie angewendet, überprüft und verbessert werden. Es besteht aus 71 Controls in 11 Domänen, einem Scoring-Modell und einer freiwilligen Zertifizierung.
+ACP ist ein Framework, mit dem sich beurteilen lässt, ob eine Organisation ein **aktives** Cybersecurity-Programm betreibt: nicht nur, ob Sicherheitsmassnahmen vorhanden sind, sondern ob sie angewendet, überprüft und verbessert werden. Es besteht aus 74 Controls in 11 Domänen, einem Scoring-Modell und einer freiwilligen Zertifizierung.
 
 Siehe [Framework-Übersicht](./overview.md) (Englisch).
 

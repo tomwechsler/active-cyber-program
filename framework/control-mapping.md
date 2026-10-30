@@ -9,6 +9,9 @@ This document maps the controls of the **Active Cyber Program (ACP)** to the fol
 | **NIST CSF 2.0**   | NIST Cybersecurity Framework 2.0 (NIST CSWP 29, February 2024)          |
 | **NIST AI RMF**    | NIST AI Risk Management Framework 1.0 (NIST AI 100-1, January 2023)     |
 | **DORA**           | Regulation (EU) 2022/2554 (Digital Operational Resilience Act), see the DORA overview below |
+| **ISO/IEC 42001**  | ISO/IEC 42001:2023, AI management system, clauses and Annex A control groups (Domain 11 only) |
+| **OWASP**          | OWASP Top 10 for LLM Applications 2025 and OWASP Top 10 for Agentic Applications 2026, see the AI security overview below |
+| **ISO/IEC 27090**  | ISO/IEC 27090:2026, security threats and compromises to AI systems (reference, see the AI security overview below) |
 
 The mapping helps organizations to:
 
@@ -21,7 +24,7 @@ The mapping helps organizations to:
 # Important Notes
 
 * The mapping shows **thematic relationships**. A referenced requirement may be covered only partially by the ACP control.
-* An ACP Certification **does not** constitute NIS2 compliance, DORA compliance, an ISO/IEC 27001 certification, or conformity with the NIST CSF or the NIST AI RMF.
+* An ACP Certification **does not** constitute NIS2 compliance, DORA compliance, an ISO/IEC 27001 or ISO/IEC 42001 certification, or conformity with the NIST CSF or the NIST AI RMF.
 * NIS2 is implemented through national law in the EU member states. National requirements and implementing acts, such as Commission Implementing Regulation (EU) 2024/2690 for certain digital service providers, may contain additional or more detailed requirements.
 * DORA is not shown in the domain tables because its articles are broader than individual controls. The [DORA overview](#dora-overview) lists the ACP controls for each DORA article.
 * Control IDs refer to the ACP assessment checklist (`assessment/assessment-checklist.md`). Titles of the referenced requirements are listed in the reference index at the end of this document.
@@ -177,10 +180,21 @@ For third-party AI services, see also NIST AI RMF GOVERN 6 and MANAGE 3.
 
 # Domain 11 – AI Security
 
-ISO/IEC 27001 does not contain AI-specific requirements. Organizations operating an AI management system may additionally consider ISO/IEC 42001. The mapping below uses the general ISO/IEC 27001 requirements that also apply to AI systems.
+ISO/IEC 27001 does not contain AI-specific requirements; the ISO/IEC 27001 column uses the general requirements that also apply to AI systems. For Domain 11, the mapping additionally refers to ISO/IEC 42001:2023 at the level of its clauses and Annex A control groups.
 
-| ACP  | Control | NIS2 | ISO/IEC 27001:2022 | NIST CSF 2.0 | NIST AI RMF 1.0 |
-| ---- | ------- | ---- | ------------------ | ------------ | --------------- |
+| ACP  | Control | NIS2 | ISO/IEC 27001:2022 | NIST CSF 2.0 | NIST AI RMF 1.0 | ISO/IEC 42001:2023 |
+| ---- | ------- | ---- | ------------------ | ------------ | --------------- | ------------------ |
+| 11.1 | AI systems are identified and inventoried, with defined owners | Art. 21(2)(i) | A.5.9 | ID.AM-02, GV.RR-02 | GOVERN 1.6, GOVERN 2.1 | A.3, A.4 |
+| 11.2 | AI security risks are assessed | Art. 21(2)(a) | Cl. 6.1.2, 8.2 | ID.RA-04, ID.RA-05 | MAP 1, MAP 4, MEASURE 2.7 | Cl. 6.1.2, 6.1.4, A.5 |
+| 11.3 | AI usage policies and security controls are defined and implemented | Art. 21(2)(a), Art. 21(2)(i) | A.5.1, A.5.10, A.8.3 | GV.PO-01, PR.AA-05 | GOVERN 1, MANAGE 1 | A.2, A.9 |
+| 11.4 | AI systems are monitored for security events and unexpected behavior | Art. 21(2)(b) | A.8.16 | DE.CM-09 | MEASURE 2.4, MANAGE 4.1 | A.6 |
+| 11.5 | AI security incidents are investigated | Art. 21(2)(b) | A.5.24, A.5.25, A.5.26, A.5.27 | RS.AN-03 | MANAGE 4.3 | A.8 |
+| 11.6 | AI security is included in management reporting and continuous improvement | Art. 20(1), Art. 21(2)(f) | Cl. 9.3, 10.1 | GV.OV-01, ID.IM-01 | GOVERN 1.5, GOVERN 2.3, MEASURE 3 | Cl. 9.3, 10.1 |
+| 11.7 | AI agents and AI integrations have only the access rights they need, and critical actions require human approval | Art. 21(2)(i) | A.5.15, A.8.2 | PR.AA-05 | MEASURE 2.7, MANAGE 1 | A.9 |
+| 11.8 | AI services and AI providers are assessed before use | Art. 21(2)(d), Art. 21(3) | A.5.19, A.5.20, A.5.23 | GV.SC-05, GV.SC-07 | GOVERN 6, MANAGE 3 | A.10 |
+| 11.9 | AI-generated results are reviewed by people before they are used for important decisions, published or put into production | – | – | – | GOVERN 3.2, MAP 3.5 | A.9 |
+
+---- | ------- | ---- | ------------------ | ------------ | --------------- |
 | 11.1 | AI systems are identified and inventoried, with defined owners | Art. 21(2)(i) | A.5.9 | ID.AM-02, GV.RR-02 | GOVERN 1.6, GOVERN 2.1 |
 | 11.2 | AI security risks are assessed | Art. 21(2)(a) | Cl. 6.1.2, 8.2 | ID.RA-04, ID.RA-05 | MAP 1, MAP 4, MEASURE 2.7 |
 | 11.3 | AI usage policies and security controls are defined and implemented | Art. 21(2)(a), Art. 21(2)(i) | A.5.1, A.5.10, A.8.3 | GV.PO-01, PR.AA-05 | GOVERN 1, MANAGE 1 |
@@ -225,11 +239,11 @@ The number of referenced subcategories shows the breadth of the mapping, not the
 | Govern | GV.RR Roles, Responsibilities, and Authorities | 1.3, 1.4, 1.5, 3.6, 11.1 | 4 of 4 | – |
 | Govern | GV.PO Policy | 3.1, 3.2, 11.3 | 2 of 2 | – |
 | Govern | GV.OV Oversight | 1.4, 1.6, 2.5, 10.6, 11.6 | 3 of 3 | – |
-| Govern | GV.SC Cybersecurity Supply Chain Risk Management | 2.6 | 3 of 10 | No complete supply chain risk management program (GV.SC-01); supplier security is assessed at a basic level in 2.6 |
+| Govern | GV.SC Cybersecurity Supply Chain Risk Management | 2.6, 11.8 | 3 of 10 | No complete supply chain risk management program (GV.SC-01); supplier security is assessed at a basic level in 2.6 |
 | Identify | ID.AM Asset Management | 5.1, 5.7, 8.1, 11.1 | 4 of 7 | Network data flows (ID.AM-03) and asset life cycle management (ID.AM-08) are not required |
 | Identify | ID.RA Risk Assessment | 1.5, 2.1, 2.3, 2.4, 2.5, 5.3, 5.5, 5.7, 10.3, 11.2 | 7 of 10 | Threat intelligence (ID.RA-02) is not required |
 | Identify | ID.IM Improvement | 3.5, 8.7, 9.4, 10.1, 10.2, 10.3, 10.4, 11.6 | 4 of 4 | – |
-| Protect | PR.AA Identity Management, Authentication, and Access Control | 3.7, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 5.4, 7.3, 7.6, 11.3 | 3 of 6 | Identity proofing (PR.AA-02) and physical access (PR.AA-06) are not covered |
+| Protect | PR.AA Identity Management, Authentication, and Access Control | 3.7, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 5.4, 7.3, 7.6, 11.3, 11.7 | 3 of 6 | Identity proofing (PR.AA-02) and physical access (PR.AA-06) are not covered |
 | Protect | PR.AT Awareness and Training | 3.6, 3.7, 10.5 | 2 of 2 | – |
 | Protect | PR.DS Data Security | 3.3, 6.3, 6.6, 7.7, 8.2, 8.3, 8.4, 8.5, 8.6 | 3 of 4 | Protection of data in use (PR.DS-10) is not covered |
 | Protect | PR.PS Platform Security | 3.4, 5.2, 5.3, 5.5, 5.6, 6.2, 6.4, 6.5, 6.6, 9.1 | 6 of 6 | Hardware life cycle (PR.PS-03) is addressed through secure disposal (6.6), not in full |
@@ -244,6 +258,67 @@ The number of referenced subcategories shows the breadth of the mapping, not the
 | Recover | RC.CO Incident Recovery Communication | 8.8 | 1 of 2 | Public updates on recovery (RC.CO-04) are not required |
 
 In total, the mapping references **61 of 106** NIST CSF 2.0 subcategories in **21 of 22** categories.
+
+---
+
+# AI Security Overview
+
+ACP Domain 11 is designed for organizations that **use** AI services, AI assistants and AI agents, and for organizations that operate their own AI applications such as chatbots. The following overviews show how Domain 11 relates to current AI security references. Coverage refers to an assessment at the level of an ACP control, not to a technical security test.
+
+## OWASP Top 10 for LLM Applications 2025
+
+| OWASP | Risk | ACP controls | Coverage |
+| ----- | ---- | ------------ | -------- |
+| LLM01 | Prompt Injection | 11.2, 11.7 | Partial – considered in the risk assessment and limited by restricted rights of AI agents; technical tests are required only for own AI applications (11.2) |
+| LLM02 | Sensitive Information Disclosure | 3.2, 11.3, 11.8 | Covered – rules on data entered into AI tools, access rights reviewed before AI assistants are introduced, data use by the provider |
+| LLM03 | Supply Chain | 11.8 | Partial – AI providers are assessed; provenance of models and datasets is not assessed |
+| LLM04 | Data and Model Poisoning | 11.2 | Not covered beyond the risk assessment – relevant for organizations that train or fine-tune models |
+| LLM05 | Improper Output Handling | 11.2, 11.9 | Partial – human review of AI results; technical output validation only for own AI applications |
+| LLM06 | Excessive Agency | 11.7 | Covered |
+| LLM07 | System Prompt Leakage | 11.2 | Partial – only for own AI applications |
+| LLM08 | Vector and Embedding Weaknesses | 11.2, 11.3 | Partial – access rights to data used by AI assistants; technical security of retrieval systems is not assessed |
+| LLM09 | Misinformation | 11.9 | Covered |
+| LLM10 | Unbounded Consumption | 11.4 | Partial – usage and cost limits |
+
+## OWASP Top 10 for Agentic Applications 2026
+
+| OWASP | Risk | ACP controls | Coverage |
+| ----- | ---- | ------------ | -------- |
+| ASI01 | Agent Goal Hijack | 11.2, 11.7 | Partial – manipulation through processed content is considered in the risk assessment; its impact is limited by restricted rights and human approval |
+| ASI02 | Tool Misuse and Exploitation | 11.7 | Covered |
+| ASI03 | Identity and Privilege Abuse | 11.7, 4.4 | Covered – own accounts with task-specific rights for AI agents |
+| ASI04 | Agentic Supply Chain Vulnerabilities | 11.7, 11.8 | Partial – approved connectors and assessed providers; components of agents are not analyzed technically |
+| ASI05 | Unexpected Code Execution | 11.7, 11.9 | Partial – limited rights and review of AI-generated code; isolated execution environments are not required |
+| ASI06 | Memory and Context Poisoning | 11.2 | Not covered beyond the risk assessment |
+| ASI07 | Insecure Inter-Agent Communication | – | Not covered – relevant for organizations that develop systems with several cooperating agents |
+| ASI08 | Cascading Failures | 11.7, 11.9 | Partial – human approval of critical actions limits the impact |
+| ASI09 | Human-Agent Trust Exploitation | 11.9, 10.5 | Partial – responsibility for results, awareness of AI-supported deception |
+| ASI10 | Rogue Agents | 11.4, 11.7 | Partial – monitoring, review of rights and the ability to stop agents |
+
+## ISO/IEC 27090:2026
+
+ISO/IEC 27090 describes security threats to AI systems and how to detect and mitigate them. The following clauses relate directly to ACP controls:
+
+| ISO/IEC 27090 | Topic | ACP controls |
+| ------------- | ----- | ------------ |
+| Cl. 5.2 | AI governance programme | 11.1, 11.2, 11.6 |
+| Cl. 5.5 | Supply chain management | 11.8 |
+| Cl. 5.6, Cl. 5.7 | Threat modelling, red teaming | 11.2 (own AI applications) |
+| Cl. 6.9 | Prompt injection | 11.2, 11.7 |
+| Cl. 6.10 | Output contains injection attacks | 11.2 (own AI applications), 11.9 |
+| Cl. 6.11.2 | Reduce impact by data limitation | 11.3 |
+| Cl. 6.11.3.2 | Oversight | 11.7, 11.9 |
+| Cl. 6.11.3.3 | Least privilege for AI systems and agents | 11.7 |
+| Cl. 7.5 | Logging and monitoring | 11.4 |
+| Cl. 7.8 | Throttling model use | 11.4 |
+
+Attacks on models and training data (Cl. 6.2 to 6.8, for example data poisoning, evasion, membership inference and model inversion) are not covered by ACP, see the topics not covered below.
+
+## Further References
+
+* **ISO/IEC 23894:2023** provides guidance on AI risk management based on ISO 31000. It supports 11.1 (documenting where AI is developed or used) and 11.2 (AI risk assessment, including its catalogue of risk sources in Annex B).
+* **MITRE ATLAS** is a knowledge base of attack techniques against AI systems. It is useful for threat modelling and for testing own AI applications (11.2). It is not mapped to individual controls because it describes attack techniques, not requirements.
+* **BSI AIC4** is a criteria catalogue for providers of AI cloud services, building on BSI C5. It is not mapped because it addresses providers; an AIC4 attestation can serve as evidence when assessing an AI provider (11.8).
 
 ---
 
@@ -307,7 +382,9 @@ Organizations that must comply with NIS2 or seek ISO/IEC 27001 certification sho
 | Threat intelligence | – | A.5.7 | ID.RA-02 |
 | Management system scope and documented information | – | Cl. 4.3, 7.5 | – |
 
-The NIST AI RMF additionally addresses trustworthiness characteristics beyond security, such as fairness, privacy, transparency and explainability (MEASURE 2), and impacts on individuals and society (MAP 5). ACP Domain 11 focuses on the security of AI systems and does not cover these aspects.
+The NIST AI RMF and ISO/IEC 42001 additionally address trustworthiness characteristics beyond security, such as fairness, privacy, transparency and explainability (MEASURE 2), and impacts on individuals and society (MAP 5). ACP Domain 11 focuses on the security of AI systems and does not cover these aspects.
+
+ACP also does not assess attacks on AI models and training data and their technical countermeasures (ISO/IEC 27090, clauses 6.2 to 6.8), for example data and model poisoning, evasion attacks, membership inference, model inversion and model exfiltration. These topics are relevant for organizations that train or fine-tune their own models.
 
 ---
 
@@ -323,7 +400,7 @@ DORA does not apply in Switzerland. For banks, FINMA Circular 2023/1 "Operationa
 
 # Reference Index
 
-NIS2 and ISO/IEC 27001 titles are given in short form. NIST CSF 2.0 titles are quoted verbatim from NIST CSWP 29. NIST AI RMF titles are abbreviated; see NIST AI 100-1 for the full wording.
+NIS2 and ISO/IEC 27001 titles are given in short form. NIST CSF 2.0 titles are quoted verbatim from NIST CSWP 29. NIST AI RMF titles are abbreviated; see NIST AI 100-1 for the full wording. ISO/IEC 42001 is referenced at the level of its clauses and Annex A control groups.
 
 ## NIS2 – Directive (EU) 2022/2555
 
@@ -526,8 +603,10 @@ NIS2 and ISO/IEC 27001 titles are given in short form. NIST CSF 2.0 titles are q
 | GOVERN 1.6 | Mechanisms are in place to inventory AI systems |
 | GOVERN 2.1 | Roles, responsibilities and lines of communication related to AI risks are documented and clear |
 | GOVERN 2.3 | Executive leadership takes responsibility for decisions about risks associated with AI system development and deployment |
+| GOVERN 3.2 | Policies and procedures are in place to define and differentiate roles and responsibilities for human-AI configurations and oversight of AI systems |
 | GOVERN 6 | Policies and procedures address AI risks and benefits arising from third-party software and data and other supply chain issues |
 | MAP 1 | Context is established and understood |
+| MAP 3.5 | Processes for human oversight are defined, assessed, and documented in accordance with organizational policies |
 | MAP 4 | Risks and benefits are mapped for all components of the AI system, including third-party software and data |
 | MAP 5 | Impacts to individuals, groups, communities, organizations, and society are characterized |
 | MEASURE 2 | AI systems are evaluated for trustworthy characteristics |
@@ -538,3 +617,20 @@ NIS2 and ISO/IEC 27001 titles are given in short form. NIST CSF 2.0 titles are q
 | MANAGE 3 | AI risks and benefits from third-party entities are managed |
 | MANAGE 4.1 | Post-deployment AI system monitoring plans are implemented |
 | MANAGE 4.3 | Incidents and errors are communicated to relevant AI actors; processes for tracking, responding to, and recovering from incidents and errors are followed and documented |
+
+## ISO/IEC 42001:2023
+
+| Reference | Title |
+| --------- | ----- |
+| Cl. 6.1.2 | AI risk assessment |
+| Cl. 6.1.4 | AI system impact assessment |
+| Cl. 9.3 | Management review |
+| Cl. 10.1 | Continual improvement |
+| A.2 | Policies related to AI |
+| A.3 | Internal organization |
+| A.4 | Resources for AI systems |
+| A.5 | Assessing impacts of AI systems |
+| A.6 | AI system life cycle |
+| A.8 | Information for interested parties of AI systems |
+| A.9 | Use of AI systems |
+| A.10 | Third-party and customer relationships |

@@ -223,6 +223,9 @@ Possible evidence:
 * AI security control documentation
 * AI security monitoring reports
 * AI technical guardrails configuration
+* Overview of AI agents and integrations with their access rights and approval settings
+* Assessment of AI providers, contract or terms of use, data processing agreement
+* Rules for the human review of AI-generated results
 
 ---
 
