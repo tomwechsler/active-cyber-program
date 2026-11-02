@@ -376,6 +376,7 @@ The ACP framework documentation is licensed under the [Creative Commons Attribut
 * You may share the unmodified framework for any purpose with attribution.
 * Organizations and assessors may fill in, extend and share the templates, the assessment questionnaire and the checklist for their own assessments (additional permission, see `LICENSE`).
 * Modified versions of the framework itself must not be distributed.
+* The scripts in `tools/` are not covered by this license. They may be run to build and check this repository; all other rights are reserved.
 
 The names "Active Cyber Program" and "ACP", the ACP logo, the ACP Certification and the ACP Trust Label are not covered by this license. Their use is governed by the [trademark and certification usage policy](./docs/trademark.md).
 

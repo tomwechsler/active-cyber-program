@@ -1,4 +1,4 @@
-<!-- translation-of: README.md | source-sha256: 896ad3a29542ced2 -->
+<!-- translation-of: README.md | source-sha256: f59dae0706039095 -->
 # Active Cyber Program (ACP)
 
 [English](README.md) | **Deutsch**
@@ -384,6 +384,7 @@ Die Dokumentation des ACP-Frameworks steht unter der Lizenz [Creative Commons Na
 * Sie dürfen das unveränderte Framework für jeden Zweck mit Namensnennung weitergeben.
 * Organisationen und Assessoren dürfen die Vorlagen, den Fragenkatalog und die Checkliste für ihre eigenen Assessments ausfüllen, ergänzen und weitergeben (zusätzliche Erlaubnis, siehe `LICENSE`).
 * Veränderte Fassungen des Frameworks selbst dürfen nicht verbreitet werden.
+* Die Skripte in `tools/` sind von dieser Lizenz nicht erfasst. Sie dürfen ausgeführt werden, um dieses Repository zu erstellen und zu prüfen; alle weiteren Rechte sind vorbehalten.
 
 Die Namen «Active Cyber Program» und «ACP», das ACP-Logo, die ACP-Zertifizierung und das ACP Trust Label sind von dieser Lizenz nicht erfasst. Ihre Verwendung regelt die [Richtlinie zur Verwendung von Marke und Zertifizierung](./docs/trademark.md) (Englisch).
 

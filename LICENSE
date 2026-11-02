@@ -25,6 +25,14 @@ Certification and the ACP Trust Label are not licensed under CC BY-ND 4.0
 docs/trademark.md. ACP Certifications may only be issued by
 Wechsler Information Solution.
 
+Tools
+-----
+The scripts in tools/ are not licensed under CC BY-ND 4.0. They are
+Copyright (c) 2026 Wechsler Information Solution, all rights reserved.
+They may be run to build and check the documents of this repository.
+Any other use, modification or redistribution requires written
+permission from Wechsler Information Solution.
+
 Earlier revisions of this repository were published under the GNU General
 Public License v3.0. Those revisions remain available under their original
 license.
