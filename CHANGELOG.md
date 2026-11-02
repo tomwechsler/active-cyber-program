@@ -6,7 +6,16 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
-## [Unreleased]
+## [2.1] - 2026-11-02
+
+### Added
+- Guiding question on locally operated AI models (11.8): models are obtained only from trusted sources and approved before use
+- Guiding question on human approvals (11.7): approvals are limited to really critical actions, so that they are checked carefully and not confirmed out of habit
+- Control mapping: ISO/IEC 27090:2026 clause 5.3 (zero trust principles) and Annex B.3, B.4 and B.7 (supply chain and backdoor attacks, model input leak)
+
+### Changed
+- Guiding question on AI providers (11.8) also asks how long entered data is stored; scoring guidance and evidence requirements include the sources of locally operated models
+- Control mapping: coverage of OWASP LLM03 (Supply Chain) includes the sources of locally operated models
 
 ### Fixed
 - Control mapping: leftover rows of the former Domain 11 table removed

@@ -263,7 +263,7 @@ ACP Domain 11 is designed for organizations that **use** AI services, AI assista
 | ----- | ---- | ------------ | -------- |
 | LLM01 | Prompt Injection | 11.2, 11.7 | Partial – considered in the risk assessment and limited by restricted rights of AI agents; technical tests are required only for own AI applications (11.2) |
 | LLM02 | Sensitive Information Disclosure | 3.2, 11.3, 11.8 | Covered – rules on data entered into AI tools, access rights reviewed before AI assistants are introduced, data use by the provider |
-| LLM03 | Supply Chain | 11.8 | Partial – AI providers are assessed; provenance of models and datasets is not assessed |
+| LLM03 | Supply Chain | 11.8 | Partial – AI providers and the sources of locally operated models are assessed; models and datasets are not analyzed technically |
 | LLM04 | Data and Model Poisoning | 11.2 | Not covered beyond the risk assessment – relevant for organizations that train or fine-tune models |
 | LLM05 | Improper Output Handling | 11.2, 11.9 | Partial – human review of AI results; technical output validation only for own AI applications |
 | LLM06 | Excessive Agency | 11.7 | Covered |
@@ -294,6 +294,7 @@ ISO/IEC 27090 describes security threats to AI systems and how to detect and mit
 | ISO/IEC 27090 | Topic | ACP controls |
 | ------------- | ----- | ------------ |
 | Cl. 5.2 | AI governance programme | 11.1, 11.2, 11.6 |
+| Cl. 5.3 | Zero trust principles | 11.3, 11.7 |
 | Cl. 5.5 | Supply chain management | 11.8 |
 | Cl. 5.6, Cl. 5.7 | Threat modelling, red teaming | 11.2 (own AI applications) |
 | Cl. 6.9 | Prompt injection | 11.2, 11.7 |
@@ -303,6 +304,8 @@ ISO/IEC 27090 describes security threats to AI systems and how to detect and mit
 | Cl. 6.11.3.3 | Least privilege for AI systems and agents | 11.7 |
 | Cl. 7.5 | Logging and monitoring | 11.4 |
 | Cl. 7.8 | Throttling model use | 11.4 |
+| Annex B.3, B.4 | Supply chain attacks, backdoor attacks | 11.8 (sources of locally operated models; model files are not analyzed technically) |
+| Annex B.7 | Model input leak | 3.2, 11.3, 11.8 |
 
 Attacks on models and training data (Cl. 6.2 to 6.8, for example data poisoning, evasion, membership inference and model inversion) are not covered by ACP, see the topics not covered below.
 

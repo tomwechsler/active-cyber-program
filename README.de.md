@@ -1,9 +1,9 @@
-<!-- translation-of: README.md | source-sha256: 4f08e38077f2a223 -->
+<!-- translation-of: README.md | source-sha256: 88e8c6e61a23936e -->
 # Active Cyber Program (ACP)
 
 [English](README.md) | **Deutsch**
 
-![Framework Version](https://img.shields.io/badge/framework-ACP%202.0-blue)
+![Framework Version](https://img.shields.io/badge/framework-ACP%202.1-blue)
 ![Status](https://img.shields.io/badge/status-active-green)
 ![License](https://img.shields.io/badge/license-CC%20BY--ND%204.0-lightgrey)
 ![Certification](https://img.shields.io/badge/certification-ACP-blue)
@@ -38,7 +38,7 @@ Das Framework bietet Organisationen eine strukturierte Methode, um ihre Cybersec
 
 Aktuelle Framework-Version:
 
-**ACP Framework Version 2.0**
+**ACP Framework Version 2.1**
 
 Informationen zur Version finden Sie in:
 
