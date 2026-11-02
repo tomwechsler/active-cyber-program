@@ -1,4 +1,4 @@
-<!-- translation-of: README.md | source-sha256: 88e8c6e61a23936e -->
+<!-- translation-of: README.md | source-sha256: 896ad3a29542ced2 -->
 # Active Cyber Program (ACP)
 
 [English](README.md) | **Deutsch**
@@ -111,6 +111,7 @@ Am einfachsten starten Sie mit der kostenlosen Web-App unter **[acp.videotrainer
 * keine Anmeldung, keine Cookies, keine Datenspeicherung: Alle Eingaben bleiben in Ihrem Browser
 * alle ACP-Controls mit Leitfragen und Bewertungshilfe
 * sofortiges Ergebnis: Gesamtscore, Reifegrad, Scores pro Domäne, Knock-out-Controls und Handlungsfelder
+* Bezug zu NIS2, ISO/IEC 27001, NIST CSF und für die KI-Sicherheit zu den OWASP Top 10 for LLM Applications, pro Control und im Resultat
 
 Das Ergebnis ist eine Selbsteinschätzung ohne Prüfung von Nachweisen und keine ACP-Zertifizierung. Der Quellcode ist öffentlich: [github.com/tomwechsler/acp-app](https://github.com/tomwechsler/acp-app).
 
@@ -182,7 +183,7 @@ Kurze Erklärungen von Begriffen wie MFA, EDR, DMARC oder RTO/RPO, geschrieben f
 
 ## Control-Mapping
 
-Alle ACP-Controls sind NIS2, ISO/IEC 27001:2022, dem NIST Cybersecurity Framework 2.0 und für die KI-Sicherheit dem NIST AI Risk Management Framework und ISO/IEC 42001 zugeordnet. Für die KI-Sicherheit zeigt das Mapping zudem die Abdeckung der OWASP Top 10 for LLM Applications und for Agentic Applications und verweist auf ISO/IEC 27090. Das Mapping führt auch die Themen auf, die ACP nicht abdeckt, gibt einen Überblick über die vom ACP abgedeckten Kategorien des NIST CSF 2.0, ordnet ACP in DORA ein (auch aus Sicht von IT-Dienstleistern für Finanzunternehmen) und enthält Hinweise zum IKT-Minimalstandard des Bundes und zum FINMA-Rundschreiben 2023/1.
+Die ACP-Controls sind NIS2, ISO/IEC 27001:2022, dem NIST Cybersecurity Framework 2.0 und für die KI-Sicherheit dem NIST AI Risk Management Framework und ISO/IEC 42001 zugeordnet. Für die KI-Sicherheit zeigt das Mapping zudem die Abdeckung der OWASP Top 10 for LLM Applications und for Agentic Applications und verweist auf ISO/IEC 27090. Das Mapping führt auch die Themen auf, die ACP nicht abdeckt, gibt einen Überblick über die vom ACP abgedeckten Kategorien des NIST CSF 2.0, ordnet ACP in DORA ein (auch aus Sicht von IT-Dienstleistern für Finanzunternehmen) und enthält Hinweise zum IKT-Minimalstandard des Bundes und zum FINMA-Rundschreiben 2023/1.
 
 `framework/control-mapping.md`
 

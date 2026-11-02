@@ -56,7 +56,7 @@ See `framework/maturity-levels.md`.
 
 ## Control Mapping
 
-All ACP controls are mapped to NIS2, ISO/IEC 27001:2022, NIST CSF 2.0 and the NIST AI RMF. The mapping also relates ACP to DORA and lists topics that ACP does not cover.
+The ACP controls are mapped to NIS2, ISO/IEC 27001:2022 and NIST CSF 2.0, and for AI security additionally to the NIST AI RMF and ISO/IEC 42001. The mapping also shows the coverage of the OWASP Top 10 lists for AI applications and of ISO/IEC 27090, relates ACP to DORA and lists topics that ACP does not cover.
 
 See `framework/control-mapping.md`.
 

@@ -10,14 +10,14 @@ The example is intended for **illustration purposes only**.
 
 # Organization Information
 
-Organization Name: ExampleTech GmbH
-Industry: Software Services
-Employees: 85
-Headquarters: Munich, Germany
+Organization Name: ExampleTech GmbH  
+Industry: Software Services  
+Employees: 85  
+Headquarters: Munich, Germany  
 
-Assessment Date: 20 October 2026
-Assessment Scope: Corporate IT infrastructure and operational processes
-Framework Version: ACP 2.1
+Assessment Date: 16 November 2026  
+Assessment Scope: Corporate IT infrastructure and operational processes  
+Framework Version: ACP 2.1  
 
 ---
 

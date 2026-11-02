@@ -28,18 +28,19 @@ The assessment confirms that cybersecurity is **actively managed and integrated 
 
 # Certification Details
 
-Certificate ID: ACP-EXAMPLE-001
-Organization: ExampleTech GmbH
-Certified Scope: Corporate IT infrastructure and operational processes
-Industry: Software Services
-Headquarters: Munich, Germany
+Certificate ID: ACP-EXAMPLE-001  
+Organization: ExampleTech GmbH  
+Certified Scope: Corporate IT infrastructure and operational processes  
+Industry: Software Services  
+Headquarters: Munich, Germany  
+ACP Framework Version: 2.1  
 
-Assessment Date: 20 October 2026
-Certification Date: 26 October 2026
-Certification Valid Until: 26 October 2028
+Assessment Date: 16 November 2026  
+Certification Date: 23 November 2026  
+Certification Valid Until: 23 November 2028  
 
-Overall ACP Score: 2.14
-ACP Maturity Level: Level 3 – Defined
+Overall ACP Score: 2.14  
+ACP Maturity Level: Level 3 – Defined  
 
 ---
 
@@ -69,7 +70,7 @@ Certification Authority Representative
 
 Wechsler Information Solution
 
-Date: 26 October 2026
+Date: 23 November 2026
 
 ---
 

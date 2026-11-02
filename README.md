@@ -108,6 +108,7 @@ The easiest way to start is the free web app at **[acp.videotrainer.ch](https://
 * no registration, no cookies, no data storage: all entries remain in your browser
 * all ACP controls with guiding questions and scoring guidance
 * immediate result: overall score, maturity level, domain scores, knock-out controls and improvement areas
+* reference to NIS2, ISO/IEC 27001, NIST CSF and, for AI security, the OWASP Top 10 for LLM Applications for every control and in the result
 
 The result is a self-assessment without review of evidence and not an ACP Certification. The source code is public: [github.com/tomwechsler/acp-app](https://github.com/tomwechsler/acp-app).
 
@@ -174,7 +175,7 @@ Short explanations of terms such as MFA, EDR, DMARC or RTO/RPO, written for read
 
 ## Control Mapping
 
-All ACP controls are mapped to NIS2, ISO/IEC 27001:2022, the NIST Cybersecurity Framework 2.0 and, for AI security, the NIST AI Risk Management Framework and ISO/IEC 42001. For AI security, the mapping also shows the coverage of the OWASP Top 10 for LLM Applications and for Agentic Applications and refers to ISO/IEC 27090. The mapping also lists topics that ACP does not cover, provides an overview of the NIST CSF 2.0 categories addressed by ACP, relates ACP to DORA (including the perspective of ICT service providers to financial entities) and includes notes on the Swiss ICT minimum standard and FINMA Circular 2023/1.
+The ACP controls are mapped to NIS2, ISO/IEC 27001:2022, the NIST Cybersecurity Framework 2.0 and, for AI security, the NIST AI Risk Management Framework and ISO/IEC 42001. For AI security, the mapping also shows the coverage of the OWASP Top 10 for LLM Applications and for Agentic Applications and refers to ISO/IEC 27090. The mapping also lists topics that ACP does not cover, provides an overview of the NIST CSF 2.0 categories addressed by ACP, relates ACP to DORA (including the perspective of ICT service providers to financial entities) and includes notes on the Swiss ICT minimum standard and FINMA Circular 2023/1.
 
 `framework/control-mapping.md`
 

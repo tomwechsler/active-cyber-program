@@ -23,6 +23,8 @@ and
 
 The purpose of this agreement is the execution of an **Active Cyber Program (ACP) Assessment** in order to evaluate whether the Client operates an active cybersecurity program in accordance with the **ACP Framework**, and the subsequent certification decision.
 
+The ACP Certification is issued under the published rules of the ACP framework. It is not accredited by a national accreditation body and does not replace certifications or evidence required by law or contract.
+
 ---
 
 ## 3. Framework Version and Scope

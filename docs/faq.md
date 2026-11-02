@@ -22,7 +22,7 @@ Small organizations do not need extensive documentation. Short, clear rules are 
 
 ## Does ACP replace ISO/IEC 27001 or NIS2?
 
-No. ACP is smaller and more practical. Every ACP control is mapped to NIS2, ISO/IEC 27001:2022, NIST CSF 2.0 and, for AI security, the NIST AI RMF. The mapping also shows which topics ACP does not cover and how ACP relates to DORA.
+No. ACP is smaller and more practical. The ACP controls are mapped to NIS2, ISO/IEC 27001:2022, NIST CSF 2.0 and, for AI security, to the NIST AI RMF and ISO/IEC 42001. The mapping also shows which topics ACP does not cover and how ACP relates to DORA.
 
 An ACP Certification does not constitute NIS2 or DORA compliance or an ISO/IEC 27001 certification. ACP can be a practical first step, and its results can be reused for these frameworks.
 
@@ -109,9 +109,9 @@ See the [scoring model](../assessment/scoring-model.md).
 
 Six fundamental controls: multi-factor authentication (4.3), privileged accounts (4.4), patching (5.3), backups and their protection (8.4, 8.5) and incident response (9.4). If one of them is scored 0, certification is not possible, regardless of the overall score.
 
-## What happens if the requirements are not quite met?
+## What happens if not all requirements are met?
 
-The decision is **ACP Certification Pending**. You have 3 months from the assessment report to close the gaps. A follow-up review is then limited to the affected controls. If the gaps are not closed within 3 months, the certification is not granted, and a new full assessment is required.
+If you want to close the gaps, the decision is **ACP Certification Pending**. You have 3 months from the assessment report to close the gaps. A follow-up review is then limited to the affected controls. If the gaps are not closed within 3 months, the certification is not granted, and a new full assessment is required.
 
 ## How long is the certification valid?
 

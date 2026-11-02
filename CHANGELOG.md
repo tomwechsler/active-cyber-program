@@ -6,6 +6,20 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
+## [Unreleased]
+
+### Changed
+- README: the description of the self-assessment web app mentions the reference to NIS2, ISO/IEC 27001, NIST CSF and OWASP
+- Assessment report template: fields for the rationale of the certification decision and, if pending, the remediation deadline
+- Assessment agreement template: states that the ACP Certification is not accredited
+
+### Fixed
+- Framework overview, FAQ and README: the description of the control mapping includes ISO/IEC 42001, OWASP and ISO/IEC 27090 and no longer states that every control is mapped to every framework (control 11.9 has no NIS2, ISO/IEC 27001 or NIST CSF reference)
+- FAQ: the question on ACP Certification Pending no longer suggests that it applies only if the requirements are narrowly missed
+- Examples and registry: dates of the example certification are after the release of framework version 2.1; line breaks in the examples are shown correctly on GitHub
+
+---
+
 ## [2.1] - 2026-11-02
 
 ### Added

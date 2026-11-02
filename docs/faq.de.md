@@ -1,4 +1,4 @@
-<!-- translation-of: docs/faq.md | source-sha256: 74ffb252cd529a2a -->
+<!-- translation-of: docs/faq.md | source-sha256: 7291b380357fb169 -->
 # ACP – Häufige Fragen
 
 > Übersetzung der englischen Fassung (`docs/faq.md`). Bei Abweichungen gilt die englische Fassung.
@@ -25,7 +25,7 @@ Kleine Organisationen brauchen keine umfangreiche Dokumentation. Kurze, klare Re
 
 ## Ersetzt ACP ISO/IEC 27001 oder NIS2?
 
-Nein. ACP ist schlanker und praxisnäher. Jedes ACP-Control ist NIS2, ISO/IEC 27001:2022, dem NIST CSF 2.0 und für die KI-Sicherheit dem NIST AI RMF zugeordnet. Das Mapping zeigt auch, welche Themen ACP nicht abdeckt und wie sich ACP zu DORA verhält.
+Nein. ACP ist schlanker und praxisnäher. Die ACP-Controls sind NIS2, ISO/IEC 27001:2022, dem NIST CSF 2.0 und für die KI-Sicherheit dem NIST AI RMF und ISO/IEC 42001 zugeordnet. Das Mapping zeigt auch, welche Themen ACP nicht abdeckt und wie sich ACP zu DORA verhält.
 
 Eine ACP-Zertifizierung begründet keine Konformität mit NIS2 oder DORA und ist keine ISO/IEC-27001-Zertifizierung. ACP kann ein praxisnaher erster Schritt sein, und die Ergebnisse lassen sich für diese Frameworks weiterverwenden.
 
@@ -112,9 +112,9 @@ Siehe [Scoring-Modell](../assessment/scoring-model.md) (Englisch).
 
 Sechs grundlegende Controls: Multi-Faktor-Authentifizierung (4.3), privilegierte Konten (4.4), Patching (5.3), Backups und deren Schutz (8.4, 8.5) sowie Incident Response (9.4). Wird eines davon mit 0 bewertet, ist keine Zertifizierung möglich, unabhängig vom Gesamtscore.
 
-## Was geschieht, wenn die Voraussetzungen knapp nicht erfüllt sind?
+## Was geschieht, wenn nicht alle Voraussetzungen erfüllt sind?
 
-Der Entscheid lautet **ACP Certification Pending**. Sie haben ab dem Assessment-Bericht 3 Monate Zeit, die Lücken zu schliessen. Die Nachprüfung beschränkt sich dann auf die betroffenen Controls. Werden die Lücken nicht innerhalb von 3 Monaten geschlossen, wird die Zertifizierung nicht erteilt, und es braucht ein neues, vollständiges Assessment.
+Wenn Sie die Lücken schliessen möchten, lautet der Entscheid **ACP Certification Pending**. Sie haben ab dem Assessment-Bericht 3 Monate Zeit, die Lücken zu schliessen. Die Nachprüfung beschränkt sich dann auf die betroffenen Controls. Werden die Lücken nicht innerhalb von 3 Monaten geschlossen, wird die Zertifizierung nicht erteilt, und es braucht ein neues, vollständiges Assessment.
 
 ## Wie lange ist die Zertifizierung gültig?
 
