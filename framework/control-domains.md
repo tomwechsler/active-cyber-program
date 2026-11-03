@@ -4,9 +4,9 @@ The **Active Cyber Program (ACP)** framework defines eleven control domains that
 
 These domains cover cybersecurity from **business governance to operational and technical protection mechanisms**. The goal is to evaluate whether cybersecurity is actively managed and integrated into the organization's operations.
 
-Most domains contain six controls that are evaluated during an ACP assessment; Domains 3, 5 and 7 contain seven and Domain 8 contains eight. The controls listed below correspond to the authoritative ACP assessment checklist (`assessment/assessment-checklist.md`). Controls marked **[KO]** are knock-out controls (see `assessment/scoring-model.md`).
+Most domains contain six controls that are evaluated during an ACP assessment; Domains 3, 5 and 7 contain seven, Domain 8 contains eight and Domain 11 contains nine. The controls listed below correspond to the authoritative ACP assessment checklist (`assessment/assessment-checklist.md`). Controls marked **[KO]** are knock-out controls (see `assessment/scoring-model.md`).
 
-The mapping of all controls to NIS2, ISO/IEC 27001:2022, NIST CSF 2.0 and the NIST AI RMF is provided in `framework/control-mapping.md`.
+The ACP controls are mapped to NIS2, ISO/IEC 27001:2022 and NIST CSF 2.0, and for AI security additionally to the NIST AI RMF and ISO/IEC 42001. The mapping also shows the coverage of the OWASP Top 10 lists for AI applications and of ISO/IEC 27090 and lists topics that ACP does not cover (see `framework/control-mapping.md`).
 
 ---
 
@@ -307,7 +307,7 @@ An active cybersecurity program evolves over time and adapts to new threats and 
 
 AI systems are developed, deployed, and used with security in mind.
 
-AI security helps protect against adversarial attacks and ensures responsible AI usage.
+AI security helps protect company data and systems when AI is used and supports its responsible use.
 
 This domain applies as soon as the organization develops, operates or uses AI systems within the assessment scope, including AI services such as AI assistants or chat tools used by employees. When applicable, it is a critical domain.
 

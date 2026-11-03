@@ -19,6 +19,8 @@ The purpose of this changelog is to provide transparency regarding updates to th
 - Framework overview, FAQ and README: the description of the control mapping includes ISO/IEC 42001, OWASP and ISO/IEC 27090 and no longer states that every control is mapped to every framework (control 11.9 has no NIS2, ISO/IEC 27001 or NIST CSF reference)
 - FAQ: the question on ACP Certification Pending no longer suggests that it applies only if the requirements are narrowly missed
 - Examples and registry: dates of the example certification are after the release of framework version 2.1; line breaks in the examples are shown correctly on GitHub
+- Control domains: the introduction states that Domain 11 contains nine controls and describes the control mapping including ISO/IEC 42001, OWASP and ISO/IEC 27090 without stating that every control is mapped to every framework
+- Control domains: the objective of Domain 11 no longer states that ACP protects against adversarial attacks on AI models, which ACP does not cover
 
 ---
 
