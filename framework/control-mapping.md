@@ -58,7 +58,7 @@ The mapping helps organizations to:
 
 | ACP  | Control | NIS2 | ISO/IEC 27001:2022 | NIST CSF 2.0 |
 | ---- | ------- | ---- | ------------------ | ------------ |
-| 2.1 | Cybersecurity risks are formally identified | Art. 21(2)(a) | Cl. 6.1.2, 8.2 | ID.RA-03, ID.RA-07 |
+| 2.1 | Cybersecurity risks are formally identified | Art. 21(2)(a) | Cl. 6.1.2, 8.2; A.5.8 | ID.RA-03, ID.RA-07 |
 | 2.2 | A risk register exists | Art. 21(2)(a) | Cl. 6.1.2, 8.2 | GV.RM-06 |
 | 2.3 | Risks are evaluated based on impact and likelihood | Art. 21(2)(a) | Cl. 6.1.2 | ID.RA-04, ID.RA-05 |
 | 2.4 | Risk mitigation measures are defined | Art. 21(1), Art. 21(2)(a) | Cl. 6.1.3, 8.3 | ID.RA-06 |
@@ -74,7 +74,7 @@ For third-party AI services, see also NIST AI RMF GOVERN 6 and MANAGE 3.
 | ACP  | Control | NIS2 | ISO/IEC 27001:2022 | NIST CSF 2.0 |
 | ---- | ------- | ---- | ------------------ | ------------ |
 | 3.1 | An information security policy exists | Art. 21(2)(a) | Cl. 5.2; A.5.1 | GV.PO-01, GV.PO-02 |
-| 3.2 | Acceptable use policies are defined | Art. 21(2)(g) | A.5.10 | GV.PO-01 |
+| 3.2 | Acceptable use policies are defined | Art. 21(2)(g) | A.5.10, A.6.7 | GV.PO-01 |
 | 3.3 | Backup policies are documented | Art. 21(2)(c) | A.8.13 | PR.DS-11 |
 | 3.4 | Patch management procedures exist | Art. 21(2)(e) | A.8.8 | PR.PS-02 |
 | 3.5 | Incident response procedures are defined | Art. 21(2)(b) | A.5.24 | ID.IM-04 |
@@ -90,7 +90,7 @@ For third-party AI services, see also NIST AI RMF GOVERN 6 and MANAGE 3.
 | 4.1 | User account management is controlled | Art. 21(2)(i) | A.5.16, A.5.17, A.5.18 | PR.AA-01 |
 | 4.2 | Role-based access control is implemented | Art. 21(2)(i) | A.5.15, A.5.18, A.8.3 | PR.AA-05 |
 | 4.3 | Multi-factor authentication is used for remote access, cloud services and administrative accounts **[KO]** | Art. 21(2)(j) | A.5.17, A.8.5 | PR.AA-03 |
-| 4.4 | Privileged accounts are restricted and monitored **[KO]** | Art. 21(2)(i) | A.8.2, A.8.18 | PR.AA-05, DE.CM-03 |
+| 4.4 | Privileged accounts are restricted and monitored **[KO]** | Art. 21(2)(i) | A.5.17, A.8.2, A.8.18 | PR.AA-05, DE.CM-03 |
 | 4.5 | Access rights are reviewed periodically | Art. 21(2)(i) | A.5.18 | PR.AA-05 |
 | 4.6 | User accounts are removed when employees leave | Art. 21(2)(i) | A.5.11, A.5.18, A.6.5 | PR.AA-01, PR.AA-05 |
 
@@ -114,7 +114,7 @@ For third-party AI services, see also NIST AI RMF GOVERN 6 and MANAGE 3.
 
 | ACP  | Control | NIS2 | ISO/IEC 27001:2022 | NIST CSF 2.0 |
 | ---- | ------- | ---- | ------------------ | ------------ |
-| 6.1 | Endpoint protection software is deployed | Art. 21(2)(g) | A.8.7 | DE.CM-09 |
+| 6.1 | Endpoint protection software is deployed | Art. 21(2)(g) | A.8.7, A.8.23 | DE.CM-09 |
 | 6.2 | Devices are centrally managed | Art. 21(2)(g) | A.8.1 | PR.PS-01, PR.PS-05 |
 | 6.3 | Disk encryption is enabled on endpoints | Art. 21(2)(h) | A.8.1, A.8.24 | PR.DS-01 |
 | 6.4 | Endpoint updates are automatically deployed | Art. 21(2)(e), Art. 21(2)(g) | A.8.8 | PR.PS-02 |
@@ -377,6 +377,8 @@ Organizations that must comply with NIS2 or seek ISO/IEC 27001 certification sho
 | Threat intelligence | – | A.5.7 | ID.RA-02 |
 | Management system scope and documented information | – | Cl. 4.3, 7.5 | – |
 
+The EU Cyber Resilience Act (Regulation (EU) 2024/2847) applies to manufacturers of products with digital elements placed on the EU market. ACP addresses only its reporting obligations (9.6) and its vulnerability handling requirements (10.3). The essential cybersecurity requirements for products, the conformity assessment and the technical documentation are not covered.
+
 The NIST AI RMF and ISO/IEC 42001 additionally address trustworthiness characteristics beyond security, such as fairness, privacy, transparency and explainability (MEASURE 2), and impacts on individuals and society (MAP 5). ACP Domain 11 focuses on the security of AI systems and does not cover these aspects.
 
 ACP also does not assess attacks on AI models and training data and their technical countermeasures (ISO/IEC 27090, clauses 6.2 to 6.8), for example data and model poisoning, evasion attacks, membership inference, model inversion and model exfiltration. These topics are relevant for organizations that train or fine-tune their own models.
@@ -385,7 +387,7 @@ ACP also does not assess attacks on AI models and training data and their techni
 
 # Note for Switzerland
 
-NIS2 does not apply directly in Switzerland. Operators of critical infrastructure in Switzerland are subject to the reporting obligation for cyberattacks under the Swiss Information Security Act (ISG), which requires reports to the Federal Office for Cybersecurity (BACS) within 24 hours. Swiss organizations that provide services in the EU may fall under national NIS2 laws of EU member states.
+NIS2 does not apply directly in Switzerland. Operators of critical infrastructure in Switzerland are subject to the reporting obligation for cyberattacks under the Swiss Information Security Act (ISG), which requires reports to the Federal Office for Cybersecurity (BACS) within 24 hours. Control 9.6 asks whether this reporting obligation is known. Swiss organizations that provide services in the EU may fall under national NIS2 laws of EU member states.
 
 The ICT minimum standard of the Swiss Confederation (IKT-Minimalstandard), published by the Federal Office for National Economic Supply (FONES), is based on the NIST Cybersecurity Framework. Its 2023 edition follows the structure of NIST CSF 1.1 with the functions Identify, Protect, Detect, Respond and Recover. NIST CSF 2.0 keeps these functions and adds Govern. The NIST CSF 2.0 mapping and coverage overview in this document can therefore serve as orientation for organizations that apply the ICT minimum standard. Individual subcategory IDs differ between CSF 1.1 and CSF 2.0, so a detailed comparison should be based on the current edition of the ICT minimum standard.
 
@@ -450,6 +452,7 @@ NIS2 and ISO/IEC 27001 titles are given in short form. NIST CSF 2.0 titles are q
 | A.5.3 | Segregation of duties |
 | A.5.5 | Contact with authorities |
 | A.5.7 | Threat intelligence |
+| A.5.8 | Information security in project management |
 | A.5.9 | Inventory of information and other associated assets |
 | A.5.10 | Acceptable use of information and other associated assets |
 | A.5.11 | Return of assets |
@@ -503,6 +506,7 @@ NIS2 and ISO/IEC 27001 titles are given in short form. NIST CSF 2.0 titles are q
 | A.8.20 | Networks security |
 | A.8.21 | Security of network services |
 | A.8.22 | Segregation of networks |
+| A.8.23 | Web filtering |
 | A.8.24 | Use of cryptography |
 | A.8.25 – A.8.31 | Secure development controls |
 | A.8.32 | Change management |

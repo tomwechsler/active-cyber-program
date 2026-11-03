@@ -17,7 +17,7 @@ Headquarters: Munich, Germany
 
 Assessment Date: 16 November 2026  
 Assessment Scope: Corporate IT infrastructure and operational processes  
-Framework Version: ACP 2.1  
+Framework Version: ACP 2.2  
 
 ---
 

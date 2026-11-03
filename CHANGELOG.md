@@ -6,9 +6,18 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
-## [Unreleased]
+## [2.2] - 2026-11-03
+
+### Added
+- Guiding questions on web and DNS filtering (6.1), the most likely incident cases and external support in a serious incident (9.4), the approval of new cloud services (3.2) and service accounts, technical accounts and API keys (4.4)
+- Guiding questions on the reporting obligations (9.6) and the vulnerability handling requirements (10.3) of the EU Cyber Resilience Act for manufacturers of products with digital elements
+- Control mapping: ISO/IEC 27001 A.5.8 (2.1), A.6.7 (3.2), A.5.17 (4.4) and A.8.23 (6.1); note on the parts of the EU Cyber Resilience Act that ACP does not cover
 
 ### Changed
+- Scoring guidance 4.4: score 2 requires that privileged activity is logged and that service accounts and API keys are known and restricted; score 3 requires that privileged activity is reviewed regularly and that accounts and keys no longer needed are removed. The scoring guidance now matches the control title "restricted and monitored"
+- Guiding questions extended: risks of new projects, systems or services (2.1), messaging services and working outside the office (3.2), the reporting obligation under the Swiss Information Security Act (ISG) (9.6) and training of new employees when they join (10.5)
+- Organization profile in the questionnaire names the EU Cyber Resilience Act among the applicable regulations
+- Examples and registry refer to framework version 2.2
 - README: the description of the self-assessment web app mentions the reference to NIS2, ISO/IEC 27001, NIST CSF and OWASP
 - Assessment report template: fields for the rationale of the certification decision and, if pending, the remediation deadline
 - Assessment agreement template: states that the ACP Certification is not accredited
