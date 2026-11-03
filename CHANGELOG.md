@@ -13,6 +13,7 @@ The purpose of this changelog is to provide transparency regarding updates to th
 - Assessment report template: fields for the rationale of the certification decision and, if pending, the remediation deadline
 - Assessment agreement template: states that the ACP Certification is not accredited
 - License: the scripts in `tools/` are not covered by CC BY-ND 4.0; they may be run to build and check the repository, all other rights are reserved
+- Control mapping: the reference to ISO/IEC 23894 names the relevant clauses, adds control 11.6 and states that its broader objectives such as fairness or environmental impact are outside the scope of ACP
 
 ### Fixed
 - Framework overview, FAQ and README: the description of the control mapping includes ISO/IEC 42001, OWASP and ISO/IEC 27090 and no longer states that every control is mapped to every framework (control 11.9 has no NIS2, ISO/IEC 27001 or NIST CSF reference)

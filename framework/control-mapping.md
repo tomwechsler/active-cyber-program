@@ -311,7 +311,7 @@ Attacks on models and training data (Cl. 6.2 to 6.8, for example data poisoning,
 
 ## Further References
 
-* **ISO/IEC 23894:2023** provides guidance on AI risk management based on ISO 31000. It supports 11.1 (documenting where AI is developed or used) and 11.2 (AI risk assessment, including its catalogue of risk sources in Annex B).
+* **ISO/IEC 23894:2023** provides guidance on AI risk management based on ISO 31000. It supports 11.1 (inventory of AI development and use, Cl. 6.3.1), 11.2 (AI risk assessment, with a catalogue of risk sources in Annex B) and 11.6 (monitoring, review and recording, Cl. 6.6, 6.7). Its broader objectives, such as fairness or environmental impact (Annex A), are outside the scope of ACP.
 * **MITRE ATLAS** is a knowledge base of attack techniques against AI systems. It is useful for threat modelling and for testing own AI applications (11.2). It is not mapped to individual controls because it describes attack techniques, not requirements.
 * **BSI AIC4** is a criteria catalogue for providers of AI cloud services, building on BSI C5. It is not mapped because it addresses providers; an AIC4 attestation can serve as evidence when assessing an AI provider (11.8).
 
