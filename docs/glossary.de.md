@@ -1,4 +1,4 @@
-<!-- translation-of: docs/glossary.md | source-sha256: 81fa15cbfb344641 -->
+<!-- translation-of: docs/glossary.md | source-sha256: 8f3e47ca09502c3f -->
 # ACP-Glossar
 
 > Übersetzung der englischen Fassung (`docs/glossary.md`). Bei Abweichungen gilt die englische Fassung.
@@ -7,18 +7,22 @@ Kurze Erklärungen der Begriffe, die im ACP-Framework, im Fragenkatalog und in d
 
 | Begriff | Erklärung |
 | ------- | --------- |
+| API-Schlüssel | Geheimer Code, mit dem Programme und Dienste ohne persönliche Anmeldung auf andere Systeme oder Cloud-Dienste zugreifen. Wer den Schlüssel kennt, hat dessen Zugriffsrechte. Er muss deshalb wie ein Passwort geschützt werden. |
 | Assessment | Strukturierte Prüfung, wie gut eine Organisation die ACP-Controls umsetzt. Bei einem offiziellen ACP-Assessment muss jede Bewertung mit Nachweisen belegt sein. |
 | Backup (offline, unveränderbar) | Kopie von Daten, die nach einem Verlust oder Angriff wiederhergestellt werden kann. Eine Offline-Kopie ist vom Netzwerk getrennt, eine unveränderbare Kopie kann während einer festgelegten Zeit weder geändert noch gelöscht werden. Beides schützt Backups vor Ransomware. |
 | Business Continuity und Disaster Recovery | Pläne, mit denen kritische Geschäftsprozesse während einer Störung weiterlaufen (Business Continuity) und IT-Systeme danach wiederhergestellt werden (Disaster Recovery). |
 | CEO-Fraud | Betrug, bei dem sich Kriminelle als Vorgesetzte oder Lieferanten ausgeben, meist per E-Mail oder Telefon, um eine dringende Zahlung oder eine Änderung der Bankverbindung auszulösen. |
 | Control | Konkrete Sicherheitsmassnahme, die ACP bewertet, zum Beispiel «Multi-Faktor-Authentifizierung wird eingesetzt». Jedes Control erhält eine Bewertung von 0 bis 3. |
+| Cyber Resilience Act (CRA) | EU-Verordnung zur Cybersicherheit von Produkten mit digitalen Elementen, etwa Software und vernetzten Geräten. Die Meldepflichten für Hersteller gelten seit dem 11. September 2026, die übrigen Anforderungen ab dem 11. Dezember 2027. |
 | Data Loss Prevention (DLP) | Technische Massnahmen, die erkennen oder verhindern, dass sensible Daten die Organisation verlassen, etwa per E-Mail, Upload oder über KI-Tools. |
 | Deepfake | Täuschend echte, aber gefälschte Tonaufnahmen, Bilder oder Videos, die mit KI erstellt wurden, zum Beispiel die nachgeahmte Stimme einer vorgesetzten Person am Telefon. |
+| Dienstkonto | Konto, das von Programmen, Diensten oder automatisierten Abläufen statt von einer Person genutzt wird, zum Beispiel für Backups oder Schnittstellen. Dienstkonten haben oft weitreichende Rechte und müssen deshalb bekannt und eingeschränkt sein. |
 | DORA | Digital Operational Resilience Act: EU-Verordnung zur digitalen operationalen Resilienz von Finanzunternehmen, anwendbar seit dem 17. Januar 2025. |
 | EDR (Endpoint Detection and Response) | Schutzsoftware für Computer, die verdächtiges Verhalten erkennt, Alarm auslöst und ein Gerät isolieren kann. Sie geht über klassischen Virenschutz hinaus. |
 | Guardrails (KI) | Technische und organisatorische Grenzen für KI-Systeme, etwa welche Daten verarbeitet werden dürfen oder welche Aktionen ein KI-Tool ausführen darf. |
 | Härtung | Sichere Konfiguration von Systemen: nicht benötigte Funktionen abschalten, Standardeinstellungen ändern und empfohlene Sicherheitseinstellungen anwenden (z. B. CIS Benchmarks). |
 | IDS / IPS | Intrusion Detection oder Intrusion Prevention System: erkennt (IDS) oder blockiert (IPS) verdächtigen Netzwerkverkehr. |
+| ISG | Schweizer Informationssicherheitsgesetz. Seit dem 1. April 2025 müssen Betreiberinnen und Betreiber kritischer Infrastrukturen Cyberangriffe innerhalb von 24 Stunden dem Bundesamt für Cybersicherheit (BACS) melden. |
 | KI-Agent | KI-System, das selbständig Aktionen ausführt, etwa E-Mails senden, Dateien ändern oder andere Systeme bedienen, statt nur Fragen zu beantworten. |
 | Knock-out-Control (KO) | Control, das so grundlegend ist, dass eine Bewertung von 0 eine ACP-Zertifizierung unabhängig vom Gesamtscore ausschliesst. |
 | Kritische Domäne | ACP-Domäne, die für eine Zertifizierung mindestens einen Score von 2.00 erreichen muss. |
@@ -35,8 +39,10 @@ Kurze Erklärungen der Begriffe, die im ACP-Framework, im Fragenkatalog und in d
 | Prompt Injection | Angriff, bei dem manipulierte Eingaben ein KI-System dazu bringen, seine Regeln zu ignorieren oder Daten preiszugeben. |
 | Ransomware | Schadsoftware, die Daten verschlüsselt und Lösegeld fordert, oft verbunden mit Datendiebstahl. |
 | RTO / RPO | Recovery Time Objective: wie lange ein System ausfallen darf. Recovery Point Objective: wie viel Datenverlust, gemessen in Zeit, tragbar ist. |
+| SBOM (Software-Stückliste) | Liste aller Bestandteile eines Softwareprodukts, einschliesslich Bibliotheken von Dritten. Sie zeigt rasch, ob eine neu bekannte Schwachstelle das Produkt betrifft. |
 | Segmentierung | Aufteilung eines Netzwerks in getrennte Zonen, etwa für Server, Clients, Gäste und Geräte, damit sich ein Angriff nicht ungehindert ausbreiten kann. |
 | SIEM | Security Information and Event Management: sammelt die Logs vieler Systeme zentral und meldet verdächtige Ereignisse. |
 | SPF, DKIM, DMARC | DNS-basierte Verfahren, mit denen Empfänger prüfen können, ob eine E-Mail wirklich von der angegebenen Domain stammt (SPF: berechtigte Mailserver; DKIM: digitale Signatur). DMARC legt fest, was mit E-Mails geschieht, die diese Prüfungen nicht bestehen. |
 | Threat-Led Penetration Test (TLPT) | Besonders realistischer Penetrationstest auf Basis aktueller Bedrohungsinformationen; nach DORA für bestimmte Finanzunternehmen vorgeschrieben. |
 | VPN / ZTNA | Virtual Private Network: verschlüsselter Fernzugriff auf das Firmennetzwerk. Zero Trust Network Access: gewährt Zugriff nur auf bestimmte Anwendungen und prüft Benutzer und Gerät jedes Mal. |
+| Web- oder DNS-Filter | Sperrt den Zugriff auf bekannte schädliche oder unerwünschte Websites, etwa Phishing-Seiten, bevor sie geladen werden. Ist der Filter auf dem Gerät selbst eingerichtet, schützt er auch ausserhalb des Büros. |

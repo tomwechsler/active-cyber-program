@@ -5,12 +5,14 @@ Short explanations of terms used in the ACP framework, the assessment questionna
 | Term | Explanation |
 | ---- | ----------- |
 | AI agent | An AI system that carries out actions on its own, for example sending emails, changing files or using other systems, instead of only answering questions. |
+| API key | A secret code with which programs and services access other systems or cloud services without a personal login. Whoever knows the key has its access rights, so it must be protected like a password. |
 | Assessment | A structured review of how well an organization implements the ACP controls. In an official ACP assessment, each score must be supported by evidence. |
 | Backup (offline, immutable) | A copy of data that can be restored after loss or an attack. An offline copy is disconnected from the network; an immutable copy cannot be changed or deleted for a defined period. Both protect backups against ransomware. |
 | Business continuity and disaster recovery | Plans that keep critical business processes running during a disruption (business continuity) and restore IT systems afterwards (disaster recovery). |
 | CEO fraud | Fraud in which criminals pose as a manager or supplier, usually by email or phone, to trigger an urgent payment or a change of bank details. |
 | Control | A concrete security measure evaluated by ACP, for example "Multi-factor authentication is used". Each control receives a score from 0 to 3. |
 | Critical domain | An ACP domain that must reach a score of at least 2.00 for certification. |
+| Cyber Resilience Act (CRA) | EU regulation on the cybersecurity of products with digital elements, such as software and connected devices. Its reporting obligations for manufacturers apply since 11 September 2026, the other requirements from 11 December 2027. |
 | Data loss prevention (DLP) | Technical measures that detect or prevent sensitive data from leaving the organization, for example by email, upload or AI tools. |
 | Deepfake | Realistic but fake audio, images or videos created with AI, for example the imitated voice of a manager on the phone. |
 | DORA | Digital Operational Resilience Act: EU regulation on the digital operational resilience of financial entities, applicable since 17 January 2025. |
@@ -18,6 +20,7 @@ Short explanations of terms used in the ACP framework, the assessment questionna
 | Guardrails (AI) | Technical and organizational limits for AI systems, for example which data may be processed or which actions an AI tool may perform. |
 | Hardening | Configuring systems securely: switching off functions that are not needed, changing default settings and applying recommended security settings (e.g., CIS Benchmarks). |
 | IDS / IPS | Intrusion detection or prevention system: detects (IDS) or blocks (IPS) suspicious network traffic. |
+| ISG | Swiss Information Security Act. Since 1 April 2025, operators of critical infrastructures must report cyberattacks to the Federal Office for Cybersecurity (BACS) within 24 hours. |
 | Knock-out control (KO) | A control so fundamental that a score of 0 prevents ACP certification regardless of the overall score. |
 | Least privilege | Principle that users and systems receive only the access rights they need for their tasks. |
 | MDM / UEM | Mobile device management / unified endpoint management: central management of laptops, smartphones and tablets, for example for updates, encryption and remote wipe. |
@@ -31,9 +34,12 @@ Short explanations of terms used in the ACP framework, the assessment questionna
 | Prompt injection | Attack in which manipulated input causes an AI system to ignore its rules or reveal data. |
 | Ransomware | Malware that encrypts data and demands a ransom, often combined with data theft. |
 | RTO / RPO | Recovery time objective: how long a system may be unavailable. Recovery point objective: how much data loss, measured in time, is acceptable. |
+| SBOM (software bill of materials) | List of all components of a software product, including libraries from third parties. It shows quickly whether a newly known vulnerability affects the product. |
 | Segmentation | Dividing a network into separate zones, for example for servers, clients, guests and devices, so that an attack cannot spread freely. |
+| Service account | Account used by programs, services or automated processes instead of a person, for example for backups or interfaces. Service accounts often have extensive rights and must therefore be known and restricted. |
 | SIEM | Security information and event management: collects logs from many systems centrally and raises alerts on suspicious events. |
 | SPF, DKIM, DMARC | DNS-based procedures that help recipients verify that an email really comes from the stated domain (SPF: authorized sending servers; DKIM: digital signature). DMARC defines what happens to emails that fail these checks. |
 | Tabletop exercise | Discussion-based exercise in which those responsible play through an incident scenario to test plans and roles. |
 | Threat-led penetration testing (TLPT) | Particularly realistic penetration test based on current threat intelligence; required under DORA for certain financial entities. |
 | VPN / ZTNA | Virtual private network: encrypted remote access to the company network. Zero trust network access: grants access only to specific applications and checks user and device every time. |
+| Web or DNS filtering | Blocks access to known malicious or unwanted websites, for example phishing pages, before they are loaded. If the filter is set up on the device itself, it also protects outside the office. |

@@ -137,6 +137,8 @@ Possible evidence:
 * access review documentation
 * multi-factor authentication configuration
 * privileged access policies
+* list of privileged accounts and service accounts
+* logs of privileged activity
 
 ---
 

@@ -6,6 +6,16 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
+## [Unreleased]
+
+### Added
+- Glossary (English and German): API key, Cyber Resilience Act (CRA), ISG, SBOM, service account and web or DNS filtering
+
+### Changed
+- Evidence requirements and control domains: evidence examples for Identity & Access Management include the list of privileged accounts and service accounts and logs of privileged activity
+
+---
+
 ## [2.2] - 2026-11-03
 
 ### Added

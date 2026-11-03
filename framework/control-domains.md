@@ -132,6 +132,8 @@ Organizations must ensure that only authorized individuals can access sensitive 
 * Identity management system configurations
 * Access review records
 * Authentication configuration
+* List of privileged accounts and service accounts
+* Logs of privileged activity
 
 ---
 
