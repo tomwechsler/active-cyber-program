@@ -92,25 +92,25 @@ Several improvement opportunities were identified during the assessment.
 
 ## Monitoring and Incident Detection
 
-The organization currently relies on basic log monitoring.
+Security logs are collected and reviewed, but mostly manually and only for the most important systems.
 
 Recommended improvements:
 
 * centralized log management
 * automated security alerting
-* formal incident escalation procedures
+* regular incident response exercises
 
 ---
 
 ## Continuous Security Improvement
 
-Security reviews are performed informally.
+Security reviews and vulnerability scans are performed as planned, but their results are not yet evaluated over time.
 
 Recommended improvements:
 
-* scheduled security reviews
-* periodic vulnerability scanning
-* defined cybersecurity improvement roadmap
+* evaluate review and scan results regularly at management level
+* use the results to prioritize the improvement roadmap
+* define a small set of security metrics
 
 ---
 
@@ -119,18 +119,18 @@ Recommended improvements:
 | Domain                         | Recommendation                             | Priority |
 | ------------------------------ | ------------------------------------------ | -------- |
 | Monitoring & Incident Response | Implement centralized log monitoring       | High     |
-| Continuous Improvement         | Establish regular security review meetings | Medium   |
-| Risk Management                | Formalize periodic risk review process     | Medium   |
+| Continuous Improvement         | Define and evaluate security metrics       | Medium   |
+| Risk Management                | Review risks after significant changes     | Medium   |
 
 ---
 
 # Assessment Conclusion
 
-The organization demonstrates a **structured and actively managed cybersecurity program** across most evaluated domains.
+The organization demonstrates a **structured and active cybersecurity program**. All evaluated domains reach at least score 2.00 (Implemented), and the program is managed through security reporting to leadership, risk reviews and tracked improvement actions.
 
-While certain operational improvements are recommended, the current cybersecurity posture meets the requirements for **Active Cyber Program (ACP) Certification**.
+Most controls have not yet reached score 3 (actively managed). The current cybersecurity posture meets the requirements for **Active Cyber Program (ACP) Certification**.
 
-The organization is encouraged to continue strengthening monitoring capabilities and structured security improvement processes.
+The organization is encouraged to strengthen its monitoring capabilities and to monitor and improve its controls systematically.
 
 ---
 

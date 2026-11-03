@@ -12,7 +12,7 @@ in accordance with the **Active Cyber Program Framework**.
 
 The organization has been evaluated across governance, operational processes and technical cybersecurity controls.
 
-The assessment confirms that cybersecurity is actively managed within the organization.
+The assessment confirms that the organization meets the requirements of the ACP framework for an active cybersecurity program.
 
 ---
 

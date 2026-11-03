@@ -105,6 +105,14 @@ See the [evidence requirements](../assessment/evidence-requirements.md).
 
 See the [scoring model](../assessment/scoring-model.md).
 
+## Why is a score of 2.00 sufficient for an active cybersecurity program?
+
+Score 2 means that a control is implemented, documented and operating. Score 3 additionally requires that each individual control is monitored, reviewed at defined intervals and improved.
+
+ACP assesses the management of the program as a whole through its own controls, for example management involvement and reporting (1.4, 1.6), risk reviews (2.5), security reviews (10.1), tracking of improvement actions (10.4) and security metrics (10.6). When these controls reach score 2, the program as a whole is managed, even if not every individual control has its own management cycle yet. Governance is a critical domain and must reach at least 2.00 for certification.
+
+Score 3 is therefore not required for certification. It shows higher maturity and is a goal for further development.
+
 ## What are knock-out controls?
 
 Six fundamental controls: multi-factor authentication (4.3), privileged accounts (4.4), patching (5.3), backups and their protection (8.4, 8.5) and incident response (9.4). If one of them is scored 0, certification is not possible, regardless of the overall score.

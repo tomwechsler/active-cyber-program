@@ -1,4 +1,4 @@
-<!-- translation-of: README.md | source-sha256: f59dae0706039095 -->
+<!-- translation-of: README.md | source-sha256: 2c9885cf28e403cd -->
 # Active Cyber Program (ACP)
 
 [English](README.md) | **Deutsch**
@@ -69,7 +69,7 @@ Organisationen, die die ACP-Anforderungen erfüllen, können folgende Zertifizie
 
 **Active Cyber Program (ACP) Certification**
 
-Die Zertifizierung bestätigt, dass die Organisation ein **strukturiertes und aktiv gesteuertes Cybersecurity-Programm** betreibt.
+Die Zertifizierung bestätigt, dass die Organisation ein **strukturiertes und aktives Cybersecurity-Programm** betreibt.
 
 Zertifizierte Organisationen dürfen das **ACP Trust Label** verwenden, um ihr Engagement für Cybersecurity gegenüber Kunden und Partnern zu zeigen.
 

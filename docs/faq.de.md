@@ -1,4 +1,4 @@
-<!-- translation-of: docs/faq.md | source-sha256: 7291b380357fb169 -->
+<!-- translation-of: docs/faq.md | source-sha256: a9942c760524d5ff -->
 # ACP – Häufige Fragen
 
 > Übersetzung der englischen Fassung (`docs/faq.md`). Bei Abweichungen gilt die englische Fassung.
@@ -107,6 +107,14 @@ Siehe [Anforderungen an Nachweise](../assessment/evidence-requirements.md) (Engl
 * alle Bewertungen mit Nachweisen belegt
 
 Siehe [Scoring-Modell](../assessment/scoring-model.md) (Englisch).
+
+## Warum genügt ein Score von 2.00 für ein aktives Cybersecurity-Programm?
+
+Score 2 bedeutet, dass ein Control umgesetzt, dokumentiert und in Betrieb ist. Score 3 verlangt zusätzlich, dass jedes einzelne Control überwacht, in festgelegten Abständen überprüft und verbessert wird.
+
+Die Steuerung des Programms als Ganzes prüft ACP mit eigenen Controls, zum Beispiel Einbezug und Reporting an die Geschäftsleitung (1.4, 1.6), Risiko-Reviews (2.5), Sicherheitsüberprüfungen (10.1), Verfolgung von Verbesserungsmassnahmen (10.4) und Sicherheitskennzahlen (10.6). Erreichen diese Controls Score 2, wird das Programm als Ganzes gesteuert, auch wenn noch nicht jedes einzelne Control einen eigenen Steuerungskreislauf hat. Die Governance ist eine kritische Domäne und muss für eine Zertifizierung mindestens 2.00 erreichen.
+
+Score 3 ist deshalb keine Voraussetzung für die Zertifizierung. Er zeigt eine höhere Reife und ist ein Ziel für die Weiterentwicklung.
 
 ## Was sind Knock-out-Controls?
 

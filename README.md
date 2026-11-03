@@ -66,7 +66,7 @@ Organizations that successfully meet the ACP requirements may receive the:
 
 **Active Cyber Program (ACP) Certification**
 
-The certification confirms that the organization operates a **structured and actively managed cybersecurity program**.
+The certification confirms that the organization operates a **structured and active cybersecurity program**.
 
 Certified organizations may use the **ACP Trust Label** to demonstrate cybersecurity commitment to customers and partners.
 

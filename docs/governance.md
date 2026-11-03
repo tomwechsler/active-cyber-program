@@ -132,13 +132,7 @@ New framework versions may be published periodically.
 
 # Versioning
 
-The ACP framework follows a versioning approach.
-
-Example:
-
-ACP Framework 1.0
-ACP Framework 1.1
-ACP Framework 2.0
+The ACP framework uses version numbers, for example ACP 2.1. Each version and its changes are documented in `CHANGELOG.md`.
 
 Version updates may include:
 
@@ -146,7 +140,11 @@ Version updates may include:
 * additional controls
 * methodological improvements
 
-Organizations may be assessed against a specific framework version.
+## Transition to a New Version
+
+* The framework version of an assessment is set in the assessment agreement. It is stated in the assessment report, on the certificate and in the registry.
+* A certificate remains valid until its expiry date. It continues to refer to the framework version against which it was issued. A new framework version does not require an earlier reassessment.
+* New assessments and reassessments use the framework version that is current when the assessment agreement is signed.
 
 ---
 

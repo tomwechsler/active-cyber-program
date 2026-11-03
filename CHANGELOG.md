@@ -14,6 +14,8 @@ The purpose of this changelog is to provide transparency regarding updates to th
 - Assessment agreement template: states that the ACP Certification is not accredited
 - License: the scripts in `tools/` are not covered by CC BY-ND 4.0; they may be run to build and check the repository, all other rights are reserved
 - Control mapping: the reference to ISO/IEC 23894 names the relevant clauses, adds control 11.6 and states that its broader objectives such as fairness or environmental impact are outside the scope of ACP
+- FAQ: new question explaining why a score of 2.00 is sufficient for an active cybersecurity program and how ACP assesses the management of the program through its own controls
+- Governance: rules for the transition to a new framework version; certificates remain valid until expiry and refer to the version against which they were issued
 
 ### Fixed
 - Framework overview, FAQ and README: the description of the control mapping includes ISO/IEC 42001, OWASP and ISO/IEC 27090 and no longer states that every control is mapped to every framework (control 11.9 has no NIS2, ISO/IEC 27001 or NIST CSF reference)
@@ -21,6 +23,8 @@ The purpose of this changelog is to provide transparency regarding updates to th
 - Examples and registry: dates of the example certification are after the release of framework version 2.1; line breaks in the examples are shown correctly on GitHub
 - Control domains: the introduction states that Domain 11 contains nine controls and describes the control mapping including ISO/IEC 42001, OWASP and ISO/IEC 27090 without stating that every control is mapped to every framework
 - Control domains: the objective of Domain 11 no longer states that ACP protects against adversarial attacks on AI models, which ACP does not cover
+- Certification template, example certification and README: the certificate confirms that the requirements for an active cybersecurity program are met instead of stating that cybersecurity is actively managed, which corresponds to score 3
+- Example assessment: the improvement areas and the conclusion match the domain scores
 
 ---
 

@@ -22,7 +22,7 @@ in accordance with the **Active Cyber Program Framework Version 2.1**.
 
 The organization has been evaluated across governance, operational cybersecurity processes, and technical security controls.
 
-The assessment confirms that cybersecurity is **actively managed and integrated into the organization's operations**.
+The assessment confirms that the organization meets the requirements of the ACP framework for an **active cybersecurity program**.
 
 ---
 
@@ -58,7 +58,7 @@ The certification confirms that the organization operates an **Active Cyber Prog
 
 # Certification Statement
 
-ACP Certification confirms that the organization operates a structured and actively managed cybersecurity program.
+ACP Certification confirms that the organization operates a structured and active cybersecurity program.
 
 Certification does not guarantee the absence of security incidents but confirms the presence of cybersecurity governance, operational security processes, and technical safeguards.
 
