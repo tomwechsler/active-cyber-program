@@ -98,7 +98,7 @@ Organizations at this level actively measure and steer their cybersecurity progr
 
 Cybersecurity is fully integrated into organizational strategy and continuous improvement.
 
-Security capabilities evolve based on threat intelligence, risk analysis, and operational experience.
+Security capabilities evolve based on current threats, risk analysis, and operational experience.
 
 ## Characteristics
 

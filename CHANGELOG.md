@@ -13,6 +13,7 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ### Changed
 - Evidence requirements and control domains: evidence examples for Identity & Access Management include the list of privileged accounts and service accounts and logs of privileged activity
+- Maturity levels: Level 5 refers to current threats instead of threat intelligence, which ACP does not assess as a formal program
 
 ---
 
