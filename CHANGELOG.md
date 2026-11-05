@@ -24,6 +24,7 @@ The purpose of this changelog is to provide transparency regarding updates to th
 - Assessment agreement: the deletion period for evidence and the retention period run from the final certification decision, so that evidence is not deleted during ACP Certification Pending
 - Assessment agreement: the provisions on the certificate, the obligations during the validity period and the governing law continue to apply after termination
 - Certification and assessment agreement: rules for the expiry of a certification, consistent with the trust label document and the registry
+- Framework diagram: the outdated version number was removed, so that the diagram no longer has to be updated with each version
 
 ---
 
