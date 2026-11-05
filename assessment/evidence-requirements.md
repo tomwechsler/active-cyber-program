@@ -250,3 +250,10 @@ Evidence should be **sufficient to demonstrate active cybersecurity management**
 All evidence provided during an ACP assessment must be handled confidentially.
 
 Sensitive organizational information must be protected and used solely for the purpose of the ACP assessment.
+
+## Handling of Evidence
+
+* Where possible, sensitive evidence (for example firewall rules or vulnerability reports) is shown during the assessment instead of being handed over.
+* Evidence that is handed over is transferred only through an encrypted channel agreed before the assessment and is stored encrypted.
+* Passwords, API keys, private keys and other secrets are never provided as evidence. Lists show only names, owners and rights; screenshots are redacted accordingly.
+* Copies of evidence are deleted or returned as defined in the assessment agreement.

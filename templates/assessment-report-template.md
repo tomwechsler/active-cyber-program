@@ -44,6 +44,8 @@ Justification (if not applicable):
 
 Controls marked not applicable (ID and justification):  
 
+Additional critical domains (as agreed before the assessment):  
+
 ---
 
 # Assessment Methodology

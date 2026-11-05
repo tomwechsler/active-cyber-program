@@ -47,6 +47,8 @@ The assessment covers the following control domains:
 
 The organizational units, locations and systems in scope, as well as the applicability of the AI Security domain, are defined in writing before the start of the assessment and form part of this agreement.
 
+Additional critical domains designated by the Assessment Authority based on the Client's risk profile (see `assessment/scoring-model.md`): [none / list of domains]
+
 ---
 
 ## 4. Assessment Methodology
@@ -117,11 +119,11 @@ During the validity period, the Client shall:
 
 ---
 
-## 10. Suspension and Withdrawal
+## 10. Suspension, Withdrawal and Expiry
 
 The Assessment Authority may suspend or withdraw the certification in accordance with `docs/certification.md`, in particular if certification requirements are no longer met, required confirmations or notifications are not submitted, false information was provided, or the certification or Trust Label is misused.
 
-During suspension the Trust Label must not be used. After withdrawal, the Client shall remove the Trust Label and all references to the certification from its materials within **30 days**. The registry is updated accordingly.
+During suspension the Trust Label must not be used. After withdrawal or expiry of the certification, the Client shall remove the Trust Label and all references to the certification from its materials within **30 days**. The registry is updated accordingly.
 
 ---
 
@@ -130,6 +132,8 @@ During suspension the Trust Label must not be used. After withdrawal, the Client
 Both parties shall treat all non-public information obtained in connection with this agreement as confidential and use it solely for the purpose of this agreement.
 
 This obligation does not apply to information that is publicly available, that was lawfully obtained from third parties, or that must be disclosed by law or by order of an authority. The registry information listed in section 8 is not confidential.
+
+Evidence is handled as described in `assessment/evidence-requirements.md`. Passwords, API keys and other secrets are not provided as evidence.
 
 The confidentiality obligation continues for **five years** after the end of this agreement.
 
@@ -149,9 +153,9 @@ Personal data is disclosed to third parties only to assessors of authorized ACP 
 
 ## 13. Retention of Assessment Records
 
-The assessment report, control scores and evidence references are retained until **three years after the end of the certification validity period**, or three years after the certification decision if no certification is granted.
+The assessment report, control scores and evidence references are retained until **three years after the end of the certification validity period**, or three years after the final certification decision if no certification is granted.
 
-Copies of evidence provided by the Client are deleted or returned within **90 days** after the certification decision, unless they are required for a pending appeal.
+Copies of evidence provided by the Client are deleted or returned within **90 days** after the final certification decision (ACP Certification Pending is not a final decision), unless they are required for a pending appeal.
 
 ---
 
@@ -185,7 +189,7 @@ Either party may terminate this agreement in writing:
 
 Termination does not affect a certification already granted, which remains subject to the rules of the ACP certification program.
 
-Sections 10 to 13 and 15 survive the termination of this agreement.
+Sections 8 to 10 continue to apply to a certification already granted. Sections 11 to 13, 15 and 17 survive the termination of this agreement.
 
 ---
 

@@ -10,10 +10,20 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ### Added
 - Glossary (English and German): API key, Cyber Resilience Act (CRA), ISG, SBOM, service account and web or DNS filtering
+- Evidence requirements: rules for handling evidence; passwords, API keys and other secrets are never provided as evidence
+- FAQ: new question on appeals against certification decisions
 
 ### Changed
 - Evidence requirements and control domains: evidence examples for Identity & Access Management include the list of privileged accounts and service accounts and logs of privileged activity
 - Maturity levels: Level 5 refers to current threats instead of threat intelligence, which ACP does not assess as a formal program
+- Scoring model and certification: additional critical domains are designated in writing before the assessment begins; the assessment agreement and the report template contain a field for them
+- Certification and governance: appeals are reviewed again on the basis of the evidence and the organization's arguments; it is stated openly that they are currently reviewed by Tom Wechsler, as no independent person has been designated yet
+- Glossary and control mapping: the reporting obligation under the ISG runs from discovery, and smaller firms are exempt under certain conditions
+
+### Fixed
+- Assessment agreement: the deletion period for evidence and the retention period run from the final certification decision, so that evidence is not deleted during ACP Certification Pending
+- Assessment agreement: the provisions on the certificate, the obligations during the validity period and the governing law continue to apply after termination
+- Certification and assessment agreement: rules for the expiry of a certification, consistent with the trust label document and the registry
 
 ---
 

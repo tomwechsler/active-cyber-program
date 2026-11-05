@@ -146,7 +146,7 @@ The following domains are **critical domains** because they represent fundamenta
 * Monitoring & Incident Response (Domain 9)
 * AI Security (Domain 11), if applicable
 
-The assessor may designate additional domains as critical based on the organization's risk profile. Requirements for critical domains cannot be lowered.
+The assessor may designate additional domains as critical based on the organization's risk profile. The designation is made in writing before the assessment begins. Requirements for critical domains cannot be lowered.
 
 ---
 

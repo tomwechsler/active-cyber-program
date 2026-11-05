@@ -53,7 +53,7 @@ The scope defines which parts of the organization are evaluated, for example:
 * IT service providers that operate systems in scope
 * use of AI services (determines whether Domain 11 applies)
 
-The scope and the framework version are documented in the assessment agreement (`legal/acp-assessment-agreement-template.md`) before the assessment begins. Before the assessment, the assessor declares in writing that no conflict of interest exists.
+The scope, the framework version and any additional critical domains are documented in the assessment agreement (`legal/acp-assessment-agreement-template.md`) before the assessment begins. Before the assessment, the assessor declares in writing that no conflict of interest exists.
 
 ---
 
@@ -176,4 +176,4 @@ The reassessment follows the same process and verifies that controls remain acti
 
 # Confidentiality
 
-All information collected during the assessment is handled confidentially and used only for the purpose of the ACP assessment and certification. Details are defined in the assessment agreement.
+All information collected during the assessment is handled confidentially and used only for the purpose of the ACP assessment and certification. Details are defined in the assessment agreement. The handling of evidence is described in `assessment/evidence-requirements.md`.

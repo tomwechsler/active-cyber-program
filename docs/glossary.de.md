@@ -1,4 +1,4 @@
-<!-- translation-of: docs/glossary.md | source-sha256: 8f3e47ca09502c3f -->
+<!-- translation-of: docs/glossary.md | source-sha256: e9efc90881ef23c7 -->
 # ACP-Glossar
 
 > Übersetzung der englischen Fassung (`docs/glossary.md`). Bei Abweichungen gilt die englische Fassung.
@@ -22,7 +22,7 @@ Kurze Erklärungen der Begriffe, die im ACP-Framework, im Fragenkatalog und in d
 | Guardrails (KI) | Technische und organisatorische Grenzen für KI-Systeme, etwa welche Daten verarbeitet werden dürfen oder welche Aktionen ein KI-Tool ausführen darf. |
 | Härtung | Sichere Konfiguration von Systemen: nicht benötigte Funktionen abschalten, Standardeinstellungen ändern und empfohlene Sicherheitseinstellungen anwenden (z. B. CIS Benchmarks). |
 | IDS / IPS | Intrusion Detection oder Intrusion Prevention System: erkennt (IDS) oder blockiert (IPS) verdächtigen Netzwerkverkehr. |
-| ISG | Schweizer Informationssicherheitsgesetz. Seit dem 1. April 2025 müssen Betreiberinnen und Betreiber kritischer Infrastrukturen Cyberangriffe innerhalb von 24 Stunden dem Bundesamt für Cybersicherheit (BACS) melden. |
+| ISG | Schweizer Informationssicherheitsgesetz. Seit dem 1. April 2025 müssen Betreiberinnen und Betreiber kritischer Infrastrukturen Cyberangriffe innerhalb von 24 Stunden nach der Entdeckung dem Bundesamt für Cybersicherheit (BACS) melden. Kleinere Firmen sind unter bestimmten Bedingungen ausgenommen. |
 | KI-Agent | KI-System, das selbständig Aktionen ausführt, etwa E-Mails senden, Dateien ändern oder andere Systeme bedienen, statt nur Fragen zu beantworten. |
 | Knock-out-Control (KO) | Control, das so grundlegend ist, dass eine Bewertung von 0 eine ACP-Zertifizierung unabhängig vom Gesamtscore ausschliesst. |
 | Kritische Domäne | ACP-Domäne, die für eine Zertifizierung mindestens einen Score von 2.00 erreichen muss. |

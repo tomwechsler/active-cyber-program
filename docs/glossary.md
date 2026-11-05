@@ -20,7 +20,7 @@ Short explanations of terms used in the ACP framework, the assessment questionna
 | Guardrails (AI) | Technical and organizational limits for AI systems, for example which data may be processed or which actions an AI tool may perform. |
 | Hardening | Configuring systems securely: switching off functions that are not needed, changing default settings and applying recommended security settings (e.g., CIS Benchmarks). |
 | IDS / IPS | Intrusion detection or prevention system: detects (IDS) or blocks (IPS) suspicious network traffic. |
-| ISG | Swiss Information Security Act. Since 1 April 2025, operators of critical infrastructures must report cyberattacks to the Federal Office for Cybersecurity (BACS) within 24 hours. |
+| ISG | Swiss Information Security Act. Since 1 April 2025, operators of critical infrastructures must report cyberattacks to the Federal Office for Cybersecurity (BACS) within 24 hours of discovery. Smaller firms are exempt under certain conditions. |
 | Knock-out control (KO) | A control so fundamental that a score of 0 prevents ACP certification regardless of the overall score. |
 | Least privilege | Principle that users and systems receive only the access rights they need for their tasks. |
 | MDM / UEM | Mobile device management / unified endpoint management: central management of laptops, smartphones and tablets, for example for updates, encryption and remote wipe. |

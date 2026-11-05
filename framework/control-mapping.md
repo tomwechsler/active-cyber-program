@@ -387,7 +387,7 @@ ACP also does not assess attacks on AI models and training data and their techni
 
 # Note for Switzerland
 
-NIS2 does not apply directly in Switzerland. Operators of critical infrastructure in Switzerland are subject to the reporting obligation for cyberattacks under the Swiss Information Security Act (ISG), which requires reports to the Federal Office for Cybersecurity (BACS) within 24 hours. Control 9.6 asks whether this reporting obligation is known. Swiss organizations that provide services in the EU may fall under national NIS2 laws of EU member states.
+NIS2 does not apply directly in Switzerland. Operators of critical infrastructure in Switzerland are subject to the reporting obligation for cyberattacks under the Swiss Information Security Act (ISG), which requires reports to the Federal Office for Cybersecurity (BACS) within 24 hours of discovery. Smaller firms are exempt under certain conditions. Control 9.6 asks whether this reporting obligation is known. Swiss organizations that provide services in the EU may fall under national NIS2 laws of EU member states.
 
 The ICT minimum standard of the Swiss Confederation (IKT-Minimalstandard), published by the Federal Office for National Economic Supply (FONES), is based on the NIST Cybersecurity Framework. Its 2023 edition follows the structure of NIST CSF 1.1 with the functions Identify, Protect, Detect, Respond and Recover. NIST CSF 2.0 keeps these functions and adds Govern. The NIST CSF 2.0 mapping and coverage overview in this document can therefore serve as orientation for organizations that apply the ICT minimum standard. Individual subcategory IDs differ between CSF 1.1 and CSF 2.0, so a detailed comparison should be based on the current edition of the ICT minimum standard.
 

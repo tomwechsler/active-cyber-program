@@ -110,7 +110,7 @@ Assessment fees do not depend on the assessment result or the certification deci
 
 Certification decisions are based solely on the documented control scores, the evidence, and the requirements defined in `assessment/scoring-model.md`. The rationale for each decision is documented.
 
-Organizations may appeal certification decisions (see `docs/certification.md`).
+Organizations may appeal certification decisions (see `docs/certification.md`). As no independent person has been designated yet, appeals are currently reviewed by Tom Wechsler.
 
 ---
 

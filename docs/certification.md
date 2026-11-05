@@ -66,7 +66,7 @@ An organization receives **ACP Certification** if all of the following requireme
 * No knock-out control scored **0** (controls 4.3, 4.4, 5.3, 8.4, 8.5, 9.4)
 * All control scores are supported by documented evidence
 
-The assessor may designate additional critical domains based on the organization’s risk profile. Requirements cannot be lowered.
+The assessor may designate additional critical domains based on the organization’s risk profile. The designation is made in writing before the assessment begins. Requirements cannot be lowered.
 
 The authoritative definition of these requirements is `assessment/scoring-model.md`.
 
@@ -130,7 +130,7 @@ Wechsler Information Solution may request evidence or perform a focused review o
 
 ---
 
-# Suspension and Withdrawal
+# Suspension, Withdrawal and Expiry
 
 ## Suspension
 
@@ -156,6 +156,10 @@ A certification is **withdrawn** if:
 
 After withdrawal the registry shows the status **Withdrawn**. The organization must remove the ACP Trust Label and all references to the certification from its materials within **30 days**.
 
+## Expiry
+
+A certification expires at the end of its validity period if no reassessment has been completed by then. The registry then shows the status **Expired**. The organization must remove the ACP Trust Label and all references to the certification from its materials within **30 days**.
+
 ---
 
 # Complaints and Appeals
@@ -164,7 +168,9 @@ After withdrawal the registry shows the status **Withdrawn**. The organization m
 
 Organizations may appeal a certification decision, a suspension or a withdrawal in writing within **30 days** of the decision.
 
-Appeals are sent to [training@videotrainer.ch](mailto:training@videotrainer.ch). Receipt is confirmed within 10 business days. Where possible, the appeal is reviewed by a person not involved in the original assessment. The appeal decision is communicated in writing within 60 days.
+Appeals are sent to [training@videotrainer.ch](mailto:training@videotrainer.ch). Receipt is confirmed within 10 business days. The decision is reviewed again on the basis of the documented evidence and the organization's arguments. The appeal decision and its rationale are communicated in writing within 60 days.
+
+**Current situation:** No independent person has been designated yet to review appeals. Appeals are currently reviewed by Tom Wechsler, who also performs the assessments. As soon as an independent person has been designated, that person will review appeals. Legal remedies under the assessment agreement remain unaffected.
 
 ## Complaints
 

@@ -1,4 +1,4 @@
-<!-- translation-of: docs/faq.md | source-sha256: a9942c760524d5ff -->
+<!-- translation-of: docs/faq.md | source-sha256: ce41fa3afcd7ad03 -->
 # ACP – Häufige Fragen
 
 > Übersetzung der englischen Fassung (`docs/faq.md`). Bei Abweichungen gilt die englische Fassung.
@@ -97,6 +97,8 @@ Auf Deutsch oder Englisch.
 
 Alles, was zeigt, dass ein Control in der Praxis funktioniert, zum Beispiel Regeln, Konfigurationen, Screenshots, Protokolle, Berichte oder Aufzeichnungen. Die Bewertungshilfe im [Fragenkatalog](../assessment/assessment-questionnaire.de.md) nennt für jedes Control, was typischerweise gezeigt wird.
 
+Passwörter, API-Schlüssel und andere Geheimnisse gehören nie zu den Nachweisen. Heikle Nachweise können Sie während des Assessments zeigen, statt sie zu übergeben.
+
 Siehe [Anforderungen an Nachweise](../assessment/evidence-requirements.md) (Englisch).
 
 ## Was sind die Voraussetzungen für eine Zertifizierung?
@@ -123,6 +125,12 @@ Sechs grundlegende Controls: Multi-Faktor-Authentifizierung (4.3), privilegierte
 ## Was geschieht, wenn nicht alle Voraussetzungen erfüllt sind?
 
 Wenn Sie die Lücken schliessen möchten, lautet der Entscheid **ACP Certification Pending**. Sie haben ab dem Assessment-Bericht 3 Monate Zeit, die Lücken zu schliessen. Die Nachprüfung beschränkt sich dann auf die betroffenen Controls. Werden die Lücken nicht innerhalb von 3 Monaten geschlossen, wird die Zertifizierung nicht erteilt, und es braucht ein neues, vollständiges Assessment.
+
+## Können wir gegen einen Zertifizierungsentscheid Einsprache erheben?
+
+Ja, schriftlich innerhalb von 30 Tagen nach dem Entscheid. Der Entscheid wird dann anhand der dokumentierten Nachweise und Ihrer Argumente erneut geprüft, und Sie erhalten innerhalb von 60 Tagen eine schriftliche Antwort. Da noch keine unabhängige Person bestimmt ist, prüft Tom Wechsler Einsprachen derzeit selbst und führt auch die Assessments durch.
+
+Siehe [Zertifizierung](./certification.md) (Englisch).
 
 ## Wie lange ist die Zertifizierung gültig?
 

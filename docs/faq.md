@@ -94,6 +94,8 @@ In German or English.
 
 Anything that shows that a control works in practice, for example rules, configurations, screenshots, logs, reports or records. For each control, the scoring guidance in the [questionnaire](../assessment/assessment-questionnaire.md) lists what is typically shown.
 
+Passwords, API keys and other secrets are never part of the evidence. Sensitive evidence can be shown during the assessment instead of being handed over.
+
 See the [evidence requirements](../assessment/evidence-requirements.md).
 
 ## What are the requirements for certification?
@@ -120,6 +122,12 @@ Six fundamental controls: multi-factor authentication (4.3), privileged accounts
 ## What happens if not all requirements are met?
 
 If you want to close the gaps, the decision is **ACP Certification Pending**. You have 3 months from the assessment report to close the gaps. A follow-up review is then limited to the affected controls. If the gaps are not closed within 3 months, the certification is not granted, and a new full assessment is required.
+
+## Can we appeal a certification decision?
+
+Yes, in writing within 30 days of the decision. The decision is then reviewed again on the basis of the documented evidence and your arguments, and you receive a written answer within 60 days. As no independent person has been designated yet, appeals are currently reviewed by Tom Wechsler, who also performs the assessments.
+
+See [certification](./certification.md).
 
 ## How long is the certification valid?
 
