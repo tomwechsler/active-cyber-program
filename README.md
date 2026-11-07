@@ -60,6 +60,26 @@ The framework provides a **practical and scalable approach** suitable for organi
 
 ---
 
+# Who Benefits from ACP
+
+ACP gives everyone involved a shared and understandable picture of cybersecurity:
+
+* **IT service providers** can make their work transparent to customers, control by control and with evidence.
+* **IT managers** can show management what has been achieved, where gaps remain and what comes next.
+* **Management and customers** can see what has been implemented, even without an IT background, and where the next budget will have the greatest effect.
+
+How much a result can prove depends on how it was created:
+
+| Level | What it is | What it shows |
+| ----- | ---------- | ------------- |
+| Self-assessment | Your own assessment, for example with the free web app | An overview and a basis for discussion, not proof |
+| Self-assessment with evidence | The evidence listed under "Show" in the questionnaire is presented for each control | A result that the other party can check, but no independent review |
+| Official ACP Assessment | An authorized assessor reviews the evidence | An independently reviewed result and, if the requirements are met, the ACP Certification |
+
+ACP shows the implementation status of cybersecurity. It does not measure costs or cost-efficiency and does not guarantee the absence of security incidents.
+
+---
+
 # ACP Certification
 
 Organizations that successfully meet the ACP requirements may receive the:

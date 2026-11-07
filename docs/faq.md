@@ -20,6 +20,20 @@ Mainly small and medium-sized organizations that want a practical and understand
 
 Small organizations do not need extensive documentation. Short, clear rules are sufficient if they are applied in practice and can be shown.
 
+## How can we show our work with ACP as an IT service provider?
+
+Go through the self-assessment together with your customer and present the evidence for each control. The scoring guidance in the [questionnaire](../assessment/assessment-questionnaire.md) lists under "Show" what is typically presented. This makes your work transparent and gives you a shared basis for planning the next steps.
+
+If you assess your own work, the result is not independent proof, and you should say so openly. You may state that your security services are aligned with ACP. "ACP certified" or "ACP compliant" requires a valid ACP Certification.
+
+See the [trademark and certification usage policy](./trademark.md).
+
+## Does ACP show whether our cybersecurity budget is well spent?
+
+Not directly, as ACP does not measure costs or cost-efficiency. It shows what has been implemented, where gaps remain and whether the most important controls are in place. This helps management to see what the budget has achieved and to decide where the next investment will have the greatest effect. Repeating the assessment shows the progress over time.
+
+A good result does not guarantee the absence of security incidents.
+
 ## Does ACP replace ISO/IEC 27001 or NIS2?
 
 No. ACP is smaller and more practical. The ACP controls are mapped to NIS2, ISO/IEC 27001:2022, NIST CSF 2.0 and, for AI security, to the NIST AI RMF and ISO/IEC 42001. The mapping also shows which topics ACP does not cover and how ACP relates to DORA.

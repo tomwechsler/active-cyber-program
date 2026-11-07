@@ -1,4 +1,4 @@
-<!-- translation-of: docs/faq.md | source-sha256: ce41fa3afcd7ad03 -->
+<!-- translation-of: docs/faq.md | source-sha256: c6d576b143c11f06 -->
 # ACP – Häufige Fragen
 
 > Übersetzung der englischen Fassung (`docs/faq.md`). Bei Abweichungen gilt die englische Fassung.
@@ -22,6 +22,20 @@ Siehe [Framework-Übersicht](./overview.md) (Englisch).
 Vor allem für kleine und mittlere Organisationen, die ein praxisnahes und verständliches Bild ihrer Cybersecurity möchten, etwa um Fragebogen von Kunden zu beantworten, sich auf Anforderungen wie NIS2 vorzubereiten oder die nächsten Schritte zu planen.
 
 Kleine Organisationen brauchen keine umfangreiche Dokumentation. Kurze, klare Regeln genügen, wenn sie gelebt werden und gezeigt werden können.
+
+## Wie können wir als IT-Dienstleister unsere Arbeit mit ACP zeigen?
+
+Gehen Sie die Selbstbewertung gemeinsam mit Ihrem Kunden durch und legen Sie pro Control die Nachweise vor. Die Bewertungshilfe im [Fragenkatalog](../assessment/assessment-questionnaire.de.md) nennt unter «Zeigen lassen», was typischerweise vorgelegt wird. So wird Ihre Arbeit nachvollziehbar, und Sie haben eine gemeinsame Grundlage, um die nächsten Schritte zu planen.
+
+Wenn Sie Ihre eigene Arbeit bewerten, ist das Resultat kein unabhängiger Beweis, und das sollten Sie offen sagen. Sie dürfen angeben, dass Ihre Sicherheitsleistungen an ACP ausgerichtet sind. «ACP-zertifiziert» oder «ACP-konform» setzt eine gültige ACP-Zertifizierung voraus.
+
+Siehe [Richtlinie zur Nutzung von Marke und Zertifizierung](./trademark.md) (Englisch).
+
+## Zeigt ACP, ob unser Cybersecurity-Budget gut eingesetzt ist?
+
+Nicht direkt, denn ACP misst weder Kosten noch Wirtschaftlichkeit. Es zeigt, was umgesetzt ist, wo Lücken bestehen und ob die wichtigsten Controls vorhanden sind. So sieht die Geschäftsleitung, was mit dem Budget erreicht wurde, und kann entscheiden, wo die nächste Investition am meisten bewirkt. Wird die Bewertung wiederholt, zeigt sich der Fortschritt.
+
+Ein gutes Resultat garantiert nicht, dass keine Sicherheitsvorfälle eintreten.
 
 ## Ersetzt ACP ISO/IEC 27001 oder NIS2?
 

@@ -12,6 +12,8 @@ The purpose of this changelog is to provide transparency regarding updates to th
 - Glossary (English and German): API key, Cyber Resilience Act (CRA), ISG, SBOM, service account and web or DNS filtering
 - Evidence requirements: rules for handling evidence; passwords, API keys and other secrets are never provided as evidence
 - FAQ: new question on appeals against certification decisions
+- README: section on who benefits from ACP and how much a result can prove, from self-assessment to official assessment
+- FAQ: new questions on how IT service providers can show their work with ACP and on whether ACP shows that a cybersecurity budget is well spent
 
 ### Changed
 - Evidence requirements and control domains: evidence examples for Identity & Access Management include the list of privileged accounts and service accounts and logs of privileged activity

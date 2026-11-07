@@ -1,4 +1,4 @@
-<!-- translation-of: README.md | source-sha256: 1a64752c2b73abf3 -->
+<!-- translation-of: README.md | source-sha256: fffbf6eebcc26eff -->
 # Active Cyber Program (ACP)
 
 [English](README.md) | **Deutsch**
@@ -60,6 +60,26 @@ Das **Active Cyber Program (ACP)** hilft Organisationen dabei:
 * den Cybersecurity-Reifegrad laufend zu verbessern
 
 Das Framework bietet einen **praxisnahen und skalierbaren Ansatz** für Organisationen unterschiedlicher Grösse und Branche.
+
+---
+
+# Wem ACP nützt
+
+ACP gibt allen Beteiligten ein gemeinsames und verständliches Bild der Cybersecurity:
+
+* **IT-Dienstleister** können ihre Arbeit gegenüber Kunden nachvollziehbar machen, Control für Control und mit Nachweisen.
+* **IT-Verantwortliche** können der Geschäftsleitung zeigen, was erreicht ist, wo Lücken bestehen und was als Nächstes ansteht.
+* **Geschäftsleitungen und Kunden** sehen auch ohne IT-Wissen, was umgesetzt ist und wo das nächste Budget am meisten bewirkt.
+
+Wie viel ein Resultat belegt, hängt davon ab, wie es entstanden ist:
+
+| Stufe | Was es ist | Was es zeigt |
+| ----- | ---------- | ------------ |
+| Selbstbewertung | Ihre eigene Einschätzung, zum Beispiel mit der kostenlosen Web-App | Einen Überblick und eine Gesprächsgrundlage, keinen Beweis |
+| Selbstbewertung mit Nachweisen | Die Nachweise, die im Fragenkatalog unter «Zeigen lassen» stehen, werden pro Control vorgelegt | Ein Resultat, das die andere Seite überprüfen kann, aber keine unabhängige Prüfung |
+| Offizielles ACP-Assessment | Ein autorisierter Assessor prüft die Nachweise | Ein unabhängig geprüftes Resultat und, wenn die Anforderungen erfüllt sind, die ACP-Zertifizierung |
+
+ACP zeigt den Umsetzungsstand der Cybersecurity. Es misst weder Kosten noch Wirtschaftlichkeit und garantiert nicht, dass keine Sicherheitsvorfälle eintreten.
 
 ---
 
