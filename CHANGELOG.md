@@ -16,6 +16,7 @@ The purpose of this changelog is to provide transparency regarding updates to th
 - FAQ: new questions on how IT service providers can show their work with ACP and on whether ACP shows that a cybersecurity budget is well spent
 
 ### Changed
+- README (English and German): restructured as a short start page with smaller graphics, the benefits for management, IT managers and IT service providers first, a compact overview of the domains and one table of all documents
 - Evidence requirements and control domains: evidence examples for Identity & Access Management include the list of privileged accounts and service accounts and logs of privileged activity
 - Maturity levels: Level 5 refers to current threats instead of threat intelligence, which ACP does not assess as a formal program
 - Scoring model and certification: additional critical domains are designated in writing before the assessment begins; the assessment agreement and the report template contain a field for them

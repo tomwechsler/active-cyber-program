@@ -1,403 +1,150 @@
-<!-- translation-of: README.md | source-sha256: fffbf6eebcc26eff -->
-# Active Cyber Program (ACP)
+<!-- translation-of: README.md | source-sha256: 7da05f9604ed6255 -->
+<p align="center">
+  <img src="assets/acp-logo.png" alt="Active Cyber Program (ACP)" width="280">
+</p>
 
-[English](README.md) | **Deutsch**
+<h1 align="center">Active Cyber Program (ACP)</h1>
 
-![Framework Version](https://img.shields.io/badge/framework-ACP%202.2-blue)
-![Status](https://img.shields.io/badge/status-active-green)
-![License](https://img.shields.io/badge/license-CC%20BY--ND%204.0-lightgrey)
-![Certification](https://img.shields.io/badge/certification-ACP-blue)
-![Region](https://img.shields.io/badge/region-DACH-lightgrey)
-![Maintainer](https://img.shields.io/badge/maintainer-Wechsler%20Information%20Solution-darkblue)
+<p align="center">
+  <a href="README.md">English</a> | <strong>Deutsch</strong>
+</p>
 
-[![ACP-Selbstbewertung starten](https://img.shields.io/badge/Selbstbewertung-Web--App%20starten-2f6db3?style=for-the-badge)](https://acp.videotrainer.ch/)
+<p align="center">
+  Ein praxisnahes Framework, mit dem Organisationen den Stand ihrer Cybersecurity bewerten, zeigen und verbessern.<br>
+  74 Controls in 11 Domänen, ein einfaches Bewertungsmodell und eine optionale Zertifizierung.
+</p>
 
-![ACP Logo](assets/acp-logo.png)
+<p align="center">
+  <a href="https://acp.videotrainer.ch/"><img src="https://img.shields.io/badge/Selbstbewertung-Web--App%20starten-2f6db3?style=for-the-badge" alt="ACP-Selbstbewertung starten"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/framework-ACP%202.2-blue" alt="Framework-Version ACP 2.2">
+  <img src="https://img.shields.io/badge/license-CC%20BY--ND%204.0-lightgrey" alt="Lizenz CC BY-ND 4.0">
+  <img src="https://img.shields.io/badge/region-DACH-lightgrey" alt="Region DACH">
+  <img src="https://img.shields.io/badge/maintainer-Wechsler%20Information%20Solution-darkblue" alt="Herausgeber Wechsler Information Solution">
+</p>
 
 > Übersetzung der englischen Fassung ([README.md](README.md)). Bei Abweichungen gilt die englische Fassung. Die verlinkten Detaildokumente sind, wo nicht anders angegeben, auf Englisch.
 
-# Über das Active Cyber Program (ACP)
-
-Das **Active Cyber Program (ACP)** ist ein Framework für Cybersecurity-Assessments und -Zertifizierungen. Es beurteilt, ob eine Organisation ein **aktives und wirksames Cybersecurity-Programm** betreibt.
-
-Das ACP-Framework prüft, ob Cybersecurity **nicht nur umgesetzt, sondern aktiv gesteuert** wird, und zwar in der Governance, in den betrieblichen Prozessen und in der technischen Infrastruktur.
-
-Das Framework bietet Organisationen eine strukturierte Methode, um ihre Cybersecurity-Fähigkeiten zu beurteilen, zu verbessern und nachzuweisen.
+ACP beurteilt, ob eine Organisation ein **aktives** Cybersecurity-Programm betreibt: nicht nur, ob Sicherheitsmassnahmen vorhanden sind, sondern ob sie angewendet, überprüft und verbessert werden. Kleine Organisationen brauchen keine umfangreiche Dokumentation. Kurze, klare Regeln genügen, wenn sie gelebt werden und gezeigt werden können.
 
 ---
 
-# Überblick über das ACP-Framework
+## Was ACP Ihnen bringt
 
-<p align="center">
-  <img src="assets/acp-framework-diagram.svg" alt="ACP-Framework: elf Control-Domänen in sechs Gruppen" width="560">
-</p>
+**Geschäftsleitungen und CEOs**
 
----
+* Sie sehen auch ohne IT-Wissen, was umgesetzt ist, wo Lücken bestehen und ob die wichtigsten Schutzmassnahmen wie Multi-Faktor-Authentifizierung, Patching und Backups vorhanden sind.
+* Sie sehen, was mit dem Cybersecurity-Budget erreicht wurde und wo die nächste Investition am meisten bewirkt.
 
-# Framework-Version
+**IT-Verantwortliche**
 
-Aktuelle Framework-Version:
+* Sie zeigen der Geschäftsleitung den Stand der Cybersecurity und die nächsten Schritte auf einer klaren und strukturierten Grundlage.
+* Sie setzen Prioritäten: Knock-out-Controls und kritische Domänen zuerst.
 
-**ACP Framework Version 2.2**
+**IT-Dienstleister**
 
-Informationen zur Version finden Sie in:
+* Sie zeigen Ihren Kunden Control für Control, dass die vereinbarten Sicherheitsmassnahmen umgesetzt sind und funktionieren, mit Nachweisen wie MFA-Einstellungen, Patch-Berichten oder Restore-Tests.
+* Sie arbeiten mit einem gemeinsamen Massstab statt mit eigenen Checklisten, zugeordnet zu ISO/IEC 27001, NIS2 und NIST CSF 2.0.
 
-* `VERSION`
-* `CHANGELOG.md` (Englisch)
-
----
-
-# Zweck des Frameworks
-
-Viele Organisationen setzen Sicherheitstechnologien ein, haben aber kein **strukturiertes und aktiv gesteuertes Cybersecurity-Programm**.
-
-Das **Active Cyber Program (ACP)** hilft Organisationen dabei:
-
-* eine strukturierte Cybersecurity-Governance aufzubauen
-* Cyberrisiken wirksam zu steuern
-* betriebliche Sicherheitsprozesse umzusetzen
-* technische Schutzmassnahmen zu stärken
-* den Cybersecurity-Reifegrad laufend zu verbessern
-
-Das Framework bietet einen **praxisnahen und skalierbaren Ansatz** für Organisationen unterschiedlicher Grösse und Branche.
+ACP zeigt den Umsetzungsstand der Cybersecurity. Es prüft nicht jede einzelne Konfigurationseinstellung, misst weder Kosten noch Wirtschaftlichkeit und garantiert nicht, dass keine Sicherheitsvorfälle eintreten.
 
 ---
 
-# Wem ACP nützt
-
-ACP gibt allen Beteiligten ein gemeinsames und verständliches Bild der Cybersecurity:
-
-* **IT-Dienstleister** können ihre Arbeit gegenüber Kunden nachvollziehbar machen, Control für Control und mit Nachweisen.
-* **IT-Verantwortliche** können der Geschäftsleitung zeigen, was erreicht ist, wo Lücken bestehen und was als Nächstes ansteht.
-* **Geschäftsleitungen und Kunden** sehen auch ohne IT-Wissen, was umgesetzt ist und wo das nächste Budget am meisten bewirkt.
+## So starten Sie
 
 Wie viel ein Resultat belegt, hängt davon ab, wie es entstanden ist:
 
 | Stufe | Was es ist | Was es zeigt |
 | ----- | ---------- | ------------ |
-| Selbstbewertung | Ihre eigene Einschätzung, zum Beispiel mit der kostenlosen Web-App | Einen Überblick und eine Gesprächsgrundlage, keinen Beweis |
-| Selbstbewertung mit Nachweisen | Die Nachweise, die im Fragenkatalog unter «Zeigen lassen» stehen, werden pro Control vorgelegt | Ein Resultat, das die andere Seite überprüfen kann, aber keine unabhängige Prüfung |
+| Selbstbewertung | Ihre eigene Einschätzung, zum Beispiel mit der kostenlosen [Web-App](https://acp.videotrainer.ch/) | Einen Überblick und eine Gesprächsgrundlage, keinen Beweis |
+| Selbstbewertung mit Nachweisen | Die Nachweise, die im [Fragenkatalog](./assessment/assessment-questionnaire.de.md) unter «Zeigen lassen» stehen, werden pro Control vorgelegt | Ein Resultat, das die andere Seite überprüfen kann, aber keine unabhängige Prüfung |
 | Offizielles ACP-Assessment | Ein autorisierter Assessor prüft die Nachweise | Ein unabhängig geprüftes Resultat und, wenn die Anforderungen erfüllt sind, die ACP-Zertifizierung |
 
-ACP zeigt den Umsetzungsstand der Cybersecurity. Es misst weder Kosten noch Wirtschaftlichkeit und garantiert nicht, dass keine Sicherheitsvorfälle eintreten.
+Die [Web-App](https://acp.videotrainer.ch/) braucht keine Anmeldung und verwendet keine Cookies. Alle Eingaben bleiben in Ihrem Browser und werden nicht gespeichert. Das Resultat können Sie als PDF sichern. Der Quellcode ist öffentlich: [github.com/tomwechsler/acp-app](https://github.com/tomwechsler/acp-app).
+
+Schritt für Schritt hilft der [Leitfaden zur Selbstbewertung](./docs/self-assessment-guide.de.md). Die nächsten Schritte planen Sie mit dem [Massnahmenplan](./templates/improvement-plan-template.de.md).
 
 ---
 
-# ACP-Zertifizierung
+## Was ACP prüft
 
-Organisationen, die die ACP-Anforderungen erfüllen, können folgende Zertifizierung erhalten:
+| Domäne | Controls | Kritisch |
+| ------ | -------- | -------- |
+| 1. Unternehmens- und Sicherheits-Governance | 6 | Ja |
+| 2. Risikomanagement | 6 | |
+| 3. Sicherheitsrichtlinien und -prozesse | 7 | |
+| 4. Identitäts- und Zugriffsmanagement | 6 | Ja |
+| 5. Infrastruktursicherheit | 7 | |
+| 6. Endgerätesicherheit | 6 | |
+| 7. Netzwerksicherheit | 7 | |
+| 8. Datensicherheit, Backup und Wiederherstellung | 8 | Ja |
+| 9. Monitoring und Vorfallbehandlung | 6 | Ja |
+| 10. Kontinuierliche Verbesserung | 6 | |
+| 11. KI-Sicherheit (wenn KI genutzt wird) | 9 | Ja, wenn anwendbar |
 
-**Active Cyber Program (ACP) Certification**
+Jedes Control wird von 0 (nicht umgesetzt) bis 3 (aktiv gesteuert) bewertet. Für eine Zertifizierung braucht es einen Gesamtscore von mindestens 2.00, mindestens 2.00 in jeder kritischen Domäne und keinen Score 0 bei den sechs Knock-out-Controls: Multi-Faktor-Authentifizierung, privilegierte Konten, Patching, Backups, Schutz der Backups und Incident Response.
 
-Die Zertifizierung bestätigt, dass die Organisation ein **strukturiertes und aktives Cybersecurity-Programm** betreibt.
-
-Zertifizierte Organisationen dürfen das **ACP Trust Label** verwenden, um ihr Engagement für Cybersecurity gegenüber Kunden und Partnern zu zeigen.
-
----
-
-# Zertifizierungsstelle
-
-Die **ACP-Zertifizierung** darf ausschliesslich ausgestellt werden von:
-
-**Wechsler Information Solution**
-
-Das ACP-Framework wird veröffentlicht, um Transparenz zu schaffen und die Cybersecurity-Praxis zu verbessern.
-
-Organisationen dürfen das Framework verwenden für:
-
-* interne Cybersecurity-Assessments
-* Initiativen zur Verbesserung der Cybersecurity
-* Ausbildungszwecke
-
-Organisationen oder Einzelpersonen dürfen jedoch **keine ACP-Zertifizierungen ausstellen** und sich nicht als offizielle ACP-Zertifizierungsstelle ausgeben.
-
-Nur Assessments, die im Auftrag von **Wechsler Information Solution** durchgeführt werden, können zu einer offiziellen **Active Cyber Program Certification** führen.
-
-Siehe:
-`docs/governance.md`
-
-[Governance](./docs/governance.md) (Englisch)
+Die Controls sind NIS2, ISO/IEC 27001:2022 und NIST CSF 2.0 zugeordnet, für die KI-Sicherheit dem NIST AI RMF, ISO/IEC 42001 und den OWASP-Top-10-Listen. Das [Control-Mapping](./framework/control-mapping.md) führt auch die Themen auf, die ACP nicht abdeckt.
 
 ---
 
-# Selbstbewertung
+## Zertifizierung
 
-Organisationen können das **Active Cyber Program (ACP)** eigenständig anwenden, um ihre Cybersecurity-Lage zu beurteilen. Der Einstieg ist einfach.
+Organisationen, die die Anforderungen erfüllen, erhalten die ACP-Zertifizierung für 24 Monate und dürfen das ACP Trust Label verwenden. In dieser Zeit reichen sie eine jährliche Bestätigung ein und melden wesentliche Änderungen und Sicherheitsvorfälle.
 
-## Web-App zur ACP-Selbstbewertung
+Die ACP-Zertifizierung stellt ausschliesslich Wechsler Information Solution aus. Sie ist nicht akkreditiert und ist weder eine ISO/IEC-27001-Zertifizierung noch ein Nachweis der NIS2-Konformität. Alle dürfen das Framework für interne Assessments nutzen, aber keine ACP-Zertifizierungen ausstellen.
 
-Am einfachsten starten Sie mit der kostenlosen Web-App unter **[acp.videotrainer.ch](https://acp.videotrainer.ch/)**:
-
-* keine Anmeldung, keine Cookies, keine Datenspeicherung: Alle Eingaben bleiben in Ihrem Browser
-* alle ACP-Controls mit Leitfragen und Bewertungshilfe
-* sofortiges Ergebnis: Gesamtscore, Reifegrad, Scores pro Domäne, Knock-out-Controls und Handlungsfelder
-* Bezug zu NIS2, ISO/IEC 27001, NIST CSF und für die KI-Sicherheit zu den OWASP Top 10 for LLM Applications, pro Control und im Resultat
-
-Das Ergebnis ist eine Selbsteinschätzung ohne Prüfung von Nachweisen und keine ACP-Zertifizierung. Der Quellcode ist öffentlich: [github.com/tomwechsler/acp-app](https://github.com/tomwechsler/acp-app).
-
-## Leitfaden zur Selbstbewertung
-
-Der Leitfaden zur Selbstbewertung erklärt Schritt für Schritt, wie Sie:
-
-• den Scope des Assessments festlegen  
-• die Cybersecurity-Controls bewerten  
-• Nachweise sammeln  
-• Scores berechnen  
-• Verbesserungsbereiche identifizieren  
-
-Siehe:
-`docs/self-assessment-guide.de.md`
-
-[Leitfaden zur Selbstbewertung](./docs/self-assessment-guide.de.md) · [Self-Assessment Guide (Englisch)](./docs/self-assessment-guide.md)
-
-Für die Durchführung steht der Fragenkatalog auf Deutsch zur Verfügung:
-
-* [ACP-Fragenkatalog (Markdown)](./assessment/assessment-questionnaire.de.md)
-* [ACP-Fragenkatalog (PDF)](./templates/acp-assessment-questionnaire-de.pdf)
+[Ablauf von Assessment und Zertifizierung](./docs/assessment-process.md) · [Zertifizierungsregeln](./docs/certification.md) · [Trust Label](./docs/trust-label.md) · [Zertifizierungsregister](./certifications/registry.md)
 
 ---
 
-# Bestandteile des ACP-Frameworks
+## Dokumente
 
-Das ACP-Framework besteht aus mehreren Kernkomponenten.
+| Thema | Dokumente |
+| ----- | --------- |
+| Überblick | [Framework-Übersicht und Methodik](./docs/overview.md) · [Prinzipien](./framework/acp-principles.md) · [Control-Domänen](./framework/control-domains.md) · [Reifegrade](./framework/maturity-levels.md) |
+| Assessment | [Checkliste](./assessment/assessment-checklist.md) (massgebende Liste der Controls) · [Fragenkatalog](./assessment/assessment-questionnaire.de.md) auf Deutsch ([PDF](./templates/acp-assessment-questionnaire-de.pdf), Englisch: [Markdown](./assessment/assessment-questionnaire.md), [PDF](./templates/acp-assessment-questionnaire.pdf)) · [Scoring-Modell](./assessment/scoring-model.md) · [Anforderungen an Nachweise](./assessment/evidence-requirements.md) |
+| Standards | [Control-Mapping](./framework/control-mapping.md): NIS2, ISO/IEC 27001, NIST CSF 2.0, NIST AI RMF, ISO/IEC 42001, OWASP, ISO/IEC 27090, DORA |
+| Selbstbewertung | [Leitfaden zur Selbstbewertung](./docs/self-assessment-guide.de.md) auf Deutsch ([Englisch](./docs/self-assessment-guide.md)) · [Massnahmenplan](./templates/improvement-plan-template.de.md) auf Deutsch ([Englisch](./templates/improvement-plan-template.md)) |
+| Zertifizierung | [Ablauf](./docs/assessment-process.md) · [Zertifizierung](./docs/certification.md) · [Trust Label](./docs/trust-label.md) · [Nutzung von Marke und Zertifizierung](./docs/trademark.md) · [Governance](./docs/governance.md) |
+| Vorlagen und Beispiele | [Assessment-Vertrag](./legal/acp-assessment-agreement-template.md) · [Assessment-Bericht](./templates/assessment-report-template.md) · [Zertifikat](./templates/certification-template.md) · [Beispiel-Assessment](./examples/example-assessment.md) · [Beispiel-Zertifikat](./examples/example-certification.md) · [Register](./certifications/registry.md) |
+| Hilfe | [Häufige Fragen](./docs/faq.de.md) auf Deutsch ([Englisch](./docs/faq.md)) · [Glossar](./docs/glossary.de.md) auf Deutsch ([Englisch](./docs/glossary.md)) |
 
-## ACP-Prinzipien
-
-Die ACP-Prinzipien beschreiben die Grundhaltung des Frameworks und betonen die aktive Steuerung der Cybersecurity.
-
-`framework/acp-principles.md`
-
-[ACP-Prinzipien](./framework/acp-principles.md) (Englisch)
-
----
-
-## Control-Domänen
-
-Das Framework definiert elf Control-Domänen, die Governance, betriebliche Prozesse und technische Sicherheitsmassnahmen abdecken.
-
-`framework/control-domains.md`
-
-[Control-Domänen](./framework/control-domains.md) (Englisch)
-
----
-
-## Reifegradmodell
-
-Das ACP-Reifegradmodell beurteilt, wie wirksam Cybersecurity-Praktiken umgesetzt sind.
-
-`framework/maturity-levels.md`
-
-[Reifegradmodell](./framework/maturity-levels.md) (Englisch)
-
----
-
-## Glossar
-
-Kurze Erklärungen von Begriffen wie MFA, EDR, DMARC oder RTO/RPO, geschrieben für Leserinnen und Leser ohne IT-Hintergrund.
-
-`docs/glossary.de.md`
-
-[Glossar](./docs/glossary.de.md)
-
----
-
-## Control-Mapping
-
-Die ACP-Controls sind NIS2, ISO/IEC 27001:2022, dem NIST Cybersecurity Framework 2.0 und für die KI-Sicherheit dem NIST AI Risk Management Framework und ISO/IEC 42001 zugeordnet. Für die KI-Sicherheit zeigt das Mapping zudem die Abdeckung der OWASP Top 10 for LLM Applications und for Agentic Applications und verweist auf ISO/IEC 27090. Das Mapping führt auch die Themen auf, die ACP nicht abdeckt, gibt einen Überblick über die vom ACP abgedeckten Kategorien des NIST CSF 2.0, ordnet ACP in DORA ein (auch aus Sicht von IT-Dienstleistern für Finanzunternehmen) und enthält Hinweise zum IKT-Minimalstandard des Bundes und zum FINMA-Rundschreiben 2023/1.
-
-`framework/control-mapping.md`
-
-[Control-Mapping](./framework/control-mapping.md) (Englisch)
-
----
-
-# Assessment-Methodik
-
-Das ACP-Framework enthält eine strukturierte Methodik zur Beurteilung von Cybersecurity-Programmen.
-
-Übersicht und Methodik:
-
-`docs/overview.md`
-
-[Framework-Übersicht und Methodik](./docs/overview.md) (Englisch)
-
-Assessment- und Zertifizierungsprozess, vom ersten Kontakt bis zum Zertifikat:
-
-`docs/assessment-process.md`
-
-[Assessment- und Zertifizierungsprozess](./docs/assessment-process.md) (Englisch)
-
-Assessment-Werkzeuge:
-
-* `assessment/assessment-checklist.md` [Assessment-Checkliste](./assessment/assessment-checklist.md) (Englisch)
-* `assessment/evidence-requirements.md` [Anforderungen an Nachweise](./assessment/evidence-requirements.md) (Englisch)
-* `assessment/scoring-model.md` [Scoring-Modell](./assessment/scoring-model.md) (Englisch)
-* `assessment/assessment-questionnaire.de.md` [ACP-Fragenkatalog](./assessment/assessment-questionnaire.de.md) (PDF: [templates/acp-assessment-questionnaire-de.pdf](./templates/acp-assessment-questionnaire-de.pdf))
-* Englische Fassung des Fragenkatalogs: [assessment/assessment-questionnaire.md](./assessment/assessment-questionnaire.md) (PDF: [templates/acp-assessment-questionnaire.pdf](./templates/acp-assessment-questionnaire.pdf))
-* `templates/improvement-plan-template.de.md` [Massnahmenplan](./templates/improvement-plan-template.de.md): nächste Schritte nach einem Assessment oder einer Selbstbewertung planen, zuerst Knock-out-Controls und kritische Domänen (Englisch: [Improvement Plan](./templates/improvement-plan-template.md))
-
----
-
-# Zertifizierungsprogramm
-
-Das ACP-Zertifizierungsprogramm legt fest, wie Organisationen beurteilt und zertifiziert werden.
-
-Zertifizierungsregeln:
-
-`docs/certification.md`
-
-[Zertifizierungsprogramm](./docs/certification.md) (Englisch)
-
-Verwendung des Trust Labels:
-
-`docs/trust-label.md`
-
-[Trust Label](./docs/trust-label.md) (Englisch)
-
----
-
-# Governance
-
-Das ACP-Framework wird von **Wechsler Information Solution** gepflegt und verwaltet.
-
-Dokumentation zur Governance:
-
-`docs/governance.md`
-
-[Governance](./docs/governance.md) (Englisch)
-
----
-
-# Zielgruppen
-
-Das ACP-Framework richtet sich an Organisationen jeder Grösse, darunter:
-
-* kleine und mittlere Unternehmen (KMU)
-* Technologieunternehmen
-* Dienstleister
-* öffentliche Verwaltungen
-* Zulieferer in sicherheitskritischen Branchen
-
-Das Framework ist **praxisnah, skalierbar und branchenübergreifend anwendbar**.
-
----
-
-# Aufbau des Repositorys
+<details>
+<summary>Aufbau des Repositorys</summary>
 
 ```
 active-cyber-program/
-
-README.md
-README.de.md
-VERSION
-CHANGELOG.md
-SECURITY.md
-LICENSE
-
-docs/
-   overview.md
-   assessment-process.md
-   self-assessment-guide.md
-   self-assessment-guide.de.md
-   certification.md
-   trust-label.md
-   trademark.md
-   governance.md
-   glossary.md
-   glossary.de.md
-   faq.md
-   faq.de.md
-   author.md
-
-framework/
-   acp-principles.md
-   control-domains.md
-   maturity-levels.md
-   control-mapping.md
-
-assessment/
-   assessment-checklist.md
-   evidence-requirements.md
-   scoring-model.md
-   assessment-questionnaire.md
-   assessment-questionnaire.de.md
-
-templates/
-   assessment-report-template.md
-   certification-template.md
-   improvement-plan-template.md
-   improvement-plan-template.de.md
-   acp-assessment-questionnaire.pdf
-   acp-assessment-questionnaire-de.pdf
-
-examples/
-   example-assessment.md
-   example-certification.md
-
-certifications/
-   registry.md
-
-legal/
-   acp-assessment-agreement-template.md
-
-assets/
-   acp-logo.png
-   acp-framework-diagram.svg
-   acp-trust-label.svg
-
-tools/
-   build-questionnaire-pdf.py
-   check-translations.py
+├── README.md, README.de.md, VERSION, CHANGELOG.md, SECURITY.md, LICENSE
+├── docs/            Übersicht, Ablauf, Leitfaden zur Selbstbewertung, Zertifizierung,
+│                    Trust Label, Marke, Governance, Glossar, häufige Fragen, Autor
+├── framework/       Prinzipien, Control-Domänen, Reifegrade, Control-Mapping
+├── assessment/      Checkliste, Fragenkatalog, Scoring-Modell, Anforderungen an Nachweise
+├── templates/       Bericht, Zertifikat, Massnahmenplan, Fragenkatalog als PDF
+├── examples/        Beispiel-Assessment und -Zertifikat
+├── certifications/  Zertifizierungsregister
+├── legal/           Vorlage für den Assessment-Vertrag
+├── assets/          Logo, Framework-Diagramm, Trust Label
+└── tools/           Skripte zum Erstellen der PDFs und zum Prüfen der Übersetzungen
 ```
 
----
-
-# Herausgeber
-
-**Wechsler Information Solution, Tom Wechsler, Schweiz**
-
-Hofackerstrasse 8, 4625 Oberbuchsiten, Schweiz
-
-Für Organisationen in Deutschland • Schweiz • Österreich
-
-Autor des Frameworks: Tom Wechsler  
-
-Kontakt: [training@videotrainer.ch](mailto:training@videotrainer.ch)
-
-Siehe: `docs/author.md`
-
-[Autor](./docs/author.md) (Englisch)
-
-## Über die ACP-Initiative
-
-Das Active Cyber Program (ACP) wurde geschaffen, um praxisnah und transparent zu beurteilen, ob Organisationen ein **aktives Cybersecurity-Programm** betreiben.
+</details>
 
 ---
 
-# Feedback und Fragen
+## Version, Feedback und Kontakt
 
-Antworten auf häufige Fragen zu ACP, zur Selbstbewertung, zu Assessments, zur Zertifizierung und zu den Kosten: [Häufige Fragen](./docs/faq.de.md) · [Frequently Asked Questions (Englisch)](./docs/faq.md)
+Aktuelle Version: **ACP Framework Version 2.2**. Änderungen sind im [CHANGELOG.md](./CHANGELOG.md) (Englisch) dokumentiert. Das Framework wird auf Basis neuer Bedrohungen, der Erfahrungen aus Assessments und der Rückmeldungen aus der Praxis weiterentwickelt.
 
-Fragen, Anregungen und Erfahrungen aus der Praxis helfen, das ACP-Framework weiterzuentwickeln. Bitte senden Sie diese per E-Mail an [training@videotrainer.ch](mailto:training@videotrainer.ch).
+Fragen, Anregungen und Erfahrungen aus der Praxis sind willkommen: [training@videotrainer.ch](mailto:training@videotrainer.ch)
 
----
-
-# Weiterentwicklung
-
-Cybersecurity entwickelt sich laufend weiter.
-
-Das ACP-Framework wird deshalb weiterentwickelt auf Basis von:
-
-* neuen Cyberbedrohungen
-* Erfahrungen aus Assessments
-* Verbesserungen in der Sicherheitspraxis
-* Rückmeldungen von Organisationen
-
-Neue Framework-Versionen können periodisch veröffentlicht werden.
+Herausgeber: **Wechsler Information Solution**, Tom Wechsler, Hofackerstrasse 8, 4625 Oberbuchsiten, Schweiz. Für Organisationen in Deutschland, der Schweiz und Österreich. [Über den Autor](./docs/author.md)
 
 ---
 
-# Lizenz
+## Lizenz
 
 Die Dokumentation des ACP-Frameworks steht unter der Lizenz [Creative Commons Namensnennung – Keine Bearbeitungen 4.0 International (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/deed.de).
 
