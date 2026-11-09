@@ -15,6 +15,7 @@ The purpose of this changelog is to provide transparency regarding updates to th
 - Control mapping: section on sources and copyright, stating that the text of ISO/IEC standards is not reproduced and naming the source and license (CC BY-SA 4.0) of the OWASP Top 10 lists
 - README: section on who benefits from ACP and how much a result can prove, from self-assessment to official assessment
 - FAQ: new questions on how IT service providers can show their work with ACP and on whether ACP shows that a cybersecurity budget is well spent
+- Control mapping: overviews of Domain 11 by NIST AI RMF function and by ISO/IEC 42001 control group, with the coverage by ACP; the control group A.7 (data for AI systems) is stated as not covered
 
 ### Changed
 - README (English and German): restructured as a short start page with smaller graphics, the benefits for management, IT managers and IT service providers first, a compact overview of the domains and one table of all documents

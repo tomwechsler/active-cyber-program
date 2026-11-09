@@ -265,6 +265,36 @@ In total, the mapping references **61 of 106** NIST CSF 2.0 subcategories in **2
 
 ACP Domain 11 is designed for organizations that **use** AI services, AI assistants and AI agents, and for organizations that operate their own AI applications such as chatbots. The following overviews show how Domain 11 relates to current AI security references. Coverage refers to an assessment at the level of an ACP control, not to a technical security test.
 
+## NIST AI RMF 1.0 Functions
+
+This overview summarizes the NIST AI RMF column of the Domain 11 table by function. A category counts as referenced if the category itself or one of its subcategories is referenced. ACP Domain 11 assesses the security of AI systems. Trustworthiness characteristics beyond security and the impacts of AI on individuals and society are not covered, see [Topics Not Covered by ACP](#topics-not-covered-by-acp).
+
+| Function | ACP controls | Categories referenced |
+| -------- | ------------ | --------------------- |
+| GOVERN | 11.1, 11.3, 11.6, 11.8, 11.9 | 4 of 6 |
+| MAP | 11.2, 11.9 | 3 of 5 |
+| MEASURE | 11.2, 11.4, 11.6, 11.7 | 2 of 4 |
+| MANAGE | 11.3, 11.4, 11.5, 11.7, 11.8 | 3 of 4 |
+
+In total, Domain 11 references **12 of 19** NIST AI RMF categories.
+
+## ISO/IEC 42001:2023 Control Groups
+
+This overview summarizes the ISO/IEC 42001 column of the Domain 11 table. ISO/IEC 42001 specifies a management system for AI. ACP refers to its clauses and to the control groups of Annex A, not to individual controls. As ACP assesses only the security of AI use, it does not cover any group in full.
+
+| ISO/IEC 42001 | Topic | ACP controls | Coverage |
+| ------------- | ----- | ------------ | -------- |
+| Cl. 4–10 | AI management system | 11.2, 11.6 | Partial – AI risk assessment, management review and continual improvement; the AI management system as a whole is not assessed |
+| A.2 | Policies related to AI | 11.3 | Partial – rules for the use of AI with a focus on security; a comprehensive AI policy is not required |
+| A.3 | Internal organization | 11.1 | Partial – owners of AI systems; a process for reporting concerns about AI systems is not required |
+| A.4 | Resources for AI systems | 11.1 | Partial – inventory of AI systems; detailed documentation of data, tools, computing and human resources is not required |
+| A.5 | Assessing impacts of AI systems | 11.2 | Partial – AI security risks are assessed; impacts on individuals, groups and society are not assessed |
+| A.6 | AI system life cycle | 11.4 | Partial – monitoring of AI systems in operation; development, verification and technical documentation of AI systems are not assessed |
+| A.7 | Data for AI systems | – | Not covered – relevant for organizations that develop or train AI systems |
+| A.8 | Information for interested parties of AI systems | 11.5 | Partial – AI security incidents are investigated; information for users and other interested parties is not required |
+| A.9 | Use of AI systems | 11.3, 11.7, 11.9 | Partial – rules for the use of AI, limited rights of AI agents and human review of results; objectives for responsible use beyond security are not assessed |
+| A.10 | Third-party and customer relationships | 11.8 | Partial – AI providers are assessed before use; responsibilities towards customers of the organization's own AI systems are not assessed |
+
 ## OWASP Top 10 for LLM Applications 2025
 
 | OWASP | Risk | ACP controls | Coverage |
@@ -387,7 +417,7 @@ Organizations that must comply with NIS2 or seek ISO/IEC 27001 certification sho
 
 The EU Cyber Resilience Act (Regulation (EU) 2024/2847) applies to manufacturers of products with digital elements placed on the EU market. ACP addresses only its reporting obligations (9.6) and its vulnerability handling requirements (10.3). The essential cybersecurity requirements for products, the conformity assessment and the technical documentation are not covered.
 
-The NIST AI RMF and ISO/IEC 42001 additionally address trustworthiness characteristics beyond security, such as fairness, privacy, transparency and explainability (MEASURE 2), and impacts on individuals and society (MAP 5). ACP Domain 11 focuses on the security of AI systems and does not cover these aspects.
+The NIST AI RMF and ISO/IEC 42001 additionally address trustworthiness characteristics beyond security, such as fairness, privacy, transparency and explainability (MEASURE 2), impacts on individuals and society (MAP 5, ISO/IEC 42001 A.5) and the data used to develop and train AI systems (ISO/IEC 42001 A.7). ACP Domain 11 focuses on the security of AI systems and does not cover these aspects.
 
 ACP also does not assess attacks on AI models and training data and their technical countermeasures (ISO/IEC 27090, clauses 6.2 to 6.8), for example data and model poisoning, evasion attacks, membership inference, model inversion and model exfiltration. These topics are relevant for organizations that train or fine-tune their own models.
 
@@ -638,6 +668,7 @@ NIS2 titles are given in short form. ISO/IEC 27001 clauses and controls are list
 | A.4 | Resources for AI systems |
 | A.5 | Assessing impacts of AI systems |
 | A.6 | AI system life cycle |
+| A.7 | Data for AI systems |
 | A.8 | Information for interested parties of AI systems |
 | A.9 | Use of AI systems |
 | A.10 | Third-party and customer relationships |
