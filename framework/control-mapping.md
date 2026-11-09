@@ -39,6 +39,14 @@ The mapping helps organizations to:
 | GV.RR-02       | NIST CSF 2.0 subcategory                                          |
 | GOVERN 1.6     | NIST AI RMF subcategory (GOVERN 1 = category)                     |
 
+## Sources and Copyright
+
+* **ISO/IEC standards** are protected by the copyright of ISO and IEC. This document refers only to clause and control numbers and their titles and describes the relationships in its own words. It does not reproduce the text of the standards. The standards can be obtained from ISO or from national standards bodies such as SNV, DIN or Austrian Standards.
+* **NIST publications** (NIST CSWP 29, NIST AI 100-1) are public information. Titles are quoted with their source.
+* **Legal texts and official publications** (NIS2, DORA, Cyber Resilience Act, Swiss Information Security Act, FINMA Circular 2023/1, ICT minimum standard) are referenced by article or title.
+* The **OWASP Top 10 for LLM Applications 2025** and the **OWASP Top 10 for Agentic Applications 2026** are published by the [OWASP GenAI Security Project](https://genai.owasp.org/) under the [Creative Commons Attribution-ShareAlike 4.0 license (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/). This document uses only the identifiers and names of the risks. The coverage assessments are ACP's own.
+* Names of standards and organizations are used only to identify the referenced documents.
+
 ---
 
 # Domain 1 – Business & Security Governance
@@ -397,7 +405,7 @@ DORA does not apply in Switzerland. For banks, FINMA Circular 2023/1 "Operationa
 
 # Reference Index
 
-NIS2 and ISO/IEC 27001 titles are given in short form. NIST CSF 2.0 titles are quoted verbatim from NIST CSWP 29. NIST AI RMF titles are abbreviated; see NIST AI 100-1 for the full wording. ISO/IEC 42001 is referenced at the level of its clauses and Annex A control groups.
+NIS2 titles are given in short form. ISO/IEC 27001 clauses and controls are listed with their numbers and titles; the text of the standard is not reproduced. NIST CSF 2.0 titles are quoted verbatim from NIST CSWP 29. NIST AI RMF titles are abbreviated; see NIST AI 100-1 for the full wording. ISO/IEC 42001 is referenced at the level of its clauses and Annex A control groups.
 
 ## NIS2 – Directive (EU) 2022/2555
 

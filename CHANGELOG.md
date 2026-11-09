@@ -12,6 +12,7 @@ The purpose of this changelog is to provide transparency regarding updates to th
 - Glossary (English and German): API key, Cyber Resilience Act (CRA), ISG, SBOM, service account and web or DNS filtering
 - Evidence requirements: rules for handling evidence; passwords, API keys and other secrets are never provided as evidence
 - FAQ: new question on appeals against certification decisions
+- Control mapping: section on sources and copyright, stating that the text of ISO/IEC standards is not reproduced and naming the source and license (CC BY-SA 4.0) of the OWASP Top 10 lists
 - README: section on who benefits from ACP and how much a result can prove, from self-assessment to official assessment
 - FAQ: new questions on how IT service providers can show their work with ACP and on whether ACP shows that a cybersecurity budget is well spent
 
@@ -28,6 +29,7 @@ The purpose of this changelog is to provide transparency regarding updates to th
 - Assessment agreement: the provisions on the certificate, the obligations during the validity period and the governing law continue to apply after termination
 - Certification and assessment agreement: rules for the expiry of a certification, consistent with the trust label document and the registry
 - Framework diagram: the outdated version number was removed, so that the diagram no longer has to be updated with each version
+- Control mapping: the reference index no longer states that ISO/IEC 27001 titles are given in short form, as they are listed with their original titles
 
 ---
 
