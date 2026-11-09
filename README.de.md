@@ -1,4 +1,4 @@
-<!-- translation-of: README.md | source-sha256: 7da05f9604ed6255 -->
+<!-- translation-of: README.md | source-sha256: da2079128c2b4cc0 -->
 <p align="center">
   <img src="assets/acp-logo.png" alt="Active Cyber Program (ACP)" width="280">
 </p>
@@ -62,7 +62,7 @@ Wie viel ein Resultat belegt, hängt davon ab, wie es entstanden ist:
 | Selbstbewertung mit Nachweisen | Die Nachweise, die im [Fragenkatalog](./assessment/assessment-questionnaire.de.md) unter «Zeigen lassen» stehen, werden pro Control vorgelegt | Ein Resultat, das die andere Seite überprüfen kann, aber keine unabhängige Prüfung |
 | Offizielles ACP-Assessment | Ein autorisierter Assessor prüft die Nachweise | Ein unabhängig geprüftes Resultat und, wenn die Anforderungen erfüllt sind, die ACP-Zertifizierung |
 
-Die [Web-App](https://acp.videotrainer.ch/) braucht keine Anmeldung und verwendet keine Cookies. Alle Eingaben bleiben in Ihrem Browser und werden nicht gespeichert. Das Resultat können Sie als PDF sichern. Der Quellcode ist öffentlich: [github.com/tomwechsler/acp-app](https://github.com/tomwechsler/acp-app).
+Die [Web-App](https://acp.videotrainer.ch/) braucht keine Anmeldung und verwendet keine Cookies. Alle Eingaben bleiben in Ihrem Browser und werden nicht gespeichert. Das Resultat können Sie als PDF sichern, einen Zwischenstand als Datei auf Ihrem eigenen Gerät, um ihn später wieder zu laden. Der Quellcode ist öffentlich: [github.com/tomwechsler/acp-app](https://github.com/tomwechsler/acp-app).
 
 Schritt für Schritt hilft der [Leitfaden zur Selbstbewertung](./docs/self-assessment-guide.de.md). Die nächsten Schritte planen Sie mit dem [Massnahmenplan](./templates/improvement-plan-template.de.md).
 

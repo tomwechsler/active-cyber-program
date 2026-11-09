@@ -1,4 +1,4 @@
-<!-- translation-of: docs/faq.md | source-sha256: c6d576b143c11f06 -->
+<!-- translation-of: docs/faq.md | source-sha256: a2fb77edc53bd2fc -->
 # ACP – Häufige Fragen
 
 > Übersetzung der englischen Fassung (`docs/faq.md`). Bei Abweichungen gilt die englische Fassung.
@@ -71,7 +71,7 @@ Siehe [Lizenz](../LICENSE) und [Richtlinie zur Nutzung von Marke und Zertifizier
 
 ## Ist die Web-App wirklich kostenlos, und was geschieht mit unseren Daten?
 
-Ja. Die [Web-App zur ACP-Selbstbewertung](https://acp.videotrainer.ch/) ist kostenlos und ohne Anmeldung nutzbar. Ihre Antworten bleiben in Ihrem Browser. Sie werden weder gespeichert noch an einen Server übertragen, und es werden keine Cookies oder Tracking-Tools verwendet. Beim Schliessen oder Neuladen der Seite werden alle Eingaben gelöscht. Das Resultat können Sie über die Druckfunktion als PDF speichern.
+Ja. Die [Web-App zur ACP-Selbstbewertung](https://acp.videotrainer.ch/) ist kostenlos und ohne Anmeldung nutzbar. Ihre Antworten bleiben in Ihrem Browser. Sie werden weder gespeichert noch an einen Server übertragen, und es werden keine Cookies oder Tracking-Tools verwendet. Beim Schliessen oder Neuladen der Seite werden alle Eingaben gelöscht. Das Resultat können Sie über die Druckfunktion als PDF speichern. Um später weiterzumachen, für die nächste Selbstbewertung oder für Ihren IT-Dienstleister, können Sie einen Zwischenstand als Datei auf Ihrem eigenen Gerät speichern und wieder laden. Die Datei zeigt Ihre Lücken, behandeln Sie sie deshalb vertraulich. Sie ist kein Nachweis.
 
 ## Wie lange dauert die Selbstbewertung?
 

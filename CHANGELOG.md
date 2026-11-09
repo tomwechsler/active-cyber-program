@@ -24,6 +24,7 @@ The purpose of this changelog is to provide transparency regarding updates to th
 - Scoring model and certification: additional critical domains are designated in writing before the assessment begins; the assessment agreement and the report template contain a field for them
 - Certification and governance: appeals are reviewed again on the basis of the evidence and the organization's arguments; it is stated openly that they are currently reviewed by Tom Wechsler, as no independent person has been designated yet
 - Glossary and control mapping: the reporting obligation under the ISG runs from discovery, and smaller firms are exempt under certain conditions
+- README and FAQ (English and German): the web app can save the progress of a self-assessment as a file on the user's own device and load it again; the file is confidential and not evidence
 
 ### Fixed
 - Assessment agreement: the deletion period for evidence and the retention period run from the final certification decision, so that evidence is not deleted during ACP Certification Pending

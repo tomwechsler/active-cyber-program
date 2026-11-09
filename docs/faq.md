@@ -68,7 +68,7 @@ See the [license](../LICENSE) and the [trademark and certification usage policy]
 
 ## Is the web app really free, and what happens to our data?
 
-Yes. The [ACP self-assessment web app](https://acp.videotrainer.ch/) is free and requires no registration. Your answers stay in your browser. They are not stored or transmitted to a server, and no cookies or tracking tools are used. When you close or reload the page, all entries are deleted. You can save the result as a PDF using the print function.
+Yes. The [ACP self-assessment web app](https://acp.videotrainer.ch/) is free and requires no registration. Your answers stay in your browser. They are not stored or transmitted to a server, and no cookies or tracking tools are used. When you close or reload the page, all entries are deleted. You can save the result as a PDF using the print function. To continue later, for the next self-assessment or for your IT service provider, you can save your progress as a file on your own device and load it again. The file shows your gaps, so treat it as confidential. It is not evidence.
 
 ## How long does the self-assessment take?
 

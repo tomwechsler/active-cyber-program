@@ -59,7 +59,7 @@ How much a result can prove depends on how it was created:
 | Self-assessment with evidence | The evidence listed under "Show" in the [questionnaire](./assessment/assessment-questionnaire.md) is presented for each control | A result that the other party can check, but no independent review |
 | Official ACP Assessment | An authorized assessor reviews the evidence | An independently reviewed result and, if the requirements are met, the ACP Certification |
 
-The [web app](https://acp.videotrainer.ch/) (in German) requires no registration and uses no cookies. All entries stay in your browser and are not stored. The result can be saved as a PDF. The source code is public: [github.com/tomwechsler/acp-app](https://github.com/tomwechsler/acp-app).
+The [web app](https://acp.videotrainer.ch/) (in German) requires no registration and uses no cookies. All entries stay in your browser and are not stored. The result can be saved as a PDF, and your progress can be saved as a file on your own device and loaded again later. The source code is public: [github.com/tomwechsler/acp-app](https://github.com/tomwechsler/acp-app).
 
 For a step-by-step approach, see the [self-assessment guide](./docs/self-assessment-guide.md). Plan the next steps with the [improvement plan](./templates/improvement-plan-template.md).
 
