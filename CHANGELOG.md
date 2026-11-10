@@ -6,7 +6,7 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
-## [Unreleased]
+## [2.3] - 2026-11-10
 
 ### Added
 - Glossary (English and German): API key, Cyber Resilience Act (CRA), ISG, SBOM, service account and web or DNS filtering
@@ -16,17 +16,25 @@ The purpose of this changelog is to provide transparency regarding updates to th
 - README: section on who benefits from ACP and how much a result can prove, from self-assessment to official assessment
 - FAQ: new questions on how IT service providers can show their work with ACP and on whether ACP shows that a cybersecurity budget is well spent
 - Control mapping: overviews of Domain 11 by NIST AI RMF function and by ISO/IEC 42001 control group, with the coverage by ACP; the control group A.7 (data for AI systems) is stated as not covered
+- Control mapping: topics not covered list the ISO/IEC 27001 Annex A controls that are not referenced in the domain tables (A.5.4, A.5.6, A.5.37, A.8.4, A.8.6, A.8.11, A.8.12, A.8.19, A.8.33, A.8.34), with their titles in the reference index
 
 ### Changed
+- Control mapping: the OWASP Top 10 for LLM Applications 2025 is replaced by the OWASP GenAI LLM Top 10 2026 (new order of the risks, LLM08 Hidden Context Exposure instead of System Prompt Leakage; Improper Output Handling includes AI-generated program code)
+- Control mapping: the ACP controls in the NIS2 coverage overview list all controls that refer to the requirement in the domain tables, as in the NIST CSF overview
+- Control mapping: the NIST CSF overview names the RS.MA subcategories that are not assessed separately
+- Guiding question 10.5 reworded: all employees receive security awareness training, including new employees when they join
+- Examples and registry refer to framework version 2.3
+- Governance: the versioning section refers to `VERSION` and the README instead of an example version number
 - README (English and German): restructured as a short start page with smaller graphics, the benefits for management, IT managers and IT service providers first, a compact overview of the domains and one table of all documents
 - Evidence requirements and control domains: evidence examples for Identity & Access Management include the list of privileged accounts and service accounts and logs of privileged activity
 - Maturity levels: Level 5 refers to current threats instead of threat intelligence, which ACP does not assess as a formal program
 - Scoring model and certification: additional critical domains are designated in writing before the assessment begins; the assessment agreement and the report template contain a field for them
 - Certification and governance: appeals are reviewed again on the basis of the evidence and the organization's arguments; it is stated openly that they are currently reviewed by Tom Wechsler, as no independent person has been designated yet
 - Glossary and control mapping: the reporting obligation under the ISG runs from discovery, and smaller firms are exempt under certain conditions
-- README and FAQ (English and German): the web app can save the progress of a self-assessment as a file on the user's own device and load it again; the file is confidential and not evidence
+- README, FAQ and self-assessment guide (English and German): the web app can save the progress of a self-assessment as a file on the user's own device and load it again; the file is confidential and not evidence
 
 ### Fixed
+- Guiding question 11.3: Art. 4 of the EU AI Act, as amended by Regulation (EU) 2026/1744 (in force since 27 July 2026), requires measures to support AI literacy and no longer a specific level of AI literacy
 - Assessment agreement: the deletion period for evidence and the retention period run from the final certification decision, so that evidence is not deleted during ACP Certification Pending
 - Assessment agreement: the provisions on the certificate, the obligations during the validity period and the governing law continue to apply after termination
 - Certification and assessment agreement: rules for the expiry of a certification, consistent with the trust label document and the registry

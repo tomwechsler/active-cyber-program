@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/framework-ACP%202.2-blue" alt="Framework version ACP 2.2">
+  <img src="https://img.shields.io/badge/framework-ACP%202.3-blue" alt="Framework version ACP 2.3">
   <img src="https://img.shields.io/badge/license-CC%20BY--ND%204.0-lightgrey" alt="License CC BY-ND 4.0">
   <img src="https://img.shields.io/badge/region-DACH-lightgrey" alt="Region DACH">
   <img src="https://img.shields.io/badge/maintainer-Wechsler%20Information%20Solution-darkblue" alt="Maintainer Wechsler Information Solution">
@@ -133,7 +133,7 @@ active-cyber-program/
 
 ## Version, Feedback and Contact
 
-Current version: **ACP Framework Version 2.2**. Changes are documented in [CHANGELOG.md](./CHANGELOG.md). The framework evolves based on new threats, assessment experience and feedback from practice.
+Current version: **ACP Framework Version 2.3**. Changes are documented in [CHANGELOG.md](./CHANGELOG.md). The framework evolves based on new threats, assessment experience and feedback from practice.
 
 Questions, suggestions and experience from practice are welcome: [training@videotrainer.ch](mailto:training@videotrainer.ch)
 

@@ -1,4 +1,4 @@
-<!-- translation-of: README.md | source-sha256: da2079128c2b4cc0 -->
+<!-- translation-of: README.md | source-sha256: 302f8a764b87544d -->
 <p align="center">
   <img src="assets/acp-logo.png" alt="Active Cyber Program (ACP)" width="280">
 </p>
@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/framework-ACP%202.2-blue" alt="Framework-Version ACP 2.2">
+  <img src="https://img.shields.io/badge/framework-ACP%202.3-blue" alt="Framework-Version ACP 2.3">
   <img src="https://img.shields.io/badge/license-CC%20BY--ND%204.0-lightgrey" alt="Lizenz CC BY-ND 4.0">
   <img src="https://img.shields.io/badge/region-DACH-lightgrey" alt="Region DACH">
   <img src="https://img.shields.io/badge/maintainer-Wechsler%20Information%20Solution-darkblue" alt="Herausgeber Wechsler Information Solution">
@@ -136,7 +136,7 @@ active-cyber-program/
 
 ## Version, Feedback und Kontakt
 
-Aktuelle Version: **ACP Framework Version 2.2**. Änderungen sind im [CHANGELOG.md](./CHANGELOG.md) (Englisch) dokumentiert. Das Framework wird auf Basis neuer Bedrohungen, der Erfahrungen aus Assessments und der Rückmeldungen aus der Praxis weiterentwickelt.
+Aktuelle Version: **ACP Framework Version 2.3**. Änderungen sind im [CHANGELOG.md](./CHANGELOG.md) (Englisch) dokumentiert. Das Framework wird auf Basis neuer Bedrohungen, der Erfahrungen aus Assessments und der Rückmeldungen aus der Praxis weiterentwickelt.
 
 Fragen, Anregungen und Erfahrungen aus der Praxis sind willkommen: [training@videotrainer.ch](mailto:training@videotrainer.ch)
 

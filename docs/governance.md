@@ -132,7 +132,7 @@ New framework versions may be published periodically.
 
 # Versioning
 
-The ACP framework uses version numbers, for example ACP 2.1. Each version and its changes are documented in `CHANGELOG.md`.
+The ACP framework uses version numbers. The current version is stated in `VERSION` and in the README. Each version and its changes are documented in `CHANGELOG.md`.
 
 Version updates may include:
 

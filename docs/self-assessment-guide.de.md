@@ -1,4 +1,4 @@
-<!-- translation-of: docs/self-assessment-guide.md | source-sha256: c194924fcec68dc9 -->
+<!-- translation-of: docs/self-assessment-guide.md | source-sha256: e93c5a96134bbbf4 -->
 # Leitfaden zur ACP-Selbstbewertung
 
 > Übersetzung der englischen Fassung (`docs/self-assessment-guide.md`). Bei Abweichungen gilt die englische Fassung.
@@ -11,7 +11,7 @@ Ziel ist eine **strukturierte Selbstbewertung**, die auch als Vorbereitung auf e
 
 # Empfohlener Einstieg: Web-App zur ACP-Selbstbewertung
 
-Am einfachsten führen Sie die Selbstbewertung mit der kostenlosen Web-App unter [acp.videotrainer.ch](https://acp.videotrainer.ch/) durch. Sie führt Sie mit Leitfragen und Bewertungshilfen durch alle ACP-Controls und zeigt das Resultat sofort an. Es ist keine Anmeldung nötig, und es werden keine Daten gespeichert; alle Eingaben bleiben in Ihrem Browser.
+Am einfachsten führen Sie die Selbstbewertung mit der kostenlosen Web-App unter [acp.videotrainer.ch](https://acp.videotrainer.ch/) durch. Sie führt Sie mit Leitfragen und Bewertungshilfen durch alle ACP-Controls und zeigt das Resultat sofort an. Es ist keine Anmeldung nötig, und es werden keine Daten gespeichert; alle Eingaben bleiben in Ihrem Browser. Ihren Zwischenstand können Sie als Datei auf Ihrem Gerät speichern und später wieder laden. Die Datei zeigt Ihre Lücken, behandeln Sie sie deshalb vertraulich.
 
 Die Web-App gibt Ihre eigene Einschätzung wieder und prüft keine Nachweise. Wenn Sie sich auf eine ACP-Zertifizierung vorbereiten, folgen Sie zusätzlich den Schritten unten und stellen Sie für jedes Control Nachweise zusammen.
 

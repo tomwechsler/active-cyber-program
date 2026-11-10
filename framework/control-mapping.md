@@ -10,7 +10,7 @@ This document maps the controls of the **Active Cyber Program (ACP)** to the fol
 | **NIST AI RMF**    | NIST AI Risk Management Framework 1.0 (NIST AI 100-1, January 2023)     |
 | **DORA**           | Regulation (EU) 2022/2554 (Digital Operational Resilience Act), see the DORA overview below |
 | **ISO/IEC 42001**  | ISO/IEC 42001:2023, AI management system, clauses and Annex A control groups (Domain 11 only) |
-| **OWASP**          | OWASP Top 10 for LLM Applications 2025 and OWASP Top 10 for Agentic Applications 2026, see the AI security overview below |
+| **OWASP**          | OWASP GenAI LLM Top 10 2026 and OWASP Top 10 for Agentic Applications 2026, see the AI security overview below |
 | **ISO/IEC 27090**  | ISO/IEC 27090:2026, security threats and compromises to AI systems (reference, see the AI security overview below) |
 
 The mapping helps organizations to:
@@ -44,7 +44,7 @@ The mapping helps organizations to:
 * **ISO/IEC standards** are protected by the copyright of ISO and IEC. This document refers only to clause and control numbers and their titles and describes the relationships in its own words. It does not reproduce the text of the standards. The standards can be obtained from ISO or from national standards bodies such as SNV, DIN or Austrian Standards.
 * **NIST publications** (NIST CSWP 29, NIST AI 100-1) are public information. Titles are quoted with their source.
 * **Legal texts and official publications** (NIS2, DORA, Cyber Resilience Act, Swiss Information Security Act, FINMA Circular 2023/1, ICT minimum standard) are referenced by article or title.
-* The **OWASP Top 10 for LLM Applications 2025** and the **OWASP Top 10 for Agentic Applications 2026** are published by the [OWASP GenAI Security Project](https://genai.owasp.org/) under the [Creative Commons Attribution-ShareAlike 4.0 license (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/). This document uses only the identifiers and names of the risks. The coverage assessments are ACP's own.
+* The **OWASP GenAI LLM Top 10 2026** and the **OWASP Top 10 for Agentic Applications 2026** are published by the [OWASP GenAI Security Project](https://genai.owasp.org/) under the [Creative Commons Attribution-ShareAlike 4.0 license (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/). This document uses only the identifiers and names of the risks. The coverage assessments are ACP's own.
 * Names of standards and organizations are used only to identify the referenced documents.
 
 ---
@@ -206,22 +206,22 @@ ISO/IEC 27001 does not contain AI-specific requirements; the ISO/IEC 27001 colum
 
 # NIS2 Coverage Overview
 
-The following table shows how the NIS2 cybersecurity risk-management and governance requirements are addressed by ACP controls.
+The following table shows how the NIS2 cybersecurity risk-management and governance requirements are addressed by ACP controls. The column ACP controls lists all controls that refer to the requirement in the domain tables above.
 
 | NIS2 requirement | Topic | ACP controls | Coverage |
 | ---------------- | ----- | ------------ | -------- |
-| Art. 20(1) | Management bodies approve and oversee cybersecurity risk-management measures | 1.1, 1.4, 1.6 | Covered |
+| Art. 20(1) | Management bodies approve and oversee cybersecurity risk-management measures | 1.1, 1.2, 1.3, 1.4, 1.6, 11.6 | Covered |
 | Art. 20(2) | Training for members of management bodies | 10.5 | Covered |
-| Art. 21(2)(a) | Policies on risk analysis and information system security | Domain 2, 3.1 | Covered |
-| Art. 21(2)(b) | Incident handling | 3.5, Domain 9 | Covered |
+| Art. 21(2)(a) | Policies on risk analysis and information system security | 1.1, 2.1, 2.2, 2.3, 2.4, 2.5, 3.1, 7.1, 7.2, 7.5, 11.2, 11.3 | Covered |
+| Art. 21(2)(b) | Incident handling | 3.5, 7.4, 9.1, 9.2, 9.3, 9.4, 9.5, 9.6, 11.4, 11.5 | Covered |
 | Art. 21(2)(c) | Business continuity, backup management, disaster recovery, crisis management | 3.3, 8.4, 8.5, 8.7, 8.8 | Covered |
-| Art. 21(2)(d), Art. 21(3) | Supply chain security | 2.6, 5.6 | Covered |
-| Art. 21(2)(e) | Security in acquisition, development and maintenance, including vulnerability handling and disclosure | 3.4, 5.2, 5.3, 5.5, 5.7, 10.3 | Partial – secure development is assessed only at a basic level within 5.5; detailed secure development requirements are not covered |
-| Art. 21(2)(f) | Assessing the effectiveness of risk-management measures | 10.1, 10.2, 10.6 | Covered |
-| Art. 21(2)(g) | Basic cyber hygiene and cybersecurity training | Domain 6, 3.6, 3.7, 7.7, 10.5 | Covered |
-| Art. 21(2)(h) | Cryptography and encryption | 8.2, 8.3, 8.6 | Covered |
-| Art. 21(2)(i) | Human resources security, access control, asset management | 3.6, Domain 4, 5.1, 8.1 | Covered |
-| Art. 21(2)(j) | Multi-factor authentication, secured communications, secured emergency communication | 4.3, 8.8 | Partial – emergency communication is addressed by 8.8; no requirement for secured voice, video and text communication |
+| Art. 21(2)(d), Art. 21(3) | Supply chain security | 2.6, 5.6, 11.8 | Covered |
+| Art. 21(2)(e) | Security in acquisition, development and maintenance, including vulnerability handling and disclosure | 3.4, 5.2, 5.3, 5.5, 5.6, 5.7, 6.4, 10.3 | Partial – secure development is assessed only at a basic level within 5.5; detailed secure development requirements are not covered |
+| Art. 21(2)(f) | Assessing the effectiveness of risk-management measures | 2.5, 10.1, 10.2, 10.3, 10.4, 10.6, 11.6 | Covered |
+| Art. 21(2)(g) | Basic cyber hygiene and cybersecurity training | 3.2, 3.6, 3.7, 6.1, 6.2, 6.4, 6.5, 6.6, 7.7, 10.5 | Covered |
+| Art. 21(2)(h) | Cryptography and encryption | 6.3, 8.2, 8.3, 8.6 | Covered |
+| Art. 21(2)(i) | Human resources security, access control, asset management | 3.6, 4.1, 4.2, 4.4, 4.5, 4.6, 5.1, 5.4, 7.3, 7.6, 8.1, 11.1, 11.3, 11.7 | Covered |
+| Art. 21(2)(j) | Multi-factor authentication, secured communications, secured emergency communication | 4.3, 7.3, 8.8 | Partial – emergency communication is addressed by 8.8; no requirement for secured voice, video and text communication |
 | Art. 23 | Reporting of significant incidents (early warning within 24 hours, incident notification within 72 hours, final report within one month) | 9.6 | Covered – reporting obligations, deadlines and responsibilities must be defined |
 
 ---
@@ -250,7 +250,7 @@ The number of referenced subcategories shows the breadth of the mapping, not the
 | Protect | PR.IR Technology Infrastructure Resilience | 5.4, 5.7, 7.1, 7.2, 7.3, 7.5, 7.6, 8.7 | 2 of 4 | Capacity management (PR.IR-04) is not covered |
 | Detect | DE.CM Continuous Monitoring | 4.4, 6.1, 7.4, 7.7, 9.2, 11.4 | 3 of 5 | Monitoring of the physical environment (DE.CM-02) and of external service providers (DE.CM-06) is not explicitly required |
 | Detect | DE.AE Adverse Event Analysis | 9.2, 9.3 | 3 of 6 | Integration of threat intelligence into the analysis (DE.AE-07) is not required |
-| Respond | RS.MA Incident Management | 9.4, 9.5, 9.6 | 3 of 5 | – |
+| Respond | RS.MA Incident Management | 9.4, 9.5, 9.6 | 3 of 5 | Categorization and prioritization of incidents (RS.MA-03) and criteria for initiating recovery (RS.MA-05) are not assessed separately |
 | Respond | RS.AN Incident Analysis | 9.5, 11.5 | 1 of 4 | Detailed investigation and forensic requirements are not assessed separately |
 | Respond | RS.CO Incident Response Reporting and Communication | 8.8, 9.6 | 2 of 2 | – |
 | Respond | RS.MI Incident Mitigation | – | 0 of 2 | Containment and eradication (RS.MI-01, RS.MI-02) are part of the incident response procedure (9.4) but not assessed separately |
@@ -295,20 +295,22 @@ This overview summarizes the ISO/IEC 42001 column of the Domain 11 table. ISO/IE
 | A.9 | Use of AI systems | 11.3, 11.7, 11.9 | Partial – rules for the use of AI, limited rights of AI agents and human review of results; objectives for responsible use beyond security are not assessed |
 | A.10 | Third-party and customer relationships | 11.8 | Partial – AI providers are assessed before use; responsibilities towards customers of the organization's own AI systems are not assessed |
 
-## OWASP Top 10 for LLM Applications 2025
+## OWASP GenAI LLM Top 10 2026
+
+The 2026 edition replaces the OWASP Top 10 for LLM Applications 2025. The order of the risks changed, and System Prompt Leakage was extended to Hidden Context Exposure.
 
 | OWASP | Risk | ACP controls | Coverage |
 | ----- | ---- | ------------ | -------- |
 | LLM01 | Prompt Injection | 11.2, 11.7 | Partial – considered in the risk assessment and limited by restricted rights of AI agents; technical tests are required only for own AI applications (11.2) |
 | LLM02 | Sensitive Information Disclosure | 3.2, 11.3, 11.8 | Covered – rules on data entered into AI tools, access rights reviewed before AI assistants are introduced, data use by the provider |
-| LLM03 | Supply Chain | 11.8 | Partial – AI providers and the sources of locally operated models are assessed; models and datasets are not analyzed technically |
-| LLM04 | Data and Model Poisoning | 11.2 | Not covered beyond the risk assessment – relevant for organizations that train or fine-tune models |
-| LLM05 | Improper Output Handling | 11.2, 11.9 | Partial – human review of AI results; technical output validation only for own AI applications |
-| LLM06 | Excessive Agency | 11.7 | Covered |
-| LLM07 | System Prompt Leakage | 11.2 | Partial – only for own AI applications |
-| LLM08 | Vector and Embedding Weaknesses | 11.2, 11.3 | Partial – access rights to data used by AI assistants; technical security of retrieval systems is not assessed |
-| LLM09 | Misinformation | 11.9 | Covered |
-| LLM10 | Unbounded Consumption | 11.4 | Partial – usage and cost limits |
+| LLM03 | Excessive Agency | 11.7 | Covered |
+| LLM04 | Supply Chain | 11.8 | Partial – AI providers and the sources of locally operated models are assessed; models and datasets are not analyzed technically |
+| LLM05 | Data and Model Poisoning | 11.2 | Not covered beyond the risk assessment – relevant for organizations that train or fine-tune models |
+| LLM06 | Unbounded Consumption | 11.4 | Partial – usage and cost limits |
+| LLM07 | Misinformation | 11.9 | Covered |
+| LLM08 | Hidden Context Exposure | 11.2 | Partial – only for own AI applications |
+| LLM09 | Vector and Embedding Weaknesses | 11.2, 11.3 | Partial – access rights to data used by AI assistants; technical security of retrieval systems is not assessed |
+| LLM10 | Improper Output Handling | 11.2, 11.9 | Partial – human review of AI results, including AI-generated program code; technical output validation only for own AI applications |
 
 ## OWASP Top 10 for Agentic Applications 2026
 
@@ -414,6 +416,7 @@ Organizations that must comply with NIS2 or seek ISO/IEC 27001 certification sho
 | Legal, regulatory and contractual requirements, privacy | – | A.5.31 – A.5.34 | GV.OC-03 |
 | Threat intelligence | – | A.5.7 | ID.RA-02 |
 | Management system scope and documented information | – | Cl. 4.3, 7.5 | – |
+| Further Annex A controls that are not referenced in the domain tables: management responsibilities, contact with special interest groups, documented operating procedures, access to source code, capacity management, data masking, data leakage prevention, installation of software on operational systems, test information, protection of information systems during audit testing | – | A.5.4, A.5.6, A.5.37, A.8.4, A.8.6, A.8.11, A.8.12, A.8.19, A.8.33, A.8.34 | PR.IR-04 |
 
 The EU Cyber Resilience Act (Regulation (EU) 2024/2847) applies to manufacturers of products with digital elements placed on the EU market. ACP addresses only its reporting obligations (9.6) and its vulnerability handling requirements (10.3). The essential cybersecurity requirements for products, the conformity assessment and the technical documentation are not covered.
 
@@ -488,7 +491,9 @@ NIS2 titles are given in short form. ISO/IEC 27001 clauses and controls are list
 | A.5.1 | Policies for information security |
 | A.5.2 | Information security roles and responsibilities |
 | A.5.3 | Segregation of duties |
+| A.5.4 | Management responsibilities |
 | A.5.5 | Contact with authorities |
+| A.5.6 | Contact with special interest groups |
 | A.5.7 | Threat intelligence |
 | A.5.8 | Information security in project management |
 | A.5.9 | Inventory of information and other associated assets |
@@ -516,6 +521,7 @@ NIS2 titles are given in short form. ISO/IEC 27001 clauses and controls are list
 | A.5.31 – A.5.34 | Legal, statutory, regulatory and contractual requirements; intellectual property rights; protection of records; privacy and protection of PII |
 | A.5.35 | Independent review of information security |
 | A.5.36 | Compliance with policies, rules and standards for information security |
+| A.5.37 | Documented operating procedures |
 | A.6.1 | Screening |
 | A.6.2 | Terms and conditions of employment |
 | A.6.3 | Information security awareness, education and training |
@@ -530,17 +536,22 @@ NIS2 titles are given in short form. ISO/IEC 27001 clauses and controls are list
 | A.8.1 | User endpoint devices |
 | A.8.2 | Privileged access rights |
 | A.8.3 | Information access restriction |
+| A.8.4 | Access to source code |
 | A.8.5 | Secure authentication |
+| A.8.6 | Capacity management |
 | A.8.7 | Protection against malware |
 | A.8.8 | Management of technical vulnerabilities |
 | A.8.9 | Configuration management |
 | A.8.10 | Information deletion |
+| A.8.11 | Data masking |
+| A.8.12 | Data leakage prevention |
 | A.8.13 | Information backup |
 | A.8.14 | Redundancy of information processing facilities |
 | A.8.15 | Logging |
 | A.8.16 | Monitoring activities |
 | A.8.17 | Clock synchronization |
 | A.8.18 | Use of privileged utility programs |
+| A.8.19 | Installation of software on operational systems |
 | A.8.20 | Networks security |
 | A.8.21 | Security of network services |
 | A.8.22 | Segregation of networks |
@@ -548,6 +559,8 @@ NIS2 titles are given in short form. ISO/IEC 27001 clauses and controls are list
 | A.8.24 | Use of cryptography |
 | A.8.25 – A.8.31 | Secure development controls |
 | A.8.32 | Change management |
+| A.8.33 | Test information |
+| A.8.34 | Protection of information systems during audit testing |
 
 ## NIST CSF 2.0
 
@@ -620,7 +633,9 @@ NIS2 titles are given in short form. ISO/IEC 27001 clauses and controls are list
 | DE.AE-07 | Cyber threat intelligence and other contextual information are integrated into the analysis |
 | RS.MA-01 | The incident response plan is executed in coordination with relevant third parties once an incident is declared |
 | RS.MA-02 | Incident reports are triaged and validated |
+| RS.MA-03 | Incidents are categorized and prioritized |
 | RS.MA-04 | Incidents are escalated or elevated as needed |
+| RS.MA-05 | The criteria for initiating incident recovery are applied |
 | RS.AN-03 | Analysis is performed to establish what has taken place during an incident and the root cause of the incident |
 | RS.CO-02 | Internal and external stakeholders are notified of incidents |
 | RS.CO-03 | Information is shared with designated internal and external stakeholders |

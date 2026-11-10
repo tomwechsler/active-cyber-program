@@ -18,7 +18,7 @@ has successfully demonstrated that it operates an
 
 ## Active Cyber Program (ACP)
 
-in accordance with the **Active Cyber Program Framework Version 2.2**.
+in accordance with the **Active Cyber Program Framework Version 2.3**.
 
 The organization has been evaluated across governance, operational cybersecurity processes, and technical security controls.
 
@@ -33,7 +33,7 @@ Organization: ExampleTech GmbH
 Certified Scope: Corporate IT infrastructure and operational processes  
 Industry: Software Services  
 Headquarters: Munich, Germany  
-ACP Framework Version: 2.2  
+ACP Framework Version: 2.3  
 
 Assessment Date: 16 November 2026  
 Certification Date: 23 November 2026  
