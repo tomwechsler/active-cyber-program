@@ -6,6 +6,13 @@ The purpose of this changelog is to provide transparency regarding updates to th
 
 ---
 
+## [Unreleased]
+
+### Fixed
+- Control mapping, note for Switzerland: the Federal Office for Cybersecurity (BACS) has been responsible for the ICT minimum standard since March 2024; it was developed by the Federal Office for National Economic Supply (FONES). The 2023 edition is still current
+
+---
+
 ## [2.3] - 2026-11-10
 
 ### Added
