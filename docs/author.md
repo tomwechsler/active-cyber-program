@@ -19,6 +19,7 @@ These include:
 * **Certified NIST AI Risk Management Framework (RMF) Architect**
 * **Certified ISO 31000 Internal Controls Risk Analyst (CICRA)**
 * **Certified ISO 42001 Lead Implementer**
+* **Certified ISO 42001 Lead Auditor**
 * Cloud Security Alliance **Certificate of Cloud Security Knowledge (CCSK)**
 * **Microsoft Cybersecurity Architect**
 * **Microsoft Certified: Azure Solutions Architect Expert**
