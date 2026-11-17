@@ -62,6 +62,12 @@ Yes. The framework, the questionnaire, the templates and the web app may be used
 
 See the [license](../LICENSE) and the [trademark and certification usage policy](./trademark.md).
 
+## Can we get support?
+
+Yes, but you do not need it to work with ACP. Wechsler Information Solution offers guided self-assessments, improvement plans, implementation support, training and the official ACP assessment. Consulting and certification are separate: after consulting, an assessment by Wechsler Information Solution is only possible after 24 months.
+
+See [support](./support.md).
+
 ---
 
 # Self-Assessment
@@ -152,6 +158,8 @@ See [certification](./certification.md).
 ## Can Wechsler Information Solution both advise and certify us?
 
 Not within 24 months. If Wechsler Information Solution has advised your organization on its cybersecurity program within the previous 24 months, it cannot assess your organization. General training, such as public courses, is not considered consulting. This rule protects the credibility of the certification.
+
+See [support](./support.md) and [governance](./governance.md#impartiality).
 
 ## What is published about our organization?
 

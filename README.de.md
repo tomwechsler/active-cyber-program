@@ -1,4 +1,4 @@
-<!-- translation-of: README.md | source-sha256: 302f8a764b87544d -->
+<!-- translation-of: README.md | source-sha256: 83fbbb6526a4ee2d -->
 <p align="center">
   <img src="assets/acp-logo.png" alt="Active Cyber Program (ACP)" width="280">
 </p>
@@ -64,7 +64,7 @@ Wie viel ein Resultat belegt, hängt davon ab, wie es entstanden ist:
 
 Die [Web-App](https://acp.videotrainer.ch/) braucht keine Anmeldung und verwendet keine Cookies. Alle Eingaben bleiben in Ihrem Browser und werden nicht gespeichert. Das Resultat können Sie als PDF sichern, einen Zwischenstand als Datei auf Ihrem eigenen Gerät, um ihn später wieder zu laden. Der Quellcode ist öffentlich: [github.com/tomwechsler/acp-app](https://github.com/tomwechsler/acp-app).
 
-Schritt für Schritt hilft der [Leitfaden zur Selbstbewertung](./docs/self-assessment-guide.de.md). Die nächsten Schritte planen Sie mit dem [Massnahmenplan](./templates/improvement-plan-template.de.md).
+Schritt für Schritt hilft der [Leitfaden zur Selbstbewertung](./docs/self-assessment-guide.de.md). Die nächsten Schritte planen Sie mit dem [Massnahmenplan](./templates/improvement-plan-template.de.md). Beides können Sie ohne Hilfe von aussen durchführen. Wenn Sie Unterstützung möchten, siehe [Unterstützung durch Wechsler Information Solution](./docs/support.de.md).
 
 ---
 
@@ -110,7 +110,7 @@ Die ACP-Zertifizierung stellt ausschliesslich Wechsler Information Solution aus.
 | Selbstbewertung | [Leitfaden zur Selbstbewertung](./docs/self-assessment-guide.de.md) auf Deutsch ([Englisch](./docs/self-assessment-guide.md)) · [Massnahmenplan](./templates/improvement-plan-template.de.md) auf Deutsch ([Englisch](./templates/improvement-plan-template.md)) |
 | Zertifizierung | [Ablauf](./docs/assessment-process.md) · [Zertifizierung](./docs/certification.md) · [Trust Label](./docs/trust-label.md) · [Nutzung von Marke und Zertifizierung](./docs/trademark.md) · [Governance](./docs/governance.md) |
 | Vorlagen und Beispiele | [Assessment-Vertrag](./legal/acp-assessment-agreement-template.md) · [Assessment-Bericht](./templates/assessment-report-template.md) · [Zertifikat](./templates/certification-template.md) · [Beispiel-Assessment](./examples/example-assessment.md) · [Beispiel-Zertifikat](./examples/example-certification.md) · [Register](./certifications/registry.md) |
-| Hilfe | [Häufige Fragen](./docs/faq.de.md) auf Deutsch ([Englisch](./docs/faq.md)) · [Glossar](./docs/glossary.de.md) auf Deutsch ([Englisch](./docs/glossary.md)) |
+| Hilfe | [Häufige Fragen](./docs/faq.de.md) auf Deutsch ([Englisch](./docs/faq.md)) · [Glossar](./docs/glossary.de.md) auf Deutsch ([Englisch](./docs/glossary.md)) · [Unterstützung](./docs/support.de.md) auf Deutsch ([Englisch](./docs/support.md)) |
 
 <details>
 <summary>Aufbau des Repositorys</summary>
@@ -119,7 +119,7 @@ Die ACP-Zertifizierung stellt ausschliesslich Wechsler Information Solution aus.
 active-cyber-program/
 ├── README.md, README.de.md, VERSION, CHANGELOG.md, SECURITY.md, LICENSE
 ├── docs/            Übersicht, Ablauf, Leitfaden zur Selbstbewertung, Zertifizierung,
-│                    Trust Label, Marke, Governance, Glossar, häufige Fragen, Autor
+│                    Trust Label, Marke, Governance, Glossar, häufige Fragen, Unterstützung, Autor
 ├── framework/       Prinzipien, Control-Domänen, Reifegrade, Control-Mapping
 ├── assessment/      Checkliste, Fragenkatalog, Scoring-Modell, Anforderungen an Nachweise
 ├── templates/       Bericht, Zertifikat, Massnahmenplan, Fragenkatalog als PDF

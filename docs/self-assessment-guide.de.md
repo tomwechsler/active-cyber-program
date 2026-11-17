@@ -1,4 +1,4 @@
-<!-- translation-of: docs/self-assessment-guide.md | source-sha256: e93c5a96134bbbf4 -->
+<!-- translation-of: docs/self-assessment-guide.md | source-sha256: 819a1eeb5e777a5b -->
 # Leitfaden zur ACP-Selbstbewertung
 
 > Übersetzung der englischen Fassung (`docs/self-assessment-guide.md`). Bei Abweichungen gilt die englische Fassung.
@@ -146,7 +146,7 @@ Beispiele:
 • Überwachung einführen  
 • Governance stärken  
 
-Planen Sie die Massnahmen mit der Vorlage für den Massnahmenplan (`templates/improvement-plan-template.de.md`, englische Fassung `templates/improvement-plan-template.md`). Sie ordnet die Massnahmen nach Priorität: zuerst Knock-out-Controls, dann kritische Domänen, schnelle Erfolge und weitere Verbesserungen.
+Planen Sie die Massnahmen mit der Vorlage für den Massnahmenplan (`templates/improvement-plan-template.de.md`, englische Fassung `templates/improvement-plan-template.md`). Sie ordnet die Massnahmen nach Priorität: zuerst Knock-out-Controls, dann kritische Domänen, schnelle Erfolge und weitere Verbesserungen. Wenn Sie dabei Unterstützung möchten, siehe [Unterstützung](./support.de.md).
 
 ---
 

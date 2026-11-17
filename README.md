@@ -61,7 +61,7 @@ How much a result can prove depends on how it was created:
 
 The [web app](https://acp.videotrainer.ch/) (in German) requires no registration and uses no cookies. All entries stay in your browser and are not stored. The result can be saved as a PDF, and your progress can be saved as a file on your own device and loaded again later. The source code is public: [github.com/tomwechsler/acp-app](https://github.com/tomwechsler/acp-app).
 
-For a step-by-step approach, see the [self-assessment guide](./docs/self-assessment-guide.md). Plan the next steps with the [improvement plan](./templates/improvement-plan-template.md).
+For a step-by-step approach, see the [self-assessment guide](./docs/self-assessment-guide.md). Plan the next steps with the [improvement plan](./templates/improvement-plan-template.md). You can carry out both without outside help. If you would like support, see [support from Wechsler Information Solution](./docs/support.md).
 
 ---
 
@@ -107,7 +107,7 @@ The ACP Certification is issued only by Wechsler Information Solution. It is not
 | Self-assessment | [Self-assessment guide](./docs/self-assessment-guide.md) ([German](./docs/self-assessment-guide.de.md)) · [Improvement plan](./templates/improvement-plan-template.md) ([German](./templates/improvement-plan-template.de.md)) |
 | Certification | [Process](./docs/assessment-process.md) · [Certification](./docs/certification.md) · [Trust Label](./docs/trust-label.md) · [Trademark and certification usage](./docs/trademark.md) · [Governance](./docs/governance.md) |
 | Templates and examples | [Assessment agreement](./legal/acp-assessment-agreement-template.md) · [Assessment report](./templates/assessment-report-template.md) · [Certificate](./templates/certification-template.md) · [Example assessment](./examples/example-assessment.md) · [Example certification](./examples/example-certification.md) · [Registry](./certifications/registry.md) |
-| Help | [FAQ](./docs/faq.md) ([German](./docs/faq.de.md)) · [Glossary](./docs/glossary.md) ([German](./docs/glossary.de.md)) |
+| Help | [FAQ](./docs/faq.md) ([German](./docs/faq.de.md)) · [Glossary](./docs/glossary.md) ([German](./docs/glossary.de.md)) · [Support](./docs/support.md) ([German](./docs/support.de.md)) |
 
 <details>
 <summary>Repository structure</summary>
@@ -116,7 +116,7 @@ The ACP Certification is issued only by Wechsler Information Solution. It is not
 active-cyber-program/
 ├── README.md, README.de.md, VERSION, CHANGELOG.md, SECURITY.md, LICENSE
 ├── docs/            overview, assessment process, self-assessment guide, certification,
-│                    trust label, trademark, governance, glossary, FAQ, author
+│                    trust label, trademark, governance, glossary, FAQ, support, author
 ├── framework/       principles, control domains, maturity levels, control mapping
 ├── assessment/      checklist, questionnaire, scoring model, evidence requirements
 ├── templates/       report, certificate, improvement plan, questionnaire PDFs

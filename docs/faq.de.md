@@ -1,4 +1,4 @@
-<!-- translation-of: docs/faq.md | source-sha256: a2fb77edc53bd2fc -->
+<!-- translation-of: docs/faq.md | source-sha256: 3944762303836285 -->
 # ACP – Häufige Fragen
 
 > Übersetzung der englischen Fassung (`docs/faq.md`). Bei Abweichungen gilt die englische Fassung.
@@ -64,6 +64,12 @@ Siehe [Autor](./author.md) und [Governance](./governance.md) (Englisch).
 Ja. Das Framework, der Fragenkatalog, die Vorlagen und die Web-App dürfen für interne Beurteilungen und Verbesserungen kostenlos genutzt werden. Nur die ACP-Zertifizierung und das ACP Trust Label setzen ein offizielles Assessment voraus.
 
 Siehe [Lizenz](../LICENSE) und [Richtlinie zur Nutzung von Marke und Zertifizierung](./trademark.md) (Englisch).
+
+## Können wir Unterstützung erhalten?
+
+Ja, für die Arbeit mit ACP brauchen Sie sie aber nicht. Wechsler Information Solution bietet begleitete Selbstbewertungen, Massnahmenpläne, Umsetzungsbegleitung, Schulungen und das offizielle ACP-Assessment an. Beratung und Zertifizierung sind getrennt: Nach einer Beratung ist ein Assessment durch Wechsler Information Solution erst nach 24 Monaten möglich.
+
+Siehe [Unterstützung](./support.de.md).
 
 ---
 
@@ -155,6 +161,8 @@ Siehe [Zertifizierung](./certification.md) (Englisch).
 ## Kann Wechsler Information Solution uns beraten und zertifizieren?
 
 Nicht innerhalb von 24 Monaten. Hat Wechsler Information Solution Ihre Organisation in den letzten 24 Monaten zu ihrem Cybersecurity-Programm beraten, kann sie Ihre Organisation nicht assessieren. Allgemeine Schulungen, etwa öffentliche Kurse, gelten nicht als Beratung. Diese Regel schützt die Glaubwürdigkeit der Zertifizierung.
+
+Siehe [Unterstützung](./support.de.md) und [Governance](./governance.md#impartiality) (Englisch).
 
 ## Was wird über unsere Organisation veröffentlicht?
 
